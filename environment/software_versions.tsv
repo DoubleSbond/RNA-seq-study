@@ -1,0 +1,8 @@
+tool	version	source	notes
+git		pending	local
+python		pending	local
+R		pending	local
+blast		pending	HPC or local
+hmmer		pending	HPC or local
+diamond		pending	HPC or local
+seqkit		pending	HPC or local
