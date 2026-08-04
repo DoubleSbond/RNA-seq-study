@@ -1,0 +1,19 @@
+analysis_layer	gene_or_symbol	representative_id	status	evidence_or_role	caution
+36HQ	CYP6B29-like	TRINITY_DN180_c0_g2	core_shared_high_expression	Dan mean TPM about 182.8; Mul mean TPM about 149.5	Do not call formal CYP6B29 without naming validation.
+36HQ	CYP6B29-like	TRINITY_DN169_c0_g1	core_shared_high_expression	Dan mean TPM about 90.2; Mul mean TPM about 57.9	May represent related paralog or assembly-level candidate.
+36HQ	CYP6B29-like	TRINITY_DN180_c0_g1	core_shared_expression	Dan mean TPM about 35.8; Mul mean TPM about 21.1	Same Trinity component as DN180_c0_g2 but different gene.
+36HQ	CYP6B29-like	TRINITY_DN241_c0_g2	Mul_biased_expression	Dan mean TPM about 13.7; Mul mean TPM about 76.1	Member-specific diet shift.
+RTqPCR	CYP6B29		policy_priority_1	Tests CYP6B-like/CYP3-clan comparison between Ph and Bm	Use exact primer target version.
+RTqPCR	CYP6B2		policy_priority_1	Core CYP6 candidate for Bm validation	Ph representative in matched plot may be partial; verify 36-HQ replacement.
+RTqPCR	CYP9A20		policy_priority_1	Core CYP9 candidate for Bm validation	Ph matched representative DN13796 is severely truncated; avoid as core Ph sequence evidence.
+RTqPCR	CYP9A21		policy_priority_1	Core CYP9 candidate for Bm validation	Confirm exact target and primer batch.
+RTqPCR	CYP4M5		policy_priority_2	High Bm expression candidate; non-CYP3 contrast	Do not overstate as direct mulberry detoxification.
+RTqPCR	CYP12A2		policy_priority_2	High Bm expression candidate; non-CYP3 contrast	Do not overstate as direct mulberry detoxification.
+RTqPCR	CYP6B1		optional_priority_1_or_2	Additional CYP6B-like coverage if capacity allows	Confirm primer specificity.
+matched	CYP6AB4-like	TRINITY_DN1767_c0_g1	partial_high_risk	Matched symbol-level candidate	143 aa; not suitable as core full-length evidence.
+matched	CYP9A20-like	TRINITY_DN13796_c0_g1	partial_high_risk	Matched symbol-level candidate	162 aa; remove from core full-length sequence analysis or replace.
+matched	CYP6B2-like	TRINITY_DN127_c0_g4	partial_moderate_risk	Matched symbol-level candidate	318 aa and Bm hit low-quality; seek stronger representative.
+matched	CYP49A1-like	TRINITY_DN18331_c0_g2	partial_moderate_risk	Matched symbol-level candidate	303 aa; may be partial but supported.
+unknownCYP	raw24	24_candidates	raw_unknown_pool	Unmatched unknownCYP candidate pool	All candidates should be reviewed, not prefiltered by CYP6/CYP3.
+unknownCYP	peptideAvailable14_17ORFs	14_genes_17_ORFs	diagnostic_tree_input	First-pass unknownCYP phylogenetic placement	17 PhUNK + 36 Ph36HQ + 25 Bmori + 28 Spodo = 106 sequences.
+unknownCYP	core10	10_candidates	prioritized_subset	Better-supported unknownCYP subset	Do not call BEST10; not ranked by a single objective metric.

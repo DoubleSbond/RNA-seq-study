@@ -1,0 +1,26 @@
+priority	category	file_name	expected_source_placeholder	git_target	tracked_in_git	status	notes
+1	36HQ	CYP_high_quality_36_master_summary.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/36HQ/	yes	recovered_batch1	Core 36-HQ master table; verified 37 lines including header.
+1	36HQ	CYP_high_quality_36_ID_audit_note.txt	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	docs/audit/	yes	recovered_batch1	ID audit note; verified 13 lines.
+1	36HQ	TPM_high_quality_CYP_for_PCA.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/36HQ/	yes	recovered_batch1	Input table for 36-HQ PCA; verified 37 lines.
+1	36HQ	CYP_high_quality_expression_module_summary.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/36HQ/	yes	recovered_batch1	Compact module count summary; verified 5 lines.
+1	36HQ	CYP_high_quality_expression_modules.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/36HQ/	yes	recovered_batch1	Expression module table; verified 37 lines.
+1	36HQ	CYP_high_quality_expression_modules_annotated.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/36HQ/	yes	recovered_batch1	Annotated expression module table; verified 37 lines.
+1	36HQ	PCA_high_quality_CYP_logTPM_zscore_coordinates.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/36HQ/	yes	recovered_batch1	PCA coordinates; verified 7 lines.
+1	36HQ	PCA_high_quality_CYP_logTPM_zscore_variance.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/36HQ/	yes	recovered_batch1	PCA variance explained; verified 7 lines.
+1	scripts	PCA_high_quality_CYP_logTPM_zscore.R	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	scripts/R/	yes	recovered_batch1	Original R PCA script; verified 63 lines.
+1	scripts	PCA_high_quality_CYP_logTPM_zscore_baseR.R	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	scripts/R/	yes	recovered_batch1	Base R PCA script; verified 139 lines.
+1	scripts	classify_high_quality_CYP_modules_baseR.R	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	scripts/R/	yes	recovered_batch1	Base R module classification script; verified 101 lines.
+1	scripts	plot_FigureA_PCA_highQuality_CYP_baseR.R	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	scripts/R/	yes	recovered_batch1	Base R FigureA PCA plotting script; verified 107 lines.
+2	91CYP	CYP_final_summary.tsv	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/	yes	pending_recovery	Broad CYP sequence-QC summary.
+2	91CYP	CYP_final_geneids.txt	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	results_manifest/	yes	pending_recovery	Broad CYP gene ID list.
+2	91CYP	TPM_gene_CYP_91.tsv	<HPC_PROJECT_ROOT>/ph/06_DEGsAnalysis/results/Gene-level/TPM_Collections/PhaseI/	results_manifest/	yes	pending_recovery	91-CYP gene-level TPM table.
+2	91CYP	TPM_gene_CYP_91_withMean.tsv	<HPC_PROJECT_ROOT>/ph/06_DEGsAnalysis/results/Gene-level/TPM_Collections/PhaseI/	results_manifest/	yes	pending_recovery	91-CYP TPM with means.
+2	matched	CYP_shared_Bmori_Phoenei_expression_comparison.pdf	<HPC_PROJECT_ROOT>/ph/07_homology/CYP-new/	external_or_docs	partial	pending_recovery	Matched symbol comparison PDF; commit only if small.
+3	RTqPCR	CYP_RTqPCR_candidates.batch1_4CYP.complete_CDS.gene_id_header.fa	<HPC_PROJECT_ROOT>/ph/10_RTqPCR_CYP_primer_prep/	external	no	pending_recovery	FASTA should usually be external with checksum.
+3	RTqPCR	CYP_RTqPCR_candidates.combined_Batch1_plus_RankAD36CYP.cds.gene_id_header.fa	<HPC_PROJECT_ROOT>/ph/10_RTqPCR_CYP_primer_prep/	external	no	pending_recovery	Combined 14-CYP FASTA; record checksum.
+3	RTqPCR	CYP_RTqPCR_candidates.combined_14CYP.sequence_quality_summary.tsv	<HPC_PROJECT_ROOT>/ph/10_RTqPCR_CYP_primer_prep/	results_manifest/	yes	pending_recovery	Candidate sequence quality summary.
+3	unknownCYP	unknownCYP_24_peptide_availability_final.tsv	<HPC_PROJECT_ROOT>/ph/11_unknownCYP_annotation/final_round/tables/	results_manifest/	yes	pending_recovery	All24 peptide availability table.
+3	unknownCYP	unknownCYP_raw24_phylogeny_inclusion_summary.tsv	<HPC_PROJECT_ROOT>/ph/11_unknownCYP_annotation/redo_allQuality/qc/	results_manifest/	yes	pending_recovery	Phylogeny inclusion audit.
+3	unknownCYP	unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.treefile	<HPC_PROJECT_ROOT>/ph/11_unknownCYP_annotation/redo_allQuality/phylogeny/	external_or_results_manifest	partial	pending_recovery	Diagnostic treefile; small but may be better external with checksum.
+3	unknownCYP	unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.iqtree	<HPC_PROJECT_ROOT>/ph/11_unknownCYP_annotation/redo_allQuality/phylogeny/	logs/	yes	pending_recovery	IQ-TREE report.
+3	unknownCYP	unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.log	<HPC_PROJECT_ROOT>/ph/11_unknownCYP_annotation/redo_allQuality/phylogeny/	logs/	yes	pending_recovery	IQ-TREE log.
