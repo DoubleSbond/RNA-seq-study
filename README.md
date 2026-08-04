@@ -60,18 +60,14 @@ Do not commit:
 - GitHub remote configured: `https://github.com/DoubleSbond/RNA-seq-study.git`.
 - GitHub CLI was not detected in the current environment.
 - GitHub Codex connector authorization completed for `DoubleSbond`.
+- GitHub Codex Connector installed for `DoubleSbond/RNA-seq-study`.
+- Archive skeleton published to GitHub through the connector.
 - OpenSSH is available, and an active `ssh` process was detected locally.
 - ChatGPT project mirror files are preserved locally and ignored by Git by default.
 
 ## Next Steps
 
-After Git commit identity is configured, create the first local commit and push:
-
-```powershell
-git add <confirmed paths>
-git commit -m "Initialize CYP family study archive"
-git push -u origin main
-```
+Recover exact commands, scripts, sample metadata, and result manifests from local/HPC records, then place them in the matching directories.
 
 If GitHub CLI is installed later, authenticate with:
 
