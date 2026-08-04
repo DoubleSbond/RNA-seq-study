@@ -69,6 +69,15 @@ Do not commit:
 
 Recover exact commands, scripts, sample metadata, and result manifests from local/HPC records, then place them in the matching directories.
 
+The current reconstruction entry points are:
+
+- `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
+- `docs/data_versions.md`: 91-CYP, 36-HQ, matched-symbol, RT-qPCR, and unknownCYP analysis layers.
+- `docs/hpc_recovery_inventory.md`: sanitized file recovery checklist for HPC.
+- `docs/codex_hpc_github_workflow.md`: Codex-mediated HPC-to-GitHub archive workflow.
+- `results_manifest/hpc_core_files.tsv`: tabular list of files to recover.
+- `results_manifest/key_cyp_candidates.tsv`: candidate genes, priorities, and caution notes.
+
 If GitHub CLI is installed later, authenticate with:
 
 ```powershell
