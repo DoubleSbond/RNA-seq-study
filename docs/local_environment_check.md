@@ -35,10 +35,12 @@ Date checked: 2026-08-04
 
 - GitHub connector authorization was completed.
 - Authenticated GitHub login: `DoubleSbond`.
+- GitHub App installation was confirmed for account `DoubleSbond`.
 - Repository access confirmed for `DoubleSbond/RNA-seq-study`.
 - Repository permissions include push/admin access.
 - Repository default branch: `main`.
 - Repository visibility: public.
+- Initial archive skeleton was published to GitHub through the connector.
 - No GitHub organizations were listed by the connector at the time of checking.
 - No tokens, credentials, or private authorization details were read or recorded.
 
@@ -50,9 +52,7 @@ Date checked: 2026-08-04
 - SSH config and key files were not inspected.
 - No token, private key, password, or credential content was read or recorded.
 
-## Required User Inputs Before GitHub Push
+## Remaining Inputs for Reproducible Archive Completion
 
-- GitHub repository URL, for example `https://github.com/<owner>/<repo>.git` or `git@github.com:<owner>/<repo>.git`.
-- Preferred repository visibility: public or private.
-- Whether GitHub CLI should be installed, or whether normal Git push authentication is preferred.
 - Any HPC project path, accession, DOI, or storage location safe to record in `data/README.md`.
+- Exact command histories, scripts, and small result summaries to add under the archive structure.
