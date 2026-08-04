@@ -1,0 +1,6 @@
+category	file_name	description	location	tracked_in_git	notes
+raw_data		Raw RNA-seq reads	external	no	Record accession, HPC path, or archive DOI.
+assembly		Transcriptome assembly	external	no	Large FASTA files should remain outside Git.
+cyp_candidates		CYP candidate table	results_manifest/	yes	Add final small TSV/CSV summary when available.
+annotation		Annotation summary	results_manifest/	yes	Add final small TSV/CSV summary when available.
+figures		Figures	results_manifest/	partial	Track small source tables; store bulky image exports only if appropriate.
