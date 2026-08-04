@@ -1,0 +1,96 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local ChatGPT/Codex project mirror context
+AGENTS.md
+sources/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*_token*
+*credentials*
+*secret*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+
+# Logs and temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+logs/raw/
+
+# Large sequencing and bioinformatics files
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.bai
+*.crai
+*.fa
+*.fasta
+*.fna
+*.faa
+*.ffn
+*.gff
+*.gff3
+*.gtf
+*.bt2
+*.bt2l
+*.bwt
+*.pac
+*.ann
+*.amb
+*.sa
+*.dmnd
+*.h3f
+*.h3i
+*.h3m
+*.h3p
+*.pin
+*.phr
+*.psq
+*.nin
+*.nhr
+*.nsq
+
+# Archives and bulky outputs
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+results/
+work/
+tmp/
+scratch/
+
+# Keep documentation placeholders
+!data/README.md
+!logs/README.md
