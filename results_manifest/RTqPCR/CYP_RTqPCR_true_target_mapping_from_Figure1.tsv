@@ -1,0 +1,16 @@
+rank	target_CYP_name	Ph_gene_id	source_note	current_14CYP_status
+A	CYP6B1	TRINITY_DN5241_c0_g1	Figure1 realdata / expression input	missing_from_14CYP
+A	CYP6B29	TRINITY_DN180_c0_g2	Figure1 realdata / expression input	present
+A	CYP9A20	TRINITY_DN13796_c0_g1	fig1_expression_input_full	missing_from_14CYP
+A	CYP9A21	TRINITY_DN521_c1_g1	fig1_expression_input_full	missing_from_14CYP
+B	CYP4M5	TRINITY_DN1632_c1_g1	Figure1 realdata / expression input	present
+B	CYP12A2	TRINITY_DN276_c0_g1	Figure1 realdata / expression input	present
+B	CYP303A1	TRINITY_DN159_c0_g1	Figure1 realdata / expression input	present_but_annotation_should_be_corrected
+B	CYP306A1	TRINITY_DN3078_c0_g2	Figure1 realdata / expression input	missing_from_14CYP
+C	CYP6B2	TRINITY_DN127_c0_g4	Figure1 realdata / expression input	missing_from_14CYP
+C	CYP6K1	TRINITY_DN946_c0_g1	Figure1 realdata / expression input	missing_from_14CYP
+C	CYP6AB4	TRINITY_DN1767_c0_g1	fig1_expression_input_full	missing_from_14CYP
+D	CYP332A1	TRINITY_DN1840_c0_g2	Figure1 realdata / expression input	present
+D	CYP49A1	TRINITY_DN18331_c0_g2	Figure1 realdata / expression input	missing_from_14CYP
+D	CYP6AU1	TRINITY_DN12904_c0_g1	Figure1 realdata / expression input	present
+D	CYP9E2	TRINITY_DN1316_c0_g1	Figure1 realdata / expression input	missing_from_14CYP

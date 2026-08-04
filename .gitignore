@@ -8,6 +8,7 @@ desktop.ini
 # Local ChatGPT/Codex project mirror context
 AGENTS.md
 sources/
+collected_hpc/
 
 # Secrets and credentials
 .env
