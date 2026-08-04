@@ -1,0 +1,15 @@
+name: cyp-family-study
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - r-base
+  - blast
+  - hmmer
+  - diamond
+  - seqkit
+  - pandas
+  - biopython
+  - r-tidyverse
