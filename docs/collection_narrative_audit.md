@@ -106,6 +106,15 @@ Supported by:
 - `collected_hpc/CYP_screening/tables/CYP_len300plus_summary.tsv`
 - `collected_hpc/CYP_screening/tables/CYP_fragment_geneids.txt`
 - `results_manifest/36HQ/CYP_high_quality_36_master_summary.tsv`
+- `results_manifest/36HQ/CYP_high_quality_36_review_list.tsv`
+- `results_manifest/36HQ/CYP_high_quality_36_geneids.txt`
+- `results_manifest/36HQ/CYP_high_quality_36_geneids_master_order.txt`
+- `results_manifest/36HQ/CYP_high_quality_36_master_summary.sha256`
+- `results_manifest/36HQ/CYP_high_quality_expression_modules.tsv`
+- `results_manifest/36HQ/CYP_high_quality_expression_modules_annotated.tsv`
+- `results_manifest/36HQ/TPM_high_quality_CYP_for_PCA.tsv`
+- `results_manifest/36HQ/PCA_high_quality_CYP_logTPM_zscore_coordinates.tsv`
+- `results_manifest/36HQ/PCA_high_quality_CYP_logTPM_zscore_variance.tsv`
 - `docs/audit/CYP_high_quality_36_ID_audit_note.txt`
 - `collected_hpc/provenance_91_to_36HQ/CYP_high_quality_36_review_list.tsv`
 - `collected_hpc/provenance_91_to_36HQ/CYP_high_quality_36_geneids.txt`
@@ -135,11 +144,12 @@ Supported by:
 
 - `scripts/R/classify_high_quality_CYP_modules_baseR.R`
 - `scripts/R/PCA_high_quality_CYP_logTPM_zscore_baseR.R`
+- `scripts/R/PCA_high_quality_CYP_logTPM_zscore.R`
 - `scripts/R/plot_FigureA_PCA_highQuality_CYP_baseR.R`
+- `results_manifest/36HQ/*`
 - `collected_hpc/CYP_screening/scripts/plot_CYP_module_heatmap_baseR.R`
 - `collected_hpc/CYP_screening/scripts/plot_CYP_module_scatter_baseR.R`
 - `collected_hpc/CYP_screening/scripts/quantify_CYP_PCA_within_group_dispersion_baseR.R`
-- `results_manifest/36HQ/*`
 
 Key facts currently supported:
 
@@ -214,7 +224,7 @@ Limitations:
 
 ## Main Gaps Before Final Archival
 
-1. Sanitize and publish the recovered final DESeq2 provenance files, especially `Gene-level_DESeq2_final.R`, calibration README, and session information.
+1. Continue converting recovered shell/Python/R scripts with internal paths into public parameterized versions.
 2. Find the exact script or command sequence that generated the 91-CYP candidate tables.
 3. Decide whether the 91-CYP to 36-HQ transition should be documented as curated review provenance, or continue searching for a fully automated one-command selection script.
 4. Decide whether small final figures and tree/alignment files should be archived in Git or only checksummed externally.
