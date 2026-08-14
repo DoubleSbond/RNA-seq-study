@@ -18,6 +18,7 @@ This changelog tracks archive-level changes to the CYP family study repository.
 - External asset policy, external asset manifest, version confirmation checklist, and HPC confirmation runbook.
 - README coverage and archive completeness audit.
 - Public archive validation script and GitHub Actions archive-validation workflow.
+- Draft release notes for the first public archive tag.
 
 ### Pending
 

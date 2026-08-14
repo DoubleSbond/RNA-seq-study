@@ -6,6 +6,7 @@ Use this checklist before creating the first GitHub release, for example `v0.1-c
 
 - [ ] Confirm repository license and add `LICENSE` if appropriate.
 - [ ] Confirm citation metadata and add `CITATION.cff` if appropriate.
+- [ ] Review `docs/release_notes_v0.1_draft.md`.
 - [ ] Review `README.md` entry points from a fresh-reader perspective.
 - [ ] Review `docs/workflow.md` for method-order consistency.
 - [ ] Run `python scripts/python/validate_archive.py`.
