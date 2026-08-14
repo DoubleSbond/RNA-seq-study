@@ -71,6 +71,16 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `results_manifest/`: small result tables and manifests suitable for GitHub.
 - `scripts/`: public R/Python scripts reconstructed from the analysis.
 
+## Archive QA
+
+Run the local archive validator before release-oriented updates:
+
+```bash
+python scripts/python/validate_archive.py
+```
+
+The validator checks required paths, public SHA256 entries, tracked large/raw-data file patterns, and common sensitive text patterns. It does not require HPC access.
+
 ## Archived Analysis Layers
 
 The current `main` branch includes:

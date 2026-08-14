@@ -23,6 +23,28 @@ Raw peptide FASTA headers for peptide-available unknownCYP candidates
 
 This script supports the diagnostic unknownCYP phylogeny workflow.
 
+## Archive Validation
+
+- `validate_archive.py`
+
+Purpose:
+
+```text
+Public GitHub archive
+-> required path checks
+-> public SHA256 manifest verification
+-> tracked large/raw-data file policy check
+-> sensitive text pattern scan
+```
+
+Example:
+
+```bash
+python scripts/python/validate_archive.py
+```
+
+This script is intended for local/GitHub-side archive QA. It does not require HPC access and does not inspect raw data outside Git.
+
 ## 91-CYP Candidate Discovery
 
 - `filter_cyp_candidates_from_annotation.py`
