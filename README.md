@@ -71,6 +71,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/data_versions.md`: 91-CYP, 36-HQ, matched-symbol, RT-qPCR, and unknownCYP analysis layers.
 - `results_manifest/`: small result tables and manifests suitable for GitHub.
 - `scripts/`: public R/Python scripts reconstructed from the analysis.
+- `CONTRIBUTING.md`: maintenance rules for public-safe archive updates.
 
 ## Archive QA
 
