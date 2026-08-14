@@ -27,6 +27,7 @@ This changelog tracks archive-level changes to the CYP family study repository.
 - Archive validator now requires GitHub maintenance files and release-tracking documents.
 - Draft-only citation and license planning documents.
 - HPC evidence-collection checklist for the next live confirmation pass.
+- Release gate matrix for deciding whether a formal archive tag is ready.
 
 ### Pending
 

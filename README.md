@@ -64,6 +64,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/hpc_confirmation_runbook.md`: final HPC-side version/checksum confirmation workflow.
 - `docs/hpc_evidence_collection_checklist.md`: concise checklist for the next live HPC evidence-collection pass.
 - `docs/release_readiness_checklist.md`: checklist for a first archive release.
+- `docs/release_gate_matrix.md`: release gate table for deciding whether a formal tag is ready.
 - `docs/release_blockers.md`: remaining release blockers grouped by owner decision, HPC confirmation, and external assets.
 - `docs/release_notes_v0.1_draft.md`: draft release notes for `v0.1-cyp-archive`.
 - `docs/citation_and_license_decisions.md`: citation metadata and license decision notes.
