@@ -13,6 +13,8 @@ Key files:
 - `release_blockers.md`: consolidated blocker tracker for owner decisions, HPC confirmation, and external assets.
 - `release_notes_v0.1_draft.md`: draft GitHub Release notes for the first archive tag.
 - `citation_and_license_decisions.md`: citation metadata and license decision notes.
+- `citation_cff_draft.md`: placeholder-based inputs for a future `CITATION.cff`.
+- `license_decision_matrix.md`: license strategy options before adding a formal `LICENSE`.
 - `collection_narrative_audit.md`: evidence audit for recovered local/HPC material.
 - `script_provenance_index.md`: mapping from public scripts to workflow blocks.
 - `data_versions.md`: project data layer definitions and caution notes.

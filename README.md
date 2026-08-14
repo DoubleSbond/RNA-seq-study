@@ -66,6 +66,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/release_blockers.md`: remaining release blockers grouped by owner decision, HPC confirmation, and external assets.
 - `docs/release_notes_v0.1_draft.md`: draft release notes for `v0.1-cyp-archive`.
 - `docs/citation_and_license_decisions.md`: citation metadata and license decision notes.
+- `docs/citation_cff_draft.md` and `docs/license_decision_matrix.md`: draft-only citation/license planning aids.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
 - `docs/collection_narrative_audit.md`: evidence audit for the recovered local/HPC material.
 - `docs/script_provenance_index.md`: public scripts mapped to workflow blocks.

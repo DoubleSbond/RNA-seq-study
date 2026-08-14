@@ -28,8 +28,8 @@ This tracker consolidates the remaining work before a formal `v0.1-cyp-archive` 
 
 | Blocker | Current file | Next action | Blocks formal release? |
 |---|---|---|---|
-| Repository license | `docs/citation_and_license_decisions.md`; [#21](https://github.com/DoubleSbond/RNA-seq-study/issues/21) | Choose license strategy for software, docs, and small tables. | Yes |
-| Citation metadata | `docs/citation_and_license_decisions.md`; [#22](https://github.com/DoubleSbond/RNA-seq-study/issues/22) | Confirm title, author order, ORCID IDs if any, affiliation/contact text, and related DOI/manuscript links. | Yes |
+| Repository license | `docs/citation_and_license_decisions.md`; `docs/license_decision_matrix.md`; [#21](https://github.com/DoubleSbond/RNA-seq-study/issues/21) | Choose license strategy for software, docs, and small tables. | Yes |
+| Citation metadata | `docs/citation_and_license_decisions.md`; `docs/citation_cff_draft.md`; [#22](https://github.com/DoubleSbond/RNA-seq-study/issues/22) | Confirm title, author order, ORCID IDs if any, affiliation/contact text, and related DOI/manuscript links. | Yes |
 | RT-qPCR final primer inclusion | `docs/release_readiness_checklist.md`; `results_manifest/RTqPCR/README.md`; [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Decide whether final primer sequences belong in Git, a release asset, or remain outside this release. | Maybe |
 | Rendered figure release assets | `docs/external_archive_policy.md`; `docs/release_notes_v0.1_draft.md` | Decide whether small final figures should be attached to the GitHub Release. | No, if source tables/scripts are enough |
 | External storage target | `results_manifest/external_assets_manifest.tsv`; [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Decide storage targets for raw reads, assemblies, alignments, FASTA, figures, and primer-design sources. | Yes for fully public release |
