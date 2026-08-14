@@ -12,6 +12,8 @@ The archive is intended to preserve:
 - Small result manifests and tabular summaries suitable for GitHub.
 - Logs that document how analyses were run.
 
+It is also intended to serve as a portable technical template for other RNA-seq-based gene family studies, such as CarE, GST, UGT, ABC transporter, or other detoxification-related families. The CYP-specific evidence is kept explicit so the reusable workflow can be adapted without losing the original project record.
+
 Large raw data and bulky intermediate outputs should not be committed directly.
 For the current project phase, experimental data remain private in local/HPC
 storage. GitHub records only method files and sanitized asset inventories, not
@@ -73,6 +75,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/citation_and_license_decisions.md`: citation metadata and license decision notes.
 - `docs/citation_cff_draft.md` and `docs/license_decision_matrix.md`: draft-only citation/license planning aids.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
+- `docs/gene_family_method_blueprint.md`: reusable RNA-seq-to-gene-family study template for CYP, CarE, GST, and similar families.
 - `docs/collection_narrative_audit.md`: evidence audit for the recovered local/HPC material.
 - `docs/script_provenance_index.md`: public scripts mapped to workflow blocks.
 - `docs/data_versions.md`: 91-CYP, 36-HQ, matched-symbol, RT-qPCR, and unknownCYP analysis layers.

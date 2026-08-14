@@ -2,6 +2,8 @@
 
 This document is the working reconstruction of the CYP family study workflow. It separates confirmed project logic from items that still require recovery from original HPC files and command histories.
 
+This document is intentionally CYP-specific. For a portable version that converts the same route into a reusable CarE/GST/other gene-family study plan, see `docs/gene_family_method_blueprint.md`.
+
 ## 1. Project Scope
 
 The project analyzes midgut RNA-seq data from *Perigrapha hoenei* under two host plant diets and reconstructs a CYP-centered workflow from transcriptome assembly to candidate prioritization.

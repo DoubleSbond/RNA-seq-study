@@ -5,6 +5,7 @@ Use this directory for human-readable records of the CYP family study workflow.
 Key files:
 
 - `workflow.md`: reconstructed step-by-step analysis workflow.
+- `gene_family_method_blueprint.md`: portable RNA-seq-to-gene-family study template derived from the CYP workflow.
 - `archive_status.md`: current public archive state and remaining gaps.
 - `archive_completeness_audit.md`: README coverage and omission-check summary.
 - `external_archive_policy.md`: policy for large/raw/external assets.
