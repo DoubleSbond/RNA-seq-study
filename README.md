@@ -72,7 +72,7 @@ The current `main` branch includes:
 
 - Gene-level DESeq2 provenance and significant result table.
 - RNA-seq sample metadata, upstream processing wrappers, Trinity assembly QC, and Salmon mapping summaries.
-- 91-CYP discovery-layer summaries and TPM tables.
+- 91-CYP discovery-layer summaries, stepwise candidate tables, B. mori best-hit support, PC1 loading tables, and TPM tables.
 - 36-HQ CYP core set, review list, expression modules, PCA tables, and supporting R scripts.
 - RT-qPCR target-design summary tables.
 - unknownCYP recheck tables, high-TPM vs phylogeny mapping, diagnostic tree output, and supporting scripts.
@@ -83,6 +83,6 @@ Large raw reads, assemblies, alignments, raw FASTA files, databases, and bulky l
 
 The main remaining gaps are:
 
-- Recover or document the exact 91-CYP candidate generation command sequence.
+- Recover the exact original 91-CYP candidate generation command sequence, if it still exists on HPC. The current archive already includes the recovered candidate tables and a public reconstruction utility.
 - Decide how to archive final figures and large alignment/tree source files outside Git.
 - Add final primer sequences if RT-qPCR primer outputs become part of the formal archive.

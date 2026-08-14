@@ -1,0 +1,11 @@
+Ph_GeneID	Bm_accession	Identity	Evalue	Bm_CYP_annotation
+TRINITY_DN26550_c0_g2	XP_062532235.1	60.3	408	XP_062532235.1 uncharacterized protein LOC101744633 [Bombyx mori]
+TRINITY_DN25915_c0_g1	NP_001266427.1	53.3	61	NP_001266427.1 cytochrome P450 6B7-like [Bombyx mori]
+TRINITY_DN180_c0_g1	NP_001106226.1	60.8	61	NP_001106226.1 cytochrome P450 Cyp6b29 [Bombyx mori]
+TRINITY_DN598_c0_g1	NP_001104007.1	69.5	59	NP_001104007.1 cytochrome P450, family 6, subfamily ab, polypeptide 5 [Bombyx mori]
+TRINITY_DN3078_c0_g2	NP_001106222.1	78.3	60	NP_001106222.1 cytochrome P450 monooxygenase [Bombyx mori]
+TRINITY_DN159_c0_g1	XP_004932789.1	51.7	390	XP_004932789.1 probable cytochrome P450 303a1 [Bombyx mori]
+TRINITY_DN17545_c0_g1	NP_001266437.1	51.7	203	NP_001266437.1 cytochrome P450 4C1-like precursor [Bombyx mori]
+TRINITY_DN10129_c0_g1	NP_001103833.1	58.3	114	NP_001103833.1 cytochrome P450 monooxygenase Cyp4M5 [Bombyx mori]
+TRINITY_DN6341_c1_g1	NP_001077079.1	66.7	184	NP_001077079.1 cytochrome P450 9a20 [Bombyx mori]
+TRINITY_DN762_c0_g1	NP_001077079.1	48.3	62	NP_001077079.1 cytochrome P450 9a20 [Bombyx mori]
