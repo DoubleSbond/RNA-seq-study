@@ -81,6 +81,8 @@ python scripts/python/validate_archive.py
 
 The validator checks required paths, public SHA256 entries, tracked large/raw-data file patterns, and common sensitive text patterns. It does not require HPC access.
 
+The same validator is also run by GitHub Actions for pushes to `main` and pull requests.
+
 ## Archived Analysis Layers
 
 The current `main` branch includes:

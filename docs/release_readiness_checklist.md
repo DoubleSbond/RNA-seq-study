@@ -9,6 +9,7 @@ Use this checklist before creating the first GitHub release, for example `v0.1-c
 - [ ] Review `README.md` entry points from a fresh-reader perspective.
 - [ ] Review `docs/workflow.md` for method-order consistency.
 - [ ] Run `python scripts/python/validate_archive.py`.
+- [ ] Confirm the GitHub Actions archive-validation workflow passes on `main`.
 - [ ] Confirm public archive has no credentials, tokens, private keys, or internal-only paths.
 - [ ] Confirm large/raw assets are not committed to Git.
 - [ ] Confirm `logs/hpc_recovery/public_archive_sha256.tsv` is current.
