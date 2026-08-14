@@ -43,6 +43,8 @@ This tracker consolidates the remaining work before a formal `v0.1-cyp-archive` 
 | External asset checksums | `results_manifest/external_assets_manifest.tsv`; [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Prepare asset path list and run `scripts/shell/collect_external_asset_checksums.sh` where assets are staged. | Do not commit large files. |
 | RT-qPCR source FASTA and primer material | `results_manifest/RTqPCR/README.md`; `results_manifest/external_assets_manifest.tsv`; [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Confirm whether final primer table exists and whether source FASTA should be checksummed externally. | Git currently tracks target/QC summaries only. |
 
+The next live HPC collection pass is consolidated in `docs/hpc_evidence_collection_checklist.md`.
+
 ## External Asset Records
 
 | Asset ID | Current status | Release handling |
