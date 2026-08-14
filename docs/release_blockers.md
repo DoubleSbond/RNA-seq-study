@@ -21,7 +21,7 @@ This tracker consolidates the remaining work before a formal `v0.1-cyp-archive` 
 | [#22](https://github.com/DoubleSbond/RNA-seq-study/issues/22) | Owner decision | `CITATION.cff` metadata |
 | [#23](https://github.com/DoubleSbond/RNA-seq-study/issues/23) | HPC confirmation | Remaining software versions; first live confirmation pass completed |
 | [#24](https://github.com/DoubleSbond/RNA-seq-study/issues/24) | HPC confirmation / archive gap | Original 91-CYP candidate-generation command |
-| [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | External asset record | Storage URIs and checksums for raw/large assets |
+| [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | External asset record | Storage URIs and checksums for raw/large assets; first HPC inventory completed |
 | [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Owner decision | RT-qPCR final primer release scope |
 
 ## Owner Decisions
@@ -32,7 +32,7 @@ This tracker consolidates the remaining work before a formal `v0.1-cyp-archive` 
 | Citation metadata | `docs/citation_and_license_decisions.md`; `docs/citation_cff_draft.md`; [#22](https://github.com/DoubleSbond/RNA-seq-study/issues/22) | Confirm title, author order, ORCID IDs if any, affiliation/contact text, and related DOI/manuscript links. | Yes |
 | RT-qPCR final primer inclusion | `docs/release_readiness_checklist.md`; `results_manifest/RTqPCR/README.md`; [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Decide whether final primer sequences belong in Git, a release asset, or remain outside this release. | Maybe |
 | Rendered figure release assets | `docs/external_archive_policy.md`; `docs/release_notes_v0.1_draft.md` | Decide whether small final figures should be attached to the GitHub Release. | No, if source tables/scripts are enough |
-| External storage target | `results_manifest/external_assets_manifest.tsv`; [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Decide storage targets for raw reads, assemblies, alignments, FASTA, figures, and primer-design sources. | Yes for fully public release |
+| External storage target | `results_manifest/external_assets_manifest.tsv`; `logs/hpc_recovery/hpc_external_asset_inventory_20260814.tsv`; [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Decide public storage/accession targets for raw reads, assemblies, alignments, FASTA, figures, and primer-design sources. | Yes for fully public release |
 
 ## HPC-Dependent Confirmation
 
@@ -40,7 +40,7 @@ This tracker consolidates the remaining work before a formal `v0.1-cyp-archive` 
 |---|---|---|---|
 | Remaining software versions | `environment/version_confirmation_checklist.tsv`; `environment/software_versions.tsv`; `logs/hpc_recovery/hpc_tool_versions_confirmed_20260814.tsv`; [#23](https://github.com/DoubleSbond/RNA-seq-study/issues/23) | Review and close issue if owner accepts the recovered/live confirmation records. | First live HPC confirmation pass completed on 2026-08-14. |
 | Original 91-CYP command sequence | `docs/workflow.md`; `results_manifest/91CYP/README.md`; `logs/hpc_recovery/hpc_91cyp_command_search_20260814.md`; [#24](https://github.com/DoubleSbond/RNA-seq-study/issues/24) | Continue shell-history or deeper backup-script search if exact command is still required. | First HPC search found source lists/scripts but not a single exact command. |
-| External asset checksums | `results_manifest/external_assets_manifest.tsv`; [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Prepare asset path list and run `scripts/shell/collect_external_asset_checksums.sh` where assets are staged. | Do not commit large files. |
+| External asset checksums | `results_manifest/external_assets_manifest.tsv`; `logs/hpc_recovery/hpc_external_asset_inventory_20260814.tsv`; [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Add per-file manifests or public accessions for large directories if needed. | First HPC inventory completed; key single-file checksums recorded. |
 | RT-qPCR source FASTA and primer material | `results_manifest/RTqPCR/README.md`; `results_manifest/external_assets_manifest.tsv`; [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Confirm whether final primer table exists and whether source FASTA should be checksummed externally. | Git currently tracks target/QC summaries only. |
 
 The next live HPC collection pass is consolidated in `docs/hpc_evidence_collection_checklist.md`.
@@ -49,15 +49,15 @@ The next live HPC collection pass is consolidated in `docs/hpc_evidence_collecti
 
 | Asset ID | Current status | Release handling |
 |---|---|---|
-| `raw_reads` | `pending_external_record` | Record SRA/accession or safe storage URI plus sample mapping and checksum. |
-| `trinity_assembly` | `pending_external_record` | Keep FASTA outside Git; record URI/checksum/version. |
-| `trimmed_reads` | `pending_external_record` | Optional external record if regenerated data should be preserved. |
-| `rendered_figures` | `pending_policy_decision` | Attach to GitHub Release or external repository only if desired. |
+| `raw_reads` | `located_hpc_needs_manifest` | Record SRA/accession or safe storage URI plus sample mapping and checksum. |
+| `trinity_assembly` | `located_hpc_checksum_recorded` | Keep FASTA outside Git; record URI/checksum/version. |
+| `trimmed_reads` | `located_hpc_needs_manifest` | Optional external record if regenerated data should be preserved. |
+| `rendered_figures` | `located_hpc_policy_pending` | Attach to GitHub Release or external repository only if desired. |
 | `figure_source_assets` | `pending_policy_decision` | Keep large editable/source assets outside Git. |
-| `rtqpcr_design_fasta` | `pending_external_record` | Keep FASTA outside Git; record URI/checksum if release-relevant. |
+| `rtqpcr_design_fasta` | `located_hpc_needs_scope_decision` | Keep FASTA outside Git; record URI/checksum if release-relevant. |
 | `rtqpcr_final_primers` | `pending_project_decision` | Add small Git table only if owner decides it belongs in the release. |
-| `unknowncyp_alignment` | `pending_external_record` | Keep alignment source outside Git if large; record checksum and MAFFT version. |
-| `unknowncyp_reference_fasta` | `pending_external_record` | Record references/source accessions and checksum. |
+| `unknowncyp_alignment` | `located_hpc_checksum_recorded` | Keep alignment source outside Git if large; record checksum and MAFFT version. |
+| `unknowncyp_reference_fasta` | `located_hpc_needs_manifest` | Record references/source accessions and checksum. |
 
 ## GitHub-Side Completion Criteria
 

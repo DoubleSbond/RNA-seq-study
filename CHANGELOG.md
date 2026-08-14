@@ -29,6 +29,7 @@ This changelog tracks archive-level changes to the CYP family study repository.
 - HPC evidence-collection checklist for the next live confirmation pass.
 - Release gate matrix for deciding whether a formal archive tag is ready.
 - First live HPC version-confirmation evidence and 91-CYP command-search note.
+- First live HPC external-asset inventory with selected checksums and directory summaries.
 
 ### Pending
 
