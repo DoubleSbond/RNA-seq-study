@@ -11,6 +11,7 @@ Key files:
 - `hpc_confirmation_runbook.md`: final HPC-side version, checksum, and primer-confirmation workflow.
 - `hpc_evidence_collection_checklist.md`: short checklist for the next live HPC evidence-collection pass.
 - `release_readiness_checklist.md`: pre-release checklist for the first archive tag.
+- `release_gate_matrix.md`: release gate table separating required, preferred, and deferrable items.
 - `release_blockers.md`: consolidated blocker tracker for owner decisions, HPC confirmation, and external assets.
 - `release_notes_v0.1_draft.md`: draft GitHub Release notes for the first archive tag.
 - `citation_and_license_decisions.md`: citation metadata and license decision notes.

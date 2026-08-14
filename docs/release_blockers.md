@@ -66,6 +66,7 @@ Before tagging `v0.1-cyp-archive`, GitHub-side criteria are:
 - `python scripts/python/update_public_checksums.py` has been run after final edits.
 - `python scripts/python/validate_archive.py` passes.
 - GitHub Actions archive-validation workflow passes on `main`.
+- `docs/release_gate_matrix.md` has been reviewed for required and deferrable gates.
 - `docs/release_notes_v0.1_draft.md` has been reviewed and converted into final release notes.
 - Open GitHub issues exist for any remaining owner/HPC/external-storage decisions that are intentionally deferred. Current core tracking issues are [#21](https://github.com/DoubleSbond/RNA-seq-study/issues/21)-[#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26).
 
