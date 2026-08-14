@@ -36,7 +36,13 @@ TPM table for the high-quality CYP set
 Expected working-directory input:
 
 ```text
-TPM_gene_CYP_final_withMeanSD.tsv
+results_manifest/36HQ/CYP_high_quality_36_master_summary.tsv
+```
+
+Example:
+
+```bash
+Rscript scripts/R/classify_high_quality_CYP_modules_baseR.R results_manifest/36HQ/CYP_high_quality_36_master_summary.tsv results_manifest/36HQ
 ```
 
 Outputs:

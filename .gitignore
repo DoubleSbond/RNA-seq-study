@@ -42,6 +42,7 @@ renv/library/
 *.bak
 *.log
 logs/raw/
+!logs/unknownCYP/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.log
 
 # Large sequencing and bioinformatics files
 *.fastq

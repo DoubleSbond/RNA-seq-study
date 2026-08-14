@@ -1,8 +1,28 @@
 # Classify high-quality CYP genes into expression modules
-# Input: TPM_gene_CYP_final_withMeanSD.tsv
+# Input: results_manifest/36HQ/CYP_high_quality_36_master_summary.tsv
 # Output: CYP_high_quality_expression_modules.tsv
 
-infile <- "TPM_gene_CYP_final_withMeanSD.tsv"
+args <- commandArgs(trailingOnly = TRUE)
+
+infile <- if (length(args) >= 1) {
+  args[[1]]
+} else {
+  "results_manifest/36HQ/CYP_high_quality_36_master_summary.tsv"
+}
+
+if (!file.exists(infile) && file.exists("CYP_high_quality_36_master_summary.tsv")) {
+  infile <- "CYP_high_quality_36_master_summary.tsv"
+}
+
+outdir <- if (length(args) >= 2) {
+  args[[2]]
+} else {
+  dirname(infile)
+}
+
+if (!dir.exists(outdir)) {
+  dir.create(outdir, recursive = TRUE)
+}
 
 dat <- read.delim(
   infile,
@@ -100,7 +120,7 @@ out$module_order <- NULL
 
 write.table(
   out,
-  file = "CYP_high_quality_expression_modules.tsv",
+  file = file.path(outdir, "CYP_high_quality_expression_modules.tsv"),
   sep = "\t",
   quote = FALSE,
   row.names = FALSE
@@ -111,7 +131,7 @@ summary_tab <- as.data.frame(table(out$module))
 colnames(summary_tab) <- c("module", "gene_count")
 write.table(
   summary_tab,
-  file = "CYP_high_quality_expression_module_summary.tsv",
+  file = file.path(outdir, "CYP_high_quality_expression_module_summary.tsv"),
   sep = "\t",
   quote = FALSE,
   row.names = FALSE

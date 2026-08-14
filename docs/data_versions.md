@@ -37,8 +37,7 @@ TPM_gene_CYP_91.tsv
 TPM_gene_CYP_91_withMean.tsv
 CYP_final_summary.tsv
 CYP_final_geneids.txt
-TPM_gene_CYP_final.tsv
-TPM_gene_CYP_final_withMeanSD.tsv
+TPM_gene_CYP_confirmed.tsv
 ```
 
 ## 3. 36-HQ CYP Set
