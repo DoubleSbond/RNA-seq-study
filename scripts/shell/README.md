@@ -14,6 +14,8 @@ Before committing, remove or generalize:
 - `run_trinity_denovo_assembly.sh`
 - `run_salmon_quant_samples.sh`
 - `run_interproscan_core.sh`
+- `collect_hpc_tool_versions.sh`
+- `collect_external_asset_checksums.sh`
 
 These scripts are sanitized public wrappers reconstructed from the local/HPC recovery material. They use command-line arguments and `config/rnaseq_samples.tsv` rather than hard-coded HPC paths.
 
@@ -26,3 +28,10 @@ fastp paired-end trimming
 -> tximport / DESeq2
 -> InterProScan / PFAM annotation for functional/CYP evidence
 ```
+
+## Final Archive Confirmation
+
+- `collect_hpc_tool_versions.sh`: run on HPC to collect version strings for tools still marked pending in `environment/version_confirmation_checklist.tsv`.
+- `collect_external_asset_checksums.sh`: run on HPC or external storage staging area to collect size/checksum information for assets tracked in `results_manifest/external_assets_manifest.tsv`.
+
+See `docs/hpc_confirmation_runbook.md` for the recommended confirmation workflow.
