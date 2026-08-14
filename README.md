@@ -54,33 +54,35 @@ Do not commit:
 - Bulky intermediate outputs.
 - Credentials, private keys, tokens, or internal-only HPC paths that should not be public.
 
-## Current Status
+## Current Archive Contents
 
-- Local Git repository initialized.
-- GitHub remote configured: `https://github.com/DoubleSbond/RNA-seq-study.git`.
-- GitHub CLI was not detected in the current environment.
-- GitHub Codex connector authorization completed for `DoubleSbond`.
-- GitHub Codex Connector installed for `DoubleSbond/RNA-seq-study`.
-- Archive skeleton published to GitHub through the connector.
-- OpenSSH is available, and an active `ssh` process was detected locally.
-- ChatGPT project mirror files are preserved locally and ignored by Git by default.
+This repository now contains the first public, GitHub-suitable archive of the project. The most useful entry points are:
 
-## Next Steps
-
-Recover exact commands, scripts, sample metadata, and result manifests from local/HPC records, then place them in the matching directories.
-
-The current reconstruction entry points are:
-
+- `docs/archive_status.md`: current archive status and remaining gaps.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
+- `docs/collection_narrative_audit.md`: evidence audit for the recovered local/HPC material.
+- `docs/script_provenance_index.md`: public scripts mapped to workflow blocks.
 - `docs/data_versions.md`: 91-CYP, 36-HQ, matched-symbol, RT-qPCR, and unknownCYP analysis layers.
-- `docs/hpc_recovery_inventory.md`: sanitized file recovery checklist for HPC.
-- `docs/codex_hpc_github_workflow.md`: Codex-mediated HPC-to-GitHub archive workflow.
-- `results_manifest/hpc_core_files.tsv`: tabular list of files to recover.
-- `results_manifest/key_cyp_candidates.tsv`: candidate genes, priorities, and caution notes.
+- `results_manifest/`: small result tables and manifests suitable for GitHub.
+- `scripts/`: public R/Python scripts reconstructed from the analysis.
 
-If GitHub CLI is installed later, authenticate with:
+## Archived Analysis Layers
 
-```powershell
-gh auth login
-gh auth status
-```
+The current `main` branch includes:
+
+- Gene-level DESeq2 provenance and significant result table.
+- 91-CYP discovery-layer summaries and TPM tables.
+- 36-HQ CYP core set, review list, expression modules, PCA tables, and supporting R scripts.
+- RT-qPCR target-design summary tables.
+- unknownCYP recheck tables, high-TPM vs phylogeny mapping, diagnostic tree output, and supporting scripts.
+
+Large raw reads, assemblies, alignments, raw FASTA files, databases, and bulky logs remain outside Git by design.
+
+## Remaining Work
+
+The main remaining gaps are:
+
+- Convert raw-read trimming, Trinity assembly, and annotation shell scripts into public parameterized scripts.
+- Recover or document the exact 91-CYP candidate generation command sequence.
+- Decide how to archive final figures and large alignment/tree source files outside Git.
+- Add final primer sequences if RT-qPCR primer outputs become part of the formal archive.
