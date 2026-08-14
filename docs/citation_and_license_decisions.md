@@ -3,6 +3,11 @@
 This repository is approaching a release-ready archive, but citation and licensing should be confirmed by
 the project owner before adding formal files such as `CITATION.cff` or `LICENSE`.
 
+Draft planning aids:
+
+- `docs/citation_cff_draft.md`
+- `docs/license_decision_matrix.md`
+
 ## Citation Metadata To Confirm
 
 Before adding `CITATION.cff`, confirm:
@@ -43,3 +48,8 @@ Raw/large data: governed by the external archive or data repository terms
 ```
 
 No license file has been added yet because this choice should be made by the project owner.
+
+Tracking issues:
+
+- License strategy: [#21](https://github.com/DoubleSbond/RNA-seq-study/issues/21)
+- Citation metadata: [#22](https://github.com/DoubleSbond/RNA-seq-study/issues/22)
