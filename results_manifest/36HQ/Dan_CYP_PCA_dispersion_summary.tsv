@@ -1,0 +1,4 @@
+comparison	metric	value	interpretation
+Dan_within_group	mean_PC1_PC2_pairwise_distance	7.45	Dan samples are highly dispersed in high-quality CYP PCA space
+Mul_within_group	mean_PC1_PC2_pairwise_distance	1.64	Mul samples are tightly clustered in high-quality CYP PCA space
+Dan_vs_Mul	dispersion_ratio	4.54	Dan group shows approximately 4.5-fold higher within-group dispersion than Mul group

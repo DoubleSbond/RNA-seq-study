@@ -71,6 +71,30 @@ FigureA_highQuality_CYP_PCA.png
 FigureA_highQuality_CYP_PCA.pdf
 ```
 
+## 36-HQ Module Figures and Dan Internal Variation
+
+- `merge_CYP_modules_with_annotation_baseR.R`
+- `plot_CYP_module_heatmap_baseR.R`
+- `plot_CYP_module_scatter_baseR.R`
+- `plot_FigureC_CYP_module_scatter_baseR.R`
+- `plot_CYP6B_focused_slope_baseR.R`
+- `investigate_Dan_internal_CYP_variation_baseR.R`
+- `make_Dan_internal_CYP_summary_tables_baseR.R`
+- `quantify_CYP_PCA_within_group_dispersion_baseR.R`
+
+Purpose:
+
+```text
+36-HQ CYP module and PCA result tables
+-> annotated module table
+-> module scatter/heatmap and CYP6B-focused slope plots
+-> Dan replicate-variation summaries
+-> within-group PCA distance summaries
+```
+
+Most scripts use working-directory input files restored in `results_manifest/36HQ/`. Rendered PNG/PDF
+figure files are not committed in this lightweight archive.
+
 ## unknownCYP Recheck and Phylogeny
 
 - `plot_unknownCYP_TPM_ranking_final.R`

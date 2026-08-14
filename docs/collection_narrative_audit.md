@@ -153,16 +153,29 @@ Supported by:
 - `scripts/R/PCA_high_quality_CYP_logTPM_zscore_baseR.R`
 - `scripts/R/PCA_high_quality_CYP_logTPM_zscore.R`
 - `scripts/R/plot_FigureA_PCA_highQuality_CYP_baseR.R`
+- `scripts/R/plot_CYP_module_heatmap_baseR.R`
+- `scripts/R/plot_CYP_module_scatter_baseR.R`
+- `scripts/R/plot_CYP6B_focused_slope_baseR.R`
+- `scripts/R/investigate_Dan_internal_CYP_variation_baseR.R`
+- `scripts/R/make_Dan_internal_CYP_summary_tables_baseR.R`
+- `scripts/R/quantify_CYP_PCA_within_group_dispersion_baseR.R`
 - `results_manifest/36HQ/*`
 - `collected_hpc/CYP_screening/scripts/plot_CYP_module_heatmap_baseR.R`
 - `collected_hpc/CYP_screening/scripts/plot_CYP_module_scatter_baseR.R`
 - `collected_hpc/CYP_screening/scripts/quantify_CYP_PCA_within_group_dispersion_baseR.R`
+- `results_manifest/36HQ/Dan_internal_CYP_variation_summary.tsv`
+- `results_manifest/36HQ/Dan_internal_CYP_variation_top15.tsv`
+- `results_manifest/36HQ/Dan_mg1_low_CYPs.tsv`
+- `results_manifest/36HQ/CYP_PCA_within_group_distance_summary.tsv`
+- `results_manifest/36HQ/CYP_PCA_within_group_pairwise_distances.tsv`
 
 Key facts currently supported:
 
 - 36-HQ CYPs were classified into expression modules.
 - PCA coordinates and variance tables were preserved.
 - Dan/Mul expression differences and within-Dan replicate variation can be supported by scripts and summary tables.
+- Dan internal-variation tables explicitly record high-variation CYPs, Dan_mg1-low cases, and family/module summaries.
+- Within-group PCA distance summaries support the replicate-dispersion interpretation.
 
 Limitations:
 

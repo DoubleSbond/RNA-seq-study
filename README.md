@@ -76,6 +76,7 @@ The current `main` branch includes:
 - 36-HQ CYP core set, review list, expression modules, PCA tables, and supporting R scripts.
 - Public B. mori midgut CYP TPM tables and Figure1 Ph-Bm overview inputs.
 - RT-qPCR target-design and B. mori target-QC summary tables.
+- 36-HQ Dan internal-variation and module-figure provenance tables/scripts.
 - unknownCYP recheck tables, high-TPM vs phylogeny mapping, diagnostic tree output, and supporting scripts.
 
 Large raw reads, assemblies, alignments, raw FASTA files, databases, and bulky logs remain outside Git by design.
