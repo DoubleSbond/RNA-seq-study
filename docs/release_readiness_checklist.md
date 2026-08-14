@@ -7,6 +7,7 @@ Use this checklist before creating the first GitHub release, for example `v0.1-c
 - [ ] Confirm repository license and add `LICENSE` if appropriate.
 - [ ] Confirm citation metadata and add `CITATION.cff` if appropriate.
 - [ ] Open or resolve GitHub issues for release decisions that still need owner input.
+- [ ] Review `docs/release_blockers.md`.
 - [ ] Review `docs/release_notes_v0.1_draft.md`.
 - [ ] Review `README.md` entry points from a fresh-reader perspective.
 - [ ] Review `CONTRIBUTING.md` and the pull request template.

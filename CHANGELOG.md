@@ -22,6 +22,7 @@ This changelog tracks archive-level changes to the CYP family study repository.
 - Public checksum-manifest refresh utility.
 - Contribution guide and pull request template for public-safe archive updates.
 - GitHub issue templates for archive gaps, external assets, HPC confirmation, and release decisions.
+- Consolidated release blocker tracker for owner decisions, HPC confirmation, and external assets.
 
 ### Pending
 

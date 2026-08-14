@@ -63,6 +63,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/external_archive_policy.md`: policy for raw data, figures, FASTA, alignments, and other external assets.
 - `docs/hpc_confirmation_runbook.md`: final HPC-side version/checksum confirmation workflow.
 - `docs/release_readiness_checklist.md`: checklist for a first archive release.
+- `docs/release_blockers.md`: remaining release blockers grouped by owner decision, HPC confirmation, and external assets.
 - `docs/release_notes_v0.1_draft.md`: draft release notes for `v0.1-cyp-archive`.
 - `docs/citation_and_license_decisions.md`: citation metadata and license decision notes.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
