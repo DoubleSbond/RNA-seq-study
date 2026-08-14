@@ -1,0 +1,39 @@
+name: Release decision
+description: Track owner decisions needed before a formal release.
+title: "[release decision]: "
+labels:
+  - release
+  - decision-needed
+body:
+  - type: dropdown
+    id: decision_type
+    attributes:
+      label: Decision type
+      options:
+        - license
+        - citation metadata
+        - final primers
+        - rendered figures
+        - external storage
+        - release tag
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What decision is needed, and where is it currently documented?
+      placeholder: "docs/citation_and_license_decisions.md; docs/release_notes_v0.1_draft.md"
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: List known options without inventing final owner choices.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Decision outcome
+      description: Fill this after the owner decides.

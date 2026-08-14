@@ -47,6 +47,15 @@ Before opening or merging a pull request:
 - Run `python scripts/python/validate_archive.py`.
 - Confirm GitHub Actions archive validation passes, when available.
 
+## Issue Tracking
+
+Use GitHub issue templates to keep release work organized:
+
+- Archive gap: missing scripts, tables, manifests, README coverage, or provenance notes.
+- External asset record: large/raw assets that stay outside Git but need public-safe storage metadata.
+- HPC confirmation: tool versions, original commands, checksums, or source files that require HPC access.
+- Release decision: license, citation metadata, final primer inclusion, rendered figures, or release-tag choices.
+
 ## HPC-Dependent Updates
 
 Do not invent missing HPC details. If an update requires HPC access, record the gap clearly and use:

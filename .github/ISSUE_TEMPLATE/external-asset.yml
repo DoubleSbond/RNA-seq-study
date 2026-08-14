@@ -1,0 +1,47 @@
+name: External asset record
+description: Track raw/large assets that should remain outside Git.
+title: "[external asset]: "
+labels:
+  - archive
+  - external-data
+body:
+  - type: input
+    id: asset_id
+    attributes:
+      label: Asset ID
+      description: Match or add an `asset_id` in `results_manifest/external_assets_manifest.tsv`.
+      placeholder: "trinity_assembly"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - RNAseq
+        - annotation
+        - figures
+        - RTqPCR
+        - unknownCYP
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: storage
+    attributes:
+      label: Storage or accession
+      description: Use only public-safe URIs, accession IDs, DOIs, or sanitized storage references.
+      placeholder: "SRA/Zenodo/Figshare/GitHub Release/institutional storage reference"
+  - type: textarea
+    id: checksums
+    attributes:
+      label: Checksums and size
+      description: Record SHA256 or MD5 and byte size when available.
+  - type: checkboxes
+    id: policy
+    attributes:
+      label: Policy checks
+      options:
+        - label: Asset is intentionally kept outside Git.
+        - label: Git tracks only a manifest, checksum, summary, or script for this asset.
+        - label: No credentials or private internal paths are included.

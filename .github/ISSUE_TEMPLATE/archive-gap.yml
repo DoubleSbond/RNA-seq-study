@@ -1,0 +1,37 @@
+name: Archive gap
+description: Track a missing script, table, manifest, README, or provenance note.
+title: "[archive gap]: "
+labels:
+  - archive
+  - documentation
+body:
+  - type: textarea
+    id: gap
+    attributes:
+      label: Gap
+      description: What is missing or unclear?
+      placeholder: "Example: exact original command for generating CYP_candidates_step1.tsv"
+    validations:
+      required: true
+  - type: textarea
+    id: current_evidence
+    attributes:
+      label: Current evidence
+      description: Which Git-tracked files already partially cover this?
+      placeholder: "docs/workflow.md; results_manifest/91CYP/CYP_candidates_step1.tsv"
+  - type: dropdown
+    id: hpc_needed
+    attributes:
+      label: Is HPC access needed?
+      options:
+        - "No"
+        - "Yes"
+        - "Unknown"
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion criteria
+      description: What would make this gap closed?
+      placeholder: "Recovered command documented, or explicitly marked unavailable with reconstruction path."
