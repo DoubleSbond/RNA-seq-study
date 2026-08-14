@@ -16,6 +16,7 @@ This index maps the public scripts in `scripts/` to the project workflow blocks 
 | Workflow block | Public script | Main inputs | Main outputs |
 |---|---|---|---|
 | InterProScan core annotation | `scripts/shell/run_interproscan_core.sh` | InterProScan executable; peptide FASTA outside Git | InterProScan TSV annotation output outside Git |
+| InterProScan annotation summary | `scripts/R/interpro_annotation_summary.R` | InterProScan TSV output outside Git | Gene-level PFAM/InterPro/GO summary table |
 
 ## 91-CYP Candidate Discovery
 

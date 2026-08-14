@@ -1,0 +1,18 @@
+ID audit for current high-quality CYP analysis
+
+Current valid high-quality CYP gene set:
+- CYP_final_geneids.txt: 36 genes
+- FigureBCD_CYP_module_classification_annotated.tsv: 36 genes
+- Dan_internal_CYP_variation_summary_for_supervisor.tsv: 36 genes
+
+These three files contain exactly the same 36 gene IDs.
+
+Important note:
+CYP_final_summary.tsv contains 71 genes and is not equivalent to the current 36-gene high-quality CYP set.
+It should not be used as the master summary for the current PCA/module/Dan variation analysis.
+
+Recommended master file for current analysis:
+CYP_high_quality_36_master_summary.tsv
+
+This file was copied from:
+FigureBCD_CYP_module_classification_annotated.tsv

@@ -59,6 +59,7 @@ Do not commit:
 This repository now contains the first public, GitHub-suitable archive of the project. The most useful entry points are:
 
 - `docs/archive_status.md`: current archive status and remaining gaps.
+- `docs/archive_completeness_audit.md`: README coverage and omission-check summary.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
 - `docs/collection_narrative_audit.md`: evidence audit for the recovered local/HPC material.
 - `docs/script_provenance_index.md`: public scripts mapped to workflow blocks.
@@ -72,6 +73,7 @@ The current `main` branch includes:
 
 - Gene-level DESeq2 provenance and significant result table.
 - RNA-seq sample metadata, upstream processing wrappers, Trinity assembly QC, and Salmon mapping summaries.
+- Annotation summary counts and CYP screening QC tables.
 - 91-CYP discovery-layer summaries, stepwise candidate tables, B. mori best-hit support, PC1 loading tables, and TPM tables.
 - 36-HQ CYP core set, review list, expression modules, PCA tables, and supporting R scripts.
 - Public B. mori midgut CYP TPM tables and Figure1 Ph-Bm overview inputs.

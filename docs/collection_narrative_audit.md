@@ -112,6 +112,12 @@ Supported by:
 - `collected_hpc/CYP_screening/tables/CYP_longest_isoform_per_gene.tsv`
 - `collected_hpc/CYP_screening/tables/CYP_len300plus_summary.tsv`
 - `collected_hpc/CYP_screening/tables/CYP_fragment_geneids.txt`
+- `results_manifest/CYP_screening/CYP_candidate_pep_tx_gene.tsv`
+- `results_manifest/CYP_screening/CYP_longest_isoform_per_gene.tsv`
+- `results_manifest/CYP_screening/CYP_len300plus_summary.tsv`
+- `results_manifest/CYP_screening/CYP_fragment_geneids.txt`
+- `results_manifest/CYP_screening/CYP_noncanonical_geneids.txt`
+- `docs/audit/CYP_high_quality_36_ID_audit_note.txt`
 - `results_manifest/36HQ/CYP_high_quality_36_master_summary.tsv`
 - `results_manifest/36HQ/CYP_high_quality_36_review_list.tsv`
 - `results_manifest/36HQ/CYP_high_quality_36_geneids.txt`
@@ -134,6 +140,7 @@ Key facts currently supported:
 
 - The high-quality layer used representative transcript/peptide IDs, peptide length, and homology evidence.
 - Fragment and noncanonical CYP candidates were explicitly tracked.
+- Candidate peptide/transcript/gene mapping, representative longest isoforms, 300-aa length filtering, and seed-gene audit lists are now archived as small QC tables.
 - The 36-HQ master table contains expression, module, stability, homology, and sequence-length fields.
 - The recovered review list has exactly 36 rows and includes gene ID, module, stability, dandelion/mulberry mean TPM, maximum mean TPM, log2FC, peptide length, Bombyx mori hit, Spodoptera frugiperda hit, representative transcript ID, and representative peptide ID.
 - The recovered gene ID lists contain exactly 36 IDs and preserve the master order used by the high-quality CYP summaries.
