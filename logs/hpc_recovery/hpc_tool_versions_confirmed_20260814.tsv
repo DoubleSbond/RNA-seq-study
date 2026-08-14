@@ -1,0 +1,14 @@
+tool	version	evidence_type	evidence_source_sanitized	notes
+R	4.3.3	recovered_sessionInfo	06_DEGsAnalysis/results/_calibration_exports/sessionInfo_DESeq2.txt	Also confirms DESeq2_1.42.0 and core Bioconductor package context.
+DESeq2	1.42.0	recovered_sessionInfo	06_DEGsAnalysis/results/_calibration_exports/sessionInfo_DESeq2.txt	Recorded as attached package in the recovered R session information.
+fastp	0.23.4	live_hpc_command	fastp --version	Confirmed from the active HPC login environment on 2026-08-14.
+Trinity	2.15.1	recovered_run_log	03_assembly/logs/trinity_assembly.log	Log reports Trinity-v2.15.1 and the original 32-core assembly run.
+Salmon	1.10.2	recovered_cmd_info	06_DEGsAnalysis/*_quant/cmd_info.json; 06_DEGsAnalysis/salmon_index/trinity_idx/versionInfo.json	Recovered records agree on Salmon 1.10.2.
+BUSCO	5.4.3	recovered_summary	03_assembly/trinity_busco_results*/logs/busco.log	Version already recorded from recovered assembly QC summary.
+InterProScan	5.55-88.0	recovered_run_log	04_annotation/FirstTry/interproscan.log; 04_annotation/FirstTry/interproscan_test.log	Logs report InterProScan-5.55-88.0.
+IQ-TREE	3.1.2	recovered_run_log	11_unknownCYP_annotation/redo_allQuality/phylogeny/*.LGFR6.log	Log reports IQ-TREE 3.1.2 built May 17 2026.
+BLAST	2.12.0+	live_hpc_command	blastx -version; blastp -version	Confirmed from the active HPC login environment on 2026-08-14.
+HMMER	3.4	live_hpc_command	hmmsearch -h	Confirmed from the active HPC login environment on 2026-08-14.
+DIAMOND	2.1.9	live_hpc_command	diamond version	Confirmed from the active HPC login environment on 2026-08-14.
+seqkit	2.3.0	live_hpc_command	seqkit version	Confirmed from the active HPC login environment on 2026-08-14.
+MAFFT	7.505	live_hpc_command	mafft --version	Confirmed from the active HPC login environment on 2026-08-14.

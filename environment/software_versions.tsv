@@ -1,14 +1,15 @@
 tool	version	source	notes
 git	2.53.0.windows.3	local_windows_git	Local Git used for repository operations; original analysis Git version not required.
 python	3.12.13	codex_bundled_python	Codex bundled Python used for local script validation.
-R		pending	local
-fastp		pending	HPC	Public wrapper records parameters; exact version not yet recovered
-Trinity		pending	HPC	Public wrapper records parameters; exact version not yet recovered
+R	4.3.3	HPC	Recovered from DESeq2 sessionInfo; login-node PATH did not expose R directly.
+fastp	0.23.4	HPC	Confirmed by live HPC command on 2026-08-14.
+Trinity	2.15.1	HPC	Recovered from original Trinity assembly log.
 Salmon	1.10.2	HPC	Recovered from Salmon cmd_info and salmon_summary
 BUSCO	5.4.3	HPC	Recovered from assembly QC summary
 InterProScan	5.55-88.0	HPC	Recovered from original HPC script path; public wrapper is path-parameterized
 IQ-TREE	3.1.2	HPC	Recovered from unknownCYP IQ-TREE report; built May 17 2026; diagnostic run used ModelFinder and UFBoot 1000
-blast		pending	HPC or local
-hmmer		pending	HPC or local
-diamond		pending	HPC or local
-seqkit		pending	HPC or local
+blast	2.12.0+	HPC	Confirmed by live HPC blastx/blastp version command on 2026-08-14.
+hmmer	3.4	HPC	Confirmed by live HPC hmmsearch help output on 2026-08-14.
+diamond	2.1.9	HPC	Confirmed by live HPC diamond version command on 2026-08-14.
+seqkit	2.3.0	HPC	Confirmed by live HPC seqkit version command on 2026-08-14.
+MAFFT	7.505	HPC	Confirmed by live HPC mafft --version command on 2026-08-14.
