@@ -1,0 +1,60 @@
+# Archive Status
+
+This document summarizes what is currently archived in GitHub and what remains outside Git.
+
+## Uploaded To GitHub `main`
+
+### RNA-seq / DESeq2
+
+- Public gene-level DESeq2 script: `scripts/R/gene_level_deseq2_final.R`
+- DESeq2 calibration and sanitized session information: `environment/`
+- Significant result table: `results_manifest/DESeq2/`
+
+### 91-CYP Layer
+
+- Gene IDs, summary annotations, and TPM tables: `results_manifest/91CYP/`
+
+### 36-HQ CYP Layer
+
+- 36-gene high-quality CYP set: `results_manifest/36HQ/CYP_high_quality_36_geneids.txt`
+- Review list and master summary: `results_manifest/36HQ/`
+- Expression modules and PCA tables: `results_manifest/36HQ/`
+- Module/PCA scripts: `scripts/R/`
+
+### RT-qPCR Candidate Layer
+
+- Candidate target tables and sequence-length index: `results_manifest/RTqPCR/`
+
+### unknownCYP Layer
+
+- 24-candidate recheck table and peptide availability status: `results_manifest/unknownCYP/`
+- High-TPM vs phylogeny mapping: `results_manifest/unknownCYP/highTPM_unknownCYP_vs_phylogeny_current_mapping.tsv`
+- Integrated interpretation table: `results_manifest/unknownCYP/unknownCYP_integrated_interpretation.with_group.domain_priority.tsv`
+- Diagnostic tree output and IQ-TREE summary: `results_manifest/unknownCYP/` and `logs/unknownCYP/`
+- Supporting scripts: `scripts/R/*unknownCYP*.R` and `scripts/python/clean_unknownCYP_peptideAvailable14_headers.py`
+
+## Local-Only By Design
+
+The following should not be committed directly:
+
+- Raw FASTQ files.
+- Full Trinity assemblies and large FASTA files.
+- BLAST, HMMER, InterProScan, or Salmon bulky intermediate outputs.
+- Large alignments and raw phylogeny FASTA inputs.
+- Archive files such as `.tar.gz` and `.zip`.
+- Internal HPC paths, credentials, tokens, or SSH material.
+
+## Remaining Gaps
+
+1. Public parameterized versions of raw-read trimming, Trinity assembly, and annotation scripts.
+2. Exact command sequence for generating the 91-CYP candidate tables.
+3. A final decision on where to archive figure source files and large alignment inputs.
+4. Final RT-qPCR primer sequences, if they become part of the formal archive.
+
+## Navigation
+
+- Workflow narrative: `docs/workflow.md`
+- Data version map: `docs/data_versions.md`
+- Evidence audit: `docs/collection_narrative_audit.md`
+- Script map: `docs/script_provenance_index.md`
+- Public checksums: `logs/hpc_recovery/public_archive_sha256.tsv`

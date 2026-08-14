@@ -2,10 +2,18 @@
 
 Use this directory for small, Git-friendly inventories and result summaries.
 
-Recommended files:
+Current subdirectories:
 
-- `results_manifest.tsv`: curated list of expected outputs.
-- `checksums.tsv`: checksums for files stored outside Git.
-- `figures.tsv`: figure inventory and source scripts.
+- `91CYP/`: 91-CYP discovery-layer gene IDs, summaries, and TPM tables.
+- `36HQ/`: 36 high-quality CYP core set, review list, module tables, and PCA tables.
+- `DESeq2/`: gene-level DESeq2 significant result table.
+- `RTqPCR/`: candidate target tables and RT-qPCR design summaries.
+- `unknownCYP/`: unknownCYP recheck, motif/ORF/phylogeny review, and diagnostic tree outputs.
+
+Top-level manifest files:
+
+- `results_manifest.tsv`: compact curated result inventory.
+- `hpc_core_files.tsv`: original HPC recovery checklist.
+- `key_cyp_candidates.tsv`: candidate gene notes and caution labels.
 
 Large result files should be stored outside Git and referenced here.
