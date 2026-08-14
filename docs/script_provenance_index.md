@@ -30,6 +30,11 @@ This index maps the public scripts in `scripts/` to the project workflow blocks 
 | Expression module classification | `scripts/R/classify_high_quality_CYP_modules_baseR.R` | `TPM_gene_CYP_final_withMeanSD.tsv` | `CYP_high_quality_expression_modules.tsv`; module summary |
 | PCA coordinates and variance | `scripts/R/PCA_high_quality_CYP_logTPM_zscore_baseR.R` | `TPM_high_quality_CYP_for_PCA.tsv` | PCA coordinate and variance tables; PCA plot |
 | PCA plotting | `scripts/R/plot_FigureA_PCA_highQuality_CYP_baseR.R` | PCA coordinate and variance tables | Figure A PCA PNG/PDF |
+| Module table annotation | `scripts/R/merge_CYP_modules_with_annotation_baseR.R` | CYP module table; CYP final summary | Annotated CYP module table |
+| Module figures | `scripts/R/plot_CYP_module_heatmap_baseR.R`; `scripts/R/plot_CYP_module_scatter_baseR.R`; `scripts/R/plot_FigureC_CYP_module_scatter_baseR.R` | Annotated CYP module table | Heatmap/scatter figure files outside Git |
+| CYP6B-focused view | `scripts/R/plot_CYP6B_focused_slope_baseR.R` | Annotated CYP module table | CYP6B-focused slope plot outside Git |
+| Dan internal variation | `scripts/R/investigate_Dan_internal_CYP_variation_baseR.R`; `scripts/R/make_Dan_internal_CYP_summary_tables_baseR.R` | Annotated CYP module table | Dan replicate-variation summary tables |
+| PCA within-group dispersion | `scripts/R/quantify_CYP_PCA_within_group_dispersion_baseR.R` | PCA coordinate table | Pairwise and summary PCA distance tables |
 
 ## B. mori Comparison and Figure1
 

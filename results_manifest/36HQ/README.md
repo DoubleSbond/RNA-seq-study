@@ -25,8 +25,24 @@ These tables support the Dan/Mul expression module interpretation.
 - `TPM_high_quality_CYP_for_PCA.tsv`
 - `PCA_high_quality_CYP_logTPM_zscore_coordinates.tsv`
 - `PCA_high_quality_CYP_logTPM_zscore_variance.tsv`
+- `CYP_PCA_within_group_distance_summary.tsv`
+- `CYP_PCA_within_group_pairwise_distances.tsv`
+- `Dan_CYP_PCA_dispersion_summary.tsv`
 
 These tables support the high-quality CYP PCA figure and sample-level expression separation narrative.
+
+## Dan Internal Variation
+
+- `Dan_internal_CYP_variation_summary.tsv`
+- `Dan_internal_CYP_variation_top15.tsv`
+- `Dan_mg1_low_CYPs.tsv`
+- `Dan_top15_variable_CYP_family_summary.tsv`
+- `Dan_top15_variable_CYP_module_summary.tsv`
+
+These tables document within-dandelion replicate variation among 36-HQ CYPs. They support the observation
+that some CYPs show strong Dan replicate heterogeneity, including cases where Dan_mg1 is lower than
+Dan_mg2/Dan_mg3. This layer should be interpreted as replicate-variation provenance rather than a separate
+candidate-ranking system.
 
 ## Provenance Note
 

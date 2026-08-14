@@ -368,13 +368,14 @@ These CYPs may participate in the metabolic response to distinct phytochemical e
 
 ## 12. Reproducibility Checklist
 
-- [ ] Recover exact Trinity assembly commands.
-- [ ] Recover exact Salmon quantification commands.
-- [ ] Recover exact tximport and DESeq2 scripts.
-- [ ] Recover 91-CYP discovery commands and files.
-- [ ] Recover 36-HQ filtering scripts and audit note.
-- [ ] Recover expression module scripts and PCA/heatmap scripts.
-- [ ] Recover Ph-Bm matched comparison inputs and plotting scripts.
-- [ ] Recover RT-qPCR candidate FASTA files and primer-design records.
-- [ ] Recover unknownCYP raw24 table, peptide-availability table, alignment, IQ-TREE logs, and iTOL datasets.
-- [ ] Record checksums for all archived small result files.
+- [x] Archive public Trinity/Salmon/InterProScan wrapper scripts and RNA-seq QC summaries.
+- [x] Archive final gene-level tximport/DESeq2 script and significant result table.
+- [x] Archive 91-CYP discovery tables and a public CYP/P450 evidence-filtering reconstruction utility.
+- [x] Archive 36-HQ review tables, audit note, expression modules, PCA tables, and downstream scripts.
+- [x] Archive expression module, PCA, heatmap/scatter, CYP6B-focused, and Dan internal-variation provenance.
+- [x] Archive Ph-Bm matched comparison inputs and Figure1 gene-ordering script.
+- [x] Archive unknownCYP raw24 review, peptide-availability, diagnostic tree, IQ-TREE report, and supporting scripts.
+- [x] Record checksums for archived small result files.
+- [ ] Recover exact original 91-CYP candidate-generation command, if it still exists on HPC.
+- [ ] Archive rendered figure files and large alignment/source FASTA files through an external storage policy.
+- [ ] Add final RT-qPCR primer sequences if they become part of the formal archive.

@@ -25,7 +25,8 @@ This document summarizes what is currently archived in GitHub and what remains o
 - 36-gene high-quality CYP set: `results_manifest/36HQ/CYP_high_quality_36_geneids.txt`
 - Review list and master summary: `results_manifest/36HQ/`
 - Expression modules and PCA tables: `results_manifest/36HQ/`
-- Module/PCA scripts: `scripts/R/`
+- Dan internal-variation, CYP6B-focused, and within-group PCA dispersion summaries: `results_manifest/36HQ/`
+- Module/PCA/variation plotting scripts: `scripts/R/`
 
 ### RT-qPCR Candidate Layer
 

@@ -1,0 +1,4 @@
+module	count_in_top15
+core_shared	6
+Dan_biased	6
+Mul_biased	3
