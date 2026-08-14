@@ -19,5 +19,6 @@ Top-level manifest files:
 - `results_manifest.tsv`: compact curated result inventory.
 - `hpc_core_files.tsv`: original HPC recovery checklist.
 - `key_cyp_candidates.tsv`: candidate gene notes and caution labels.
+- `external_assets_manifest.tsv`: large/raw/external asset tracking table.
 
 Large result files should be stored outside Git and referenced here.

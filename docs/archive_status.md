@@ -63,8 +63,16 @@ The following should not be committed directly:
 ## Remaining Gaps
 
 1. Exact original command sequence for generating the 91-CYP candidate tables. The restored tables and a public reconstruction utility are now archived.
-2. A final decision on where to archive rendered figure files, figure source files, and large alignment inputs.
+2. External storage locations/checksums for rendered figures, figure source files, large alignment inputs, raw/large FASTA assets, and primer-design FASTA files. These are now tracked in `results_manifest/external_assets_manifest.tsv`.
 3. Final RT-qPCR primer sequences, if they become part of the formal archive.
+4. HPC confirmation of exact versions still marked pending in `environment/version_confirmation_checklist.tsv`.
+
+External asset policy and tracking table:
+
+- `docs/external_archive_policy.md`
+- `results_manifest/external_assets_manifest.tsv`
+
+Version confirmations still requiring HPC are tracked in `environment/version_confirmation_checklist.tsv`.
 
 ## Navigation
 

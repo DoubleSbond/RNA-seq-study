@@ -69,8 +69,8 @@ These are intentionally not committed:
 The remaining gaps are narrow and should not block narrative reconstruction:
 
 - Exact original one-command script or shell history that generated `CYP_candidates_step1.tsv` and `CYP_candidates_step2_confirmed.tsv`, if it still exists on HPC.
-- Exact fastp and Trinity version strings; public wrappers and QC summaries are archived, but the original versions remain marked as pending in `environment/software_versions.tsv`.
-- Final rendered figure files and large figure/alignment/source FASTA assets need an external storage policy.
+- Exact fastp and Trinity version strings; public wrappers and QC summaries are archived, but the original versions remain marked as pending in `environment/version_confirmation_checklist.tsv`.
+- Final rendered figure files and large figure/alignment/source FASTA assets should follow `docs/external_archive_policy.md` and be tracked in `results_manifest/external_assets_manifest.tsv`.
 - Final RT-qPCR primer sequences should be added if they become part of the formal project release.
 
 ## Omission Check Result

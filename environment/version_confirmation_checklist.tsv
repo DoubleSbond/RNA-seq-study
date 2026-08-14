@@ -1,0 +1,15 @@
+tool	current_version	current_source	confirmation_status	how_to_confirm_later	notes
+git	2.53.0.windows.3	local_windows_git	confirmed_local	git --version	Local Git used for repository operations, not necessarily original analysis.
+python	3.12.13	codex_bundled_python	confirmed_local	python --version	Codex bundled Python used for local script validation.
+R		pending_local_or_hpc	pending_hpc_confirmation	R --version; Rscript --version	Rscript not available in current local Windows environment.
+fastp		pending_hpc	pending_hpc_confirmation	fastp --version; check original trimming log	Wrapper is archived; exact original version still needs HPC confirmation.
+Trinity		pending_hpc	pending_hpc_confirmation	Trinity --version; inspect original Trinity run log	Assembly QC is archived; exact original version still needs HPC confirmation.
+Salmon	1.10.2	recovered_salmon_cmd_info	confirmed_from_recovered_log	salmon --version; compare cmd_info.json	Recovered from Salmon cmd_info and summary.
+BUSCO	5.4.3	recovered_assembly_qc	confirmed_from_recovered_summary	busco --version; inspect BUSCO run summary	Recovered from assembly QC summary.
+InterProScan	5.55-88.0	recovered_hpc_script_path	confirmed_from_recovered_script	interproscan.sh -version	Public wrapper is parameterized.
+IQ-TREE	3.1.2	recovered_iqtree_report	confirmed_from_recovered_report	iqtree3 --version	Report states IQ-TREE 3.1.2 built May 17 2026.
+BLAST		pending_hpc	pending_hpc_confirmation	blastx -version; blastp -version	Best-hit summary tables are archived.
+HMMER		pending_hpc	pending_hpc_confirmation	hmmsearch -h; hmmsearch -V	Only summaries/QC are in Git.
+DIAMOND		pending_hpc	pending_hpc_confirmation	diamond version	Only summaries/QC are in Git.
+seqkit		pending_hpc	pending_hpc_confirmation	seqkit version	Used for sequence handling if confirmed in HPC records.
+MAFFT		pending_hpc	pending_hpc_confirmation	mafft --version	Needed for unknownCYP alignment provenance if final alignment is released.

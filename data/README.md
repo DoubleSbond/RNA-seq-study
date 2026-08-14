@@ -17,3 +17,8 @@ Files commonly kept outside Git:
 - Large `*.fasta`, `*.fa`, and transcriptome assemblies.
 - `*.bam`, `*.sam`, and alignment intermediates.
 - BLAST, DIAMOND, HMMER, and other large database files.
+
+For the current external-asset policy and tracking table, see:
+
+- `docs/external_archive_policy.md`
+- `results_manifest/external_assets_manifest.tsv`
