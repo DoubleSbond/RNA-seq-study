@@ -94,3 +94,16 @@ Interpretation boundary:
 ```text
 High TPM alone is not treated as sufficient support. Final candidate priority combines expression, CYP motif completeness, ORF length, homology, and phylogenetic placement.
 ```
+
+## Figure1 Ph-Bm CYP Overview
+
+- `make_fig1_gene_order_final.R`
+
+Purpose:
+
+```text
+fig1_expression_input_full.tsv + fig1_block_map.tsv
+-> block-aware gene order for the Ph-Bm CYP overview figure
+```
+
+The resulting `fig1_gene_order_final.tsv` is archived in `results_manifest/Bmori_comparison/`.

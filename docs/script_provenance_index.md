@@ -31,6 +31,13 @@ This index maps the public scripts in `scripts/` to the project workflow blocks 
 | PCA coordinates and variance | `scripts/R/PCA_high_quality_CYP_logTPM_zscore_baseR.R` | `TPM_high_quality_CYP_for_PCA.tsv` | PCA coordinate and variance tables; PCA plot |
 | PCA plotting | `scripts/R/plot_FigureA_PCA_highQuality_CYP_baseR.R` | PCA coordinate and variance tables | Figure A PCA PNG/PDF |
 
+## B. mori Comparison and Figure1
+
+| Workflow block | Public script | Main inputs | Main outputs |
+|---|---|---|---|
+| B. mori public CYP TPM table generation | `scripts/python/make_bmori_public_cyp_tpm_tables.py` | B. mori GFF; `sample_info.tsv`; public Salmon `quant.sf` directories outside Git | B. mori CYP transcript/gene TPM tables |
+| Figure1 gene ordering | `scripts/R/make_fig1_gene_order_final.R` | `fig1_expression_input_full.tsv`; `fig1_block_map.tsv` | `fig1_gene_order_final.tsv` |
+
 ## Current Gaps
 
 The following recovered scripts exist in local evidence but have not yet all been converted into public, parameterized scripts:
@@ -38,7 +45,7 @@ The following recovered scripts exist in local evidence but have not yet all bee
 - Raw-read trimming and Trinity assembly shell scripts.
 - InterProScan / PFAM annotation shell scripts.
 - The exact original 91-CYP candidate-generation command that emitted the recovered tables.
-- B. mori public RNA-seq processing script.
+- Rendered final figure files and large figure source artifacts.
 
 Some recovered scripts contain internal absolute paths or comments with encoding damage. Those scripts should be published only after conversion to path-parameterized public versions.
 

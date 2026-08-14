@@ -176,12 +176,19 @@ Supported by:
 - `collected_hpc/Bmori_comparison/public_RNAseq/Bm_ML_midgut_CYP_TPM_annotated.tsv`
 - `collected_hpc/Bmori_comparison/Figure1_CYP_overview/fig1_expression_input_full.tsv`
 - `collected_hpc/Bmori_comparison/Figure1_CYP_overview/make_fig1_gene_order_final.R`
+- `results_manifest/Bmori_comparison/Bm_ML_midgut_CYP_TPM_annotated.tsv`
+- `results_manifest/Bmori_comparison/Bmori_GCF_ASM3026992v2_CYP_transcripts_from_GFF.tsv`
+- `results_manifest/Bmori_comparison/fig1_expression_input_full.tsv`
+- `results_manifest/Bmori_comparison/fig1_gene_order_final.tsv`
+- `scripts/python/make_bmori_public_cyp_tpm_tables.py`
+- `scripts/R/make_fig1_gene_order_final.R`
 
 Key facts currently supported:
 
 - Public B. mori midgut RNA-seq CYP expression was processed into CYP TPM tables.
 - A symbol-level Ph-Bm comparison table exists.
 - The Figure1 input supports the narrative that P. hoenei and B. mori have different CYP expression profiles.
+- Figure1 block mapping and final gene order are now archived as lightweight provenance tables.
 
 Limitations:
 
@@ -195,12 +202,16 @@ Supported by:
 - `results_manifest/RTqPCR/README_FINAL_15CYP_RTqPCR_targets.md`
 - `results_manifest/RTqPCR/CYP_RTqPCR_true_target_mapping_from_Figure1.tsv`
 - `collected_hpc/Bmori_comparison/RTqPCR_QC/*`
+- `results_manifest/RTqPCR/Bmori_CYP_multi_isoform_integrated_evidence_summary.tsv`
+- `results_manifest/RTqPCR/Bmori_CYP12_primer3_top1_candidates.tsv`
+- `results_manifest/RTqPCR/Bmori_CYP13_primer3_top1_candidates.tsv`
 
 Key facts currently supported:
 
 - The final candidate set was connected back to Figure1 CYP targets.
 - Primer-design logic used CDS FASTA files.
 - B. mori multi-isoform targets were checked for common regions and primer feasibility.
+- B. mori CYP12/CYP13 Primer3 top-candidate summaries are archived as small QC tables.
 
 Limitations:
 
