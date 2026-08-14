@@ -76,6 +76,11 @@ Version confirmations still requiring HPC are tracked in `environment/version_co
 
 HPC-side confirmation commands are documented in `docs/hpc_confirmation_runbook.md`.
 
+Release preparation is tracked in:
+
+- `docs/release_readiness_checklist.md`
+- `docs/citation_and_license_decisions.md`
+
 ## Navigation
 
 - Workflow narrative: `docs/workflow.md`
