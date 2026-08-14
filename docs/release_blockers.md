@@ -19,7 +19,7 @@ This tracker consolidates the remaining work before a formal `v0.1-cyp-archive` 
 |---|---|---|
 | [#21](https://github.com/DoubleSbond/RNA-seq-study/issues/21) | Owner decision | Repository license strategy |
 | [#22](https://github.com/DoubleSbond/RNA-seq-study/issues/22) | Owner decision | `CITATION.cff` metadata |
-| [#23](https://github.com/DoubleSbond/RNA-seq-study/issues/23) | HPC confirmation | Remaining software versions |
+| [#23](https://github.com/DoubleSbond/RNA-seq-study/issues/23) | HPC confirmation | Remaining software versions; first live confirmation pass completed |
 | [#24](https://github.com/DoubleSbond/RNA-seq-study/issues/24) | HPC confirmation / archive gap | Original 91-CYP candidate-generation command |
 | [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | External asset record | Storage URIs and checksums for raw/large assets |
 | [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Owner decision | RT-qPCR final primer release scope |
@@ -38,8 +38,8 @@ This tracker consolidates the remaining work before a formal `v0.1-cyp-archive` 
 
 | Blocker | Current file | Next action | Notes |
 |---|---|---|---|
-| Remaining software versions | `environment/version_confirmation_checklist.tsv`; `environment/software_versions.tsv`; [#23](https://github.com/DoubleSbond/RNA-seq-study/issues/23) | Run `scripts/shell/collect_hpc_tool_versions.sh` on HPC. | Pending: R, fastp, Trinity, BLAST, HMMER, DIAMOND, seqkit, MAFFT. |
-| Original 91-CYP command sequence | `docs/workflow.md`; `results_manifest/91CYP/README.md`; [#24](https://github.com/DoubleSbond/RNA-seq-study/issues/24) | Search HPC command histories/scripts using `docs/hpc_confirmation_runbook.md`. | Restored tables and public reconstruction utility are already archived. |
+| Remaining software versions | `environment/version_confirmation_checklist.tsv`; `environment/software_versions.tsv`; `logs/hpc_recovery/hpc_tool_versions_confirmed_20260814.tsv`; [#23](https://github.com/DoubleSbond/RNA-seq-study/issues/23) | Review and close issue if owner accepts the recovered/live confirmation records. | First live HPC confirmation pass completed on 2026-08-14. |
+| Original 91-CYP command sequence | `docs/workflow.md`; `results_manifest/91CYP/README.md`; `logs/hpc_recovery/hpc_91cyp_command_search_20260814.md`; [#24](https://github.com/DoubleSbond/RNA-seq-study/issues/24) | Continue shell-history or deeper backup-script search if exact command is still required. | First HPC search found source lists/scripts but not a single exact command. |
 | External asset checksums | `results_manifest/external_assets_manifest.tsv`; [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Prepare asset path list and run `scripts/shell/collect_external_asset_checksums.sh` where assets are staged. | Do not commit large files. |
 | RT-qPCR source FASTA and primer material | `results_manifest/RTqPCR/README.md`; `results_manifest/external_assets_manifest.tsv`; [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Confirm whether final primer table exists and whether source FASTA should be checksummed externally. | Git currently tracks target/QC summaries only. |
 

@@ -22,11 +22,12 @@ Use this checklist before creating the first GitHub release, for example `v0.1-c
 
 ## HPC Confirmation
 
-- [ ] Run `scripts/shell/collect_hpc_tool_versions.sh` on HPC.
-- [ ] Update `environment/version_confirmation_checklist.tsv`.
-- [ ] Update `environment/software_versions.tsv`.
-- [ ] Search for the original 91-CYP candidate-generation command or script.
-- [ ] Record whether the original command was recovered or remains unavailable.
+- [x] Run the first live HPC software-version confirmation pass.
+- [x] Update `environment/version_confirmation_checklist.tsv`.
+- [x] Update `environment/software_versions.tsv`.
+- [x] Search for the original 91-CYP candidate-generation command or script.
+- [x] Record whether the original command was recovered or remains unavailable.
+- [ ] Decide whether a deeper shell-history or backup-script search is still needed for 91-CYP.
 
 ## External Assets
 

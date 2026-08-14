@@ -11,3 +11,6 @@ Recommended files:
 - `version_confirmation_checklist.tsv`: version confirmation status and commands to run later on HPC.
 
 If the analysis was run on HPC, include module names and versions when available.
+
+The first live HPC version-confirmation pass is summarized in
+`logs/hpc_recovery/hpc_tool_versions_confirmed_20260814.tsv`.
