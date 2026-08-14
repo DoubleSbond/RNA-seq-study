@@ -1,0 +1,7 @@
+sample	salmon_version	num_processed	num_mapped	percent_mapped
+Dan_mg1_quant	1.10.2	42670291	39178948	91.82
+Dan_mg2_quant	1.10.2	45974752	42979238	93.48
+Dan_mg3_quant	1.10.2	44780658	41376478	92.40
+Mul_mg1_quant	1.10.2	39867482	37302340	93.57
+Mul_mg2_quant	1.10.2	41014891	38628304	94.18
+Mul_mg3_quant	1.10.2	44297078	41731610	94.21

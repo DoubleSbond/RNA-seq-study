@@ -1,0 +1,7 @@
+sample	read1	read2	tissue	diet
+Dan_mg1	Dan_mg1_1.fastq.gz	Dan_mg1_2.fastq.gz	Midgut	Dan
+Dan_mg2	Dan_mg2_1.fastq.gz	Dan_mg2_2.fastq.gz	Midgut	Dan
+Dan_mg3	Dan_mg3_1.fastq.gz	Dan_mg3_2.fastq.gz	Midgut	Dan
+Mul_mg1	Mul_mg1_1.fastq.gz	Mul_mg1_2.fastq.gz	Midgut	Mul
+Mul_mg2	Mul_mg2_1.fastq.gz	Mul_mg2_2.fastq.gz	Midgut	Mul
+Mul_mg3	Mul_mg3_1.fastq.gz	Mul_mg3_2.fastq.gz	Midgut	Mul

@@ -2,6 +2,12 @@ tool	version	source	notes
 git		pending	local
 python		pending	local
 R		pending	local
+fastp		pending	HPC	Public wrapper records parameters; exact version not yet recovered
+Trinity		pending	HPC	Public wrapper records parameters; exact version not yet recovered
+Salmon	1.10.2	HPC	Recovered from Salmon cmd_info and salmon_summary
+BUSCO	5.4.3	HPC	Recovered from assembly QC summary
+InterProScan	5.55-88.0	HPC	Recovered from original HPC script path; public wrapper is path-parameterized
+IQ-TREE		pending	HPC	unknownCYP diagnostic run used ModelFinder, SH-aLRT 1000, UFBoot 1000
 blast		pending	HPC or local
 hmmer		pending	HPC or local
 diamond		pending	HPC or local

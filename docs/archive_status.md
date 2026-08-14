@@ -6,6 +6,9 @@ This document summarizes what is currently archived in GitHub and what remains o
 
 ### RNA-seq / DESeq2
 
+- Sample metadata: `config/rnaseq_samples.tsv` and `config/sample_info.csv`
+- Public upstream wrappers: `scripts/shell/run_fastp_paired_samples.sh`, `scripts/shell/run_trinity_denovo_assembly.sh`, `scripts/shell/run_salmon_quant_samples.sh`, and `scripts/shell/run_interproscan_core.sh`
+- Assembly and Salmon summaries: `results_manifest/RNAseq/`
 - Public gene-level DESeq2 script: `scripts/R/gene_level_deseq2_final.R`
 - DESeq2 calibration and sanitized session information: `environment/`
 - Significant result table: `results_manifest/DESeq2/`
@@ -46,10 +49,9 @@ The following should not be committed directly:
 
 ## Remaining Gaps
 
-1. Public parameterized versions of raw-read trimming, Trinity assembly, and annotation scripts.
-2. Exact command sequence for generating the 91-CYP candidate tables.
-3. A final decision on where to archive figure source files and large alignment inputs.
-4. Final RT-qPCR primer sequences, if they become part of the formal archive.
+1. Exact command sequence for generating the 91-CYP candidate tables.
+2. A final decision on where to archive figure source files and large alignment inputs.
+3. Final RT-qPCR primer sequences, if they become part of the formal archive.
 
 ## Navigation
 
