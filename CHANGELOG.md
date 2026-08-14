@@ -24,6 +24,7 @@ This changelog tracks archive-level changes to the CYP family study repository.
 - GitHub issue templates for archive gaps, external assets, HPC confirmation, and release decisions.
 - Consolidated release blocker tracker for owner decisions, HPC confirmation, and external assets.
 - Release blocker tracker linked to GitHub issues for license, citation, HPC confirmations, external assets, and RT-qPCR primer scope.
+- Archive validator now requires GitHub maintenance files and release-tracking documents.
 
 ### Pending
 

@@ -38,6 +38,8 @@ Public GitHub archive
 -> sensitive text pattern scan
 ```
 
+Required path checks include the main README/docs/manifests plus GitHub maintenance files such as the archive-validation workflow, pull request template, issue templates, and `CONTRIBUTING.md`.
+
 Example:
 
 ```bash
