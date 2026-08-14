@@ -75,6 +75,8 @@ External asset policy and tracking table:
 Version confirmations still requiring HPC are tracked in `environment/version_confirmation_checklist.tsv`.
 
 HPC-side confirmation commands are documented in `docs/hpc_confirmation_runbook.md`.
+The next live HPC evidence-collection pass is summarized in
+`docs/hpc_evidence_collection_checklist.md`.
 
 Release preparation is tracked in:
 

@@ -62,6 +62,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/archive_completeness_audit.md`: README coverage and omission-check summary.
 - `docs/external_archive_policy.md`: policy for raw data, figures, FASTA, alignments, and other external assets.
 - `docs/hpc_confirmation_runbook.md`: final HPC-side version/checksum confirmation workflow.
+- `docs/hpc_evidence_collection_checklist.md`: concise checklist for the next live HPC evidence-collection pass.
 - `docs/release_readiness_checklist.md`: checklist for a first archive release.
 - `docs/release_blockers.md`: remaining release blockers grouped by owner decision, HPC confirmation, and external assets.
 - `docs/release_notes_v0.1_draft.md`: draft release notes for `v0.1-cyp-archive`.

@@ -35,6 +35,7 @@ REQUIRED_PATHS = [
     "docs/release_blockers.md",
     "docs/release_notes_v0.1_draft.md",
     "docs/release_readiness_checklist.md",
+    "docs/hpc_evidence_collection_checklist.md",
     "docs/citation_and_license_decisions.md",
     "docs/citation_cff_draft.md",
     "docs/license_decision_matrix.md",
