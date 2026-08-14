@@ -204,10 +204,19 @@ Limitations:
 Supported by:
 
 - `docs/notes/unknownCYP_final_round_summary.md`
+- `docs/notes/unknownCYP_phylogeny_input_preparation_summary.md`
+- `docs/notes/unknownCYP_IQTREE_run_summary_20260617.md`
 - `results_manifest/unknownCYP/01_all_unknownCYP_review_table.tsv`
 - `results_manifest/unknownCYP/unknownCYP_raw24_phylogeny_inclusion_summary.tsv`
+- `results_manifest/unknownCYP/highTPM_unknownCYP_vs_phylogeny_current_mapping.tsv`
+- `results_manifest/unknownCYP/unknownCYP_integrated_interpretation.with_group.domain_priority.tsv`
+- `results_manifest/unknownCYP/unknownCYP_phylogeny_interpretation.manual_v1.tsv`
 - `logs/unknownCYP/*.log`
 - `logs/unknownCYP/*.iqtree`
+- `scripts/python/clean_unknownCYP_peptideAvailable14_headers.py`
+- `scripts/R/plot_unknownCYP_TPM_ranking_final.R`
+- `scripts/R/plot_unknownCYP_Dan_vs_Mul_scatter.R`
+- `scripts/R/prune_unknownCYP_CYP6_focus_tree.R`
 - `collected_hpc/unknownCYP/scripts/*`
 - `collected_hpc/unknownCYP/tables/*`
 
@@ -217,6 +226,9 @@ Key facts currently supported:
 - 14 gene-level candidates with 17 ORFs were included in the diagnostic tree.
 - IQ-TREE used 106 amino-acid sequences and model `LG+F+R6`.
 - The interpretation distinguishes expression strength from motif/ORF/phylogenetic support.
+- High-TPM candidates were explicitly cross-checked against phylogenetic placement and motif/ORF support.
+- DN598 is currently the strongest recovered unknownCYP candidate because it combines high expression, complete CYP motifs, and CYP6B-like phylogenetic placement.
+- DN1031, DN3806, and DN420 are retained as examples where high TPM alone does not provide enough confidence for CYP candidate prioritization.
 
 Limitations:
 
