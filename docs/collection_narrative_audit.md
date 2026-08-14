@@ -82,20 +82,27 @@ Supported by:
 - `collected_hpc/upstream_RNAseq/gene_level_CYP/CYP_candidates_step1.tsv`
 - `collected_hpc/upstream_RNAseq/gene_level_CYP/CYP_candidates_step2_confirmed.tsv`
 - `collected_hpc/upstream_RNAseq/gene_level_CYP/CYP_confirmed_geneids.txt`
+- `results_manifest/91CYP/CYP_candidates_step1.tsv`
+- `results_manifest/91CYP/CYP_candidates_step2_confirmed.tsv`
+- `results_manifest/91CYP/CYP_confirmed_geneids.txt`
 - `results_manifest/91CYP/CYP_final_summary.tsv`
 - `results_manifest/91CYP/CYP_final_geneids.txt`
 - `results_manifest/91CYP/TPM_gene_CYP_91.tsv`
 - `results_manifest/91CYP/TPM_gene_CYP_91_withMean.tsv`
+- `results_manifest/91CYP/CYP_Bmor_besthit_by_gene.tsv`
+- `results_manifest/91CYP/CYP_confirmed_vs_Bmor_besthit.tsv`
+- `results_manifest/91CYP/CYP_PC1_loading_rank.tsv`
 
 Key facts currently supported:
 
 - CYP candidates were identified using PFAM/InterPro CYP evidence.
 - The 91-CYP discovery layer is represented by gene IDs, summary annotations, and TPM tables.
 - There is evidence of a stepwise process from broader candidates to confirmed CYP entries.
+- B. mori best-hit and PC1 loading tables provide downstream annotation and expression-prioritization context.
 
 Limitations:
 
-- The exact command or script that produced `CYP_candidates_step1.tsv` and `CYP_candidates_step2_confirmed.tsv` has not yet been explicitly identified.
+- The exact original command or script that produced `CYP_candidates_step1.tsv` and `CYP_candidates_step2_confirmed.tsv` has not yet been explicitly identified. The recovered tables and a public reconstruction utility are now archived.
 
 ### 4. CYP Quality Filtering and 36-HQ Layer
 
@@ -237,7 +244,7 @@ Limitations:
 ## Main Gaps Before Final Archival
 
 1. Continue converting recovered shell/Python/R scripts with internal paths into public parameterized versions.
-2. Find the exact script or command sequence that generated the 91-CYP candidate tables.
+2. Find the exact original script or command sequence that generated the 91-CYP candidate tables, if it still exists on HPC.
 3. Decide whether the 91-CYP to 36-HQ transition should be documented as curated review provenance, or continue searching for a fully automated one-command selection script.
 4. Decide whether small final figures and tree/alignment files should be archived in Git or only checksummed externally.
 5. Collect final primer-design outputs if RT-qPCR methods are part of the archive.
@@ -248,7 +255,7 @@ The current collection is strong enough to support the investigation narrative, 
 
 ```text
 DESeq2 final run provenance: mostly resolved by the recovered final script, calibration README, and sessionInfo.
-91-CYP discovery -> 36-HQ filtering provenance: substantially strengthened by review tables, ID audit notes, checksums, restored archives, and downstream scripts.
+91-CYP discovery -> 36-HQ filtering provenance: substantially strengthened by stepwise candidate tables, best-hit support, review tables, ID audit notes, checksums, restored archives, and downstream scripts.
 ```
 
 The remaining caution is that the 36-HQ transition appears to be review/curation based rather than fully represented by one automated end-to-end script. This is acceptable for a reproducible research archive if the review criteria, input tables, output lists, and checksum/audit notes are published clearly.

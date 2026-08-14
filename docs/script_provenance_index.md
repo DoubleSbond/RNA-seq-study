@@ -17,6 +17,12 @@ This index maps the public scripts in `scripts/` to the project workflow blocks 
 |---|---|---|---|
 | InterProScan core annotation | `scripts/shell/run_interproscan_core.sh` | InterProScan executable; peptide FASTA outside Git | InterProScan TSV annotation output outside Git |
 
+## 91-CYP Candidate Discovery
+
+| Workflow block | Public script | Main inputs | Main outputs |
+|---|---|---|---|
+| CYP/P450 evidence filtering | `scripts/python/filter_cyp_candidates_from_annotation.py` | Gene-level annotation TSV with PFAM, InterPro, description, and GO fields | Broad CYP candidate TSV and optional gene ID list |
+
 ## 36-HQ CYP Analysis
 
 | Workflow block | Public script | Main inputs | Main outputs |
@@ -31,7 +37,7 @@ The following recovered scripts exist in local evidence but have not yet all bee
 
 - Raw-read trimming and Trinity assembly shell scripts.
 - InterProScan / PFAM annotation shell scripts.
-- 91-CYP candidate generation commands.
+- The exact original 91-CYP candidate-generation command that emitted the recovered tables.
 - B. mori public RNA-seq processing script.
 
 Some recovered scripts contain internal absolute paths or comments with encoding damage. Those scripts should be published only after conversion to path-parameterized public versions.
