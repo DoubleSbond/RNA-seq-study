@@ -9,6 +9,7 @@ This document summarizes what is currently archived in GitHub and what remains o
 - Sample metadata: `config/rnaseq_samples.tsv` and `config/sample_info.csv`
 - Public upstream wrappers: `scripts/shell/run_fastp_paired_samples.sh`, `scripts/shell/run_trinity_denovo_assembly.sh`, `scripts/shell/run_salmon_quant_samples.sh`, and `scripts/shell/run_interproscan_core.sh`
 - Assembly and Salmon summaries: `results_manifest/RNAseq/`
+- Annotation summary counts: `results_manifest/annotation/`
 - Public gene-level DESeq2 script: `scripts/R/gene_level_deseq2_final.R`
 - DESeq2 calibration and sanitized session information: `environment/`
 - Significant result table: `results_manifest/DESeq2/`
@@ -19,6 +20,7 @@ This document summarizes what is currently archived in GitHub and what remains o
 - Stepwise candidate provenance tables: `results_manifest/91CYP/CYP_candidates_step1.tsv` and `results_manifest/91CYP/CYP_candidates_step2_confirmed.tsv`
 - B. mori best-hit and PC1 loading support tables: `results_manifest/91CYP/`
 - Public reconstruction utility: `scripts/python/filter_cyp_candidates_from_annotation.py`
+- CYP screening peptide/transcript/gene mapping and QC tables: `results_manifest/CYP_screening/`
 
 ### 36-HQ CYP Layer
 

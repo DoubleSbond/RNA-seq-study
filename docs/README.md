@@ -2,9 +2,13 @@
 
 Use this directory for human-readable records of the CYP family study workflow.
 
-Recommended files:
+Key files:
 
-- `workflow.md`: step-by-step analysis workflow.
-- `methods.md`: methods text suitable for manuscript reuse.
-- `provenance.md`: dates, machines, software versions, and data source notes.
-- `decisions.md`: filtering thresholds and rationale.
+- `workflow.md`: reconstructed step-by-step analysis workflow.
+- `archive_status.md`: current public archive state and remaining gaps.
+- `archive_completeness_audit.md`: README coverage and omission-check summary.
+- `collection_narrative_audit.md`: evidence audit for recovered local/HPC material.
+- `script_provenance_index.md`: mapping from public scripts to workflow blocks.
+- `data_versions.md`: project data layer definitions and caution notes.
+- `audit/`: small consistency audit notes.
+- `notes/`: short interpretation notes for specific analysis layers.

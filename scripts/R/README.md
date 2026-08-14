@@ -46,6 +46,23 @@ CYP_high_quality_expression_modules.tsv
 CYP_high_quality_expression_module_summary.tsv
 ```
 
+## Annotation Summaries
+
+- `interpro_annotation_summary.R`
+
+Purpose:
+
+```text
+InterProScan TSV
+-> gene-level PFAM, InterPro, description, and GO summary table
+```
+
+Example:
+
+```bash
+Rscript scripts/R/interpro_annotation_summary.R <interproscan.tsv> <annotation_summary.tsv>
+```
+
 ## 36-HQ CYP PCA
 
 - `PCA_high_quality_CYP_logTPM_zscore_baseR.R`
