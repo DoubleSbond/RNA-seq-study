@@ -6,7 +6,16 @@ This index maps the public scripts in `scripts/` to the project workflow blocks 
 
 | Workflow block | Public script | Main inputs | Main outputs |
 |---|---|---|---|
+| Read trimming | `scripts/shell/run_fastp_paired_samples.sh` | `config/rnaseq_samples.tsv`; paired FASTQ files outside Git | Trimmed paired reads and fastp reports |
+| Trinity assembly | `scripts/shell/run_trinity_denovo_assembly.sh` | `config/rnaseq_samples.tsv`; trimmed paired reads | Trinity transcriptome assembly outside Git |
+| Salmon quantification | `scripts/shell/run_salmon_quant_samples.sh` | `config/rnaseq_samples.tsv`; Salmon index; paired FASTQ files | Per-sample Salmon `quant.sf` directories outside Git |
 | Gene-level DESeq2 | `scripts/R/gene_level_deseq2_final.R` | Salmon `quant.sf` directories; `tx2gene.csv` | Gene-level DESeq2 result tables and diagnostic plots |
+
+## Annotation
+
+| Workflow block | Public script | Main inputs | Main outputs |
+|---|---|---|---|
+| InterProScan core annotation | `scripts/shell/run_interproscan_core.sh` | InterProScan executable; peptide FASTA outside Git | InterProScan TSV annotation output outside Git |
 
 ## 36-HQ CYP Analysis
 

@@ -71,6 +71,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 The current `main` branch includes:
 
 - Gene-level DESeq2 provenance and significant result table.
+- RNA-seq sample metadata, upstream processing wrappers, Trinity assembly QC, and Salmon mapping summaries.
 - 91-CYP discovery-layer summaries and TPM tables.
 - 36-HQ CYP core set, review list, expression modules, PCA tables, and supporting R scripts.
 - RT-qPCR target-design summary tables.
@@ -82,7 +83,6 @@ Large raw reads, assemblies, alignments, raw FASTA files, databases, and bulky l
 
 The main remaining gaps are:
 
-- Convert raw-read trimming, Trinity assembly, and annotation shell scripts into public parameterized scripts.
 - Recover or document the exact 91-CYP candidate generation command sequence.
 - Decide how to archive final figures and large alignment/tree source files outside Git.
 - Add final primer sequences if RT-qPCR primer outputs become part of the formal archive.

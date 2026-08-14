@@ -5,6 +5,7 @@ Use this directory for small, Git-friendly inventories and result summaries.
 Current subdirectories:
 
 - `91CYP/`: 91-CYP discovery-layer gene IDs, summaries, and TPM tables.
+- `RNAseq/`: upstream assembly QC and Salmon quantification summaries.
 - `36HQ/`: 36 high-quality CYP core set, review list, module tables, and PCA tables.
 - `DESeq2/`: gene-level DESeq2 significant result table.
 - `RTqPCR/`: candidate target tables and RT-qPCR design summaries.

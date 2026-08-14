@@ -1,0 +1,15 @@
+metric	value
+trinity_total_transcripts	179924
+trinity_total_assembled_bases	184142904
+trinity_min_length_bp	179
+trinity_max_length_bp	44319
+trinity_mean_length_bp	1023.45
+trinity_N50_bp	2067
+busco_lineage	insecta_odb10
+busco_version	5.4.3
+busco_complete_percent	97.0
+busco_single_copy_percent	36.1
+busco_duplicated_percent	60.9
+busco_fragmented_percent	0.8
+busco_missing_percent	2.2
+busco_total_groups	1367
