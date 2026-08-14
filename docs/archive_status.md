@@ -74,6 +74,8 @@ External asset policy and tracking table:
 
 Version confirmations still requiring HPC are tracked in `environment/version_confirmation_checklist.tsv`.
 
+HPC-side confirmation commands are documented in `docs/hpc_confirmation_runbook.md`.
+
 ## Navigation
 
 - Workflow narrative: `docs/workflow.md`

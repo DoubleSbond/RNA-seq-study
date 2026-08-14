@@ -61,6 +61,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/archive_status.md`: current archive status and remaining gaps.
 - `docs/archive_completeness_audit.md`: README coverage and omission-check summary.
 - `docs/external_archive_policy.md`: policy for raw data, figures, FASTA, alignments, and other external assets.
+- `docs/hpc_confirmation_runbook.md`: final HPC-side version/checksum confirmation workflow.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
 - `docs/collection_narrative_audit.md`: evidence audit for the recovered local/HPC material.
 - `docs/script_provenance_index.md`: public scripts mapped to workflow blocks.
