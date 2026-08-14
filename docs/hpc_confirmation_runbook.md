@@ -5,7 +5,7 @@ This runbook is for the final archive-confirmation pass after logging into the H
 ## Goals
 
 1. Confirm software versions that are still marked as pending.
-2. Record external storage locations, file sizes, and checksums for large assets kept outside Git.
+2. Record sanitized private-data asset locations, file sizes, and checksums for large assets kept outside Git.
 3. Search for the exact original command or script that generated the 91-CYP candidate tables.
 4. Decide whether final RT-qPCR primer sequences should be added as a small Git-tracked table.
 
@@ -26,7 +26,7 @@ environment/software_versions.tsv
 
 Keep tools unavailable on HPC as `not_available` or `not_used`, not blank.
 
-## 2. Collect External Asset Checksums
+## 2. Collect Private Asset Checksums
 
 Create a two-column TSV locally on HPC:
 
@@ -52,6 +52,8 @@ results_manifest/external_assets_manifest.tsv
 ```
 
 If an asset is a directory, checksum either a stable compressed archive or a manifest of all files under it.
+Do not publish real private paths, public accessions, or download URIs unless
+the project owner later approves a data-release plan.
 
 ## 3. Search for the Original 91-CYP Candidate Command
 

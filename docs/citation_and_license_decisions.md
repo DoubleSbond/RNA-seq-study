@@ -44,7 +44,7 @@ Possible split approach:
 ```text
 Software scripts: MIT / Apache-2.0 / BSD-3-Clause
 Documentation and small tables: CC-BY-4.0 or project-specific terms
-Raw/large data: governed by the external archive or data repository terms
+Raw/large data: private local/HPC storage; no public data-release terms in the current phase
 ```
 
 No license file has been added yet because this choice should be made by the project owner.

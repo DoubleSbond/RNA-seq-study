@@ -60,7 +60,7 @@ These are intentionally not committed:
 - Full BLAST, HMMER, InterProScan, and database outputs.
 - Rendered figure files where source tables/scripts are already archived, unless a release policy later requires them.
 - Primer-design FASTA files and large sequence sources.
-- Alignment source FASTA files for phylogeny when large or better suited for external storage.
+- Alignment source FASTA files for phylogeny when large or better kept in private local/HPC storage.
 - Compressed archives such as `.tar.gz` and `.zip`.
 - Credentials, tokens, SSH keys, private config, and internal-only paths.
 

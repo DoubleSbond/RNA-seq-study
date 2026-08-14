@@ -23,7 +23,7 @@ of Git.
 |---|---|---|---|---|
 | Remaining tool versions | [#23](https://github.com/DoubleSbond/RNA-seq-study/issues/23) | `logs/hpc_recovery/hpc_tool_versions_to_confirm.tsv` | `environment/version_confirmation_checklist.tsv`; `environment/software_versions.tsv` | Pending tools have version, source, and status. |
 | Original 91-CYP command sequence | [#24](https://github.com/DoubleSbond/RNA-seq-study/issues/24) | Sanitized notes or script/path evidence | `docs/workflow.md`; `results_manifest/91CYP/README.md` | Either exact command is recovered, or gap is explicitly marked not recovered. |
-| External large-asset checksums | [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | `logs/hpc_recovery/external_asset_checksums.tsv` | `results_manifest/external_assets_manifest.tsv` | Required assets have URI/accession, checksum, size, and version/source notes. |
+| Private large-asset inventory | [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | `logs/hpc_recovery/external_asset_checksums.tsv` or sanitized inventory TSV | `results_manifest/external_assets_manifest.tsv` | Required assets have sanitized ID, storage class, checksum/size when useful, and version/source notes. |
 | RT-qPCR primer release scope | [#26](https://github.com/DoubleSbond/RNA-seq-study/issues/26) | Owner-approved primer table or decision note | `results_manifest/RTqPCR/README.md`; optional small primer TSV | Final primer handling is clear: Git table, release supplement, or deferred/private. |
 | unknownCYP alignment provenance | [#25](https://github.com/DoubleSbond/RNA-seq-study/issues/25) | Alignment/reference checksums and MAFFT version | `results_manifest/external_assets_manifest.tsv`; `docs/notes/unknownCYP_phylogeny_input_preparation_summary.md` | Diagnostic tree inputs can be traced without committing large alignment data. |
 
@@ -37,7 +37,8 @@ bash scripts/shell/collect_hpc_tool_versions.sh \
   logs/hpc_recovery/hpc_tool_versions_to_confirm.tsv
 ```
 
-Prepare a local HPC-only asset path table:
+Prepare a local HPC-only asset path table. Do not publish real paths or data
+access locations:
 
 ```text
 asset_id	path
@@ -78,8 +79,8 @@ Before bringing HPC-derived records into Git:
 
 - Check that every candidate file is small text, not raw data.
 - Scan for private paths, usernames, tokens, private keys, and passwords.
-- Confirm that checksums point to external assets rather than Git-tracked
-  large files.
+- Confirm that checksums point to private local/HPC assets rather than
+  Git-tracked large files.
 - Update `logs/hpc_recovery/public_archive_sha256.tsv` after final edits.
 - Run `python scripts/python/validate_archive.py`.
 
@@ -88,7 +89,7 @@ Before bringing HPC-derived records into Git:
 The final public update from this pass should normally include only:
 
 - Updated version tables under `environment/`.
-- Updated external asset manifest under `results_manifest/`.
+- Updated private data asset manifest under `results_manifest/`.
 - Sanitized notes in `docs/` or `logs/hpc_recovery/`.
 - Optional small RT-qPCR primer table, if approved by the owner.
 - Refreshed `logs/hpc_recovery/public_archive_sha256.tsv`.

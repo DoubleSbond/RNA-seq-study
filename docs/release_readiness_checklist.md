@@ -31,11 +31,11 @@ Use this checklist before creating the first GitHub release, for example `v0.1-c
 
 ## External Assets
 
-- [ ] Decide storage target for raw reads, large FASTA, large alignments, rendered figures, and primer-design FASTA.
+- [x] Confirm experimental data remain private and local/HPC-only for this release.
 - [x] Run first HPC external-asset inventory and selected checksum pass.
 - [x] Fill initial located/checksum statuses in `results_manifest/external_assets_manifest.tsv`.
-- [ ] Add per-file manifests or accession records for large directories where needed.
-- [ ] Add public accession, DOI, GitHub Release asset URL, or safe storage URI where available.
+- [ ] Add private per-file manifests for large directories only if needed for local integrity checks.
+- [ ] Do not add public accession, DOI, GitHub Release asset URL, or data storage URI unless a later owner-approved data-release decision is made.
 
 ## RT-qPCR
 
@@ -48,8 +48,8 @@ Use this checklist before creating the first GitHub release, for example `v0.1-c
 Initial release scope:
 
 ```text
-First public code-and-manifest archive for the CYP family study. Includes RNA-seq processing wrappers,
+First public methods-and-manifest archive for the CYP family study. Includes RNA-seq processing wrappers,
 DESeq2 provenance, CYP discovery/QC layers, 36-HQ CYP analysis, B. mori comparison, RT-qPCR target
 support, unknownCYP recheck, README coverage, checksums, and external-asset/version-confirmation
-tracking. Raw reads, large FASTA, alignments, and bulky intermediate outputs remain outside Git.
+tracking. Raw reads, large FASTA, alignments, and bulky intermediate outputs remain outside Git and are not public in this release.
 ```
