@@ -1,0 +1,241 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    a002 (AVX512, FMA3, 1511 GB RAM)
+Command: iqtree3 -s redo_allQuality/alignment/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.mafft.faa -m LG+F+R6 -B 1000 -alrt 1000 -T AUTO -pre redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6
+Seed:    409621 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun 30 11:53:37 2026
+Kernel:  AVX+FMA - auto-detect threads (192 CPU cores detected)
+
+Reading alignment file redo_allQuality/alignment/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.mafft.faa ... Fasta format detected
+Reading fasta file: done in 0.0358279 secs using 9.107% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0758009 secs using 6992% CPU
+Alignment has 106 sequences with 1524 columns, 829 distinct patterns
+636 parsimony-informative, 102 singleton sites, 786 constant sites
+                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000339985 secs using 1.079e+04% CPU
+   1  PhUNK|TRINITY_DN1069_c0_g1          66.01%    passed     52.00%
+   2  PhUNK|TRINITY_DN17545_c0_g1         75.59%    passed     73.89%
+   3  PhUNK|TRINITY_DN2768_c0_g1          70.28%    passed     32.29%
+   4  PhUNK|TRINITY_DN2810_c0_g1          67.85%    passed     68.14%
+   5  PhUNK|TRINITY_DN30482_c0_g1         83.14%    passed     65.43%
+   6  PhUNK|TRINITY_DN414_c0_g1           66.01%    passed     11.54%
+   7  PhUNK|TRINITY_DN414_c0_g2           65.62%    passed      8.86%
+   8  PhUNK|TRINITY_DN52336_c0_g1         81.63%    passed     62.97%
+   9  PhUNK|TRINITY_DN5504_c1_g2          66.34%    failed      0.07%
+  10  PhUNK|TRINITY_DN598_c0_g1           66.34%    passed     83.41%
+  11  PhUNK|TRINITY_DN6330_c0_g1          65.03%    passed     92.60%
+  12  PhUNK|TRINITY_DN6927_c0_g1          64.83%    failed      2.08%
+  13  PhUNK|TRINITY_DN13006_c0_g1_i1.p1   85.50%    passed     21.09%
+  14  PhUNK|TRINITY_DN521_c0_g3_i1.p1     93.04%    passed     16.82%
+  15  PhUNK|TRINITY_DN521_c0_g3_i2.p1     51.18%    failed      0.00%
+  16  PhUNK|TRINITY_DN521_c0_g3_i2.p2     83.07%    passed     26.76%
+  17  PhUNK|TRINITY_DN521_c0_g3_i3.p1     76.05%    passed      5.21%
+  18  TRINITY_DN10198_c0_g1|Ph36HQ        66.47%    passed     49.11%
+  19  TRINITY_DN10997_c0_g1|Ph36HQ        67.72%    passed     88.67%
+  20  TRINITY_DN127_c0_g1|Ph36HQ          63.78%    passed     92.74%
+  21  TRINITY_DN127_c0_g2|Ph36HQ          64.37%    passed     95.89%
+  22  TRINITY_DN127_c0_g4|Ph36HQ          79.20%    passed     99.53%
+  23  TRINITY_DN127_c0_g5|Ph36HQ          70.34%    passed     95.72%
+  24  TRINITY_DN12904_c0_g1|Ph36HQ        68.90%    passed     96.55%
+  25  TRINITY_DN1316_c0_g1|Ph36HQ         66.21%    failed      4.61%
+  26  TRINITY_DN14631_c0_g1|Ph36HQ        67.52%    passed     36.21%
+  27  TRINITY_DN147_c0_g1|Ph36HQ          66.34%    passed     73.82%
+  28  TRINITY_DN159_c0_g1|Ph36HQ          73.43%    passed     66.53%
+  29  TRINITY_DN1632_c1_g1|Ph36HQ         67.13%    passed     92.52%
+  30  TRINITY_DN169_c0_g1|Ph36HQ          70.14%    passed     61.53%
+  31  TRINITY_DN180_c0_g1|Ph36HQ          66.99%    passed     66.36%
+  32  TRINITY_DN180_c0_g2|Ph36HQ          66.47%    passed     86.11%
+  33  TRINITY_DN18331_c0_g2|Ph36HQ        80.18%    passed     81.76%
+  34  TRINITY_DN1840_c0_g2|Ph36HQ         64.90%    passed     78.01%
+  35  TRINITY_DN241_c0_g2|Ph36HQ          67.06%    passed     79.94%
+  36  TRINITY_DN257_c3_g1|Ph36HQ          67.65%    passed     17.71%
+  37  TRINITY_DN25915_c0_g1|Ph36HQ        66.08%    passed     99.28%
+  38  TRINITY_DN26550_c0_g1|Ph36HQ        78.54%    failed      4.77%
+  39  TRINITY_DN276_c0_g1|Ph36HQ          70.01%    passed     63.02%
+  40  TRINITY_DN276_c0_g2|Ph36HQ          67.06%    passed     95.00%
+  41  TRINITY_DN3078_c0_g2|Ph36HQ         64.63%    passed     24.49%
+  42  TRINITY_DN352_c0_g1|Ph36HQ          66.14%    passed     94.16%
+  43  TRINITY_DN3637_c1_g1|Ph36HQ         67.52%    passed     46.42%
+  44  TRINITY_DN3691_c0_g1|Ph36HQ         67.72%    passed     62.95%
+  45  TRINITY_DN3752_c0_g1|Ph36HQ         65.68%    passed     82.71%
+  46  TRINITY_DN3972_c1_g1|Ph36HQ         66.73%    passed     65.37%
+  47  TRINITY_DN41557_c0_g1|Ph36HQ        65.03%    passed     40.98%
+  48  TRINITY_DN44701_c0_g1|Ph36HQ        63.52%    passed     70.99%
+  49  TRINITY_DN48582_c0_g1|Ph36HQ        67.39%    passed     14.42%
+  50  TRINITY_DN5241_c0_g1|Ph36HQ         67.39%    passed     39.53%
+  51  TRINITY_DN59296_c0_g1|Ph36HQ        68.90%    passed     61.63%
+  52  TRINITY_DN9010_c0_g1|Ph36HQ         66.93%    passed     56.11%
+  53  TRINITY_DN946_c0_g1|Ph36HQ          67.19%    passed     74.50%
+  54  Bmori|NP_001103833.1                66.99%    passed     63.20%
+  55  Bmori|NP_001104826.1                67.45%    passed     59.80%
+  56  Bmori|NP_001106222.1                64.70%    passed     78.44%
+  57  Bmori|NP_001106223.1                63.52%    passed     86.96%
+  58  Bmori|NP_001106226.1                66.86%    passed     92.76%
+  59  Bmori|NP_001108340.1                67.19%    passed     95.41%
+  60  Bmori|NP_001108343.1                67.26%    passed     76.12%
+  61  Bmori|NP_001135414.1                65.68%    passed     55.96%
+  62  Bmori|NP_001266295.1                66.14%    passed     78.78%
+  63  Bmori|NP_001266314.1                67.98%    passed     70.21%
+  64  Bmori|NP_001266427.1                66.67%    passed     76.77%
+  65  Bmori|NP_001266437.1                66.60%    passed     99.07%
+  66  Bmori|NP_001274759.1                64.57%    failed      1.42%
+  67  Bmori|NP_001296520.1                67.78%    failed      3.15%
+  68  Bmori|XP_004927968.1                66.40%    passed     19.76%
+  69  Bmori|XP_004932126.1                66.73%    passed     82.43%
+  70  Bmori|XP_012545238.2                66.47%    passed     55.81%
+  71  Bmori|XP_012552063.3                65.62%    passed     51.76%
+  72  Bmori|XP_021208040.1                67.32%    passed     85.42%
+  73  Bmori|XP_021208861.2                65.35%    passed     18.39%
+  74  Bmori|XP_037875026.1                66.67%    passed     29.22%
+  75  Bmori|XP_062526654.1                65.03%    passed     68.81%
+  76  Bmori|XP_062530757.1                67.52%    passed     40.55%
+  77  Bmori|XP_062530768.1                67.26%    passed      7.35%
+  78  Bmori|XP_062532223.1                67.52%    passed     19.75%
+  79  Spodo|XP_035428975.2                67.13%    passed     88.36%
+  80  Spodo|XP_035430624.2                67.52%    passed     58.91%
+  81  Spodo|XP_035430751.1                67.45%    passed     37.98%
+  82  Spodo|XP_035431180.1                63.45%    passed     68.55%
+  83  Spodo|XP_035436115.2                64.63%    passed     44.04%
+  84  Spodo|XP_035436192.2                67.52%    passed     29.10%
+  85  Spodo|XP_035436925.2                66.08%    passed     37.82%
+  86  Spodo|XP_035439389.2                66.54%    passed     75.44%
+  87  Spodo|XP_035442125.2                67.26%    passed     99.68%
+  88  Spodo|XP_035447007.2                66.93%    passed     78.60%
+  89  Spodo|XP_035447140.2                67.85%    passed     48.55%
+  90  Spodo|XP_035447568.2                67.19%    passed     10.10%
+  91  Spodo|XP_035447638.2                67.13%    passed     47.05%
+  92  Spodo|XP_035455539.2                66.27%    passed     50.67%
+  93  Spodo|XP_035458986.2                66.08%    passed     91.58%
+  94  Spodo|XP_035459320.2                66.47%    passed     94.13%
+  95  Spodo|XP_050552000.1                64.30%    passed      8.90%
+  96  Spodo|XP_050552001.1                65.29%    passed     44.04%
+  97  Spodo|XP_050552985.1                65.49%    passed     56.14%
+  98  Spodo|XP_050552986.1                65.55%    passed     72.28%
+  99  Spodo|XP_050553196.1                66.99%    passed     83.06%
+ 100  Spodo|XP_050553870.1                37.40%    failed      2.23%
+ 101  Spodo|XP_050559013.1                66.01%    passed     87.62%
+ 102  Spodo|XP_050561169.1                66.67%    passed     87.84%
+ 103  Spodo|XP_050561170.1                67.13%    passed     93.31%
+ 104  Spodo|XP_050561171.1                67.72%    passed     85.33%
+ 105  Spodo|XP_050562229.1                66.47%    passed     78.08%
+ 106  Spodo|XP_050563797.1                67.52%    passed     65.35%
+WARNING: 105 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                               67.66%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00483584 secs using 1.094e+04% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.060 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 409621)...
+
+NOTE: 86 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 192 CPU cores
+Increase to 10 rounds for branch lengths
+77 trees examined
+Threads: 1 / Time: 194.222 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -116883
+Threads: 2 / Time: 112.689 sec / Speedup: 1.724 / Efficiency: 86% / LogL: -116883
+Threads: 3 / Time: 167.235 sec / Speedup: 1.161 / Efficiency: 39% / LogL: -116883
+Determining AUTO threadcount: done in 474.173 secs using 197.3% CPU
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -80380.674
+2. Current log-likelihood: -76709.175
+3. Current log-likelihood: -76675.078
+4. Current log-likelihood: -76673.017
+5. Current log-likelihood: -76670.782
+6. Current log-likelihood: -76668.408
+7. Current log-likelihood: -76666.225
+8. Current log-likelihood: -76664.645
+9. Current log-likelihood: -76663.599
+10. Current log-likelihood: -76663.021
+11. Current log-likelihood: -76662.693
+12. Current log-likelihood: -76662.517
+Optimal log-likelihood: -76662.430
+Site proportion and rates:  (0.029,0.062) (0.042,0.258) (0.185,0.460) (0.264,0.779) (0.316,1.211) (0.164,1.913)
+Parameters optimization took 12 rounds (26.291 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.685444 secs using 199.4% CPU
+Computing ML distances took 0.698000 sec (of wall-clock time) 1.378939 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000533104 secs using 289.4% CPU
+Constructing RapidNJ tree: done in 0.00440788 secs using 287.3% CPU
+Computing RapidNJ tree took 0.012802 sec (of wall-clock time) 0.028259 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -76702.306
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.361 second
+Computing log-likelihood of 98 initial trees ... 18.082 seconds
+Current best score: -76662.430
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -76596.038
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -76591.900
+Iteration 10 / LogL: -76602.624 / Time: 0h:9m:24s
+Iteration 20 / LogL: -76603.378 / Time: 0h:9m:59s
+Finish initializing candidate tree set (13)
+Current best tree score: -76591.900 / CPU time: 96.926
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -76591.961 / Time: 0h:10m:39s (0h:27m:33s left)
+Iteration 40 / LogL: -76592.608 / Time: 0h:11m:16s (0h:18m:47s left)
+Iteration 50 / LogL: -76593.017 / Time: 0h:11m:54s (0h:13m:21s left)
+Log-likelihood cutoff on original alignment: -76629.984
+Iteration 60 / LogL: -76593.569 / Time: 0h:12m:34s (0h:9m:35s left)
+Iteration 70 / LogL: -76606.837 / Time: 0h:13m:14s (0h:6m:42s left)
+Iteration 80 / LogL: -76592.368 / Time: 0h:13m:54s (0h:4m:24s left)
+Iteration 90 / LogL: -76595.442 / Time: 0h:14m:34s (0h:2m:27s left)
+Iteration 100 / LogL: -76592.171 / Time: 0h:15m:13s (0h:0m:46s left)
+Log-likelihood cutoff on original alignment: -76629.984
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 106 ITERATIONS / Time: 0h:15m:35s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -76591.900
+2. Current log-likelihood: -76591.889
+Optimal log-likelihood: -76591.881
+Site proportion and rates:  (0.028,0.062) (0.044,0.255) (0.192,0.474) (0.258,0.784) (0.311,1.215) (0.166,1.899)
+Parameters optimization took 2 rounds (3.984 sec)
+BEST SCORE FOUND : -76591.881
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+1.801 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.splits.nex
+Total tree length: 62.372
+
+Total number of iterations: 106
+CPU time used for tree search: 859.618 sec (0h:14m:19s)
+Wall-clock time used for tree search: 432.876 sec (0h:7m:12s)
+Total CPU time used: 1887.438 sec (0h:31m:27s)
+Total wall-clock time used: 941.726 sec (0h:15m:41s)
+
+Computing bootstrap consensus tree...
+Reading input file redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.splits.nex...
+106 taxa and 351 splits.
+Consensus tree written to redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.contree
+Reading input trees file redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.contree
+Log-likelihood of consensus tree: -76591.880
+
+Analysis results written to: 
+  IQ-TREE report:                redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.iqtree
+  Maximum-likelihood tree:       redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.treefile
+  Likelihood distances:          redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.splits.nex
+  Consensus tree:                redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.contree
+  Screen log file:               redo_allQuality/phylogeny/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.LGFR6.log
+
+Date and Time: Tue Jun 30 12:09:21 2026

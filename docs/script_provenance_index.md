@@ -28,7 +28,7 @@ This index maps the public scripts in `scripts/` to the project workflow blocks 
 
 | Workflow block | Public script | Main inputs | Main outputs |
 |---|---|---|---|
-| Expression module classification | `scripts/R/classify_high_quality_CYP_modules_baseR.R` | `TPM_gene_CYP_final_withMeanSD.tsv` | `CYP_high_quality_expression_modules.tsv`; module summary |
+| Expression module classification | `scripts/R/classify_high_quality_CYP_modules_baseR.R` | `results_manifest/36HQ/CYP_high_quality_36_master_summary.tsv` | `CYP_high_quality_expression_modules.tsv`; module summary |
 | PCA coordinates and variance | `scripts/R/PCA_high_quality_CYP_logTPM_zscore_baseR.R` | `TPM_high_quality_CYP_for_PCA.tsv` | PCA coordinate and variance tables; PCA plot |
 | PCA plotting | `scripts/R/plot_FigureA_PCA_highQuality_CYP_baseR.R` | PCA coordinate and variance tables | Figure A PCA PNG/PDF |
 | Module table annotation | `scripts/R/merge_CYP_modules_with_annotation_baseR.R` | CYP module table; CYP final summary | Annotated CYP module table |
