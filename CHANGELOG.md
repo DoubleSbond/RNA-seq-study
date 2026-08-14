@@ -17,6 +17,7 @@ This changelog tracks archive-level changes to the CYP family study repository.
 - unknownCYP review, peptide-availability, diagnostic tree, IQ-TREE report, and supporting scripts.
 - External asset policy, external asset manifest, version confirmation checklist, and HPC confirmation runbook.
 - README coverage and archive completeness audit.
+- Public archive validation script and GitHub Actions archive-validation workflow.
 
 ### Pending
 

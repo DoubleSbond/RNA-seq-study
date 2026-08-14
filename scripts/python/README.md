@@ -45,6 +45,8 @@ python scripts/python/validate_archive.py
 
 This script is intended for local/GitHub-side archive QA. It does not require HPC access and does not inspect raw data outside Git.
 
+The GitHub Actions workflow `.github/workflows/archive-validation.yml` runs the same check on pull requests and on pushes to `main`.
+
 ## 91-CYP Candidate Discovery
 
 - `filter_cyp_candidates_from_annotation.py`
