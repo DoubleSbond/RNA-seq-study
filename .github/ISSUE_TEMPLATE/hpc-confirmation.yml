@@ -1,0 +1,46 @@
+name: HPC confirmation
+description: Track a version, checksum, command, or provenance item that requires HPC access.
+title: "[HPC confirmation]: "
+labels:
+  - archive
+  - hpc
+body:
+  - type: dropdown
+    id: confirmation_type
+    attributes:
+      label: Confirmation type
+      options:
+        - software version
+        - checksum
+        - original command/script
+        - external asset location
+        - RT-qPCR source material
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: target
+    attributes:
+      label: Target
+      description: What needs to be confirmed?
+      placeholder: "fastp version; original 91-CYP command; external checksum for MAFFT alignment"
+    validations:
+      required: true
+  - type: textarea
+    id: planned_command
+    attributes:
+      label: Planned command or source
+      description: Use placeholders for private HPC paths.
+      placeholder: "See docs/hpc_confirmation_runbook.md"
+  - type: textarea
+    id: update_targets
+    attributes:
+      label: Files to update after confirmation
+      placeholder: "environment/version_confirmation_checklist.tsv; environment/software_versions.tsv"
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-safety checks
+      options:
+        - label: Do not paste private paths, hostnames, usernames, tokens, or SSH details into the public issue.
+        - label: Sanitize any recovered command before committing it.

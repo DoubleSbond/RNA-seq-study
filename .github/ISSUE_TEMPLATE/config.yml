@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Archive documentation
+    url: https://github.com/DoubleSbond/RNA-seq-study/tree/main/docs
+    about: Start with the workflow, archive status, and release readiness documents.
