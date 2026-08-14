@@ -1,5 +1,5 @@
 category	file_name	description	location	tracked_in_git	notes
-raw_data		Raw RNA-seq reads	external	no	Record accession, HPC path, or archive DOI.
+raw_data		Raw RNA-seq reads	private_external	no	Experimental data remain local/HPC-only; record only sanitized private inventory metadata.
 assembly		Transcriptome assembly	external	no	Large FASTA files should remain outside Git.
 cyp_candidates		CYP candidate table	results_manifest/	yes	Add final small TSV/CSV summary when available.
 annotation		Annotation summary	results_manifest/	yes	Add final small TSV/CSV summary when available.

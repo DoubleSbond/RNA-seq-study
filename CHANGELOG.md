@@ -34,6 +34,6 @@ This changelog tracks archive-level changes to the CYP family study repository.
 ### Pending
 
 - Confirm remaining HPC-side software versions.
-- Fill external storage URIs and checksums for raw/large assets.
+- Maintain sanitized private-data asset inventories for raw/large assets.
 - Decide whether final RT-qPCR primer sequences belong in the Git archive.
 - Decide repository license and formal citation metadata before first release.

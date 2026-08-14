@@ -61,7 +61,7 @@ Internal-only absolute paths unless explicitly approved
 2. Generate checksums for every recovered file.
 3. Commit only small tables and scripts that are safe for a public repository.
 4. Keep FASTA, large figures, archives, and raw RNA-seq data outside Git unless explicitly approved.
-5. Record external storage locations and checksums in `results_manifest/`.
+5. Record sanitized private-data asset IDs, storage class, sizes, and checksums in `results_manifest/`.
 
 ## Example Sanitized Download Pattern
 

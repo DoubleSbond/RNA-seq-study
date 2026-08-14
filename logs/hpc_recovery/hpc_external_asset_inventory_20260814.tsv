@@ -1,5 +1,5 @@
 asset_id	path_type	path_sanitized	bytes	sha256	status	notes
-raw_reads	directory	<HPC_PROJECT_ROOT>/01_RawData/Rawdata_gz	35006094704		needs_manifest	12 files; primary compressed Ph RNA-seq raw reads; per-file checksums or public accessions still needed.
+raw_reads	directory	<HPC_PROJECT_ROOT>/01_RawData/Rawdata_gz	35006094704		needs_manifest	12 files; primary compressed Ph RNA-seq raw reads; per-file checksums are optional for local integrity; public accessions are not included in the current private-data phase.
 trimmed_reads	directory	<HPC_PROJECT_ROOT>/01_RawData/TrimmedData	188147060654		needs_manifest	12 files; fastp-trimmed Ph RNA-seq reads; large uncompressed FASTQ and regenerable from raw reads.
 trinity_assembly	file	<HPC_PROJECT_ROOT>/03_assembly/trinity_assembly/trinity_out.Trinity.fasta	204375660	9e63b63e4d75c6bbbed63d1477ad6c3fb012ce1f44f4d2a5cdb849d2555501bb	ok	Full Trinity transcriptome assembly FASTA.
 trinity_archive	file	<HPC_PROJECT_ROOT>/03_assembly/trinity_results.tar.gz	84440297	4c111af0c11e93d08bc4ab1bdaf28c2b44ff16e11ca265d7bf4579de7058c6b1	ok	Existing Trinity result archive candidate.

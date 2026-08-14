@@ -54,5 +54,5 @@ Date checked: 2026-08-04
 
 ## Remaining Inputs for Reproducible Archive Completion
 
-- Any HPC project path, accession, DOI, or storage location safe to record in `data/README.md`.
+- Any sanitized HPC project placeholder, private-data asset ID, checksum, or local integrity note safe to record in `data/README.md`.
 - Exact command histories, scripts, and small result summaries to add under the archive structure.

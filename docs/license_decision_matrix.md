@@ -23,7 +23,7 @@ No formal license has been added yet. Until a license is chosen, default copyrig
 | BSD-3-Clause | Scripts and small utilities | Permissive, academic-style, includes non-endorsement clause. |
 | Apache-2.0 | Scripts and utilities | Permissive with explicit patent language; longer text. |
 | CC-BY-4.0 | Documentation and small data/manifest tables | Good for attribution-based reuse of non-software materials. |
-| Data repository terms | Raw reads, large FASTA, alignments, external assets | Governed by SRA/Zenodo/Figshare/institutional archive terms. |
+| Private data terms | Raw reads, large FASTA, alignments, private data assets | Experimental data remain in local/HPC storage and are not publicly licensed in the current methods-only archive. |
 
 ## Recommended Draft Position
 

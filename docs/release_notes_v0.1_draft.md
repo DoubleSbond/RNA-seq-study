@@ -1,22 +1,27 @@
-# Draft Release Notes: v0.1-cyp-archive
+# Draft Release Notes: v0.1-cyp-methods-archive
 
-This is a draft note for the first public archive release. It should be reviewed before creating a formal GitHub Release.
+This is a draft note for the first public methods archive release. It should be
+reviewed before creating a formal GitHub Release. Experimental data are not
+public in the current project phase.
 
 ## Proposed Tag
 
 ```text
-v0.1-cyp-archive
+v0.1-cyp-methods-archive
 ```
 
 ## Proposed Release Title
 
 ```text
-First public CYP family study reproducibility archive
+First public CYP family study methods archive
 ```
 
 ## Scope
 
-This release would provide the first GitHub-suitable code-and-manifest archive for the RNA-seq and CYP family study. It focuses on reproducible scripts, lightweight result tables, curated manifests, and human-readable provenance records.
+This release would provide the first GitHub-suitable methods archive for the
+RNA-seq and CYP family study. It focuses on workflow architecture, reusable
+scripts, lightweight non-sensitive summaries, curated manifests, and
+human-readable provenance records. Raw experimental data remain local/HPC-only.
 
 ## Included
 
@@ -29,7 +34,7 @@ This release would provide the first GitHub-suitable code-and-manifest archive f
 - Public B. mori midgut CYP TPM tables, Figure1 Ph-Bm overview inputs, and gene-ordering script.
 - RT-qPCR target mapping, sequence-length index, B. mori multi-isoform QC, and Primer3 candidate summaries.
 - unknownCYP review tables, peptide-availability status, high-TPM versus phylogeny mapping, integrated interpretation table, diagnostic tree, IQ-TREE report/log, and supporting scripts.
-- External asset policy, external asset manifest, version-confirmation checklist, HPC confirmation runbook, public checksums, and archive validation script.
+- Private data asset policy, sanitized asset manifest, version-confirmation checklist, HPC confirmation runbook, public checksums, and archive validation script.
 - GitHub Actions workflow for automatic archive validation.
 
 ## Not Included
@@ -42,6 +47,7 @@ The following remain outside Git by design:
 - Full BLAST, HMMER, DIAMOND, InterProScan, and database outputs.
 - Large alignments, raw phylogeny FASTA inputs, and large figure source assets.
 - Primer-design FASTA files and bulky sequence sources.
+- Public download locations, public accessions, or public release assets for experimental data.
 - Credentials, tokens, SSH keys, private config, and internal-only absolute paths.
 
 ## Reproducibility Notes
@@ -56,8 +62,8 @@ The validator checks required paths, the public SHA256 manifest, tracked large/r
 
 ## Known Gaps
 
-- Remaining HPC-side software versions still need confirmation in `environment/version_confirmation_checklist.tsv`.
-- External storage URIs/checksums still need to be filled in `results_manifest/external_assets_manifest.tsv`.
+- Experimental data are intentionally private and remain local/HPC-only.
+- Public data accessions or public storage URIs are intentionally not included.
 - The exact original 91-CYP candidate-generation command sequence has not yet been recovered, although the restored candidate tables and public reconstruction utility are archived.
 - Final RT-qPCR primer sequences should be added only if they become part of the formal release.
 - License and citation metadata remain pending owner decision.
@@ -68,12 +74,12 @@ The validator checks required paths, the public SHA256 manifest, tracked large/r
 - Confirm `CITATION.cff` metadata and author order.
 - Decide whether final primer sequences belong in this Git release.
 - Decide whether any small rendered figures should be attached as GitHub Release assets.
-- Confirm external asset storage locations or accessions for large/raw assets.
+- Confirm that experimental data remain private for this release.
 
 ## Suggested Release Body
 
 ```text
-This first public archive release captures the GitHub-suitable reproducibility layer for the RNA-seq and CYP family study. It includes processing wrappers, DESeq2 provenance, CYP discovery and screening tables, the 36-HQ CYP analysis layer, B. mori comparison assets, RT-qPCR target-design summaries, unknownCYP recheck material, public checksums, and archive-validation tooling.
+This first public methods archive release captures the GitHub-suitable reproducibility layer for the RNA-seq and CYP family study. It includes processing wrappers, DESeq2 provenance, CYP discovery and screening tables, the 36-HQ CYP analysis layer, B. mori comparison assets, RT-qPCR target-design summaries, unknownCYP recheck material, public checksums, and archive-validation tooling.
 
-Raw sequencing reads, full assemblies, bulky search outputs, large alignments, and other large intermediates remain outside Git by design and should be referenced through the external asset manifest once public accessions or storage URIs are finalized.
+Raw sequencing reads, full assemblies, bulky search outputs, large alignments, and other large intermediates remain outside Git by design. They are retained in private local/HPC storage and are represented in GitHub only through sanitized inventory records where useful.
 ```

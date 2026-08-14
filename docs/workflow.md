@@ -376,6 +376,6 @@ These CYPs may participate in the metabolic response to distinct phytochemical e
 - [x] Archive unknownCYP raw24 review, peptide-availability, diagnostic tree, IQ-TREE report, and supporting scripts.
 - [x] Record checksums for archived small result files.
 - [ ] Recover exact original 91-CYP candidate-generation command, if it still exists on HPC.
-- [x] Add external storage policy and manifest for rendered figures, large alignments, and source FASTA files.
-- [ ] Fill final external storage URIs/checksums in `results_manifest/external_assets_manifest.tsv`.
+- [x] Add private data asset policy and manifest for rendered figures, large alignments, and source FASTA files.
+- [ ] Maintain sanitized private-data inventory/checksum records in `results_manifest/external_assets_manifest.tsv`; do not publish experimental data access locations in the current phase.
 - [ ] Add final RT-qPCR primer sequences if they become part of the formal archive.

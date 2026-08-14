@@ -1,20 +1,29 @@
-# External Archive Policy
+# Private Data Asset Policy
 
-This project keeps GitHub focused on code, small result tables, manifests, and human-readable provenance. Large raw data and bulky intermediate outputs should be stored outside Git and referenced from manifest files.
+This project keeps GitHub focused on methods: workflow architecture, scripts,
+configuration patterns, small non-sensitive summaries, manifests, and
+human-readable provenance. Experimental data are not public at this stage.
+Large raw data and bulky intermediate outputs should remain in local/HPC
+storage and be referenced only through sanitized inventory records.
 
-## Preferred Storage Targets
+## Current Storage Rule
 
-Use the most durable available location for each asset:
+For the current archive phase:
 
-- Public sequencing archives such as NCBI SRA for raw RNA-seq reads.
-- Zenodo, Figshare, institutional repositories, or GitHub Releases for release-ready supplemental assets.
-- Managed HPC or object storage for reproducible but bulky intermediate files.
+- Do not publish raw reads, assemblies, large FASTA/alignment files, or bulky
+  intermediate outputs.
+- Do not add public accessions, DOIs, or storage URIs unless the project owner
+  explicitly approves data release later.
+- Keep experimental data in local/HPC storage.
+- GitHub may record sanitized asset IDs, file counts, byte sizes, checksums for
+  selected files, and placeholder paths such as `<HPC_PROJECT_ROOT>`.
 
 ## Required Metadata
 
-Every external asset should eventually have:
+Every private data asset record should have, when available:
 
-- Stable URI, accession, DOI, or storage path safe to publish.
+- Sanitized asset ID.
+- Private/local storage class, without exposing a private absolute path.
 - SHA256 or MD5 checksum.
 - Byte size.
 - Creation date or recovery date.
@@ -45,10 +54,14 @@ Keep outside Git:
 
 ## Current Release Recommendation
 
-For the first GitHub archive release, attach only if needed:
+For the first GitHub methods archive release:
 
-- Final rendered manuscript figures as release assets.
-- RT-qPCR final primer table if finalized and small.
-- A compressed external data manifest containing checksums and public accessions, not raw private data.
+- Do not attach experimental data files as GitHub Release assets.
+- Do not attach raw reads, assemblies, alignments, primer-design FASTA, or bulky
+  search outputs.
+- Include only methods files, reusable scripts, sanitized logs, and small
+  non-sensitive summaries.
+- If a small final RT-qPCR primer table or figure is considered later, treat it
+  as a separate owner decision before adding it.
 
 Do not move raw sequencing data or bulky HPC intermediates into Git.

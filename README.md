@@ -12,7 +12,10 @@ The archive is intended to preserve:
 - Small result manifests and tabular summaries suitable for GitHub.
 - Logs that document how analyses were run.
 
-Large raw data and bulky intermediate outputs should not be committed directly. Store them in institutional storage, HPC project storage, object storage, Zenodo, Figshare, NCBI SRA, or another durable archive, and record access paths or accession identifiers in `data/README.md` and `results_manifest/`.
+Large raw data and bulky intermediate outputs should not be committed directly.
+For the current project phase, experimental data remain private in local/HPC
+storage. GitHub records only method files and sanitized asset inventories, not
+public data accessions or data-release locations.
 
 ## Repository Layout
 
@@ -111,6 +114,6 @@ Large raw reads, assemblies, alignments, raw FASTA files, databases, and bulky l
 The main remaining gaps are:
 
 - Recover the exact original 91-CYP candidate generation command sequence, if it still exists on HPC. The current archive already includes the recovered candidate tables and a public reconstruction utility.
-- Fill external storage locations/checksums in `results_manifest/external_assets_manifest.tsv` for final figures and large alignment/tree source files.
+- Maintain sanitized private asset inventories in `results_manifest/external_assets_manifest.tsv`; do not publish experimental data locations unless a later data-release decision is made.
 - Add final primer sequences if RT-qPCR primer outputs become part of the formal archive.
 - Confirm citation metadata and repository license before creating a formal release.

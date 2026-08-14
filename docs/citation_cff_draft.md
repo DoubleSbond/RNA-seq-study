@@ -15,7 +15,7 @@ This file is a draft input sheet for a future `CITATION.cff`. It is not a formal
 | Affiliation | `<PUBLIC_AFFILIATION_IF_APPROVED>` | Optional. |
 | Contact email | `<PUBLIC_CONTACT_EMAIL_IF_APPROVED>` | Optional; do not publish private email without approval. |
 | Related DOI | `<MANUSCRIPT_OR_DATASET_DOI_IF_AVAILABLE>` | Optional. |
-| Related accession | `<SRA_OR_EXTERNAL_ARCHIVE_ACCESSION_IF_AVAILABLE>` | Optional. |
+| Related accession | `<NOT_INCLUDED_FOR_CURRENT_PRIVATE_DATA_PHASE>` | Experimental data are not public in the current phase. |
 | License | `<LICENSE_AFTER_OWNER_DECISION>` | Fill after issue #21 is resolved. |
 
 ## Draft YAML Shape
@@ -56,7 +56,7 @@ preferred-citation:
 - [ ] Owner confirms author names and order.
 - [ ] Owner confirms whether ORCID IDs should be included.
 - [ ] Owner confirms public affiliation/contact fields, if any.
-- [ ] Owner confirms related DOI/accession fields, if any.
+- [ ] Owner confirms that no experimental-data DOI/accession is included for the current methods-only release.
 - [ ] License decision has been made.
 - [ ] `CITATION.cff` is generated from this draft.
 - [ ] `python scripts/python/update_public_checksums.py` is run.

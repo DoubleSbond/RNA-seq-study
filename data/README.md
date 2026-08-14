@@ -2,14 +2,15 @@
 
 This directory intentionally tracks documentation only.
 
-Do not commit large raw data or bulky intermediates to GitHub. Instead, record where data can be obtained and how integrity was checked.
+Do not commit large raw data or bulky intermediates to GitHub. At this stage,
+experimental data are private and should remain in local/HPC storage.
 
 Recommended records:
 
-- Public accession identifiers, such as NCBI SRA accessions.
-- External archive DOI or persistent URL.
-- HPC or institutional storage path, if the repository is private and such paths are safe to share.
-- File names, sizes, and checksums in `results_manifest/checksums.tsv`.
+- Sanitized asset IDs.
+- File names or directory roles when safe.
+- Byte sizes and checksums when useful for local integrity checks.
+- Placeholder paths such as `<HPC_PROJECT_ROOT>`, not real private paths.
 
 Files commonly kept outside Git:
 
