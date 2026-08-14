@@ -60,6 +60,7 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 
 - `docs/archive_status.md`: current archive status and remaining gaps.
 - `docs/archive_completeness_audit.md`: README coverage and omission-check summary.
+- `docs/external_archive_policy.md`: policy for raw data, figures, FASTA, alignments, and other external assets.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
 - `docs/collection_narrative_audit.md`: evidence audit for the recovered local/HPC material.
 - `docs/script_provenance_index.md`: public scripts mapped to workflow blocks.
@@ -88,5 +89,5 @@ Large raw reads, assemblies, alignments, raw FASTA files, databases, and bulky l
 The main remaining gaps are:
 
 - Recover the exact original 91-CYP candidate generation command sequence, if it still exists on HPC. The current archive already includes the recovered candidate tables and a public reconstruction utility.
-- Decide how to archive final figures and large alignment/tree source files outside Git.
+- Fill external storage locations/checksums in `results_manifest/external_assets_manifest.tsv` for final figures and large alignment/tree source files.
 - Add final primer sequences if RT-qPCR primer outputs become part of the formal archive.

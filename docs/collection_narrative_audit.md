@@ -274,9 +274,10 @@ Limitations:
 
 ## Main Gaps Before Final Archival
 
-1. Continue converting recovered shell/Python/R scripts with internal paths into public parameterized versions.
+1. Continue converting any newly recovered shell/Python/R scripts with internal paths into public parameterized versions.
 2. Find the exact original script or command sequence that generated the 91-CYP candidate tables, if it still exists on HPC.
-3. Decide whether the 91-CYP to 36-HQ transition should be documented as curated review provenance, or continue searching for a fully automated one-command selection script.
+3. Fill external storage URIs and checksums in `results_manifest/external_assets_manifest.tsv` for large/raw assets that remain outside Git.
+4. Confirm pending software versions using `environment/version_confirmation_checklist.tsv` after logging into HPC.
 4. Decide whether small final figures and tree/alignment files should be archived in Git or only checksummed externally.
 5. Collect final primer-design outputs if RT-qPCR methods are part of the archive.
 
