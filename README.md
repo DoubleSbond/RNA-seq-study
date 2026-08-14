@@ -77,10 +77,11 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 Run the local archive validator before release-oriented updates:
 
 ```bash
+python scripts/python/update_public_checksums.py
 python scripts/python/validate_archive.py
 ```
 
-The validator checks required paths, public SHA256 entries, tracked large/raw-data file patterns, and common sensitive text patterns. It does not require HPC access.
+The checksum updater refreshes the public SHA256 manifest for Git-tracked public files. The validator then checks required paths, public SHA256 entries, tracked large/raw-data file patterns, and common sensitive text patterns. Neither command requires HPC access.
 
 The same validator is also run by GitHub Actions for pushes to `main` and pull requests.
 

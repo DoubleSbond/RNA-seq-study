@@ -26,6 +26,7 @@ This script supports the diagnostic unknownCYP phylogeny workflow.
 ## Archive Validation
 
 - `validate_archive.py`
+- `update_public_checksums.py`
 
 Purpose:
 
@@ -46,6 +47,15 @@ python scripts/python/validate_archive.py
 This script is intended for local/GitHub-side archive QA. It does not require HPC access and does not inspect raw data outside Git.
 
 The GitHub Actions workflow `.github/workflows/archive-validation.yml` runs the same check on pull requests and on pushes to `main`.
+
+Use `update_public_checksums.py` after changing Git-tracked archive files:
+
+```bash
+python scripts/python/update_public_checksums.py
+python scripts/python/validate_archive.py
+```
+
+The updater refreshes `logs/hpc_recovery/public_archive_sha256.tsv` for Git-tracked public files and intentionally skips the checksum manifest itself.
 
 ## 91-CYP Candidate Discovery
 
