@@ -1,0 +1,16 @@
+asset_id	path_type	path_sanitized	bytes	sha256	status	notes
+raw_reads	directory	<HPC_PROJECT_ROOT>/01_RawData/Rawdata_gz	35006094704		needs_manifest	12 files; primary compressed Ph RNA-seq raw reads; per-file checksums or public accessions still needed.
+trimmed_reads	directory	<HPC_PROJECT_ROOT>/01_RawData/TrimmedData	188147060654		needs_manifest	12 files; fastp-trimmed Ph RNA-seq reads; large uncompressed FASTQ and regenerable from raw reads.
+trinity_assembly	file	<HPC_PROJECT_ROOT>/03_assembly/trinity_assembly/trinity_out.Trinity.fasta	204375660	9e63b63e4d75c6bbbed63d1477ad6c3fb012ce1f44f4d2a5cdb849d2555501bb	ok	Full Trinity transcriptome assembly FASTA.
+trinity_archive	file	<HPC_PROJECT_ROOT>/03_assembly/trinity_results.tar.gz	84440297	4c111af0c11e93d08bc4ab1bdaf28c2b44ff16e11ca265d7bf4579de7058c6b1	ok	Existing Trinity result archive candidate.
+interproscan_core_tsv	file	<HPC_PROJECT_ROOT>/04_annotation/Based_on_Transcript/03_interpro/results_core/DEG_transcripts_interpro_core.tsv	10806028	edfa63e484ef5f4a0e5e4e2e3fb4d65316c5420a5f9da5bef65fdf7e2d72790d	ok	Core InterProScan TSV used for downstream annotation summaries.
+blast_hmmer_outputs	directory	<HPC_PROJECT_ROOT>/04_annotation/FirstTry/03_blast_results	373305690		needs_manifest	9 files; BLAST/search output directory; create stable archive or per-file manifest before final release.
+cyp_reference_protein_outputs	directory	<HPC_PROJECT_ROOT>/04_annotation/FirstTry/01_reference_protein	130876518		needs_manifest	29 files; CYP BLAST/reference output directory; summary tables are already represented in Git.
+salmon_quant_dirs	directory	<HPC_PROJECT_ROOT>/06_DEGsAnalysis	900494221		needs_manifest	366 files; contains per-sample Salmon quant directories and downstream results; summaries are already represented in Git.
+rtqpcr_design_fasta	directory	<HPC_PROJECT_ROOT>/10_RTqPCR_CYP_primer_prep	844130		needs_manifest	125 files; RT-qPCR design source directory; small enough for later targeted checksum table if owner approves release scope.
+rtqpcr_bmori_qc	directory	<HPC_PROJECT_ROOT>/12_Bmori_RTqPCR_CYP_QC	374581433		needs_manifest	220 files; B. mori RT-qPCR QC source directory; public scope still owner decision.
+unknowncyp_alignment	file	<HPC_PROJECT_ROOT>/11_unknownCYP_annotation/redo_allQuality/alignment/unknownCYP_raw24_peptideAvailable14_17ORFs_Ph36_BmSf.clean_header.mafft.faa	167009	e7558e25d0173f874a6d3e4324666fa8e7c1767ee557e7ee1a1ce6d69c05299e	ok	MAFFT alignment used for diagnostic tree.
+unknowncyp_reference_fasta	directory	<HPC_PROJECT_ROOT>/11_unknownCYP_annotation/redo_allQuality/seqs	73855		needs_manifest	4 files; unknownCYP reference/source FASTA directory.
+unknowncyp_phylogeny	directory	<HPC_PROJECT_ROOT>/11_unknownCYP_annotation/redo_allQuality/phylogeny	295677		needs_manifest	8 files; unknownCYP IQ-TREE output directory; key report and tree are already in Git.
+rendered_figures	directory	<HPC_PROJECT_ROOT>/09_CYP_cross_species/Figure1_CYP_overview_heatmap	930983		needs_manifest	27 files; Figure1 source/rendered directory; release-asset policy pending.
+bmori_public_fastq	directory	<HPC_PROJECT_ROOT>/Bmori_public_RNAseq/PRJNA729897/fastq	20587405317		needs_manifest	12 files; public B. mori PRJNA729897 FASTQ cache; accession-based provenance preferred.

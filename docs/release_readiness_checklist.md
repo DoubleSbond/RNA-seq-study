@@ -32,8 +32,9 @@ Use this checklist before creating the first GitHub release, for example `v0.1-c
 ## External Assets
 
 - [ ] Decide storage target for raw reads, large FASTA, large alignments, rendered figures, and primer-design FASTA.
-- [ ] Run `scripts/shell/collect_external_asset_checksums.sh` or equivalent.
-- [ ] Fill `results_manifest/external_assets_manifest.tsv`.
+- [x] Run first HPC external-asset inventory and selected checksum pass.
+- [x] Fill initial located/checksum statuses in `results_manifest/external_assets_manifest.tsv`.
+- [ ] Add per-file manifests or accession records for large directories where needed.
 - [ ] Add public accession, DOI, GitHub Release asset URL, or safe storage URI where available.
 
 ## RT-qPCR
