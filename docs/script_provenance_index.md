@@ -24,6 +24,15 @@ The following recovered scripts exist in local evidence but have not yet all bee
 - InterProScan / PFAM annotation shell scripts.
 - 91-CYP candidate generation commands.
 - B. mori public RNA-seq processing script.
-- unknownCYP tree-label cleaning and plotting scripts.
 
 Some recovered scripts contain internal absolute paths or comments with encoding damage. Those scripts should be published only after conversion to path-parameterized public versions.
+
+## unknownCYP Recheck
+
+| Workflow block | Public script | Main inputs | Main outputs |
+|---|---|---|---|
+| FASTA header cleanup | `scripts/python/clean_unknownCYP_peptideAvailable14_headers.py` | Raw peptide FASTA for peptide-available unknownCYP candidates | Clean PhUNK FASTA headers and header mapping table |
+| Expression ranking plot | `scripts/R/plot_unknownCYP_TPM_ranking_final.R` | unknownCYP final-round TPM ranking table | MaxMean TPM ranking plot |
+| Dan/Mul scatter plot | `scripts/R/plot_unknownCYP_Dan_vs_Mul_scatter.R` | unknownCYP final-round TPM table | Dan vs Mul expression scatter plot |
+| Tree label cleanup | `scripts/R/make_unknownCYP_clean_tip_labels.R` | Diagnostic tree labels | Clean labels for tree visualization |
+| CYP6-focused tree handling | `scripts/R/prune_unknownCYP_CYP6_focus_tree.R`; `scripts/R/rename_unknownCYP_CYP6_focus_tree_tips.R` | Core diagnostic tree and keep-tip list | CYP6-focused tree and relabeled tips |

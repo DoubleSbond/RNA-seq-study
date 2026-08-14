@@ -70,3 +70,27 @@ PCA_high_quality_CYP_logTPM_zscore_variance.tsv
 FigureA_highQuality_CYP_PCA.png
 FigureA_highQuality_CYP_PCA.pdf
 ```
+
+## unknownCYP Recheck and Phylogeny
+
+- `plot_unknownCYP_TPM_ranking_final.R`
+- `plot_unknownCYP_Dan_vs_Mul_scatter.R`
+- `make_unknownCYP_clean_tip_labels.R`
+- `make_unknownCYP_clean_tip_labels_CYP6_focus.R`
+- `prune_unknownCYP_CYP6_focus_tree.R`
+- `rename_unknownCYP_CYP6_focus_tree_tips.R`
+
+Purpose:
+
+```text
+24 Phoenei CYP_unknown candidates
+-> expression ranking and Dan/Mul scatter plots
+-> clean tree labels for diagnostic phylogeny
+-> CYP6-focused tree pruning and tip relabeling
+```
+
+Interpretation boundary:
+
+```text
+High TPM alone is not treated as sufficient support. Final candidate priority combines expression, CYP motif completeness, ORF length, homology, and phylogenetic placement.
+```

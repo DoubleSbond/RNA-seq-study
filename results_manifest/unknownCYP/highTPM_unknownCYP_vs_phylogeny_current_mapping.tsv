@@ -1,0 +1,7 @@
+gene_id	previous_status	core_tree_status	current_phylogenetic_or_annotation_status	interpretation	naming_priority
+TRINITY_DN598_c0_g1	high-TPM unknownCYP	in_core10	CYP6B-like candidate	High-expression unknown CYP now placed near CYP6B7-like/CYP6B6-related Ph36HQ/reference clade.	High
+TRINITY_DN2768_c0_g1	high-TPM unknownCYP	in_core10	CYP6K1-like candidate	Placed near CYP6K1-like Ph36HQ/reference clade, but local support is weak.	Medium
+TRINITY_DN6927_c0_g1	high-TPM unknownCYP	in_core10	CYP18A1-like candidate	Placed near CYP18A1-like clade; not part of CYP6-related detox story.	Medium
+TRINITY_DN1069_c0_g1	high-TPM unknownCYP	in_core10	unresolved CYP-like	Basal/long-branch placement; family assignment remains unresolved.	Low
+TRINITY_DN420_c0_g1	high-TPM unknownCYP	not_in_core10	CYP9-like homolog but motif-incomplete	Length is moderate and BLAST points to CYP9A22/CYP9F2-like, but heme and PERF motifs are missing.	Low
+TRINITY_DN4939_c0_g1	high-TPM unknownCYP	not_in_core10	CYP49-like homolog but heme-motif missing	Long sequence with strong CYP49A1-like homology, but heme Cys motif is missing; keep as QC-risk candidate.	Low
