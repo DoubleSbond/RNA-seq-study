@@ -36,3 +36,26 @@ Gene-level annotation table
 ```
 
 This is a public reconstruction utility for the CYP/P450 evidence-screening logic. It does not claim to be the unrecovered original HPC command that emitted the restored `CYP_candidates_step1.tsv` and `CYP_candidates_step2_confirmed.tsv` tables.
+
+## B. mori Public RNA-seq CYP Tables
+
+- `make_bmori_public_cyp_tpm_tables.py`
+
+Purpose:
+
+```text
+B. mori GFF annotation + public Salmon quant.sf directories
+-> CYP transcript annotation table
+-> transcript-level and gene/symbol-level CYP TPM summaries
+-> quadrant/target CYP subsets
+```
+
+Example:
+
+```bash
+python scripts/python/make_bmori_public_cyp_tpm_tables.py \
+  --base-dir <bmori_public_rnaseq_workdir> \
+  --gff <GCF_030269925.1_ASM3026992v2_genomic.gff>
+```
+
+The script expects `sample_info.tsv` and `quant/<Run>/quant.sf` under `--base-dir` unless `--sample-info` is supplied.

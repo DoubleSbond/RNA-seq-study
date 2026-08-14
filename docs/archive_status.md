@@ -30,6 +30,13 @@ This document summarizes what is currently archived in GitHub and what remains o
 ### RT-qPCR Candidate Layer
 
 - Candidate target tables and sequence-length index: `results_manifest/RTqPCR/`
+- B. mori multi-isoform and Primer3 candidate QC summaries: `results_manifest/RTqPCR/`
+
+### B. mori Comparison / Figure1
+
+- Public B. mori midgut CYP TPM and annotation tables: `results_manifest/Bmori_comparison/`
+- Figure1 Ph-Bm CYP overview inputs and final gene order: `results_manifest/Bmori_comparison/`
+- Public reconstruction scripts: `scripts/python/make_bmori_public_cyp_tpm_tables.py` and `scripts/R/make_fig1_gene_order_final.R`
 
 ### unknownCYP Layer
 
@@ -53,7 +60,7 @@ The following should not be committed directly:
 ## Remaining Gaps
 
 1. Exact original command sequence for generating the 91-CYP candidate tables. The restored tables and a public reconstruction utility are now archived.
-2. A final decision on where to archive figure source files and large alignment inputs.
+2. A final decision on where to archive rendered figure files, figure source files, and large alignment inputs.
 3. Final RT-qPCR primer sequences, if they become part of the formal archive.
 
 ## Navigation

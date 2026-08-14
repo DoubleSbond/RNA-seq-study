@@ -74,7 +74,8 @@ The current `main` branch includes:
 - RNA-seq sample metadata, upstream processing wrappers, Trinity assembly QC, and Salmon mapping summaries.
 - 91-CYP discovery-layer summaries, stepwise candidate tables, B. mori best-hit support, PC1 loading tables, and TPM tables.
 - 36-HQ CYP core set, review list, expression modules, PCA tables, and supporting R scripts.
-- RT-qPCR target-design summary tables.
+- Public B. mori midgut CYP TPM tables and Figure1 Ph-Bm overview inputs.
+- RT-qPCR target-design and B. mori target-QC summary tables.
 - unknownCYP recheck tables, high-TPM vs phylogeny mapping, diagnostic tree output, and supporting scripts.
 
 Large raw reads, assemblies, alignments, raw FASTA files, databases, and bulky logs remain outside Git by design.

@@ -1,0 +1,7 @@
+Run	SampleName	Sex	Tissue	Diet	Replicate
+SRR14535556	FGMLR1	female	midgut	mulberry_leaf	R1
+SRR14535555	FGMLR2	female	midgut	mulberry_leaf	R2
+SRR14535554	FGMLR3	female	midgut	mulberry_leaf	R3
+SRR14535566	MGMLR1	male	midgut	mulberry_leaf	R1
+SRR14535565	MGMLR2	male	midgut	mulberry_leaf	R2
+SRR14535564	MGMLR3	male	midgut	mulberry_leaf	R3
