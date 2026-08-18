@@ -1,11 +1,12 @@
 # Documentation
 
-Use this directory for human-readable records of the CYP family study workflow.
+Use this directory for human-readable records of the CYP family study workflow and the reusable standards for future detoxification gene-family analyses.
 
 Key files:
 
-- `workflow.md`: reconstructed step-by-step analysis workflow.
+- `workflow.md`: reconstructed step-by-step CYP analysis workflow.
 - `gene_family_method_blueprint.md`: portable RNA-seq-to-gene-family study template derived from the CYP workflow.
+- `family_standardization.md`: standard layer names, stage gates, naming rules, and required structure for CYP, CarE, GST, UGT, SULT, ABC, and related families.
 - `archive_status.md`: current public archive state and remaining gaps.
 - `archive_completeness_audit.md`: README coverage and omission-check summary.
 - `external_archive_policy.md`: policy for large/raw/external assets.
@@ -23,3 +24,9 @@ Key files:
 - `data_versions.md`: project data layer definitions and caution notes.
 - `audit/`: small consistency audit notes.
 - `notes/`: short interpretation notes for specific analysis layers.
+
+Standardization entry points:
+
+- Start with `docs/family_standardization.md` for directory structure and stage gates.
+- Fill `config/families/<family>.yaml` before running a new family screen.
+- Keep broad pool, high-confidence core set, unknown/ambiguous candidates, and validation candidates as separate layers.
