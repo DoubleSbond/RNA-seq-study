@@ -42,12 +42,15 @@ if command -v du >/dev/null 2>&1; then
   du -sh "$HOME_ROOT"/* 2>/dev/null | sort -h > "$OUTDIR/home_top_level_du.tsv" || true
 fi
 
-# Checksums for small public-safe candidate files only. Large files are listed separately.
+# Checksums for small candidate files only. Large files are listed separately for review.
 : > "$OUTDIR/small_file_sha256.tsv"
 : > "$OUTDIR/large_files_needing_checksum_review.tsv"
 
-while IFS= read -r file; do
-  size=$(stat -c '%s' "$file" 2>/dev/null || echo 0)
+while IFS=$'\t' read -r file size _rest; do
+  if [ -z "${file:-}" ] || [ ! -f "$file" ]; then
+    continue
+  fi
+  size="${size:-0}"
   if [ "$size" -le 104857600 ]; then
     if command -v sha256sum >/dev/null 2>&1; then
       sha256sum "$file" >> "$OUTDIR/small_file_sha256.tsv" || true
