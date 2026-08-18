@@ -1,0 +1,28 @@
+target_family:
+  short_name: SULT
+  full_name: sulfotransferase
+  analysis_status: planned
+  accepted_keywords:
+    - sulfotransferase
+    - sulphotransferase
+    - SULT
+    - cytosolic sulfotransferase
+  excluded_keywords:
+    - broad sulfur metabolism or sulfate transporter hits without sulfotransferase-domain support should be reviewed manually
+  domain_evidence:
+    pfam:
+      - TBD; confirm sulfotransferase PFAM IDs from annotation outputs
+    interpro:
+      - TBD; confirm sulfotransferase InterPro records after annotation extraction
+    go:
+      - TBD; confirm sulfotransferase activity and sulfuryl-group transfer GO evidence after annotation extraction
+  trusted_reference_sets:
+    - Bombyx mori SULT references; TBD source/version
+    - Spodoptera or other Lepidoptera SULT references; TBD source/version
+  representative_isoform_rule: choose one representative peptide/transcript per gene with sulfotransferase-domain support and usable ORF length
+  broad_pool_rule: include keyword, domain, homology, or GO-supported SULT candidates with ambiguity labels
+  high_confidence_rule: define before interpretation; should require sulfotransferase-domain support, representative isoform, acceptable completeness, and expression evidence
+  fragment_warning_rule: flag short or partial sulfotransferase-like peptides before core-set interpretation
+  unknown_or_ambiguous_rule: keep weak-domain, generic transferase, or conflicting-annotation candidates separate from the high-confidence set
+  validation_candidate_rule: prioritize high-confidence candidates with expression magnitude, condition contrast, replicate behavior, and assay-feasible sequence
+  interpretation_guardrail: expression supports candidate involvement in metabolic response; direct substrate specificity requires validation
