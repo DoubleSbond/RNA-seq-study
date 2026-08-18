@@ -1,0 +1,29 @@
+target_family:
+  short_name: GST
+  full_name: glutathione S-transferase
+  analysis_status: planned
+  accepted_keywords:
+    - glutathione S-transferase
+    - glutathione transferase
+    - GST
+    - cytosolic GST
+    - microsomal GST
+  excluded_keywords:
+    - unrelated glutathione-associated enzymes without GST-domain support should be reviewed manually
+  domain_evidence:
+    pfam:
+      - TBD; confirm GST N-terminal and C-terminal PFAM IDs from annotation outputs
+    interpro:
+      - TBD; confirm GST class/domain InterPro records after annotation extraction
+    go:
+      - TBD; confirm glutathione transferase activity and related GO evidence after annotation extraction
+  trusted_reference_sets:
+    - Bombyx mori GST references; TBD source/version
+    - Spodoptera or other Lepidoptera GST references; TBD source/version
+  representative_isoform_rule: choose one representative peptide/transcript per gene with GST domain evidence and usable ORF length
+  broad_pool_rule: include keyword, domain, homology, or GO-supported GST candidates with class/domain labels when possible
+  high_confidence_rule: define before interpretation; should require GST-domain support, representative isoform, acceptable completeness, and expression evidence
+  fragment_warning_rule: flag single-domain fragments or very short GST-like peptides before core-set interpretation
+  unknown_or_ambiguous_rule: keep class-ambiguous, partial, or conflicting GST candidates in a separate review layer
+  validation_candidate_rule: prioritize high-confidence candidates with clear expression signal, contrast, class support, and assay-feasible sequence
+  interpretation_guardrail: expression and class placement support candidate detoxification relevance, not confirmed substrate function without validation
