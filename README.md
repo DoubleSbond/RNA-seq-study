@@ -12,7 +12,7 @@ The archive is intended to preserve:
 - Small result manifests and tabular summaries suitable for GitHub.
 - Logs that document how analyses were run.
 
-It is also intended to serve as a portable technical template for other RNA-seq-based gene family studies, such as CarE, GST, UGT, ABC transporter, or other detoxification-related families. The CYP-specific evidence is kept explicit so the reusable workflow can be adapted without losing the original project record.
+It is also intended to serve as a portable technical template for other RNA-seq-based gene family studies, such as CarE, GST, UGT, SULT, ABC transporter, or other detoxification-related families. The CYP-specific evidence is kept explicit so the reusable workflow can be adapted without losing the original project record.
 
 Large raw data and bulky intermediate outputs should not be committed directly.
 For the current project phase, experimental data remain private in local/HPC
@@ -23,9 +23,9 @@ public data accessions or data-release locations.
 
 ```text
 .
-|-- config/              # Parameters, sample sheets, and tool settings
+|-- config/              # Parameters, sample sheets, family definitions, and tool settings
 |-- data/                # README only; raw data is tracked outside Git
-|-- docs/                # Workflow notes, methods, and provenance records
+|-- docs/                # Workflow notes, methods, standardization rules, and provenance records
 |-- environment/         # Conda/R/session/container environment records
 |-- logs/                # Curated run logs and command histories
 |-- results_manifest/    # Small file inventories and result summaries
@@ -38,10 +38,39 @@ public data accessions or data-release locations.
 
 1. Place reusable analysis scripts in `scripts/`.
 2. Put sample metadata, parameter files, and non-sensitive config in `config/`.
-3. Record software versions in `environment/`.
-4. Record command history and run provenance in `logs/`.
-5. Add small summary tables and file manifests to `results_manifest/`.
-6. Keep large FASTQ/FASTA/BAM/SAM, database, and assembled transcriptome files outside Git.
+3. For a new detoxification gene family, fill `config/families/<family>.yaml` before screening.
+4. Follow `docs/family_standardization.md` to keep screening, broad-pool, high-confidence, unknown, and validation layers separate.
+5. Record software versions in `environment/`.
+6. Record command history and run provenance in `logs/`.
+7. Add small summary tables and file manifests to `results_manifest/`.
+8. Keep large FASTQ/FASTA/BAM/SAM, database, and assembled transcriptome files outside Git.
+
+## Standardized Family Workflow
+
+Future CYP-like analyses should use the same stage-gated structure:
+
+```text
+01_screening
+02_broad_pool
+03_high_confidence
+04_reference_comparison
+05_unknown_or_ambiguous
+06_validation_design
+```
+
+The key rule is:
+
+```text
+broad discovery pool != high-confidence core set != ambiguous follow-up set != validation candidate set
+```
+
+For the legacy CYP archive, the historical equivalents are `CYP_screening`, `91CYP`, `36HQ`, `Bmori_comparison`, `unknownCYP`, and `RTqPCR`. These legacy names are retained for provenance; new families should use the standardized layer names from the start.
+
+Standardization entry points:
+
+- `docs/family_standardization.md`: standard layers, naming rules, stage gates, and interpretation guardrails.
+- `docs/gene_family_method_blueprint.md`: portable RNA-seq-to-gene-family workflow narrative.
+- `config/families/`: family-specific definition templates for CYP, CarE, GST, UGT, SULT, and ABC.
 
 ## Data Policy
 
@@ -76,6 +105,8 @@ This repository now contains the first public, GitHub-suitable archive of the pr
 - `docs/citation_cff_draft.md` and `docs/license_decision_matrix.md`: draft-only citation/license planning aids.
 - `docs/workflow.md`: end-to-end workflow from RNA-seq assembly to CYP interpretation.
 - `docs/gene_family_method_blueprint.md`: reusable RNA-seq-to-gene-family study template for CYP, CarE, GST, and similar families.
+- `docs/family_standardization.md`: standard layer names, stage gates, naming rules, and reusable structure for future detoxification gene families.
+- `config/families/`: family-definition templates for CYP, CarE, GST, UGT, SULT, and ABC.
 - `docs/collection_narrative_audit.md`: evidence audit for the recovered local/HPC material.
 - `docs/script_provenance_index.md`: public scripts mapped to workflow blocks.
 - `docs/data_versions.md`: 91-CYP, 36-HQ, matched-symbol, RT-qPCR, and unknownCYP analysis layers.
