@@ -1,0 +1,28 @@
+target_family:
+  short_name: CYP
+  full_name: cytochrome P450 monooxygenase
+  analysis_status: reference_case_existing_archive
+  accepted_keywords:
+    - CYP
+    - cytochrome P450
+    - P450
+    - monooxygenase
+  excluded_keywords:
+    - non-CYP P450-like false positives to be reviewed manually
+  domain_evidence:
+    pfam:
+      - PF00067
+    interpro:
+      - cytochrome P450 domain records; confirm exact InterPro IDs per annotation table
+    go:
+      - heme binding / monooxygenase-related CYP annotations; confirm exact GO IDs per annotation table
+  trusted_reference_sets:
+    - Bombyx mori CYP reference genes
+    - Spodoptera CYP reference genes
+  representative_isoform_rule: choose one representative peptide/transcript per gene, normally the longest usable ORF with family-domain support
+  broad_pool_rule: include all annotation, domain, homology, and keyword-supported CYP candidates with explicit fragment/noncanonical labels
+  high_confidence_rule: retain near-complete or interpretable CYP genes with representative isoform, domain support, expression evidence, and manual review status
+  fragment_warning_rule: flag short or partial peptides before using them in core-set figures or symbol-level comparison
+  unknown_or_ambiguous_rule: review unmatched or ambiguous candidates separately; include all usable peptide/ORF records before phylogenetic interpretation
+  validation_candidate_rule: prioritize candidates from the high-confidence or clearly interpreted comparison layers, not from broad pool alone
+  interpretation_guardrail: expression and phylogeny support candidate involvement, not direct substrate specificity without functional validation

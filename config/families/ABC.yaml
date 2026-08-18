@@ -1,0 +1,31 @@
+target_family:
+  short_name: ABC
+  full_name: ATP-binding cassette transporter family
+  analysis_status: planned
+  accepted_keywords:
+    - ATP-binding cassette
+    - ABC transporter
+    - ABC transporter family
+    - ABCB
+    - ABCC
+    - ABCG
+    - ABCD
+  excluded_keywords:
+    - generic ATP-binding proteins without transporter-domain support should be reviewed manually
+  domain_evidence:
+    pfam:
+      - TBD; confirm ABC transporter ATP-binding and transmembrane-domain PFAM IDs from annotation outputs
+    interpro:
+      - TBD; confirm ABC transporter InterPro records after annotation extraction
+    go:
+      - TBD; confirm ATPase-coupled transmembrane transporter GO evidence after annotation extraction
+  trusted_reference_sets:
+    - Bombyx mori ABC transporter references; TBD source/version
+    - Spodoptera or other Lepidoptera ABC transporter references; TBD source/version
+  representative_isoform_rule: choose one representative transcript/protein per gene with ABC transporter domain support; note partial NBD/TMD evidence separately
+  broad_pool_rule: include keyword, domain, homology, or GO-supported ABC candidates with subfamily and partial-domain labels when possible
+  high_confidence_rule: define before interpretation; should require ABC transporter-domain support, representative isoform, acceptable domain completeness, and expression evidence
+  fragment_warning_rule: flag isolated NBD, isolated TMD, short fragments, or generic ATP-binding proteins before core-set interpretation
+  unknown_or_ambiguous_rule: keep subfamily-ambiguous, partial-domain, or conflicting-annotation candidates separate from high-confidence ABCs
+  validation_candidate_rule: prioritize high-confidence candidates with expression signal, subfamily/domain support, contrast, and assay-feasible sequence
+  interpretation_guardrail: expression and transporter-domain evidence support candidate involvement in response, not confirmed substrate transport without validation

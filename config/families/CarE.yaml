@@ -1,0 +1,29 @@
+target_family:
+  short_name: CarE
+  full_name: carboxylesterase / esterase detoxification family
+  analysis_status: planned
+  accepted_keywords:
+    - carboxylesterase
+    - carboxyl/cholinesterase
+    - esterase
+    - alpha/beta hydrolase
+    - juvenile hormone esterase
+  excluded_keywords:
+    - generic esterase-only hits without family-domain support should be reviewed manually
+  domain_evidence:
+    pfam:
+      - TBD; confirm carboxylesterase / alpha-beta hydrolase family PFAM IDs from annotation outputs
+    interpro:
+      - TBD; confirm InterPro records after annotation extraction
+    go:
+      - TBD; confirm esterase / hydrolase-related GO evidence after annotation extraction
+  trusted_reference_sets:
+    - Bombyx mori CarE references; TBD source/version
+    - Spodoptera or other Lepidoptera CarE references; TBD source/version
+  representative_isoform_rule: choose one representative peptide/transcript per gene, preferably the longest ORF with CarE/domain support
+  broad_pool_rule: include keyword, domain, homology, or GO-supported CarE candidates with fragment and ambiguous labels
+  high_confidence_rule: define before interpretation; should require domain support, representative isoform, acceptable length/completeness, and expression evidence
+  fragment_warning_rule: flag short or partial proteins before expression figures, reference comparisons, or validation ranking
+  unknown_or_ambiguous_rule: keep weak-domain, generic esterase, or conflicting-annotation candidates separate from the high-confidence set
+  validation_candidate_rule: prioritize high-confidence candidates with expression magnitude, condition contrast, replicate behavior, and assay-feasible sequence
+  interpretation_guardrail: expression patterns suggest candidate involvement in host-plant response; enzymatic substrate specificity requires validation
