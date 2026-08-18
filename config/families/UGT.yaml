@@ -1,0 +1,29 @@
+target_family:
+  short_name: UGT
+  full_name: UDP-glycosyltransferase / UDP-glucuronosyltransferase-related family
+  analysis_status: planned
+  accepted_keywords:
+    - UDP-glycosyltransferase
+    - UDP glucosyltransferase
+    - UDP-glucuronosyltransferase
+    - glycosyltransferase family 1
+    - UGT
+  excluded_keywords:
+    - broad glycosyltransferase hits without UGT-family evidence should be reviewed manually
+  domain_evidence:
+    pfam:
+      - TBD; confirm UGT / glycosyltransferase family PFAM IDs from annotation outputs
+    interpro:
+      - TBD; confirm UGT-related InterPro records after annotation extraction
+    go:
+      - TBD; confirm UDP-glycosyltransferase or transferase-related GO evidence after annotation extraction
+  trusted_reference_sets:
+    - Bombyx mori UGT references; TBD source/version
+    - Spodoptera or other Lepidoptera UGT references; TBD source/version
+  representative_isoform_rule: choose one representative peptide/transcript per gene with UGT-domain support and usable ORF length
+  broad_pool_rule: include keyword, domain, homology, or GO-supported UGT candidates while labeling broad glycosyltransferase ambiguity
+  high_confidence_rule: define before interpretation; should require UGT-family domain support, representative isoform, acceptable completeness, and expression evidence
+  fragment_warning_rule: flag short, partial, or generic glycosyltransferase hits before core-set interpretation
+  unknown_or_ambiguous_rule: keep generic glycosyltransferase, weak-domain, or conflicting-annotation candidates separate from high-confidence UGTs
+  validation_candidate_rule: prioritize high-confidence candidates with expression signal, condition contrast, domain support, and assay-feasible sequence
+  interpretation_guardrail: expression patterns suggest candidate involvement in metabolic response; substrate specificity requires functional validation
