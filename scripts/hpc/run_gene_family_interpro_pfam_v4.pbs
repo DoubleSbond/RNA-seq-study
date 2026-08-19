@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -N detox_iprpfam
+#PBS -q epyc
+#PBS -l select=1:ncpus=8:mem=16gb
+#PBS -l walltime=24:00:00
+
+set -euo pipefail
+family="${FAMILY:?FAMILY must be supplied with qsub -v}"
+source_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/sequence_20260819T143800JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/interpro_pfam_20260819T191500JST
+source_fasta="${source_root}/${family}/${family}_broad_peptides.fasta"
+out="${run_root}/${family}"
+clean_fasta="$out/${family}_all_isoforms.stop_stripped.pep.fa"
+ipr_root=/home/tuatchenjh9703/miniconda3/envs/interproscan/share/InterProScan
+
+test -d "$out"
+exec >"$out/${family}.stdout.log" 2>"$out/${family}.stderr.log"
+awk '/^>/{print; next} {gsub(/\*/, ""); print}' "$source_fasta" >"$clean_fasta"
+mkdir -p "$out/temp"
+cd "$ipr_root"
+./interproscan.sh -i "$clean_fasta" -b "$out/${family}_pfam_interpro" -appl Pfam \
+  -f TSV,GFF3,XML -goterms -iprlookup -pa -cpu 8 -T "$out/temp"
+find "$out" -type f -not -path '*/temp/*' -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/${family}_pfam_interpro.* "$clean_fasta" >"$out/sha256.tsv"
