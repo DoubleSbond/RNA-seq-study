@@ -1,0 +1,28 @@
+#!/bin/bash
+#PBS -N detox_hmmexpand
+#PBS -q epyc
+#PBS -l select=1:ncpus=8:mem=16gb
+#PBS -l walltime=24:00:00
+
+set -euo pipefail
+family="${FAMILY:?FAMILY must be supplied with qsub -v}"
+tree_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/reference_trees_v2_20260819T210000JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST
+proteome=/lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+hmmbuild=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/hmmbuild
+hmmsearch=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/hmmsearch
+out="$run_root/$family"
+alignment="$tree_root/$family/${family}_reference_augmented.mafft.fa"
+query="$tree_root/$family/${family}_Phoenei_all_isoforms.fa"
+
+test -d "$out"; test -s "$alignment"; test -s "$proteome"
+exec >"$out/${family}.stdout.log" 2>"$out/${family}.stderr.log"
+"$hmmbuild" --cpu 8 -n "${family}_inclusive_profile" "$out/${family}_inclusive.hmm" "$alignment"
+"$hmmsearch" --cpu 8 -E 1e-2 --domE 1e-2 --tblout "$out/${family}_proteome.tblout" --domtblout "$out/${family}_proteome.domtblout" -A "$out/${family}_proteome.sto" "$out/${family}_inclusive.hmm" "$proteome" >"$out/${family}_proteome.full.txt"
+grep '^>' "$query" | sed 's/^>//; s/[[:space:]].*$//; s/_i[0-9].*$//' | sort -u >"$out/current_candidate_genes.txt"
+awk '!/^#/ {print $1}' "$out/${family}_proteome.tblout" | sed 's/_i[0-9].*$//' | sort -u >"$out/all_hit_genes.txt"
+comm -23 "$out/all_hit_genes.txt" "$out/current_candidate_genes.txt" >"$out/novel_profile_hit_genes.txt"
+printf 'family\tproteome_sequences\tprofile_hit_genes\tcurrent_candidate_genes\tnovel_profile_hit_genes\n' >"$out/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\t%s\n' "$family" "$(grep -c '^>' "$proteome")" "$(wc -l < "$out/all_hit_genes.txt")" "$(wc -l < "$out/current_candidate_genes.txt")" "$(wc -l < "$out/novel_profile_hit_genes.txt")" >>"$out/run_summary.tsv"
+find "$out" -type f -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/* 2>/dev/null >"$out/sha256.tsv" || true
