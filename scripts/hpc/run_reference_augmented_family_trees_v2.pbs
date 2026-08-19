@@ -1,0 +1,36 @@
+#!/bin/bash
+#PBS -N detox_reftree2
+#PBS -q epyc
+#PBS -l select=1:ncpus=8:mem=24gb
+#PBS -l walltime=24:00:00
+
+set -euo pipefail
+raw_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/raw_evidence_20260819T180000JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/reference_trees_v2_20260819T210000JST
+blastdbcmd=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/blastdbcmd
+mafft=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/mafft
+fasttree=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/FastTree
+
+test -d "$run_root"
+exec >"$run_root/reference_trees_v2.stdout.log" 2>"$run_root/reference_trees_v2.stderr.log"
+"$blastdbcmd" -db /lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Bmori_db -entry all -outfmt '%f' >"$run_root/Bmori_db_all.fa"
+"$blastdbcmd" -db /lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Spodo_db -entry all -outfmt '%f' >"$run_root/Spodoptera_db_all.fa"
+
+for family in CarE GST UGT SULT ABC; do
+  out="$run_root/$family"; test -d "$out"
+  query="$raw_root/$family/${family}_all_isoforms.pep.fa"
+  for species in Bmori Spodoptera; do
+    hits="$raw_root/$family/${family}_all_vs_${species}_top25.tsv"
+    ids="$out/${family}_${species}_top1_unique.ids"
+    awk -F '\t' '!seen[$1]++ {print $2}' "$hits" | sort -u >"$ids"
+    awk -v prefix="$species" 'NR==FNR {wanted[$1]=1; next} /^>/ {key=substr($1,2); keep=(key in wanted); if(keep){sub(/^>/, ">" prefix "|")}} keep' "$ids" "$run_root/${species}_db_all.fa" >"$out/${family}_${species}_top1.prefixed.fa"
+  done
+  cp -n "$query" "$out/${family}_Phoenei_all_isoforms.fa"
+  cat "$out/${family}_Phoenei_all_isoforms.fa" "$out/${family}_Bmori_top1.prefixed.fa" "$out/${family}_Spodoptera_top1.prefixed.fa" >"$out/${family}_Phoenei_Bmori_Spodoptera.fa"
+  "$mafft" --auto --thread 8 "$out/${family}_Phoenei_Bmori_Spodoptera.fa" >"$out/${family}_reference_augmented.mafft.fa"
+  "$fasttree" "$out/${family}_reference_augmented.mafft.fa" >"$out/${family}_reference_augmented.fasttree.nwk"
+  printf 'family\tphoenei_isoforms\tbmori_references\tspodoptera_references\talignment_sequences\n' >"$out/run_summary.tsv"
+  printf '%s\t%s\t%s\t%s\t%s\n' "$family" "$(grep -c '^>' "$query")" "$(grep -c '^>' "$out/${family}_Bmori_top1.prefixed.fa")" "$(grep -c '^>' "$out/${family}_Spodoptera_top1.prefixed.fa")" "$(grep -c '^>' "$out/${family}_reference_augmented.mafft.fa")" >>"$out/run_summary.tsv"
+  find "$out" -type f -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+  sha256sum "$out"/* 2>/dev/null >"$out/sha256.tsv" || true
+done
