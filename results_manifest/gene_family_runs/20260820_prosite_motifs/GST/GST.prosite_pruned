@@ -1,0 +1,36 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 19 Aug 2026 17:36:18
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/GST/GST_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/GST/GST.prosite_pruned
+#    -prune
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/GST/GST.prosite_pruned
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i10.p1     from: 1   to: 271
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 28 of sequence
+End = position 31 of sequence
+
+Motif = AMIDATION
+
+KASTIDGRRKGACL
+     |  |
+    28  31
+
+
+#---------------------------------------
+#---------------------------------------
