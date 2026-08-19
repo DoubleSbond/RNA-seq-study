@@ -1,0 +1,14 @@
+SULT.stderr.log	0
+SULT.stdout.log	1091
+SULT_inclusive.hmm	160521
+SULT_proteome.domtblout	12381
+SULT_proteome.full.txt	80704
+SULT_proteome.sto	52676
+SULT_proteome.tblout	11054
+all_hit_genes.txt	707
+current_candidate_genes.txt	232
+novel_profile_hit_genes.txt	475
+output_inventory.tsv	0
+run_summary.tsv	112
+scheduler.stderr	0
+scheduler.stdout	0

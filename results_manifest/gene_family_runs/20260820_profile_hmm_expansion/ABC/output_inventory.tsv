@@ -1,0 +1,14 @@
+ABC.stderr.log	0
+ABC.stdout.log	1085
+ABC_inclusive.hmm	483698
+ABC_proteome.domtblout	20093
+ABC_proteome.full.txt	263447
+ABC_proteome.sto	381772
+ABC_proteome.tblout	16166
+all_hit_genes.txt	1089
+current_candidate_genes.txt	1047
+novel_profile_hit_genes.txt	130
+output_inventory.tsv	0
+run_summary.tsv	110
+scheduler.stderr	0
+scheduler.stdout	0
