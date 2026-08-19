@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -N detox_prosite2
+#PBS -q epyc
+#PBS -l select=1:ncpus=1:mem=4gb
+#PBS -l walltime=12:00:00
+
+set -euo pipefail
+family="${FAMILY:?FAMILY must be supplied with qsub -v}"
+source_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST
+export EMBOSS_DATA=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data
+input="$source_root/$family/${family}_all_isoforms.stop_stripped.pep.fa"
+out="$run_root/$family"
+test -d "$out"; test -s "$input"; test -s "$EMBOSS_DATA/PROSITE/prosite.lines"
+exec >"$out/${family}.stdout.log" 2>"$out/${family}.stderr.log"
+patmatmotifs -sequence "$input" -outfile "$out/${family}.prosite_pruned" -prune -auto
+patmatmotifs -sequence "$input" -outfile "$out/${family}.prosite_full_patterns" -noprune -full -auto
+printf 'family\tpeptides\tpruned_motif_hits\tfull_pattern_hits\n' >"$out/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\n' "$family" "$(grep -c '^>' "$input")" "$(grep -c '^Motif =' "$out/${family}.prosite_pruned" || true)" "$(grep -c '^Motif =' "$out/${family}.prosite_full_patterns" || true)" >>"$out/run_summary.tsv"
+find "$out" -type f -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/* 2>/dev/null >"$out/sha256.tsv" || true
