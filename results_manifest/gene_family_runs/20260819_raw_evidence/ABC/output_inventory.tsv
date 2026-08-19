@@ -1,0 +1,15 @@
+ABC_all_isoforms.fasttree.nwk	9135
+ABC_all_isoforms.mafft.fa	561360
+ABC_all_isoforms.pep.fa	163416
+ABC_all_vs_Bmori_top25.tsv	1143294
+ABC_all_vs_Spodoptera_top25.tsv	1217794
+ABC_all_vs_sprot_top25.tsv	878976
+ABC_pfam.domtblout	929455
+ABC_pfam.full.txt	1526283
+ABC_pfam.tblout	433569
+ABC.stderr.log	79440
+ABC.stdout.log	26
+output_inventory.tsv	0
+run_summary.tsv	95
+scheduler.stderr	0
+scheduler.stdout	0

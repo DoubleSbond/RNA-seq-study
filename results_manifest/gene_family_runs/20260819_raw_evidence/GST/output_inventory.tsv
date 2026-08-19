@@ -1,0 +1,15 @@
+GST_all_isoforms.fasttree.nwk	3271
+GST_all_isoforms.mafft.fa	93268
+GST_all_isoforms.pep.fa	28802
+GST_all_vs_Bmori_top25.tsv	116847
+GST_all_vs_Spodoptera_top25.tsv	135372
+GST_all_vs_sprot_top25.tsv	262467
+GST_pfam.domtblout	113894
+GST_pfam.full.txt	275914
+GST_pfam.tblout	72107
+GST.stderr.log	72234
+GST.stdout.log	26
+output_inventory.tsv	0
+run_summary.tsv	91
+scheduler.stderr	0
+scheduler.stdout	0

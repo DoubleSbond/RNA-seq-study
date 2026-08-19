@@ -1,0 +1,15 @@
+UGT.stderr.log	52310
+UGT.stdout.log	26
+UGT_all_isoforms.fasttree.nwk	5605
+UGT_all_isoforms.mafft.fa	147511
+UGT_all_isoforms.pep.fa	55440
+UGT_all_vs_Bmori_top25.tsv	302246
+UGT_all_vs_Spodoptera_top25.tsv	314487
+UGT_all_vs_sprot_top25.tsv	445204
+UGT_pfam.domtblout	74050
+UGT_pfam.full.txt	271468
+UGT_pfam.tblout	49215
+output_inventory.tsv	0
+run_summary.tsv	94
+scheduler.stderr	0
+scheduler.stdout	0
