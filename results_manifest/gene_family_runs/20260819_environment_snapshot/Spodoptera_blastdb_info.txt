@@ -1,0 +1,9 @@
+Database: /home/tuatchenjh9703/ph/04_annotation/FirstTry/01_reference_protein/spodoptera_frugiperda_proteins.faa
+	29,539 sequences; 23,011,392 total residues
+
+Date: Apr 3, 2026  2:36 PM	Longest sequence: 20,843 residues
+
+BLASTDB Version: 5
+
+Volumes:
+	/lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Spodo_db

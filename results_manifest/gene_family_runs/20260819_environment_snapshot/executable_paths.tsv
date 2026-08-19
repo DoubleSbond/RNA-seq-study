@@ -1,0 +1,8 @@
+diamond	/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/diamond
+blastp	/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/blastp
+hmmscan	/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/hmmscan
+mafft	/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/mafft
+FastTree	/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/FastTree
+iqtree	/home/tuatchenjh9703/miniconda3/bin/iqtree
+pepstats	/usr/bin/pepstats
+tmap	/usr/bin/tmap

@@ -1,0 +1,9 @@
+Database: /home/tuatchenjh9703/ph/04_annotation/FirstTry/01_reference_protein/bombyx_mori/GCF_030269925.1_ASM3026992v2_protein.faa
+	28,341 sequences; 19,463,392 total residues
+
+Date: Apr 3, 2026  2:36 PM	Longest sequence: 18,125 residues
+
+BLASTDB Version: 5
+
+Volumes:
+	/lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Bmori_db

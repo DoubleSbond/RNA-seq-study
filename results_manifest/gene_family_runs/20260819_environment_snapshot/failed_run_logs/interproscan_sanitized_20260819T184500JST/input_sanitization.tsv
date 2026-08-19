@@ -1,0 +1,4 @@
+source_fasta	/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/sequence_20260819T143800JST/CarE/CarE_broad_peptides.fasta
+source_peptides	112
+source_stop_characters	93
+clean_peptides	112

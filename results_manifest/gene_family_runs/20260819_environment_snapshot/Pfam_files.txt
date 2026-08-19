@@ -1,0 +1,5 @@
+-rw-r--r-- 1 tuatchenjh9703 hrk-tat 1.5G Nov 15  2021 /lustre10/home/tuatchenjh9703/tools/pfam/Pfam-A.hmm
+-rw-r--r-- 1 tuatchenjh9703 hrk-tat 344M Nov  2  2025 /lustre10/home/tuatchenjh9703/tools/pfam/Pfam-A.hmm.h3f
+-rw-r--r-- 1 tuatchenjh9703 hrk-tat 1.3M Nov  2  2025 /lustre10/home/tuatchenjh9703/tools/pfam/Pfam-A.hmm.h3i
+-rw-r--r-- 1 tuatchenjh9703 hrk-tat 621M Nov  2  2025 /lustre10/home/tuatchenjh9703/tools/pfam/Pfam-A.hmm.h3m
+-rw-r--r-- 1 tuatchenjh9703 hrk-tat 731M Nov  2  2025 /lustre10/home/tuatchenjh9703/tools/pfam/Pfam-A.hmm.h3p
