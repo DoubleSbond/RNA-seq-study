@@ -1,0 +1,6 @@
+family	phase	candidate_ids	final_ids	candidate_peptides	evidence_table
+CarE	I	<PROJECT_ROOT>/07_homology/CarE/CarE_final_geneids.provisional.txt	<PROJECT_ROOT>/07_homology/CarE/CarE_final_geneids.txt	<PROJECT_ROOT>/07_homology/CarE/CarE_candidate.pep.fa	<PROJECT_ROOT>/07_homology/CarE/CarE_candidate_from_annotation.tsv
+GST	II	<PROJECT_ROOT>/07_homology/GST/GST_candidate_geneids.txt	<PROJECT_ROOT>/07_homology/GST/GST_geneids_final.txt	<PROJECT_ROOT>/07_homology/GST/GST_candidate.pep.fa	<PROJECT_ROOT>/07_homology/GST/GST_candidate_pep_id_len.clean.tsv
+UGT	II	<PROJECT_ROOT>/07_homology/UGT/UGT_candidate_geneids.txt	<PROJECT_ROOT>/07_homology/UGT/UGT_final_geneids.txt	<PROJECT_ROOT>/07_homology/UGT/intermediate/UGT_core.pep.fa	<PROJECT_ROOT>/07_homology/UGT/UGT_longest_isoform_per_gene.tsv
+SULT	II	<PROJECT_ROOT>/07_homology/SULT/SULT_candidate_geneids.txt	<PROJECT_ROOT>/07_homology/SULT/SULT_final_geneids.txt	<PROJECT_ROOT>/07_homology/SULT/SULT_candidate.pep.fa	<PROJECT_ROOT>/07_homology/SULT/SULT_from_annotated_tx_filtered.tsv
+ABC	III	<PROJECT_ROOT>/07_homology/ABC/ABC_candidate_geneids.txt	<PROJECT_ROOT>/07_homology/ABC/ABC_final_geneids.txt	<PROJECT_ROOT>/07_homology/ABC/ABC_candidate.pep.fa	<PROJECT_ROOT>/07_homology/ABC/ABC_from_annotated_tx_filtered.tsv
