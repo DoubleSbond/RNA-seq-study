@@ -1,0 +1,816 @@
+########################################
+# Program: sigcleave
+# Rundate: Wed 19 Aug 2026 17:16:42
+# Commandline: sigcleave
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/SULT/SULT_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/SULT/SULT.sigcleave
+#    -auto
+# Report_format: motif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/SULT/SULT.sigcleave
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN1282_c1_g2_i1.p1     from: 1   to: 327
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1282_c1_g2_i2.p1     from: 1   to: 327
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1282_c1_g2_i4.p1     from: 1   to: 327
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1282_c1_g2_i5.p1     from: 1   to: 226
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g1_i1.p1     from: 1   to: 343
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g1_i10.p1     from: 1   to: 163
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g1_i3.p1     from: 1   to: 159
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 3.985 length 13 at residues 101->113
+           
+ Sequence: THLPISLLPPSLC
+           |           |
+         101           113
+ mature_peptide: DTAKVVYVARDPRDVVVSFFHLNRSHRVLGYHGDFKTFWNFFISSS
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g1_i4.p1     from: 1   to: 298
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g1_i6.p1     from: 1   to: 130
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g1_i9.p1     from: 1   to: 212
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 3.985 length 13 at residues 154->166
+           
+ Sequence: THLPISLLPPSLC
+           |           |
+         154           166
+ mature_peptide: DTAKVVYVARDPRDVVVSFFHLNRSHRVLGYHGDFKTFWNFFISSS
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g2_i1.p1     from: 1   to: 344
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13428_c0_g2_i2.p1     from: 1   to: 344
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN18563_c0_g1_i1.p1     from: 1   to: 228
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN18563_c0_g1_i3.p1     from: 1   to: 126
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1884_c0_g1_i17.p1     from: 1   to: 342
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1884_c0_g1_i19.p1     from: 1   to: 342
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1884_c0_g1_i3.p1     from: 1   to: 342
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN260_c1_g1_i1.p1     from: 1   to: 243
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN260_c1_g1_i12.p1     from: 1   to: 353
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN260_c1_g1_i13.p1     from: 1   to: 243
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN260_c1_g1_i17.p1     from: 1   to: 243
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN260_c1_g1_i20.p1     from: 1   to: 328
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN260_c1_g1_i8.p1     from: 1   to: 328
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN260_c1_g1_i9.p1     from: 1   to: 243
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN275_c0_g1_i16.p1     from: 1   to: 329
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.193 length 13 at residues 15->27
+           
+ Sequence: AGALLVWLWRGGA
+           |           |
+          15           27
+ mature_peptide: RPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQ
+
+(2) Score 6.099 length 13 at residues 17->29
+           
+ Sequence: ALLVWLWRGGARP
+           |           |
+          17           29
+ mature_peptide: AGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQET
+
+(3) Score 3.576 length 13 at residues 10->22
+           
+ Sequence: AAALLAGALLVWL
+           |           |
+          10           22
+ mature_peptide: WRGGARPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPD
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN275_c0_g1_i19.p1     from: 1   to: 329
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.193 length 13 at residues 15->27
+           
+ Sequence: AGALLVWLWRGGA
+           |           |
+          15           27
+ mature_peptide: RPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQ
+
+(2) Score 6.099 length 13 at residues 17->29
+           
+ Sequence: ALLVWLWRGGARP
+           |           |
+          17           29
+ mature_peptide: AGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQET
+
+(3) Score 3.576 length 13 at residues 10->22
+           
+ Sequence: AAALLAGALLVWL
+           |           |
+          10           22
+ mature_peptide: WRGGARPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPD
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN275_c0_g1_i4.p1     from: 1   to: 329
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.193 length 13 at residues 15->27
+           
+ Sequence: AGALLVWLWRGGA
+           |           |
+          15           27
+ mature_peptide: RPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQ
+
+(2) Score 6.099 length 13 at residues 17->29
+           
+ Sequence: ALLVWLWRGGARP
+           |           |
+          17           29
+ mature_peptide: AGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQET
+
+(3) Score 3.576 length 13 at residues 10->22
+           
+ Sequence: AAALLAGALLVWL
+           |           |
+          10           22
+ mature_peptide: WRGGARPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPD
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN275_c0_g1_i7.p1     from: 1   to: 329
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.193 length 13 at residues 15->27
+           
+ Sequence: AGALLVWLWRGGA
+           |           |
+          15           27
+ mature_peptide: RPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQ
+
+(2) Score 6.099 length 13 at residues 17->29
+           
+ Sequence: ALLVWLWRGGARP
+           |           |
+          17           29
+ mature_peptide: AGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQET
+
+(3) Score 3.576 length 13 at residues 10->22
+           
+ Sequence: AAALLAGALLVWL
+           |           |
+          10           22
+ mature_peptide: WRGGARPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPD
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN275_c0_g1_i9.p1     from: 1   to: 329
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.193 length 13 at residues 15->27
+           
+ Sequence: AGALLVWLWRGGA
+           |           |
+          15           27
+ mature_peptide: RPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQ
+
+(2) Score 6.099 length 13 at residues 17->29
+           
+ Sequence: ALLVWLWRGGARP
+           |           |
+          17           29
+ mature_peptide: AGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPDVRCGQET
+
+(3) Score 3.576 length 13 at residues 10->22
+           
+ Sequence: AAALLAGALLVWL
+           |           |
+          10           22
+ mature_peptide: WRGGARPAGAQLRRELDAPVEGRELPLIFIGGVPRSGTTLMRAMLDAHPD
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN27959_c0_g1_i2.p1     from: 1   to: 431
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 3.671 length 13 at residues 23->35
+           
+ Sequence: VAVSCTLFLFLHT
+           |           |
+          23           35
+ mature_peptide: RDLSTKLRRMEGRLNDDVTAFNHLTDRVPTDRTEHAFASAQEYKDALAAI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5927_c0_g1_i12.p1     from: 1   to: 266
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5927_c0_g1_i12.p2     from: 1   to: 118
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5927_c0_g1_i15.p1     from: 1   to: 277
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5927_c0_g1_i18.p1     from: 1   to: 266
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5927_c0_g1_i2.p1     from: 1   to: 107
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5927_c0_g1_i23.p1     from: 1   to: 415
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5927_c0_g1_i3.p1     from: 1   to: 193
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5949_c0_g1_i3.p1     from: 1   to: 178
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5949_c0_g1_i6.p1     from: 1   to: 178
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5949_c0_g1_i7.p1     from: 1   to: 108
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN659_c1_g1_i1.p1     from: 1   to: 133
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN659_c1_g1_i10.p1     from: 1   to: 133
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN659_c1_g1_i4.p1     from: 1   to: 153
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN659_c1_g1_i7.p1     from: 1   to: 119
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+
+#---------------------------------------
+# Total_sequences: 44
+# Total_length: 11281
+# Reported_sequences: 44
+# Reported_hitcount: 18
+#---------------------------------------
