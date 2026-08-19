@@ -1,0 +1,66 @@
+#!/bin/bash
+#PBS -N detox_raw_ev
+#PBS -q epyc
+#PBS -l select=1:ncpus=8:mem=16gb
+#PBS -l walltime=24:00:00
+#PBS -j n
+
+set -euo pipefail
+
+families=(CarE GST UGT SULT ABC)
+index="${PBS_ARRAY_INDEX:-${PBS_ARRAYID:-1}}"
+family="${families[$((index - 1))]}"
+
+source_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/sequence_20260819T143800JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/raw_evidence_20260819T173000JST
+input="${source_root}/${family}/${family}_broad_peptides.fasta"
+out="${run_root}/${family}"
+
+blastp=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/blastp
+diamond=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/diamond
+hmmscan=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/hmmscan
+mafft=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/mafft
+fasttree=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/FastTree
+pfam=/lustre10/home/tuatchenjh9703/tools/pfam/Pfam-A.hmm
+sprot=/lustre10/home/tuatchenjh9703/ph/db/uniprot/uniprot_sprot.dmnd
+bmori=/lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Bmori_db
+spodo=/lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Spodo_db
+
+mkdir -p "$out/logs"
+exec >"$out/logs/${family}.stdout.log" 2>"$out/logs/${family}.stderr.log"
+date -Is
+echo "family=$family input=$input"
+test -s "$input"
+cp -n "$input" "$out/${family}_all_isoforms.pep.fa"
+
+"$diamond" blastp --db "$sprot" --query "$input" --out "$out/${family}_all_vs_sprot_top25.tsv" \
+  --outfmt 6 qseqid sseqid pident length qlen slen qstart qend sstart send evalue bitscore stitle \
+  --max-target-seqs 25 --evalue 1e-3 --sensitive --threads 8
+
+for label_db in "Bmori:$bmori" "Spodoptera:$spodo"; do
+  label="${label_db%%:*}"
+  db="${label_db#*:}"
+  "$blastp" -query "$input" -db "$db" -out "$out/${family}_all_vs_${label}_top25.tsv" \
+    -evalue 1e-3 -max_target_seqs 25 -num_threads 8 \
+    -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen qcovs stitle'
+done
+
+"$hmmscan" --cpu 8 --noali --tblout "$out/${family}_pfam.tblout" \
+  --domtblout "$out/${family}_pfam.domtblout" "$pfam" "$input" >"$out/${family}_pfam.full.txt"
+
+"$mafft" --auto --thread 8 "$input" >"$out/${family}_all_isoforms.mafft.fa"
+"$fasttree" "$out/${family}_all_isoforms.mafft.fa" >"$out/${family}_all_isoforms.fasttree.nwk"
+
+{
+  printf 'family\tpeptides\tsprot_hits\tbmori_hits\tspodoptera_hits\tpfam_domains\n'
+  printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$family" \
+    "$(grep -c '^>' "$input")" \
+    "$(wc -l < "$out/${family}_all_vs_sprot_top25.tsv")" \
+    "$(wc -l < "$out/${family}_all_vs_Bmori_top25.tsv")" \
+    "$(wc -l < "$out/${family}_all_vs_Spodoptera_top25.tsv")" \
+    "$(grep -vc '^#' "$out/${family}_pfam.domtblout")"
+} >"$out/run_summary.tsv"
+
+find "$out" -type f -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/* 2>/dev/null >"$out/sha256.tsv" || true
+date -Is
