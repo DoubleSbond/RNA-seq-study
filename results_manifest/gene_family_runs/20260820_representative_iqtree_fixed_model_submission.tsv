@@ -1,0 +1,3 @@
+family	job_id	remote_output	model	bootstrap	alrt	status_at_submission
+UGT	19679593	/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/UGT	LG+F+G4	1000	1000	running
+ABC	19679594	/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC	LG+F+G4	1000	1000	queued
