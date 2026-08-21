@@ -1,0 +1,11 @@
+GST_hit_genes_e1e3.txt	2687
+GST_hit_genes_e1e5_cov40.txt	1453
+GST_insect_references.fa	17187
+GST_proteome_vs_references.raw.tsv	747239
+GST_proteome_vs_references.with_coverage.tsv	863976
+blastp.stderr.log	0
+blastp.stdout.log	0
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	519
+output_inventory.tsv	0
+run_summary.tsv	116

@@ -1,0 +1,11 @@
+UGT_hit_genes_e1e3.txt	6192
+UGT_hit_genes_e1e5_cov40.txt	2428
+UGT_insect_references.fa	45468
+UGT_proteome_vs_references.raw.tsv	918035
+UGT_proteome_vs_references.with_coverage.tsv	1060857
+blastp.stderr.log	0
+blastp.stdout.log	0
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	519
+output_inventory.tsv	0
+run_summary.tsv	117

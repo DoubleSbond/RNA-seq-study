@@ -1,0 +1,11 @@
+
+
+Building a new DB, current time: 08/21/2026 17:37:23
+New DB name:   /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_vs_family_references_20260821T170000JST/CarE/db/CarE_insect_references
+New DB title:  /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_vs_family_references_20260821T170000JST/CarE/CarE_insect_references.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 47 sequences in 0.0523469 seconds.
+
+

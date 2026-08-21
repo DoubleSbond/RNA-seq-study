@@ -1,0 +1,11 @@
+ABC_hit_genes_e1e3.txt	1558
+ABC_hit_genes_e1e5_cov40.txt	718
+ABC_insect_references.fa	119280
+ABC_proteome_vs_references.raw.tsv	1439040
+ABC_proteome_vs_references.with_coverage.tsv	1657375
+blastp.stderr.log	0
+blastp.stdout.log	0
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	519
+output_inventory.tsv	0
+run_summary.tsv	116
