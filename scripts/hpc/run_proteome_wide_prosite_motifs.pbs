@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -N detox_prosite_all
+#PBS -q epyc
+#PBS -l select=1:ncpus=1:mem=16gb
+#PBS -l walltime=24:00:00
+
+set -euo pipefail
+
+proteome=/lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_wide_prosite_20260821T180000JST
+export EMBOSS_DATA=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data
+
+test ! -e "$run_root"
+test -s "$proteome"
+test -s "$EMBOSS_DATA/PROSITE/prosite.lines"
+mkdir -p "$run_root"
+
+patmatmotifs -sequence "$proteome" -outfile "$run_root/Phoenei_longest.prosite_pruned" -prune -auto \
+  >"$run_root/pruned.stdout.log" 2>"$run_root/pruned.stderr.log"
+patmatmotifs -sequence "$proteome" -outfile "$run_root/Phoenei_longest.prosite_full_patterns" -noprune -full -auto \
+  >"$run_root/full.stdout.log" 2>"$run_root/full.stderr.log"
+
+printf 'proteome_sequences\tpruned_motifs\tfull_pattern_motifs\n' >"$run_root/run_summary.tsv"
+printf '%s\t%s\t%s\n' "$(grep -c '^>' "$proteome")" \
+  "$(grep -c '^Motif =' "$run_root/Phoenei_longest.prosite_pruned" || true)" \
+  "$(grep -c '^Motif =' "$run_root/Phoenei_longest.prosite_full_patterns" || true)" \
+  >>"$run_root/run_summary.tsv"
+
+find "$run_root" -maxdepth 1 -type f -printf '%f\t%s\n' | sort >"$run_root/output_inventory.tsv"
+(cd "$run_root" && sha256sum ./* >SHA256SUMS.txt)
