@@ -1,0 +1,10 @@
+ABC_Phoenei_longest_per_gene.fa	44946
+ABC_all_vs_all.tsv	184451
+ABC_edges_e1e5_cov50.tsv	16346
+ABC_nonself_edges.tsv	212172
+blastp.stderr.log	0
+blastp.stdout.log	0
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	537
+output_inventory.tsv	0
+run_summary.tsv	81

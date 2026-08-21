@@ -1,0 +1,10 @@
+blastp.stderr.log	0
+blastp.stdout.log	0
+GST_all_vs_all.tsv	8915
+GST_edges_e1e5_cov50.tsv	5768
+GST_nonself_edges.tsv	8528
+GST_Phoenei_longest_per_gene.fa	8299
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	537
+output_inventory.tsv	0
+run_summary.tsv	77
