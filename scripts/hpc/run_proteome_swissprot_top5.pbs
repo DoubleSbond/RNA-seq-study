@@ -1,0 +1,38 @@
+#!/bin/bash
+#PBS -N phoenei_sprot5
+#PBS -q epyc
+#PBS -l select=1:ncpus=16:mem=32gb
+#PBS -l walltime=24:00:00
+
+set -euo pipefail
+
+proteome=/lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+database=/lustre10/home/tuatchenjh9703/ph/db/uniprot/uniprot_sprot.dmnd
+diamond=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/diamond
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_swissprot_top5_20260821T183000JST
+
+test ! -e "$run_root"
+test -s "$proteome"
+test -s "$database"
+mkdir -p "$run_root"
+
+"$diamond" blastp --db "$database" --query "$proteome" \
+  --out "$run_root/Phoenei_longest_vs_sprot_top5.tsv" \
+  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend qlen sstart send slen evalue bitscore stitle \
+  --max-target-seqs 5 --evalue 1e-3 --sensitive --threads 16 \
+  >"$run_root/diamond.stdout.log" 2>"$run_root/diamond.stderr.log"
+
+cut -f1 "$run_root/Phoenei_longest_vs_sprot_top5.tsv" | sort -u >"$run_root/annotated_peptide_ids.txt"
+awk -F '\t' '{gene=$1; sub(/_i[0-9].*$/, "", gene); print gene}' \
+  "$run_root/Phoenei_longest_vs_sprot_top5.tsv" | sort -u >"$run_root/annotated_gene_ids.txt"
+
+printf 'proteome_sequences\thit_rows\tannotated_peptides\tannotated_genes\n' >"$run_root/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\n' "$(grep -c '^>' "$proteome")" \
+  "$(wc -l <"$run_root/Phoenei_longest_vs_sprot_top5.tsv")" \
+  "$(wc -l <"$run_root/annotated_peptide_ids.txt")" \
+  "$(wc -l <"$run_root/annotated_gene_ids.txt")" >>"$run_root/run_summary.tsv"
+
+"$diamond" version >"$run_root/diamond_version.txt" 2>&1
+"$diamond" dbinfo --db "$database" >"$run_root/database_info.txt" 2>&1 || true
+find "$run_root" -maxdepth 1 -type f -printf '%f\t%s\n' | sort >"$run_root/output_inventory.tsv"
+(cd "$run_root" && sha256sum ./* >SHA256SUMS.txt)
