@@ -1,0 +1,244 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 19 Aug 2026 17:36:18
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/SULT/SULT_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/SULT/SULT.prosite_full_patterns
+#    -noprune
+#    -full
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/SULT/SULT.prosite_full_patterns
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN1282_c1_g2_i1.p1     from: 1   to: 327
+# HitCount: 10
+#
+# Full: Yes
+# Prune: No
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 186 of sequence
+End = position 189 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+LFRYFNDSVQLKEF
+     |  |
+   186  189
+
+Length = 4
+Start = position 94 of sequence
+End = position 97 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+FDTARNVSLTRRYA
+     |  |
+    94  97
+
+Length = 4
+Start = position 12 of sequence
+End = position 15 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+PYEINNVTEDEDKI
+     |  |
+    12  15
+
+Length = 3
+Start = position 158 of sequence
+End = position 160 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+PKLLETAKIFYIA
+     | |
+   158 160
+
+Length = 3
+Start = position 138 of sequence
+End = position 140 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+LPSLSSPRYVKSH
+     | |
+   138 140
+
+Length = 3
+Start = position 108 of sequence
+End = position 110 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+YIEYPTLKPNLRA
+     | |
+   108 110
+
+Length = 3
+Start = position 98 of sequence
+End = position 100 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+RNVSLTRRYAYIE
+     | |
+    98 100
+
+Length = 3
+Start = position 91 of sequence
+End = position 93 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+NLDFDTARNVSLT
+     | |
+    91 93
+
+Length = 4
+Start = position 126 of sequence
+End = position 129 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+NAPRATYEDFRSLP
+     |  |
+   126  129
+
+Length = 4
+Start = position 14 of sequence
+End = position 17 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+EINNVTEDEDKIIK
+     |  |
+    14  17
+
+
+#---------------------------------------
+#
+# Motif: ASN_GLYCOSYLATION
+# Count: 3
+# 
+# ************************
+# * N-glycosylation site *
+# ************************
+# 
+# It has been known for a long time [1] that potential N-glycosylation sites are
+# specific to the consensus sequence Asn-Xaa-Ser/Thr.  It must be noted that the
+# presence of the consensus  tripeptide  is  not sufficient  to conclude that an
+# asparagine residue is glycosylated, due to  the fact that the  folding of  the
+# protein plays an important  role in the  regulation of N-glycosylation [2]. It
+# has been shown [3] that  the  presence of proline between Asn and Ser/Thr will
+# inhibit N-glycosylation;  this has been confirmed by a statistical analysis of
+# glycosylation sites  [4],  which  also  shows that about 50% of the sites that
+# have a proline C-terminal to Ser/Thr are not glycosylated.
+# 
+# It must also  be noted that there  are  a few  reported cases of glycosylation
+# sites with the pattern Asn-Xaa-Cys; an  experimentally demonstrated occurrence
+# of such a non-standard site is found in the plasma protein C [5].
+# 
+# -Consensus pattern: N-{P}-[ST]-{P}
+#                     [N is the glycosylation site]
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Marshall R.D.
+#      "Glycoproteins."
+#      Annu. Rev. Biochem. 41:673-702(1972).
+#      PubMed=4563441; DOI=10.1146/annurev.bi.41.070172.003325
+# [ 2] Pless D.D., Lennarz W.J.
+#      "Enzymatic conversion of proteins to glycoproteins."
+#      Proc. Natl. Acad. Sci. U.S.A. 74:134-138(1977).
+#      PubMed=264667
+# [ 3] Bause E.
+#      "Structural requirements of N-glycosylation of proteins. Studies with
+#      proline peptides as conformational probes."
+#      Biochem. J. 209:331-336(1983).
+#      PubMed=6847620
+# [ 4] Gavel Y., von Heijne G.
+#      "Sequence differences between glycosylated and non-glycosylated
+#      Asn-X-Thr/Ser acceptor sites: implications for protein engineering."
+#      Protein Eng. 3:433-442(1990).
+#      PubMed=2349213
+# [ 5] Miletich J.P., Broze G.J. Jr.
+#      "Beta protein C is not glycosylated at asparagine 329. The rate of
+#      translation may influence the frequency of usage at
+#      asparagine-X-cysteine sites."
+#      J. Biol. Chem. 265:11397-11404(1990).
+#      PubMed=1694179
+# 
+# ***************
+# 
+# Motif: PKC_PHOSPHO_SITE
+# Count: 5
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: CK2_PHOSPHO_SITE
+# Count: 2
+# 
+# *****************************************
+# * Casein kinase II phosphorylation site *
+# *****************************************
+# 
+# Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+# independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+# different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+# summarized as follows:
+# 
+#  (1) Under comparable conditions Ser is favored over Thr.
+#  (2) An acidic residue (either Asp or Glu) must be present three residues from
+#      the C-terminal of the phosphate acceptor site.
+#  (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+#      phosphorylation rate.  Most  physiological  substrates  have at least one
+#      acidic residue in these positions.
+#  (4) Asp is preferred to Glu as the provider of acidic determinants.
+#  (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+#      phosphorylation rate, while an acidic one will increase it.
+# 
+# -Consensus pattern: [ST]-x(2)-[DE]
+#                     [S or T is the phosphorylation site]
+# 
+# -Note: This pattern is found in most of the known physiological substrates.
+# 
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Pinna L.A.
+#      "Casein kinase 2: an 'eminence grise' in cellular regulation?"
+#      Biochim. Biophys. Acta 1054:267-284(1990).
+#      PubMed=2207178
+# 
+# ***************
+# 
+#
+#---------------------------------------

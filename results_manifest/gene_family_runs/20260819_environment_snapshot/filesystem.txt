@@ -1,0 +1,2 @@
+Filesystem                                                                                 Size  Used Avail Use% Mounted on
+172.19.10.71@o2ib10:172.19.10.72@o2ib10:172.19.10.73@o2ib10:172.19.10.74@o2ib10:/lustre10  9.5P  6.9P  2.6P  74% /lustre10

@@ -1,0 +1,750 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Fri 21 Aug 2026 17:40:48
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_wide_prosite_20260821T180000JST/Phoenei_longest.prosite_full_patterns
+#    -noprune
+#    -full
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_wide_prosite_20260821T180000JST/Phoenei_longest.prosite_full_patterns
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN7610_c0_g1_i3.p1     from: 1   to: 553
+# HitCount: 35
+#
+# Full: Yes
+# Prune: No
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 349 of sequence
+End = position 352 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+VCVSVNYTVVLLSS
+     |  |
+   349  352
+
+Length = 4
+Start = position 294 of sequence
+End = position 297 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+HIAKVNNTKLSTSI
+     |  |
+   294  297
+
+Length = 4
+Start = position 99 of sequence
+End = position 102 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+TSRENNNTEVCSIY
+     |  |
+    99  102
+
+Length = 4
+Start = position 64 of sequence
+End = position 67 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+PEKPANLSEYLWKV
+     |  |
+    64  67
+
+Length = 4
+Start = position 392 of sequence
+End = position 395 of sequence
+
+Motif = CAMP_PHOSPHO_SITE
+
+ADRIGRRYTGMIST
+     |  |
+   392  395
+
+Length = 4
+Start = position 217 of sequence
+End = position 220 of sequence
+
+Motif = CAMP_PHOSPHO_SITE
+
+ISSPKRRASVAKLR
+     |  |
+   217  220
+
+Length = 4
+Start = position 159 of sequence
+End = position 162 of sequence
+
+Motif = CAMP_PHOSPHO_SITE
+
+GDVYGRKPTYIISL
+     |  |
+   159  162
+
+Length = 3
+Start = position 433 of sequence
+End = position 435 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+TSLVITNRLSITV
+     | |
+   433 435
+
+Length = 3
+Start = position 245 of sequence
+End = position 247 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+YWWFKSWKLFMIF
+     | |
+   245 247
+
+Length = 3
+Start = position 214 of sequence
+End = position 216 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+SLEISSPKRRASV
+     | |
+   214 216
+
+Length = 3
+Start = position 94 of sequence
+End = position 96 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+DCLIYTSRENNNT
+     | |
+    94 96
+
+Length = 3
+Start = position 2 of sequence
+End = position 4 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+DSSRMDSLY
+ | |
+ 2 4
+
+Length = 4
+Start = position 521 of sequence
+End = position 524 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+AKLPETLEDAQRFG
+     |  |
+   521  524
+
+Length = 4
+Start = position 373 of sequence
+End = position 376 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+DFAWQSLAEIPGFF
+     |  |
+   373  376
+
+Length = 4
+Start = position 356 of sequence
+End = position 359 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+TVVLLSSAEKSTGN
+     |  |
+   356  359
+
+Length = 4
+Start = position 309 of sequence
+End = position 312 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+NEILTSGQDMVAGK
+     |  |
+   309  312
+
+Length = 4
+Start = position 300 of sequence
+End = position 303 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+NTKLSTSIENEILT
+     |  |
+   300  303
+
+Length = 4
+Start = position 112 of sequence
+End = position 115 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+YDYERTWFETTVPS
+     |  |
+   112  115
+
+Length = 4
+Start = position 105 of sequence
+End = position 108 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+NTEVCSIYDYERTW
+     |  |
+   105  108
+
+Length = 4
+Start = position 94 of sequence
+End = position 97 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+DCLIYTSRENNNTE
+     |  |
+    94  97
+
+Length = 4
+Start = position 7 of sequence
+End = position 10 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+SSRMDSLYDRALSE
+     |  |
+     7  10
+
+Length = 4
+Start = position 3 of sequence
+End = position 6 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+DSSRMDSLYDR
+  |  |
+  3  6
+
+Length = 8
+Start = position 86 of sequence
+End = position 93 of sequence
+
+Motif = TYR_PHOSPHO_SITE_1
+
+ATGGTKFSDCLIYTSREN
+     |      |
+    86      93
+
+Length = 6
+Start = position 503 of sequence
+End = position 508 of sequence
+
+Motif = MYRISTYL
+
+TTTLCGVLTSFFLPET
+     |    |
+   503    508
+
+Length = 6
+Start = position 470 of sequence
+End = position 475 of sequence
+
+Motif = MYRISTYL
+
+GSVVSGVAASLAPYIL
+     |    |
+   470    475
+
+Length = 6
+Start = position 465 of sequence
+End = position 470 of sequence
+
+Motif = MYRISTYL
+
+TGMSLGSVVSGVAASL
+     |    |
+   465    470
+
+Length = 6
+Start = position 461 of sequence
+End = position 466 of sequence
+
+Motif = MYRISTYL
+
+CLRQTGMSLGSVVSGV
+     |    |
+   461    466
+
+Length = 6
+Start = position 396 of sequence
+End = position 401 of sequence
+
+Motif = MYRISTYL
+
+GRRYTGMISTTLTTLL
+     |    |
+   396    401
+
+Length = 6
+Start = position 190 of sequence
+End = position 195 of sequence
+
+Motif = MYRISTYL
+
+ALFTIGCIIASLPSWS
+     |    |
+   190    195
+
+Length = 6
+Start = position 84 of sequence
+End = position 89 of sequence
+
+Motif = MYRISTYL
+
+EDATGGTKFSDCLIYT
+     |    |
+    84    89
+
+Length = 6
+Start = position 35 of sequence
+End = position 40 of sequence
+
+Motif = MYRISTYL
+
+YNVLLGGLWSMAYNNI
+     |    |
+    35    40
+
+Length = 4
+Start = position 482 of sequence
+End = position 485 of sequence
+
+Motif = AMIDATION
+
+PYILHLGRRFDVRY
+     |  |
+   482  485
+
+Length = 4
+Start = position 390 of sequence
+End = position 393 of sequence
+
+Motif = AMIDATION
+
+WLADRIGRRYTGMI
+     |  |
+   390  393
+
+Length = 4
+Start = position 157 of sequence
+End = position 160 of sequence
+
+Motif = AMIDATION
+
+WFGDVYGRKPTYII
+     |  |
+   157  160
+
+Length = 18
+Start = position 383 of sequence
+End = position 400 of sequence
+
+Motif = SUGAR_TRANSPORT_1
+
+PGFFIASWLADRIGRRYTGMISTTLTTL
+     |                |
+   383                400
+
+
+#---------------------------------------
+#
+# Motif: ASN_GLYCOSYLATION
+# Count: 4
+# 
+# ************************
+# * N-glycosylation site *
+# ************************
+# 
+# It has been known for a long time [1] that potential N-glycosylation sites are
+# specific to the consensus sequence Asn-Xaa-Ser/Thr.  It must be noted that the
+# presence of the consensus  tripeptide  is  not sufficient  to conclude that an
+# asparagine residue is glycosylated, due to  the fact that the  folding of  the
+# protein plays an important  role in the  regulation of N-glycosylation [2]. It
+# has been shown [3] that  the  presence of proline between Asn and Ser/Thr will
+# inhibit N-glycosylation;  this has been confirmed by a statistical analysis of
+# glycosylation sites  [4],  which  also  shows that about 50% of the sites that
+# have a proline C-terminal to Ser/Thr are not glycosylated.
+# 
+# It must also  be noted that there  are  a few  reported cases of glycosylation
+# sites with the pattern Asn-Xaa-Cys; an  experimentally demonstrated occurrence
+# of such a non-standard site is found in the plasma protein C [5].
+# 
+# -Consensus pattern: N-{P}-[ST]-{P}
+#                     [N is the glycosylation site]
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Marshall R.D.
+#      "Glycoproteins."
+#      Annu. Rev. Biochem. 41:673-702(1972).
+#      PubMed=4563441; DOI=10.1146/annurev.bi.41.070172.003325
+# [ 2] Pless D.D., Lennarz W.J.
+#      "Enzymatic conversion of proteins to glycoproteins."
+#      Proc. Natl. Acad. Sci. U.S.A. 74:134-138(1977).
+#      PubMed=264667
+# [ 3] Bause E.
+#      "Structural requirements of N-glycosylation of proteins. Studies with
+#      proline peptides as conformational probes."
+#      Biochem. J. 209:331-336(1983).
+#      PubMed=6847620
+# [ 4] Gavel Y., von Heijne G.
+#      "Sequence differences between glycosylated and non-glycosylated
+#      Asn-X-Thr/Ser acceptor sites: implications for protein engineering."
+#      Protein Eng. 3:433-442(1990).
+#      PubMed=2349213
+# [ 5] Miletich J.P., Broze G.J. Jr.
+#      "Beta protein C is not glycosylated at asparagine 329. The rate of
+#      translation may influence the frequency of usage at
+#      asparagine-X-cysteine sites."
+#      J. Biol. Chem. 265:11397-11404(1990).
+#      PubMed=1694179
+# 
+# ***************
+# 
+# Motif: CAMP_PHOSPHO_SITE
+# Count: 3
+# 
+# ****************************************************************
+# * cAMP- and cGMP-dependent protein kinase phosphorylation site *
+# ****************************************************************
+# 
+# There has been a  number of studies  relative to the  specificity of cAMP- and
+# cGMP-dependent protein kinases [1,2,3].  Both types of kinases appear to share
+# a preference  for  the  phosphorylation  of serine or threonine residues found
+# close to at least  two consecutive N-terminal  basic residues. It is important
+# to note that there are quite a number of exceptions to this rule.
+# 
+# -Consensus pattern: [RK](2)-x-[ST]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Fremisco J.R., Glass D.B., Krebs E.G.
+#      J. Biol. Chem. 255:4240-4245(1980).
+# [ 2] Glass D.B., Smith S.B.
+#      "Phosphorylation by cyclic GMP-dependent protein kinase of a synthetic
+#      peptide corresponding to the autophosphorylation site in the enzyme."
+#      J. Biol. Chem. 258:14797-14803(1983).
+#      PubMed=6317673
+# [ 3] Glass D.B., el-Maghrabi M.R., Pilkis S.J.
+#      "Synthetic peptides corresponding to the site phosphorylated in
+#      6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase as substrates of
+#      cyclic nucleotide-dependent protein kinases."
+#      J. Biol. Chem. 261:2987-2993(1986).
+#      PubMed=3005275
+# 
+# ***************
+# 
+# Motif: PKC_PHOSPHO_SITE
+# Count: 5
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: CK2_PHOSPHO_SITE
+# Count: 10
+# 
+# *****************************************
+# * Casein kinase II phosphorylation site *
+# *****************************************
+# 
+# Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+# independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+# different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+# summarized as follows:
+# 
+#  (1) Under comparable conditions Ser is favored over Thr.
+#  (2) An acidic residue (either Asp or Glu) must be present three residues from
+#      the C-terminal of the phosphate acceptor site.
+#  (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+#      phosphorylation rate.  Most  physiological  substrates  have at least one
+#      acidic residue in these positions.
+#  (4) Asp is preferred to Glu as the provider of acidic determinants.
+#  (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+#      phosphorylation rate, while an acidic one will increase it.
+# 
+# -Consensus pattern: [ST]-x(2)-[DE]
+#                     [S or T is the phosphorylation site]
+# 
+# -Note: This pattern is found in most of the known physiological substrates.
+# 
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Pinna L.A.
+#      "Casein kinase 2: an 'eminence grise' in cellular regulation?"
+#      Biochim. Biophys. Acta 1054:267-284(1990).
+#      PubMed=2207178
+# 
+# ***************
+# 
+# Motif: TYR_PHOSPHO_SITE_1
+# Count: 1
+# 
+# *****************************************
+# * Tyrosine kinase phosphorylation sites *
+# *****************************************
+# 
+# Substrates of tyrosine protein kinases are generally characterized by a lysine
+# or an arginine seven residues  to  the N-terminal side  of  the phosphorylated
+# tyrosine.  An acidic residue (Asp  or Glu) is often  found at either  three or
+# four residues to  the N-terminal side  of  the tyrosine  [1,2,3].  There are a
+# number of exceptions to  this rule such as the  tyrosine phosphorylation sites
+# of enolase and lipocortin II.
+# 
+# We developed  two  signature  patterns for the tyrosine kinase phosphorylation
+# sites. The  first  pattern  is  directed  against  the  sites where the acidic
+# residue (Asp  or Glu) is found at three residues to the N-terminal side of the
+# tyrosine, and the second one against the site where it is at four.
+# 
+# -Consensus pattern: [RK]-x(2)-[DE]-x(3)-Y
+#                     [Y is the phosphorylation site]
+# 
+# -Consensus pattern: [RK]-x(3)-[DE]-x(2)-Y
+#                     [Y is the phosphorylation site]
+# 
+# -Last update: March 2019 / Text and pattern revised; pattern added.
+# 
+# [ 1] Patschinsky T., Hunter T., Esch F.S., Cooper J.A., Sefton B.M.
+#      "Analysis of the sequence of amino acids surrounding sites of tyrosine
+#      phosphorylation."
+#      Proc. Natl. Acad. Sci. U.S.A. 79:973-977(1982).
+#      PubMed=6280176
+# [ 2] Hunter T.
+#      "Synthetic peptide substrates for a tyrosine protein kinase."
+#      J. Biol. Chem. 257:4843-4848(1982).
+#      PubMed=6279650
+# [ 3] Cooper J.A., Esch F.S., Taylor S.S., Hunter T.
+#      "Phosphorylation sites in enolase and lactate dehydrogenase utilized
+#      by tyrosine protein kinases in vivo and in vitro."
+#      J. Biol. Chem. 259:7835-7841(1984).
+#      PubMed=6330085
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 8
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+# Motif: AMIDATION
+# Count: 3
+# 
+# ******************
+# * Amidation site *
+# ******************
+# 
+# The precursor of  hormones  and other active  peptides  which are C-terminally
+# amidated is always directly followed [1,2] by a glycine residue which provides
+# the amide group, and  most often by at  least two  consecutive  basic residues
+# (Arg or Lys) which generally function as an active peptide  precursor cleavage
+# site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+# such as Val or Phe are good substrates, while  charged residues such as Asp or
+# Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+# occur in unicellular organisms or in plants.
+# 
+# -Consensus pattern: x-G-[RK]-[RK]
+#                     [x is the amidation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Kreil G.
+#      "Occurrence, detection, and biosynthesis of carboxy-terminal amides."
+#      Methods Enzymol. 106:218-223(1984).
+#      PubMed=6548541
+# [ 2] Bradbury A.F., Smyth D.G.
+#      "Biosynthesis of the C-terminal amide in peptide hormones."
+#      Biosci. Rep. 7:907-916(1987).
+#      PubMed=3331120
+# 
+# ***************
+# 
+# Motif: SUGAR_TRANSPORT_1
+# Count: 1
+# 
+# ***************************************
+# * Sugar transport proteins signatures *
+# ***************************************
+# 
+# In mammalian  cells  the uptake of glucose is  mediated by a family of closely
+# related transport  proteins which are called the glucose transporters [1,2,3].
+# At least  seven of these transporters are  currently  known to exist (in Human
+# they are encoded by the GLUT1 to GLUT7 genes).
+# 
+# These integral membrane proteins  are  predicted  to  comprise twelve membrane
+# spanning domains.  The  glucose  transporters show sequence similarities [4,5]
+# with a number of other sugar or  metabolite transport  proteins  listed  below
+# (references are only provided for recently determined sequences).
+# 
+#  - Escherichia coli arabinose-proton symport (araE).
+#  - Escherichia coli galactose-proton symport (galP).
+#  - Escherichia coli and  Klebsiella pneumoniae  citrate-proton  symport  (also
+#    known as citrate utilization determinant) (gene cit).
+#  - Escherichia coli alpha-ketoglutarate permease (gene kgtP).
+#  - Escherichia coli proline/betaine transporter (gene proP) [6].
+#  - Escherichia coli xylose-proton symport (xylE).
+#  - Zymomonas mobilis glucose facilitated diffusion protein (gene glf).
+#  - Yeast high and low affinity glucose transport proteins (genes SNF3, HXT1 to
+#    HXT14).
+#  - Yeast galactose transporter (gene GAL2).
+#  - Yeast maltose permeases (genes MAL3T and MAL6T).
+#  - Yeast myo-inositol transporters (genes ITR1 and ITR2).
+#  - Yeast carboxylic acid transporter protein homolog JEN1.
+#  - Yeast inorganic phosphate transporter (gene PHO84).
+#  - Kluyveromyces lactis lactose permease (gene LAC12).
+#  - Neurospora crassa quinate transporter (gene Qa-y),  and Emericella nidulans
+#    quinate permease (gene qutD).
+#  - Chlorella hexose carrier (gene HUP1).
+#  - Arabidopsis thaliana glucose transporter (gene STP1).
+#  - Spinach sucrose transporter.
+#  - Leishmania donovani transporters D1 and D2.
+#  - Leishmania enriettii probable transport protein (LTP).
+# 
+#  - Yeast hypothetical proteins YBR241c, YCR98c and YFL040w.
+#  - Caenorhabditis elegans hypothetical protein ZK637.1.
+#  - Escherichia coli hypothetical proteins yabE, ydjE and yhjE.
+#  - Haemophilus influenzae hypothetical proteins HI0281 and HI0418.
+#  - Bacillus subtilis hypothetical proteins yxbC and yxdF.
+# 
+# It has been suggested [4]  that these transport proteins have evolved from the
+# duplication of  an  ancestral  protein  with  six  transmembrane regions, this
+# hypothesis is based on the conservation of two G-R-[KR] motifs.  The first one
+# is located  between  the second and third transmembrane domains and the second
+# one between transmembrane domains 8 and 9.
+# 
+# We have developed  two patterns  to  detect this family of proteins. The first
+# pattern is based on the G-R-[KR] motif; but because this motif is too short to
+# be  specific to  this  family  of  proteins, we  have derived a pattern from a
+# larger region  centered on the  second copy of this motif.  The second pattern
+# is based on a number of conserved residues which are located at the end of the
+# fourth transmembrane  segment  and in the short loop region between the fourth
+# and fifth segments.
+# 
+# -Consensus pattern: [LIVMSTAG]-[LIVMFSAG]-{SH}-{RDE}-[LIVMSA]-[DE]-{TD}-
+#                     [LIVMFYWA]-G-R-[RK]-x(4,6)-[GSTA]
+# -Sequences known to belong to this class detected by the pattern: the majority
+#  of transporters with 23 exceptions.
+# -Other sequence(s) detected in Swiss-Prot: 53.
+# 
+# -Consensus pattern: [LIVMF]-x-G-[LIVMFA]-{V}-x-G-{KP}-x(7)-[LIFY]-x(2)-[EQ]-
+#                     x(6)-[RK]
+# -Sequences known to belong to this class detected by the pattern: the majority
+#  of transporters with 20 exceptions.
+# -Other sequence(s) detected in Swiss-Prot: 67.
+# 
+# -Last update: April 2006 / Patterns revised.
+# 
+# [ 1] Silverman M.
+#      "Structure and function of hexose transporters."
+#      Annu. Rev. Biochem. 60:757-794(1991).
+#      PubMed=1883208; DOI=10.1146/annurev.bi.60.070191.003545
+# [ 2] Gould G.W., Bell G.I.
+#      "Facilitative glucose transporters: an expanding family."
+#      Trends Biochem. Sci. 15:18-23(1990).
+#      PubMed=2180146
+# [ 3] Baldwin S.A.
+#      "Mammalian passive glucose transporters: members of an ubiquitous
+#      family of active and passive transport proteins."
+#      Biochim. Biophys. Acta 1154:17-49(1993).
+#      PubMed=8507645
+# [ 4] Maiden M.C.J., Davis E.O., Baldwin S.A., Moore D.C.M., Henderson P.J.F.
+#      "Mammalian and bacterial sugar transport proteins are homologous."
+#      Nature 325:641-643(1987).
+#      PubMed=3543693; DOI=10.1038/325641a0
+# [ 5] Henderson P.J.F.
+#      Curr. Opin. Struct. Biol. 1:590-601(1991).
+# [ 6] Culham D.E., Lasby B., Marangoni A.G., Milner J.L., Steer B.A.,
+#      van Nues R.W., Wood J.M.
+#      "Isolation and sequencing of Escherichia coli gene proP reveals
+#      unusual structural features of the osmoregulatory proline/betaine
+#      transporter, ProP."
+#      J. Mol. Biol. 229:268-276(1993).
+#      PubMed=8421314
+# 
+# ***************
+# 
+#
+#---------------------------------------

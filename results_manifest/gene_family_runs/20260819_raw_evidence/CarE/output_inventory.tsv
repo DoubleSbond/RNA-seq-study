@@ -1,0 +1,15 @@
+CarE_all_isoforms.fasttree.nwk	5711
+CarE_all_isoforms.mafft.fa	124826
+CarE_all_isoforms.pep.fa	72500
+CarE_all_vs_Bmori_top25.tsv	400468
+CarE_all_vs_Spodoptera_top25.tsv	451010
+CarE_all_vs_sprot_top25.tsv	481779
+CarE_pfam.domtblout	105494
+CarE_pfam.full.txt	341184
+CarE_pfam.tblout	73798
+CarE.stderr.log	49907
+CarE.stdout.log	26
+output_inventory.tsv	0
+run_summary.tsv	95
+scheduler.stderr	0
+scheduler.stdout	0

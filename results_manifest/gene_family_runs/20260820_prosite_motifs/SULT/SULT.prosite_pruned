@@ -1,0 +1,26 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 19 Aug 2026 17:36:18
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/SULT/SULT_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/SULT/SULT.prosite_pruned
+#    -prune
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/SULT/SULT.prosite_pruned
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN1282_c1_g2_i1.p1     from: 1   to: 327
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

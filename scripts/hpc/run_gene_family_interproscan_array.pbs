@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -N detox_ipr
+#PBS -q epyc
+#PBS -l select=1:ncpus=8:mem=24gb
+#PBS -l walltime=48:00:00
+#PBS -j n
+
+set -euo pipefail
+
+families=(CarE GST UGT SULT ABC)
+index="${PBS_ARRAY_INDEX:-${PBS_ARRAYID:-1}}"
+family="${families[$((index - 1))]}"
+source_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/sequence_20260819T143800JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/interproscan_20260819T174500JST
+input="${source_root}/${family}/${family}_broad_peptides.fasta"
+out="${run_root}/${family}"
+interpro=/home/tuatchenjh9703/miniconda3/envs/interproscan/bin/interproscan.sh
+
+mkdir -p "$out/logs" "$out/temp"
+exec >"$out/logs/${family}.stdout.log" 2>"$out/logs/${family}.stderr.log"
+date -Is
+test -s "$input"
+"$interpro" -i "$input" -b "$out/${family}_all_isoforms.interpro" \
+  -f TSV,GFF3,XML -goterms -iprlookup -pa -cpu 8 -T "$out/temp"
+find "$out" -type f -not -path '*/temp/*' -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/${family}_all_isoforms.interpro.* >"$out/sha256.tsv"
+date -Is

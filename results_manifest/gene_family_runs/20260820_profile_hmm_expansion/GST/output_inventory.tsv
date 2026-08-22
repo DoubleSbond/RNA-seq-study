@@ -1,0 +1,14 @@
+GST.stderr.log	0
+GST.stdout.log	1085
+GST_inclusive.hmm	122391
+GST_proteome.domtblout	15425
+GST_proteome.full.txt	86180
+GST_proteome.sto	100086
+GST_proteome.tblout	13449
+all_hit_genes.txt	871
+current_candidate_genes.txt	420
+novel_profile_hit_genes.txt	451
+output_inventory.tsv	0
+run_summary.tsv	111
+scheduler.stderr	0
+scheduler.stdout	0

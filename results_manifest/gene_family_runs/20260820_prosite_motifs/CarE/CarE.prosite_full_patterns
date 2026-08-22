@@ -1,0 +1,595 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 19 Aug 2026 17:36:17
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/CarE/CarE_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/CarE/CarE.prosite_full_patterns
+#    -noprune
+#    -full
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/CarE/CarE.prosite_full_patterns
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN10214_c0_g1_i1.p1     from: 1   to: 550
+# HitCount: 25
+#
+# Full: Yes
+# Prune: No
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 437 of sequence
+End = position 440 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+KLNFFNSTGHGAEL
+     |  |
+   437  440
+
+Length = 4
+Start = position 403 of sequence
+End = position 406 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+FSYYVNKTVRLLCT
+     |  |
+   403  406
+
+Length = 4
+Start = position 221 of sequence
+End = position 224 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+ASVLNNWSLAKNPS
+     |  |
+   221  224
+
+Length = 4
+Start = position 182 of sequence
+End = position 185 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+GGDPNNVTIFGSSS
+     |  |
+   182  185
+
+Length = 3
+Start = position 466 of sequence
+End = position 468 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+RDSVKTRRRVIKM
+     | |
+   466 468
+
+Length = 3
+Start = position 463 of sequence
+End = position 465 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+KGSRDSVKTRRRV
+     | |
+   463 465
+
+Length = 3
+Start = position 405 of sequence
+End = position 407 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+YYVNKTVRLLCTA
+     | |
+   405 407
+
+Length = 3
+Start = position 95 of sequence
+End = position 97 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+ELSTPSIKPDKPI
+     | |
+    95 97
+
+Length = 3
+Start = position 46 of sequence
+End = position 48 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+KPPVGSLRFLSPS
+     | |
+    46 48
+
+Length = 3
+Start = position 23 of sequence
+End = position 25 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+PICGYSEKTDEGT
+     | |
+    23 25
+
+Length = 4
+Start = position 484 of sequence
+End = position 487 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+KTGNPTPDEDDPLL
+     |  |
+   484  487
+
+Length = 4
+Start = position 339 of sequence
+End = position 342 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+TENFYSNFEKYNEN
+     |  |
+   339  342
+
+Length = 4
+Start = position 147 of sequence
+End = position 150 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+PFGFLSINDYAAPG
+     |  |
+   147  150
+
+Length = 4
+Start = position 81 of sequence
+End = position 84 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+VTDVISGSEDCLYI
+     |  |
+    81  84
+
+Length = 4
+Start = position 75 of sequence
+End = position 78 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+LPISRSVTDVISGS
+     |  |
+    75  78
+
+Length = 8
+Start = position 25 of sequence
+End = position 32 of sequence
+
+Motif = TYR_PHOSPHO_SITE_1
+
+CGYSEKTDEGTCYKFKSI
+     |      |
+    25      32
+
+Length = 6
+Start = position 511 of sequence
+End = position 516 of sequence
+
+Motif = MYRISTYL
+
+NYLSIGSELTKGRNPF
+     |    |
+   511    516
+
+Length = 6
+Start = position 459 of sequence
+End = position 464 of sequence
+
+Motif = MYRISTYL
+
+PDEFKGSRDSVKTRRR
+     |    |
+   459    464
+
+Length = 6
+Start = position 442 of sequence
+End = position 447 of sequence
+
+Motif = MYRISTYL
+
+NSTGHGAELSFLFRIK
+     |    |
+   442    447
+
+Length = 6
+Start = position 240 of sequence
+End = position 245 of sequence
+
+Motif = MYRISTYL
+
+LAKLLGIEKACKEEIV
+     |    |
+   240    245
+
+Length = 6
+Start = position 192 of sequence
+End = position 197 of sequence
+
+Motif = MYRISTYL
+
+GSSSGGSIVNFMMLSP
+     |    |
+   192    197
+
+Length = 6
+Start = position 187 of sequence
+End = position 192 of sequence
+
+Motif = MYRISTYL
+
+NVTIFGSSSGGSIVNF
+     |    |
+   187    192
+
+Length = 6
+Start = position 177 of sequence
+End = position 182 of sequence
+
+Motif = MYRISTYL
+
+HISSFGGDPNNVTIFG
+     |    |
+   177    182
+
+Length = 6
+Start = position 82 of sequence
+End = position 87 of sequence
+
+Motif = MYRISTYL
+
+TDVISGSEDCLYIELS
+     |    |
+    82    87
+
+Length = 16
+Start = position 176 of sequence
+End = position 191 of sequence
+
+Motif = CARBOXYLESTERASE_B_1
+
+RHISSFGGDPNNVTIFGSSSGGSIVN
+     |              |
+   176              191
+
+
+#---------------------------------------
+#
+# Motif: ASN_GLYCOSYLATION
+# Count: 4
+# 
+# ************************
+# * N-glycosylation site *
+# ************************
+# 
+# It has been known for a long time [1] that potential N-glycosylation sites are
+# specific to the consensus sequence Asn-Xaa-Ser/Thr.  It must be noted that the
+# presence of the consensus  tripeptide  is  not sufficient  to conclude that an
+# asparagine residue is glycosylated, due to  the fact that the  folding of  the
+# protein plays an important  role in the  regulation of N-glycosylation [2]. It
+# has been shown [3] that  the  presence of proline between Asn and Ser/Thr will
+# inhibit N-glycosylation;  this has been confirmed by a statistical analysis of
+# glycosylation sites  [4],  which  also  shows that about 50% of the sites that
+# have a proline C-terminal to Ser/Thr are not glycosylated.
+# 
+# It must also  be noted that there  are  a few  reported cases of glycosylation
+# sites with the pattern Asn-Xaa-Cys; an  experimentally demonstrated occurrence
+# of such a non-standard site is found in the plasma protein C [5].
+# 
+# -Consensus pattern: N-{P}-[ST]-{P}
+#                     [N is the glycosylation site]
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Marshall R.D.
+#      "Glycoproteins."
+#      Annu. Rev. Biochem. 41:673-702(1972).
+#      PubMed=4563441; DOI=10.1146/annurev.bi.41.070172.003325
+# [ 2] Pless D.D., Lennarz W.J.
+#      "Enzymatic conversion of proteins to glycoproteins."
+#      Proc. Natl. Acad. Sci. U.S.A. 74:134-138(1977).
+#      PubMed=264667
+# [ 3] Bause E.
+#      "Structural requirements of N-glycosylation of proteins. Studies with
+#      proline peptides as conformational probes."
+#      Biochem. J. 209:331-336(1983).
+#      PubMed=6847620
+# [ 4] Gavel Y., von Heijne G.
+#      "Sequence differences between glycosylated and non-glycosylated
+#      Asn-X-Thr/Ser acceptor sites: implications for protein engineering."
+#      Protein Eng. 3:433-442(1990).
+#      PubMed=2349213
+# [ 5] Miletich J.P., Broze G.J. Jr.
+#      "Beta protein C is not glycosylated at asparagine 329. The rate of
+#      translation may influence the frequency of usage at
+#      asparagine-X-cysteine sites."
+#      J. Biol. Chem. 265:11397-11404(1990).
+#      PubMed=1694179
+# 
+# ***************
+# 
+# Motif: PKC_PHOSPHO_SITE
+# Count: 6
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: CK2_PHOSPHO_SITE
+# Count: 5
+# 
+# *****************************************
+# * Casein kinase II phosphorylation site *
+# *****************************************
+# 
+# Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+# independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+# different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+# summarized as follows:
+# 
+#  (1) Under comparable conditions Ser is favored over Thr.
+#  (2) An acidic residue (either Asp or Glu) must be present three residues from
+#      the C-terminal of the phosphate acceptor site.
+#  (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+#      phosphorylation rate.  Most  physiological  substrates  have at least one
+#      acidic residue in these positions.
+#  (4) Asp is preferred to Glu as the provider of acidic determinants.
+#  (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+#      phosphorylation rate, while an acidic one will increase it.
+# 
+# -Consensus pattern: [ST]-x(2)-[DE]
+#                     [S or T is the phosphorylation site]
+# 
+# -Note: This pattern is found in most of the known physiological substrates.
+# 
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Pinna L.A.
+#      "Casein kinase 2: an 'eminence grise' in cellular regulation?"
+#      Biochim. Biophys. Acta 1054:267-284(1990).
+#      PubMed=2207178
+# 
+# ***************
+# 
+# Motif: TYR_PHOSPHO_SITE_1
+# Count: 1
+# 
+# *****************************************
+# * Tyrosine kinase phosphorylation sites *
+# *****************************************
+# 
+# Substrates of tyrosine protein kinases are generally characterized by a lysine
+# or an arginine seven residues  to  the N-terminal side  of  the phosphorylated
+# tyrosine.  An acidic residue (Asp  or Glu) is often  found at either  three or
+# four residues to  the N-terminal side  of  the tyrosine  [1,2,3].  There are a
+# number of exceptions to  this rule such as the  tyrosine phosphorylation sites
+# of enolase and lipocortin II.
+# 
+# We developed  two  signature  patterns for the tyrosine kinase phosphorylation
+# sites. The  first  pattern  is  directed  against  the  sites where the acidic
+# residue (Asp  or Glu) is found at three residues to the N-terminal side of the
+# tyrosine, and the second one against the site where it is at four.
+# 
+# -Consensus pattern: [RK]-x(2)-[DE]-x(3)-Y
+#                     [Y is the phosphorylation site]
+# 
+# -Consensus pattern: [RK]-x(3)-[DE]-x(2)-Y
+#                     [Y is the phosphorylation site]
+# 
+# -Last update: March 2019 / Text and pattern revised; pattern added.
+# 
+# [ 1] Patschinsky T., Hunter T., Esch F.S., Cooper J.A., Sefton B.M.
+#      "Analysis of the sequence of amino acids surrounding sites of tyrosine
+#      phosphorylation."
+#      Proc. Natl. Acad. Sci. U.S.A. 79:973-977(1982).
+#      PubMed=6280176
+# [ 2] Hunter T.
+#      "Synthetic peptide substrates for a tyrosine protein kinase."
+#      J. Biol. Chem. 257:4843-4848(1982).
+#      PubMed=6279650
+# [ 3] Cooper J.A., Esch F.S., Taylor S.S., Hunter T.
+#      "Phosphorylation sites in enolase and lactate dehydrogenase utilized
+#      by tyrosine protein kinases in vivo and in vitro."
+#      J. Biol. Chem. 259:7835-7841(1984).
+#      PubMed=6330085
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 8
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+# Motif: CARBOXYLESTERASE_B_1
+# Count: 1
+# 
+# ***************************************
+# * Carboxylesterases type-B signatures *
+# ***************************************
+# 
+# Higher eukaryotes  have many distinct esterases. Among the different types are
+# those which  act  on  carboxylic esters (EC 3.1.1.-). Carboxyl-esterases  have
+# been classified   into  three  categories  (A,  B  and  C)  on  the  basis  of
+# differential patterns  of  inhibition  by  organophosphates. The sequence of a
+# number of  type-B  carboxylesterases  indicates  [1,2,3] that the majority are
+# evolutionary related.   This   family  currently  consists  of  the  following
+# proteins:
+# 
+#  - Acetylcholinesterase   (EC   3.1.1.7)  (AChE)  from  vertebrates  and  from
+#    Drosophila.
+#  - Mammalian cholinesterase II (butyryl cholinesterase) (EC 3.1.1.8).
+#    Acetylcholinesterase and cholinesterase II are closely related enzymes that
+#    hydrolyze choline esters [4].
+#  - Mammalian liver microsomal carboxylesterases (EC 3.1.1.1).
+#  - Drosophila  esterase  6,  produced  in the anterior ejaculatory duct of the
+#    male insect  reproductive  system  where it plays an important  role in its
+#    reproductive biology.
+#  - Drosophila esterase P.
+#  - Culex pipiens (mosquito) esterases B1 and B2.
+#  - Myzus persicae (peach-potato aphid) esterases E4 and FE4.
+#  - Mammalian bile-salt-activated  lipase (BAL) [5], a  multifunctional  lipase
+#    which catalyzes fat and vitamin absorption. It  is  activated by bile salts
+#    in infant intestine where it helps to digest milk fats.
+#  - Insect juvenile hormone esterase (JH esterase) (EC 3.1.1.59).
+#  - Lipases (EC 3.1.1.3) from the fungi Geotrichum candidum and Candida rugosa.
+#  - Caenorhabditis gut esterase (gene ges-1).
+#  - Duck acyl-[acyl-carrier protein] hydrolase, medium  chain (EC 3.1.2.14), an
+#    enzyme that may be  associated with peroxisome proliferation and may play a
+#    role in the production of 3-hydroxy fatty acid diester pheromones.
+#  - Membrane enclosed crystal  proteins from slime mold.  These  proteins  are,
+#    most probably  esterases;  the vesicles where they are found have therefore
+#    been termed esterosomes.
+# 
+# So far two bacterial proteins have been found to belong to this family:
+# 
+#  - Phenmedipham hydrolase (phenylcarbamate hydrolase), an Arthrobacter oxidans
+#    plasmid-encoded enzyme   (gene   pcd)  that  degrades  the  phenylcarbamate
+#    herbicides phenmedipham   and  desmedipham  by  hydrolyzing  their  central
+#    carbamate linkages.
+#  - Para-nitrobenzyl esterase from Bacillus subtilis (gene pnbA).
+# 
+# The following proteins, while having lost their catalytic activity,  contain a
+# domain evolutionary related to that of carboxylesterases type-B:
+# 
+#  - Thyroglobulin (TG), a glycoprotein specific to the thyroid gland,  which is
+#    the precursor of the iodinated thyroid hormones thyroxine (T4)  and triiodo
+#    thyronine (T3).
+#  - Drosophila  protein  neurotactin  (gene  nrt) which may mediate or modulate
+#    cell adhesion between embryonic cells during development.
+#  - Drosophila protein glutactin (gene glt), whose function is not known.
+# 
+# As is  the  case  for lipases and serine proteases, the catalytic apparatus of
+# esterases involves three residues (catalytic triad): a serine, a glutamate  or
+# aspartate and  a histidine. The sequence around the active site serine is well
+# conserved and  can  be  used  as  a  signature  pattern. As a second signature
+# pattern, we selected a  conserved region located in the N-terminal section and
+# which contains a cysteine involved in a disulfide bond.
+# 
+# -Consensus pattern: F-[GR]-G-x(4)-[LIVM]-x-[LIV]-x-G-x-S-[STAG]-G
+#                     [S is the active site residue]
+# -Sequences known to belong to this class detected by the pattern: ALL  members
+#  of this family with a catalytic activity.
+# -Other sequence(s) detected in Swiss-Prot: NONE.
+# 
+# -Consensus pattern: [EDA]-[DG]-C-L-[YTF]-[LIVT]-[DNS]-[LIV]-[LIVFYW]-x-[PQR]
+#                     [C is involved in a disulfide bond]
+# -Sequences known to belong to this class detected by the pattern: ALL,  except
+#  for mosquito and peach-potato aphid esterases and juvenile hormone esterases.
+# -Other sequence(s) detected in Swiss-Prot: NONE.
+# 
+# -Note: Human esterase-D, also  a type-B carboxylesterase,  does not seem to be
+#  evolutionary related.
+# 
+# -Expert(s) to contact by email:
+#            Sussman J.; csjoel@weizmann.weizmann.ac.il
+# 
+# -Last update: April 2006 / Pattern revised.
+# 
+# [ 1] Myers M., Richmond R.C., Oakeshott J.G.
+#      "On the origins of esterases."
+#      Mol. Biol. Evol. 5:113-119(1988).
+#      PubMed=3163407
+# [ 2] Krejci E., Duval N., Chatonnet A., Vincens P., Massoulie J.
+#      "Cholinesterase-like domains in enzymes and structural proteins:
+#      functional and evolutionary relationships and identification of a
+#      catalytically essential aspartic acid."
+#      Proc. Natl. Acad. Sci. U.S.A. 88:6647-6651(1991).
+#      PubMed=1862088
+# [ 3] Cygler M., Schrag J.D., Sussman J.L., Harel M., Silman I.,
+#      Gentry M.K., Doctor B.P.
+#      "Relationship between sequence conservation and three-dimensional
+#      structure in a large family of esterases, lipases, and related
+#      proteins."
+#      Protein Sci. 2:366-382(1993).
+#      PubMed=8453375
+# [ 4] Lockridge O.
+#      "Structure of human serum cholinesterase."
+#      BioEssays 9:125-128(1988).
+#      PubMed=3067729
+# [ 5] Wang C.-S., Hartsuck J.A.
+#      "Bile salt-activated lipase. A multiple function lipolytic enzyme."
+#      Biochim. Biophys. Acta 1166:1-19(1993).
+#      PubMed=8431483
+# 
+# ***************
+# 
+#
+#---------------------------------------

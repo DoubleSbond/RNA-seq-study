@@ -1,0 +1,49 @@
+#!/bin/bash
+#PBS -N detox_refscan
+#PBS -q epyc
+#PBS -l select=1:ncpus=8:mem=16gb
+#PBS -l walltime=12:00:00
+
+set -euo pipefail
+
+family=${FAMILY:?FAMILY must be set}
+proteome=/lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+reference_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/reference_trees_v2_20260819T210000JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_vs_family_references_20260821T170000JST
+makeblastdb=/usr/bin/makeblastdb
+blastp=/usr/bin/blastp
+out="$run_root/$family"
+
+mkdir -p "$out/db"
+cat "$reference_root/$family/${family}_Bmori_top1.prefixed.fa" \
+    "$reference_root/$family/${family}_Spodoptera_top1.prefixed.fa" \
+    >"$out/${family}_insect_references.fa"
+
+"$makeblastdb" -in "$out/${family}_insect_references.fa" -dbtype prot -parse_seqids \
+  -out "$out/db/${family}_insect_references" >"$out/makeblastdb.stdout.log" 2>"$out/makeblastdb.stderr.log"
+
+"$blastp" -query "$proteome" -db "$out/db/${family}_insect_references" \
+  -evalue 1 -seg yes -soft_masking true -max_target_seqs 10000 -num_threads 8 \
+  -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend qlen sstart send slen evalue bitscore' \
+  -out "$out/${family}_proteome_vs_references.raw.tsv" \
+  >"$out/blastp.stdout.log" 2>"$out/blastp.stderr.log"
+
+printf 'qseqid\tsseqid\tpident\tlength\tmismatch\tgapopen\tqstart\tqend\tqlen\tsstart\tsend\tslen\tevalue\tbitscore\tqcov\tscov\n' \
+  >"$out/${family}_proteome_vs_references.with_coverage.tsv"
+awk -F '\t' 'BEGIN{OFS="\t"} {print $0,100*$4/$9,100*$4/$12}' \
+  "$out/${family}_proteome_vs_references.raw.tsv" >>"$out/${family}_proteome_vs_references.with_coverage.tsv"
+
+awk -F '\t' '$13 <= 1e-3 {gene=$1; sub(/_i[0-9].*$/, "", gene); print gene}' \
+  "$out/${family}_proteome_vs_references.raw.tsv" | sort -u >"$out/${family}_hit_genes_e1e3.txt"
+awk -F '\t' '$13 <= 1e-5 && 100*$4/$9 >= 40 && 100*$4/$12 >= 40 {gene=$1; sub(/_i[0-9].*$/, "", gene); print gene}' \
+  "$out/${family}_proteome_vs_references.raw.tsv" | sort -u >"$out/${family}_hit_genes_e1e5_cov40.txt"
+
+printf 'family\tproteome_sequences\treference_sequences\traw_hsps\thit_genes_e1e3\thit_genes_e1e5_cov40\n' >"$out/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$family" \
+  "$(grep -c '^>' "$proteome")" "$(grep -c '^>' "$out/${family}_insect_references.fa")" \
+  "$(wc -l <"$out/${family}_proteome_vs_references.raw.tsv")" \
+  "$(wc -l <"$out/${family}_hit_genes_e1e3.txt")" \
+  "$(wc -l <"$out/${family}_hit_genes_e1e5_cov40.txt")" >>"$out/run_summary.tsv"
+
+find "$out" -maxdepth 1 -type f -printf '%f\t%s\n' | sort >"$out/output_inventory.tsv"
+(cd "$out" && sha256sum ./* >SHA256SUMS.txt)

@@ -1,0 +1,14 @@
+CarE.stderr.log	0
+CarE.stdout.log	1091
+CarE_inclusive.hmm	263751
+CarE_proteome.domtblout	28927
+CarE_proteome.full.txt	244952
+CarE_proteome.sto	195380
+CarE_proteome.tblout	25676
+all_hit_genes.txt	1788
+current_candidate_genes.txt	412
+novel_profile_hit_genes.txt	1376
+output_inventory.tsv	0
+run_summary.tsv	112
+scheduler.stderr	0
+scheduler.stdout	0

@@ -1,0 +1,582 @@
+cp: warning: behavior of -n is non-portable and may change in future; use --update=none instead
+diamond v2.1.13.167 (C) Max Planck Society for the Advancement of Science, Benjamin Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 8
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/raw_evidence_20260819T180000JST/UGT
+#Target sequences to report alignments for: 25
+Opening the database...  [0.67s]
+Database: /lustre10/home/tuatchenjh9703/ph/db/uniprot/uniprot_sprot.dmnd (type: Diamond database, sequences: 573661, letters: 207922125)
+Block size = 2000000000
+Opening the input file...  [0.296s]
+Opening the output file...  [0.003s]
+Loading query sequences...  [0.052s]
+Masking queries...  [0.195s]
+Algorithm: Double-indexed
+Building query histograms...  [0.084s]
+Seeking in database...  [0.051s]
+Loading reference sequences...  [1.826s]
+Masking reference...  [1.277s]
+Initializing temporary storage...  [0.06s]
+Building reference histograms...  [6.017s]
+Allocating buffers...  [0.07s]
+Processing query block 1, reference block 1/1, shape 1/16, index chunk 1/4.
+Building reference seed array...  [1.566s]
+Building query seed array...  [0.095s]
+Computing hash join...  [0.099s]
+Masking low complexity seeds...  [0.031s]
+Searching alignments...  [0.292s]
+Deallocating memory...  [0.003s]
+Processing query block 1, reference block 1/1, shape 1/16, index chunk 2/4.
+Building reference seed array...  [0.748s]
+Building query seed array...  [0.01s]
+Computing hash join...  [0.051s]
+Masking low complexity seeds...  [0.021s]
+Searching alignments...  [0.018s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 1/16, index chunk 3/4.
+Building reference seed array...  [0.928s]
+Building query seed array...  [0.141s]
+Computing hash join...  [0.076s]
+Masking low complexity seeds...  [0.008s]
+Searching alignments...  [0.048s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 1/16, index chunk 4/4.
+Building reference seed array...  [0.645s]
+Building query seed array...  [0.02s]
+Computing hash join...  [0.059s]
+Masking low complexity seeds...  [0.005s]
+Searching alignments...  [0.1s]
+Deallocating memory...  [0.058s]
+Processing query block 1, reference block 1/1, shape 2/16, index chunk 1/4.
+Building reference seed array...  [0.634s]
+Building query seed array...  [0.03s]
+Computing hash join...  [0.044s]
+Masking low complexity seeds...  [0.026s]
+Searching alignments...  [0.089s]
+Deallocating memory...  [0.03s]
+Processing query block 1, reference block 1/1, shape 2/16, index chunk 2/4.
+Building reference seed array...  [1.12s]
+Building query seed array...  [0.194s]
+Computing hash join...  [0.071s]
+Masking low complexity seeds...  [0.014s]
+Searching alignments...  [0.032s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 2/16, index chunk 3/4.
+Building reference seed array...  [0.915s]
+Building query seed array...  [0.136s]
+Computing hash join...  [0.049s]
+Masking low complexity seeds...  [0.01s]
+Searching alignments...  [0.062s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 2/16, index chunk 4/4.
+Building reference seed array...  [0.647s]
+Building query seed array...  [0.063s]
+Computing hash join...  [0.068s]
+Masking low complexity seeds...  [0.069s]
+Searching alignments...  [0.125s]
+Deallocating memory...  [0.012s]
+Processing query block 1, reference block 1/1, shape 3/16, index chunk 1/4.
+Building reference seed array...  [0.645s]
+Building query seed array...  [0.017s]
+Computing hash join...  [0.048s]
+Masking low complexity seeds...  [0.017s]
+Searching alignments...  [0.058s]
+Deallocating memory...  [0.008s]
+Processing query block 1, reference block 1/1, shape 3/16, index chunk 2/4.
+Building reference seed array...  [0.499s]
+Building query seed array...  [0.004s]
+Computing hash join...  [0.046s]
+Masking low complexity seeds...  [0.007s]
+Searching alignments...  [0.027s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 3/16, index chunk 3/4.
+Building reference seed array...  [1.136s]
+Building query seed array...  [0.049s]
+Computing hash join...  [0.077s]
+Masking low complexity seeds...  [0.058s]
+Searching alignments...  [0.107s]
+Deallocating memory...  [0.001s]
+Processing query block 1, reference block 1/1, shape 3/16, index chunk 4/4.
+Building reference seed array...  [0.605s]
+Building query seed array...  [0.031s]
+Computing hash join...  [0.087s]
+Masking low complexity seeds...  [0.126s]
+Searching alignments...  [0.119s]
+Deallocating memory...  [0.005s]
+Processing query block 1, reference block 1/1, shape 4/16, index chunk 1/4.
+Building reference seed array...  [0.736s]
+Building query seed array...  [0.074s]
+Computing hash join...  [0.095s]
+Masking low complexity seeds...  [0.046s]
+Searching alignments...  [0.056s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 4/16, index chunk 2/4.
+Building reference seed array...  [0.518s]
+Building query seed array...  [0.037s]
+Computing hash join...  [0.061s]
+Masking low complexity seeds...  [0.015s]
+Searching alignments...  [0.261s]
+Deallocating memory...  [0.039s]
+Processing query block 1, reference block 1/1, shape 4/16, index chunk 3/4.
+Building reference seed array...  [0.693s]
+Building query seed array...  [0.109s]
+Computing hash join...  [0.089s]
+Masking low complexity seeds...  [0.113s]
+Searching alignments...  [0.158s]
+Deallocating memory...  [0.005s]
+Processing query block 1, reference block 1/1, shape 4/16, index chunk 4/4.
+Building reference seed array...  [0.921s]
+Building query seed array...  [0.116s]
+Computing hash join...  [0.07s]
+Masking low complexity seeds...  [0.029s]
+Searching alignments...  [0.045s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 5/16, index chunk 1/4.
+Building reference seed array...  [0.907s]
+Building query seed array...  [0.159s]
+Computing hash join...  [0.075s]
+Masking low complexity seeds...  [0.051s]
+Searching alignments...  [0.067s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 5/16, index chunk 2/4.
+Building reference seed array...  [0.711s]
+Building query seed array...  [0.08s]
+Computing hash join...  [0.042s]
+Masking low complexity seeds...  [0.028s]
+Searching alignments...  [0.059s]
+Deallocating memory...  [0.006s]
+Processing query block 1, reference block 1/1, shape 5/16, index chunk 3/4.
+Building reference seed array...  [0.604s]
+Building query seed array...  [0.101s]
+Computing hash join...  [0.055s]
+Masking low complexity seeds...  [0.009s]
+Searching alignments...  [0.025s]
+Deallocating memory...  [0.002s]
+Processing query block 1, reference block 1/1, shape 5/16, index chunk 4/4.
+Building reference seed array...  [0.59s]
+Building query seed array...  [0.014s]
+Computing hash join...  [0.052s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.084s]
+Deallocating memory...  [0.003s]
+Processing query block 1, reference block 1/1, shape 6/16, index chunk 1/4.
+Building reference seed array...  [0.666s]
+Building query seed array...  [0.003s]
+Computing hash join...  [0.035s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.012s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 6/16, index chunk 2/4.
+Building reference seed array...  [0.992s]
+Building query seed array...  [0.01s]
+Computing hash join...  [0.052s]
+Masking low complexity seeds...  [0.005s]
+Searching alignments...  [0.029s]
+Deallocating memory...  [0.002s]
+Processing query block 1, reference block 1/1, shape 6/16, index chunk 3/4.
+Building reference seed array...  [0.758s]
+Building query seed array...  [0.003s]
+Computing hash join...  [0.056s]
+Masking low complexity seeds...  [0.013s]
+Searching alignments...  [0.031s]
+Deallocating memory...  [0.004s]
+Processing query block 1, reference block 1/1, shape 6/16, index chunk 4/4.
+Building reference seed array...  [0.748s]
+Building query seed array...  [0.07s]
+Computing hash join...  [0.097s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.038s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 7/16, index chunk 1/4.
+Building reference seed array...  [0.407s]
+Building query seed array...  [0.018s]
+Computing hash join...  [0.049s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.021s]
+Deallocating memory...  [0.005s]
+Processing query block 1, reference block 1/1, shape 7/16, index chunk 2/4.
+Building reference seed array...  [0.705s]
+Building query seed array...  [0.004s]
+Computing hash join...  [0.029s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.008s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 7/16, index chunk 3/4.
+Building reference seed array...  [0.55s]
+Building query seed array...  [0.003s]
+Computing hash join...  [0.051s]
+Masking low complexity seeds...  [0.003s]
+Searching alignments...  [0.025s]
+Deallocating memory...  [0.004s]
+Processing query block 1, reference block 1/1, shape 7/16, index chunk 4/4.
+Building reference seed array...  [0.612s]
+Building query seed array...  [0.033s]
+Computing hash join...  [0.046s]
+Masking low complexity seeds...  [0.007s]
+Searching alignments...  [0.02s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 8/16, index chunk 1/4.
+Building reference seed array...  [0.586s]
+Building query seed array...  [0.071s]
+Computing hash join...  [0.075s]
+Masking low complexity seeds...  [0.076s]
+Searching alignments...  [0.017s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 8/16, index chunk 2/4.
+Building reference seed array...  [0.818s]
+Building query seed array...  [0.012s]
+Computing hash join...  [0.041s]
+Masking low complexity seeds...  [0.008s]
+Searching alignments...  [0.011s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 8/16, index chunk 3/4.
+Building reference seed array...  [0.768s]
+Building query seed array...  [0.045s]
+Computing hash join...  [0.086s]
+Masking low complexity seeds...  [0.101s]
+Searching alignments...  [0.024s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 8/16, index chunk 4/4.
+Building reference seed array...  [0.648s]
+Building query seed array...  [0.034s]
+Computing hash join...  [0.062s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.024s]
+Deallocating memory...  [0.003s]
+Processing query block 1, reference block 1/1, shape 9/16, index chunk 1/4.
+Building reference seed array...  [0.83s]
+Building query seed array...  [0.059s]
+Computing hash join...  [0.05s]
+Masking low complexity seeds...  [0.003s]
+Searching alignments...  [0.064s]
+Deallocating memory...  [0.001s]
+Processing query block 1, reference block 1/1, shape 9/16, index chunk 2/4.
+Building reference seed array...  [0.803s]
+Building query seed array...  [0.013s]
+Computing hash join...  [0.048s]
+Masking low complexity seeds...  [0.007s]
+Searching alignments...  [0.039s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 9/16, index chunk 3/4.
+Building reference seed array...  [0.633s]
+Building query seed array...  [0.029s]
+Computing hash join...  [0.043s]
+Masking low complexity seeds...  [0.005s]
+Searching alignments...  [0.016s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 9/16, index chunk 4/4.
+Building reference seed array...  [0.882s]
+Building query seed array...  [0.033s]
+Computing hash join...  [0.047s]
+Masking low complexity seeds...  [0.013s]
+Searching alignments...  [0.063s]
+Deallocating memory...  [0.006s]
+Processing query block 1, reference block 1/1, shape 10/16, index chunk 1/4.
+Building reference seed array...  [0.464s]
+Building query seed array...  [0.052s]
+Computing hash join...  [0.058s]
+Masking low complexity seeds...  [0.009s]
+Searching alignments...  [0.062s]
+Deallocating memory...  [0.006s]
+Processing query block 1, reference block 1/1, shape 10/16, index chunk 2/4.
+Building reference seed array...  [0.619s]
+Building query seed array...  [0.022s]
+Computing hash join...  [0.047s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.023s]
+Deallocating memory...  [0.007s]
+Processing query block 1, reference block 1/1, shape 10/16, index chunk 3/4.
+Building reference seed array...  [0.445s]
+Building query seed array...  [0.002s]
+Computing hash join...  [0.046s]
+Masking low complexity seeds...  [0.003s]
+Searching alignments...  [0.009s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 10/16, index chunk 4/4.
+Building reference seed array...  [1.159s]
+Building query seed array...  [0.175s]
+Computing hash join...  [0.071s]
+Masking low complexity seeds...  [0.022s]
+Searching alignments...  [0.038s]
+Deallocating memory...  [0.012s]
+Processing query block 1, reference block 1/1, shape 11/16, index chunk 1/4.
+Building reference seed array...  [0.849s]
+Building query seed array...  [0.109s]
+Computing hash join...  [0.039s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.039s]
+Deallocating memory...  [0.008s]
+Processing query block 1, reference block 1/1, shape 11/16, index chunk 2/4.
+Building reference seed array...  [0.771s]
+Building query seed array...  [0.044s]
+Computing hash join...  [0.045s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.029s]
+Deallocating memory...  [0.036s]
+Processing query block 1, reference block 1/1, shape 11/16, index chunk 3/4.
+Building reference seed array...  [0.883s]
+Building query seed array...  [0.042s]
+Computing hash join...  [0.072s]
+Masking low complexity seeds...  [0.003s]
+Searching alignments...  [0.013s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 11/16, index chunk 4/4.
+Building reference seed array...  [0.673s]
+Building query seed array...  [0.025s]
+Computing hash join...  [0.066s]
+Masking low complexity seeds...  [0.006s]
+Searching alignments...  [0.226s]
+Deallocating memory...  [0.015s]
+Processing query block 1, reference block 1/1, shape 12/16, index chunk 1/4.
+Building reference seed array...  [0.656s]
+Building query seed array...  [0.002s]
+Computing hash join...  [0.077s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.037s]
+Deallocating memory...  [0.001s]
+Processing query block 1, reference block 1/1, shape 12/16, index chunk 2/4.
+Building reference seed array...  [0.813s]
+Building query seed array...  [0.027s]
+Computing hash join...  [0.082s]
+Masking low complexity seeds...  [0.005s]
+Searching alignments...  [0.133s]
+Deallocating memory...  [0.046s]
+Processing query block 1, reference block 1/1, shape 12/16, index chunk 3/4.
+Building reference seed array...  [0.792s]
+Building query seed array...  [0.003s]
+Computing hash join...  [0.078s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.048s]
+Deallocating memory...  [0.006s]
+Processing query block 1, reference block 1/1, shape 12/16, index chunk 4/4.
+Building reference seed array...  [0.781s]
+Building query seed array...  [0.002s]
+Computing hash join...  [0.043s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.022s]
+Deallocating memory...  [0.006s]
+Processing query block 1, reference block 1/1, shape 13/16, index chunk 1/4.
+Building reference seed array...  [0.428s]
+Building query seed array...  [0.003s]
+Computing hash join...  [0.083s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.035s]
+Deallocating memory...  [0.004s]
+Processing query block 1, reference block 1/1, shape 13/16, index chunk 2/4.
+Building reference seed array...  [0.994s]
+Building query seed array...  [0.034s]
+Computing hash join...  [0.036s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.045s]
+Deallocating memory...  [0.007s]
+Processing query block 1, reference block 1/1, shape 13/16, index chunk 3/4.
+Building reference seed array...  [0.993s]
+Building query seed array...  [0.044s]
+Computing hash join...  [0.047s]
+Masking low complexity seeds...  [0.022s]
+Searching alignments...  [0.105s]
+Deallocating memory...  [0.001s]
+Processing query block 1, reference block 1/1, shape 13/16, index chunk 4/4.
+Building reference seed array...  [0.579s]
+Building query seed array...  [0.029s]
+Computing hash join...  [0.056s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.014s]
+Deallocating memory...  [0.001s]
+Processing query block 1, reference block 1/1, shape 14/16, index chunk 1/4.
+Building reference seed array...  [0.571s]
+Building query seed array...  [0.043s]
+Computing hash join...  [0.047s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.027s]
+Deallocating memory...  [0.006s]
+Processing query block 1, reference block 1/1, shape 14/16, index chunk 2/4.
+Building reference seed array...  [0.742s]
+Building query seed array...  [0.012s]
+Computing hash join...  [0.035s]
+Masking low complexity seeds...  [0.003s]
+Searching alignments...  [0.012s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 14/16, index chunk 3/4.
+Building reference seed array...  [1.012s]
+Building query seed array...  [0.02s]
+Computing hash join...  [0.053s]
+Masking low complexity seeds...  [0.004s]
+Searching alignments...  [0.097s]
+Deallocating memory...  [0.018s]
+Processing query block 1, reference block 1/1, shape 14/16, index chunk 4/4.
+Building reference seed array...  [0.501s]
+Building query seed array...  [0.031s]
+Computing hash join...  [0.053s]
+Masking low complexity seeds...  [0.019s]
+Searching alignments...  [0.013s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 15/16, index chunk 1/4.
+Building reference seed array...  [1.007s]
+Building query seed array...  [0.024s]
+Computing hash join...  [0.042s]
+Masking low complexity seeds...  [0.008s]
+Searching alignments...  [0.068s]
+Deallocating memory...  [0.008s]
+Processing query block 1, reference block 1/1, shape 15/16, index chunk 2/4.
+Building reference seed array...  [0.722s]
+Building query seed array...  [0.004s]
+Computing hash join...  [0.048s]
+Masking low complexity seeds...  [0.002s]
+Searching alignments...  [0.01s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 15/16, index chunk 3/4.
+Building reference seed array...  [0.897s]
+Building query seed array...  [0.128s]
+Computing hash join...  [0.052s]
+Masking low complexity seeds...  [0.04s]
+Searching alignments...  [0.018s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 15/16, index chunk 4/4.
+Building reference seed array...  [0.741s]
+Building query seed array...  [0.026s]
+Computing hash join...  [0.066s]
+Masking low complexity seeds...  [0.021s]
+Searching alignments...  [0.155s]
+Deallocating memory...  [0.004s]
+Processing query block 1, reference block 1/1, shape 16/16, index chunk 1/4.
+Building reference seed array...  [0.695s]
+Building query seed array...  [0.003s]
+Computing hash join...  [0.041s]
+Masking low complexity seeds...  [0.065s]
+Searching alignments...  [0.069s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 16/16, index chunk 2/4.
+Building reference seed array...  [0.682s]
+Building query seed array...  [0.07s]
+Computing hash join...  [0.049s]
+Masking low complexity seeds...  [0.014s]
+Searching alignments...  [0.027s]
+Deallocating memory...  [0s]
+Processing query block 1, reference block 1/1, shape 16/16, index chunk 3/4.
+Building reference seed array...  [0.673s]
+Building query seed array...  [0.055s]
+Computing hash join...  [0.056s]
+Masking low complexity seeds...  [0.04s]
+Searching alignments...  [0.048s]
+Deallocating memory...  [0.004s]
+Processing query block 1, reference block 1/1, shape 16/16, index chunk 4/4.
+Building reference seed array...  [0.524s]
+Building query seed array...  [0.004s]
+Computing hash join...  [0.048s]
+Masking low complexity seeds...  [0.069s]
+Searching alignments...  [0.148s]
+Deallocating memory...  [0.033s]
+Deallocating buffers...  [0.085s]
+Clearing query masking...  [0.005s]
+Computing alignments...  [0.272s]
+Deallocating reference...  [0.023s]
+Loading reference sequences...  [0.006s]
+Deallocating buffers...  [0s]
+Deallocating queries...  [0s]
+Loading query sequences...  [0.006s]
+Closing the input file...  [0s]
+Closing the output file...  [0.001s]
+Closing the database...  [0.006s]
+Cleaning up...  [0s]
+Total time = 84.022s
+Reported 2145 pairwise alignments, 2145 HSPs.
+100 queries aligned.
+outputhat23=2
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 109 (by thread   0)    10 / 109 (by thread   5)    20 / 109 (by thread   5)    30 / 109 (by thread   2)    40 / 109 (by thread   5)    50 / 109 (by thread   4)    60 / 109 (by thread   1)    70 / 109 (by thread   2)    80 / 109 (by thread   0)    90 / 109 (by thread   7)   100 / 109 (by thread   5) tbfast-pair (aa) Version 7.526
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+8 thread(s)
+
+outputhat23=2
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 109   10 / 109   20 / 109   30 / 109   40 / 109   50 / 109   60 / 109   70 / 109   80 / 109   90 / 109  100 / 109
+done.
+
+Progressive alignment ... 
+STEP     1 /108 (thread    0) STEP     8 /108 (thread    1) STEP     5 /108 (thread    5) STEP     2 /108 (thread    3) STEP     6 /108 (thread    6) STEP     3 /108 (thread    4) STEP    11 /108 (thread    5) STEP     9 /108 (thread    3) STEP    12 /108 (thread    0) STEP    14 /108 (thread    6) STEP     7 /108 (thread    7) STEP     4 /108 (thread    2) STEP    15 /108 (thread    4) STEP    13 /108 (thread    5) STEP    10 /108 (thread    1) STEP    21 /108 (thread    4) STEP    16 /108 (thread    0) STEP    22 /108 (thread    6) STEP    24 /108 (thread    0) STEP    17 /108 (thread    5) STEP    23 /108 (thread    1) STEP    26 /108 (thread    4) STEP    18 /108 (thread    3) STEP    28 /108 (thread    0) STEP    19 /108 (thread    2) STEP    30 /108 (thread    4) STEP    25 /108 (thread    6) STEP    27 /108 (thread    5) STEP    31 /108 (thread    1) STEP    20 /108 (thread    7) STEP    33 /108 (thread    1) STEP    32 /108 (thread    2) STEP    34 /108 (thread    5) STEP    35 /108 (thread    6) STEP    36 /108 (thread    1) STEP    29 /108 (thread    3) STEP    41 /108 (thread    5) STEP    42 /108 (thread    1) STEP    43 /108 (thread    5) STEP    44 /108 (thread    1) STEP    37 /108 (thread    7) STEP    45 /108 (thread    4) STEP    46 /108 (thread    1) STEP    47 /108 (thread    4) STEP    48 /108 (thread    1) STEP    49 /108 (thread    5) STEP    50 /108 (thread    1) STEP    51 /108 (thread    4) STEP    52 /108 (thread    1) STEP    53 /108 (thread    5) STEP    54 /108 (thread    4) STEP    55 /108 (thread    4) STEP    38 /108 (thread    2) STEP    57 /108 (thread    1) STEP    58 /108 (thread    1) STEP    59 /108 (thread    5) STEP    60 /108 (thread    4) STEP    61 /108 (thread    1) STEP    62 /108 (thread    4) STEP    63 /108 (thread    4) STEP    64 /108 (thread    5) STEP    56 /108 (thread    3) STEP    65 /108 (thread    4) STEP    68 /108 (thread    5) STEP    67 /108 (thread    7) STEP    66 /108 (thread    3) STEP    39 /108 (thread    0) STEP    70 /108 (thread    5) STEP    69 /108 (thread    1) STEP    71 /108 (thread    3) STEP    76 /108 (thread    0) STEP    78 /108 (thread    3) STEP    72 /108 (thread    4) STEP    40 /108 (thread    6) STEP    80 /108 (thread    4) STEP    73 /108 (thread    7) STEP    81 /108 (thread    3) STEP    74 /108 (thread    5) STEP    82 /108 (thread    7) STEP    75 /108 (thread    1) STEP    77 /108 (thread    0) STEP    88 /108 (thread    1) STEP    79 /108 (thread    2) STEP    83 /108 (thread    3) STEP    84 /108 (thread    4) STEP    93 /108 (thread    4) STEP    85 /108 (thread    7) STEP    94 /108 (thread    4) STEP    96 /108 (thread    7) STEP    86 /108 (thread    5) STEP    97 /108 (thread    7) STEP    98 /108 (thread    7) STEP    99 /108 (thread    5) STEP    87 /108 (thread    6) STEP    89 /108 (thread    1) STEP   100 /108 (thread    5) STEP    90 /108 (thread    0) STEP    91 /108 (thread    2) STEP    92 /108 (thread    3) STEP    95 /108 (thread    4) STEP   101 /108 (thread    6) STEP   102 /108 (thread    7) STEP   103 /108 (thread    1) STEP   104 /108 (thread    5) STEP   105 /108 (thread    0) STEP   106 /108 (thread    2) 
+Reallocating (by thread 3) ..done. *alloclen = 2701
+STEP   107 /108 (thread    3) STEP   108 /108 (thread    4) 
+done.
+tbfast (aa) Version 7.526
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+8 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 8
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+Loading 'hat3' ... done.
+rescale = 1
+
+    0 / 109   10 / 109   20 / 109   30 / 109   40 / 109   50 / 109   60 / 109   70 / 109   80 / 109   90 / 109  100 / 109
+Segment   1/  1    1-1186
+001-0000-0 (thread    2) identical     001-0000-0 (thread    6) identical     001-0002-1 (thread    8) identical     001-0002-0 (thread    4) identical     001-0002-1 (thread    3) identical     001-0002-1 (thread    7) identical     001-0006-1 (thread    1) identical     001-0007-0 (thread    5) identical     001-0007-0 (thread    5) worse      001-0008-1 (thread    4) identical     001-0009-0 (thread    1) identical     001-0010-1 (thread    6) identical     001-0011-0 (thread    2) identical     001-0012-0 (thread    3) identical     001-0013-1 (thread    7) identical     001-0014-0 (thread    8) identical     001-0015-0 (thread    3) identical     001-0016-1 (thread    7) identical     001-0017-0 (thread    8) identical     001-0018-1 (thread    2) identical     001-0018-1 (thread    1) identical     001-0020-1 (thread    5) identical     001-0021-0 (thread    4) identical     001-0022-1 (thread    3) identical     001-0023-0 (thread    6) identical     001-0024-1 (thread    8) identical     001-0025-0 (thread    5) identical     001-0026-0 (thread    7) identical     001-0027-1 (thread    4) identical     001-0028-1 (thread    6) identical     001-0029-0 (thread    3) identical     001-0030-0 (thread    2) identical     001-0031-0 (thread    8) identical     001-0032-1 (thread    5) identical     001-0033-1 (thread    1) identical     001-0034-0 (thread    7) identical     001-0034-0 (thread    5) identical     001-0036-1 (thread    4) identical     001-0037-1 (thread    3) identical     001-0038-1 (thread    8) identical     001-0039-0 (thread    6) identical     001-0040-1 (thread    1) identical     001-0041-0 (thread    2) identical     001-0042-0 (thread    7) identical     001-0042-1 (thread    5) identical     001-0044-0 (thread    8) identical     001-0045-1 (thread    6) identical     001-0046-1 (thread    5) identical     001-0046-0 (thread    7) identical     001-0048-0 (thread    5) identical     001-0048-1 (thread    7) identical     001-0050-1 (thread    3) identical     001-0051-1 (thread    2) identical     001-0052-0 (thread    4) identical     001-0053-0 (thread    1) identical     001-0054-1 (thread    7) identical     001-0055-1 (thread    6) identical     001-0056-0 (thread    5) identical     001-0057-0 (thread    8) identical     001-0058-1 (thread    2) identical     001-0059-0 (thread    3) identical     001-0060-0 (thread    7) identical     001-0061-1 (thread    8) identical     001-0062-0 (thread    2) identical     001-0063-1 (thread    3) identical     001-0064-0 (thread    5) identical     001-0065-1 (thread    1) identical     001-0066-0 (thread    4) identical     001-0067-1 (thread    6) identical     001-0067-1 (thread    6) better     001-0068-0 (thread    5) identical     001-0069-1 (thread    1) identical     001-0070-1 (thread    3) identical     001-0070-0 (thread    7) identical     001-0070-1 (thread    3) better     001-0072-0 (thread    2) identical     001-0073-1 (thread    8) identical     001-0074-1 (thread    6) identical     001-0074-1 (thread    6) worse      001-0075-1 (thread    8) identical     001-0075-1 (thread    8) worse      001-0076-0 (thread    6) identical     001-0077-0 (thread    2) identical     001-0078-0 (thread    4) identical     001-0078-0 (thread    4) worse      001-0079-0 (thread    5) identical     001-0080-1 (thread    8) identical     001-0081-1 (thread    2) identical     001-0082-0 (thread    4) identical     001-0083-0 (thread    6) identical     001-0084-0 (thread    3) identical     001-0084-1 (thread    1) identical     001-0084-0 (thread    3) better     001-0084-1 (thread    1) better     001-0086-1 (thread    1) identical     001-0086-1 (thread    1) worse      001-0087-1 (thread    5) identical     001-0088-1 (thread    6) identical     001-0089-0 (thread    4) identical     001-0090-0 (thread    3) identical     001-0091-1 (thread    2) identical     001-0091-1 (thread    2) better     001-0092-1 (thread    2) identical     001-0093-0 (thread    3) identical     001-0094-1 (thread    5) identical     001-0094-0 (thread    1) identical     001-0095-1 (thread    5) worse      001-0096-0 (thread    2) identical     001-0097-0 (thread    6) identical     001-0098-1 (thread    4) identical     001-0099-0 (thread    8) identical     001-0099-0 (thread    8) worse      001-0100-0 (thread    4) identical     001-0101-1 (thread    8) identical     001-0101-1 (thread    3) identical     001-0103-1 (thread    6) identical     001-0103-1 (thread    6) worse      001-0104-1 (thread    5) identical     001-0105-0 (thread    2) identical     001-0105-0 (thread    2) better     001-0106-1 (thread    2) identical     001-0107-1 (thread    6) identical     001-0107-1 (thread    6) worse      001-0108-0 (thread    5) identical     001-0109-0 (thread    2) identical     001-0110-0 (thread    1) identical     001-0111-0 (thread    4) identical     001-0112-1 (thread    8) identical     001-0112-1 (thread    8) worse      001-0112-0 (thread    3) identical     001-0113-0 (thread    3) worse      001-0114-1 (thread    6) identical     001-0115-1 (thread    2) identical     001-0115-1 (thread    2) worse      001-0116-0 (thread    5) identical     001-0116-0 (thread    5) worse      001-0117-1 (thread    4) identical     001-0118-1 (thread    7) identical     001-0119-0 (thread    1) identical     001-0120-0 (thread    6) identical     001-0121-1 (thread    2) identical     001-0122-1 (thread    4) identical     001-0123-1 (thread    3) identical     001-0123-1 (thread    3) worse      001-0124-0 (thread    8) identical     001-0125-0 (thread    5) identical     001-0125-0 (thread    7) identical     001-0126-0 (thread    7) better     001-0127-0 (thread    7) identical     001-0128-0 (thread    4) identical     001-0129-1 (thread    2) identical     001-0129-1 (thread    2) worse      001-0130-0 (thread    6) identical     001-0130-0 (thread    6) better     001-0131-0 (thread    4) identical     001-0132-1 (thread    5) identical     001-0133-0 (thread    8) identical     001-0134-0 (thread    6) identical     001-0134-0 (thread    6) worse      001-0135-1 (thread    3) identical     001-0135-1 (thread    7) identical     001-0135-1 (thread    3) worse      001-0136-1 (thread    2) identical     001-0136-1 (thread    7) better     001-0136-1 (thread    2) worse      001-0138-0 (thread    6) identical     001-0139-1 (thread    2) identical     001-0140-1 (thread    1) identical     001-0140-1 (thread    1) worse      001-0141-1 (thread    4) identical     001-0142-1 (thread    8) identical     001-0143-1 (thread    4) identical     001-0144-0 (thread    5) identical     001-0145-0 (thread    8) identical     001-0145-0 (thread    8) worse      001-0146-0 (thread    7) identical     001-0147-0 (thread    6) identical     001-0148-1 (thread    2) identical     001-0148-1 (thread    8) identical     001-0148-1 (thread    2) worse      001-0149-1 (thread    8) better     001-0150-0 (thread    2) identical     001-0150-0 (thread    2) worse      001-0151-1 (thread    6) identical     001-0151-1 (thread    6) better     001-0152-0 (thread    7) identical     001-0152-0 (thread    7) worse      001-0153-1 (thread    6) identical     001-0153-1 (thread    6) better     001-0154-1 (thread    6) identical     001-0154-1 (thread    6) worse      001-0155-1 (thread    4) identical     001-0155-1 (thread    4) worse      001-0156-0 (thread    2) identical     001-0156-0 (thread    7) identical     001-0156-0 (thread    2) better     001-0157-0 (thread    7) better     001-0158-1 (thread    4) identical     001-0158-1 (thread    4) worse      001-0159-0 (thread    6) identical     001-0159-0 (thread    6) better     001-0160-1 (thread    6) identical     001-0160-1 (thread    6) worse      001-0161-1 (thread    3) identical     001-0162-1 (thread    7) identical     001-0162-1 (thread    7) better     001-0163-1 (thread    3) identical     001-0163-1 (thread    3) worse      001-0164-0 (thread    1) identical     001-0164-0 (thread    5) identical     001-0164-0 (thread    2) identical     001-0164-0 (thread    1) better     001-0165-0 (thread    5) better     001-0166-0 (thread    2) better     001-0167-0 (thread    2) identical     001-0167-0 (thread    2) worse      001-0168-1 (thread    3) identical     001-0168-1 (thread    3) worse      001-0169-1 (thread    5) identical     001-0169-1 (thread    5) worse      001-0170-1 (thread    2) identical     001-0170-1 (thread    2) better     001-0171-0 (thread    2) identical     001-0171-0 (thread    2) worse      001-0172-1 (thread    5) identical     001-0172-1 (thread    5) worse      001-0173-1 (thread    8) identical     001-0174-1 (thread    8) identical     001-0174-1 (thread    8) worse      001-0175-0 (thread    4) identical     001-0176-0 (thread    6) identical     001-0177-1 (thread    4) identical     001-0177-1 (thread    4) better     001-0178-0 (thread    6) identical     001-0178-0 (thread    6) worse      001-0179-0 (thread    6) identical     001-0179-0 (thread    6) worse      001-0180-1 (thread    4) identical     001-0180-1 (thread    4) better     001-0181-1 (thread    6) identical     001-0181-1 (thread    6) worse      001-0182-1 (thread    6) identical     001-0182-1 (thread    6) worse      001-0183-0 (thread    6) identical     001-0183-0 (thread    4) identical     001-0183-0 (thread    6) worse      001-0184-0 (thread    7) identical     001-0184-0 (thread    4) worse      001-0185-0 (thread    7) worse      001-0186-0 (thread    1) identical     001-0186-1 (thread    6) identical     001-0186-0 (thread    3) identical     001-0186-1 (thread    6) worse      001-0187-0 (thread    1) worse      001-0188-0 (thread    3) worse      001-0189-1 (thread    7) identical     001-0189-1 (thread    7) better     001-0190-1 (thread    7) identical     001-0190-1 (thread    7) better     001-0191-0 (thread    4) identical     001-0191-0 (thread    4) worse      001-0192-1 (thread    1) identical     001-0192-1 (thread    1) worse      001-0193-0 (thread    3) identical     001-0193-0 (thread    3) better     001-0194-1 (thread    3) identical     001-0194-1 (thread    3) worse      001-0195-0 (thread    6) identical     001-0195-0 (thread    6) better     001-0196-1 (thread    6) identical     001-0196-1 (thread    6) worse      001-0197-0 (thread    3) identical     001-0197-0 (thread    3) worse      001-0198-1 (thread    4) identical     001-0198-1 (thread    4) worse      001-0199-0 (thread    7) identical     001-0199-0 (thread    7) worse      001-0200-1 (thread    3) identical     001-0200-1 (thread    3) worse      001-0201-0 (thread    8) identical     001-0201-0 (thread    8) worse      001-0202-1 (thread    2) identical     001-0202-0 (thread    6) identical     001-0202-0 (thread    1) identical     001-0202-0 (thread    5) identical     001-0202-1 (thread    7) identical     001-0202-1 (thread    7) worse      001-0203-1 (thread    2) worse      001-0204-0 (thread    6) worse      001-0205-0 (thread    1) worse      001-0206-0 (thread    5) worse      001-0207-0 (thread    4) identical     001-0207-1 (thread    1) identical     001-0207-1 (thread    1) worse      001-0208-0 (thread    4) worse      001-0209-1 (thread    2) identical     001-0209-1 (thread    2) worse      001-0210-1 (thread    8) identical     001-0210-1 (thread    8) worse      001-0211-1 (thread    5) identical     001-0211-0 (thread    6) identical     001-0211-1 (thread    5) worse      001-0212-0 (thread    6) worse      001-0213-0 (thread    3) identical     001-0213-0 (thread    3) worse      001-0214-0 (thread    7) identical     001-0214-0 (thread    7) better     002-0000-0 (thread    1) identical     002-0001-1 (thread    3) identical     002-0002-1 (thread    8) identical     002-0003-1 (thread    7) identical     002-0004-0 (thread    6) identical     002-0005-0 (thread    2) identical     002-0006-1 (thread    3) identical     002-0007-1 (thread    4) identical     002-0008-0 (thread    1) identical     002-0009-1 (thread    7) identical     002-0010-0 (thread    8) identical     002-0011-0 (thread    5) identical     002-0011-0 (thread    5) worse      002-0012-0 (thread    3) identical     002-0013-0 (thread    6) identical     002-0014-1 (thread    2) identical     002-0015-1 (thread    4) identical     002-0016-0 (thread    1) identical     002-0017-1 (thread    7) identical     002-0018-0 (thread    3) identical     002-0019-1 (thread    5) identical     002-0020-0 (thread    8) identical     002-0021-1 (thread    6) identical     002-0022-1 (thread    4) identical     002-0023-0 (thread    2) identical     002-0024-0 (thread    1) identical     002-0025-1 (thread    7) identical     002-0026-0 (thread    8) identical     002-0027-1 (thread    6) identical     002-0028-1 (thread    2) identical     002-0029-0 (thread    4) identical     002-0030-0 (thread    3) identical     002-0031-1 (thread    5) identical     002-0032-1 (thread    7) identical     002-0033-0 (thread    1) identical     002-0034-1 (thread    6) identical     002-0035-0 (thread    8) identical     002-0036-0 (thread    7) identical     002-0037-1 (thread    1) identical     002-0038-1 (thread    5) identical     002-0039-1 (thread    4) identical     002-0040-0 (thread    6) identical     002-0041-0 (thread    2) identical     002-0042-1 (thread    8) identical     002-0043-0 (thread    3) identical     002-0044-0 (thread    5) identical     002-0045-1 (thread    4) identical     002-0046-0 (thread    8) identical     002-0047-1 (thread    3) identical     002-0048-1 (thread    1) identical     002-0049-0 (thread    7) identical     002-0050-1 (thread    3) identical     002-0051-0 (thread    6) identical     002-0051-0 (thread    8) identical     002-0053-1 (thread    2) identical     002-0054-0 (thread    1) identical     002-0055-0 (thread    5) identical     002-0056-1 (thread    7) identical     002-0057-1 (thread    4) identical     002-0058-0 (thread    3) identical     002-0059-1 (thread    6) identical     002-0060-0 (thread    1) identical     002-0061-1 (thread    4) identical     002-0062-0 (thread    3) identical     002-0063-1 (thread    6) identical     002-0064-0 (thread    7) identical     002-0065-0 (thread    8) identical     002-0066-1 (thread    5) identical     002-0066-1 (thread    5) better     002-0067-1 (thread    8) identical     002-0068-0 (thread    7) identical     002-0069-1 (thread    6) identical     002-0069-1 (thread    6) better     002-0070-0 (thread    1) identical     002-0071-1 (thread    4) identical     002-0072-0 (thread    3) identical     002-0073-1 (thread    8) identical     002-0074-1 (thread    2) identical     002-0075-1 (thread    8) identical     002-0075-1 (thread    8) worse      002-0076-0 (thread    5) identical     002-0076-0 (thread    5) worse      002-0077-0 (thread    2) identical     002-0078-1 (thread    6) identical     002-0078-0 (thread    7) identical     002-0078-0 (thread    3) identical     002-0080-1 (thread    6) better     002-0081-1 (thread    8) identical     002-0082-1 (thread    3) identical     002-0083-0 (thread    7) identical     002-0084-0 (thread    5) identical     002-0085-1 (thread    2) identical     002-0086-0 (thread    6) identical     002-0087-0 (thread    3) identical     002-0088-1 (thread    2) identical     002-0088-1 (thread    2) worse      002-0089-1 (thread    7) identical     002-0090-0 (thread    5) identical     002-0091-1 (thread    8) identical     002-0091-1 (thread    8) better     002-0092-0 (thread    5) identical     002-0093-1 (thread    8) identical     002-0094-1 (thread    3) identical     002-0094-1 (thread    3) better     002-0095-0 (thread    6) identical     002-0096-0 (thread    5) identical     002-0097-1 (thread    7) identical     002-0098-0 (thread    2) identical     002-0099-1 (thread    8) identical     002-0100-0 (thread    3) identical     002-0101-0 (thread    2) identical     002-0102-1 (thread    8) identical     002-0103-0 (thread    1) identical     002-0103-1 (thread    6) identical     002-0104-0 (thread    1) worse      002-0105-1 (thread    7) identical     002-0105-1 (thread    7) worse      002-0106-0 (thread    5) identical     002-0106-0 (thread    5) better     002-0107-0 (thread    1) identical     002-0108-0 (thread    5) identical     002-0109-1 (thread    7) identical     002-0110-1 (thread    6) identical     002-0110-1 (thread    6) worse      002-0111-0 (thread    3) identical     002-0111-0 (thread    3) better     002-0112-1 (thread    3) identical     002-0113-0 (thread    6) identical     002-0114-1 (thread    7) identical     002-0114-1 (thread    7) worse      002-0115-1 (thread    1) identical     002-0115-1 (thread    1) better     002-0116-1 (thread    1) identical     002-0117-1 (thread    6) identical     002-0117-1 (thread    6) better     002-0118-1 (thread    6) identical     002-0119-0 (thread    1) identical     002-0120-0 (thread    7) identical     002-0121-0 (thread    5) identical     002-0121-0 (thread    5) better     002-0122-0 (thread    6) identical     002-0122-0 (thread    6) worse      002-0123-0 (thread    3) identical     002-0124-0 (thread    6) identical     002-0125-1 (thread    5) identical     002-0125-1 (thread    5) worse      002-0126-1 (thread    1) identical     002-0126-1 (thread    1) worse      002-0127-1 (thread    2) identical     002-0128-0 (thread    7) identical     002-0128-0 (thread    7) worse      002-0129-0 (thread    8) identical     002-0129-0 (thread    8) better     002-0130-0 (thread    1) identical     002-0131-1 (thread    5) identical     002-0131-1 (thread    5) better     002-0132-0 (thread    7) identical     002-0133-0 (thread    6) identical     002-0134-1 (thread    3) identical     002-0134-1 (thread    2) identical     002-0134-1 (thread    3) worse      002-0135-1 (thread    2) better     002-0136-0 (thread    3) identical     002-0137-1 (thread    5) identical     002-0138-0 (thread    1) identical     002-0138-1 (thread    8) identical     002-0138-0 (thread    1) better     002-0139-1 (thread    8) worse      002-0140-1 (thread    5) identical     002-0141-1 (thread    6) identical     002-0142-1 (thread    8) identical     002-0142-0 (thread    7) identical     002-0143-0 (thread    1) identical     002-0143-1 (thread    8) better     002-0145-1 (thread    6) identical     002-0146-0 (thread    7) identical     002-0146-0 (thread    7) worse      002-0147-1 (thread    6) identical     002-0147-1 (thread    6) worse      002-0148-1 (thread    1) identical     002-0148-1 (thread    1) worse      002-0149-0 (thread    3) identical     002-0149-1 (thread    2) identical     002-0149-1 (thread    4) identical     002-0150-0 (thread    3) better     002-0151-1 (thread    2) better     002-0152-0 (thread    1) identical     002-0152-0 (thread    1) worse      002-0153-1 (thread    6) identical     002-0153-1 (thread    2) identical     002-0153-1 (thread    6) better     002-0155-1 (thread    6) identical     002-0155-1 (thread    6) worse      002-0156-0 (thread    1) identical     002-0156-0 (thread    1) worse      002-0157-0 (thread    7) identical     002-0157-0 (thread    7) better     002-0158-1 (thread    6) identical     002-0158-1 (thread    6) worse      002-0159-0 (thread    2) identical     002-0160-0 (thread    3) identical     002-0160-0 (thread    3) better     002-0161-1 (thread    2) identical     002-0161-1 (thread    7) identical     002-0161-1 (thread    2) worse      002-0162-1 (thread    7) better     002-0163-1 (thread    2) identical     002-0163-0 (thread    8) identical     002-0163-0 (thread    5) identical     002-0163-1 (thread    2) worse      002-0166-0 (thread    1) identical     002-0167-1 (thread    4) identical     002-0168-0 (thread    3) identical     002-0169-1 (thread    8) identical     002-0169-0 (thread    7) identical     002-0169-0 (thread    1) identical     002-0170-1 (thread    8) worse      002-0171-0 (thread    1) better     002-0172-1 (thread    4) identical     002-0172-1 (thread    4) better     002-0173-0 (thread    8) identical     002-0173-0 (thread    8) worse      002-0174-1 (thread    2) identical     002-0174-1 (thread    2) worse      002-0175-1 (thread    8) identical     002-0175-1 (thread    8) worse      002-0176-1 (thread    7) identical     002-0176-1 (thread    7) worse      002-0177-0 (thread    7) identical     002-0177-0 (thread    7) worse      002-0178-1 (thread    8) identical     002-0178-1 (thread    8) worse      002-0179-0 (thread    8) identical     002-0179-0 (thread    8) worse      002-0180-0 (thread    6) identical     002-0181-0 (thread    4) identical     002-0182-1 (thread    7) identical     002-0182-0 (thread    3) identical     002-0183-1 (thread    7) better     002-0184-1 (thread    7) identical     002-0184-1 (thread    7) better     002-0185-1 (thread    4) identical     002-0185-1 (thread    4) worse      002-0186-1 (thread    4) identical     002-0186-1 (thread    4) worse      002-0187-1 (thread    8) identical     002-0187-1 (thread    8) worse      002-0188-0 (thread    7) identical     002-0188-0 (thread    7) worse      002-0189-0 (thread    3) identical     002-0189-0 (thread    3) worse      002-0190-1 (thread    3) identical     002-0190-1 (thread    8) identical     002-0190-1 (thread    8) worse      002-0190-1 (thread    3) better     002-0192-0 (thread    4) identical     002-0192-0 (thread    4) better     002-0193-0 (thread    7) identical     002-0193-0 (thread    7) worse      002-0194-1 (thread    7) identical     002-0194-1 (thread    3) identical     002-0194-1 (thread    7) worse      002-0195-1 (thread    3) worse      002-0196-0 (thread    4) identical     002-0196-0 (thread    8) identical     002-0196-0 (thread    4) worse      002-0197-0 (thread    8) worse      002-0198-1 (thread    3) identical     002-0198-1 (thread    1) identical     002-0198-1 (thread    3) better     002-0199-1 (thread    1) worse      002-0200-1 (thread    1) identical     002-0200-1 (thread    1) worse      002-0201-0 (thread    7) identical     002-0201-0 (thread    7) better     002-0202-1 (thread    8) identical     002-0202-1 (thread    7) identical     002-0202-1 (thread    8) worse      002-0203-1 (thread    7) worse      002-0204-1 (thread    7) identical     002-0204-1 (thread    7) worse      002-0205-0 (thread    3) identical     002-0205-0 (thread    3) worse      002-0206-0 (thread    4) identical     002-0206-0 (thread    4) worse      002-0207-0 (thread    1) identical     002-0207-0 (thread    5) identical     002-0208-0 (thread    1) worse      002-0209-1 (thread    3) identical     002-0209-1 (thread    3) worse      002-0210-0 (thread    8) identical     002-0210-0 (thread    8) worse      002-0211-0 (thread    6) identical     002-0211-0 (thread    2) identical     002-0212-0 (thread    6) worse      002-0213-0 (thread    7) identical     002-0213-0 (thread    7) worse      002-0214-1 (thread    4) identical     002-0214-1 (thread    4) worse      
+Reached 2
+done
+dvtditr (aa) Version 7.526
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+8 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<2) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+FastTree Version 2.2.0 Double precision
+Alignment: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/raw_evidence_20260819T180000JST/UGT/UGT_all_isoforms.mafft.fa
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Jones-Taylor-Thorton, CAT approximation with 20 rate categories
+Initial topology in 0.03 seconds
+Refining topology: 25 rounds ME-NNIs, 2 rounds ME-SPRs, 13 rounds ML-NNIs
+      0.64 seconds: SPR round   1 of   2, 101 of 158 nodes
+      0.90 seconds: ME NNI round 9 of 25, 1 of 78 splits
+      1.07 seconds: SPR round   2 of   2, 101 of 158 nodes
+Total branch-length 28.519 after 1.20 sec
+      1.20 seconds: ML Lengths 1 of 78 splits
+      1.56 seconds: ML NNI round 1 of 13, 1 of 78 splits
+ML-NNI round 1: LogLk = -35598.983 NNIs 21 max delta 13.46 Time 2.17
+      2.18 seconds: Site likelihoods with rate category 1 of 20
+      2.28 seconds: Site likelihoods with rate category 12 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.884 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -34515.409 NNIs 10 max delta 2.60 Time 3.00
+      2.99 seconds: ML NNI round 3 of 13, 1 of 78 splits
+ML-NNI round 3: LogLk = -34514.229 NNIs 3 max delta 0.29 Time 3.28
+      3.27 seconds: ML NNI round 4 of 13, 1 of 78 splits
+ML-NNI round 4: LogLk = -34514.170 NNIs 0 max delta 0.00 Time 3.75
+Turning off heuristics for final round of ML NNIs (converged)
+      3.75 seconds: ML NNI round 5 of 13, 1 of 78 splits
+ML-NNI round 5: LogLk = -34511.678 NNIs 3 max delta 0.14 Time 4.50 (final)
+      4.49 seconds: ML Lengths 1 of 78 splits
+Optimize all lengths: LogLk = -34511.591 Time 4.60
+Total time: 5.43 seconds Unique: 80/109 Bad splits: 0/77

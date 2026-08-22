@@ -1,0 +1,36 @@
+#!/bin/bash
+#PBS -N detox_iqfast
+#PBS -q epyc
+#PBS -l select=1:ncpus=16:mem=32gb
+#PBS -l walltime=24:00:00
+
+set -euo pipefail
+
+family=${FAMILY:?FAMILY must be set}
+source_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_20260819T220000JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST
+iqtree=/home/tuatchenjh9703/miniconda3/bin/iqtree
+out="$run_root/$family"
+alignment="$source_root/$family/${family}_representative_with_references.mafft.fa"
+
+mkdir -p "$out"
+cp "$alignment" "$out/${family}_representative_with_references.mafft.fa"
+
+"$iqtree" \
+  -s "$out/${family}_representative_with_references.mafft.fa" \
+  -m LG+F+G4 \
+  -B 1000 \
+  -alrt 1000 \
+  -T AUTO \
+  --threads-max 16 \
+  --prefix "$out/${family}_representative_fixed_LG_F_G4"
+
+printf 'family\tmodel\tsequences\talignment\ttreefile\n' >"$out/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\t%s\n' \
+  "$family" \
+  'LG+F+G4' \
+  "$(grep -c '^>' "$alignment")" \
+  "$out/${family}_representative_with_references.mafft.fa" \
+  "$out/${family}_representative_fixed_LG_F_G4.treefile" >>"$out/run_summary.tsv"
+
+(cd "$out" && sha256sum ./* >SHA256SUMS.txt)

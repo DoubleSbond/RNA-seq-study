@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -N archive_abc_iq
+#PBS -q epyc
+#PBS -l select=1:ncpus=1:mem=2gb
+#PBS -l walltime=01:00:00
+
+set -euo pipefail
+
+source_dir=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_20260819T220000JST/ABC
+archive_dir=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_ABC_completed_archive_20260820T010000JST
+archive="$archive_dir/ABC_model_finder_complete.tar.gz"
+
+test -f "$source_dir/run_summary.tsv"
+test -f "$source_dir/ABC_representative.treefile"
+test ! -e "$archive_dir"
+
+mkdir -p "$archive_dir"
+tar -C "$(dirname "$source_dir")" -czf "$archive" "$(basename "$source_dir")"
+sha256sum "$archive" >"$archive_dir/SHA256SUMS.txt"
+find "$source_dir" -maxdepth 1 -type f -printf '%f\t%s\n' | sort >"$archive_dir/source_inventory.tsv"

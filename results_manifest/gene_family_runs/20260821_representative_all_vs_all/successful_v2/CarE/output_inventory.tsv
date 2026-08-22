@@ -1,0 +1,10 @@
+blastp.stderr.log	0
+blastp.stdout.log	0
+CarE_all_vs_all.tsv	34299
+CarE_edges_e1e5_cov50.tsv	37658
+CarE_nonself_edges.tsv	38676
+CarE_Phoenei_longest_per_gene.fa	14259
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	541
+output_inventory.tsv	0
+run_summary.tsv	80

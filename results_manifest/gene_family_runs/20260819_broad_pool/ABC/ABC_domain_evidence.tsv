@@ -1,0 +1,50 @@
+Family	GeneID	DomainClassification	Reason	HistoricalFinal	Domains	DomainDescriptions
+ABC	TRINITY_DN10989_c0_g1	review	NBD_only_or_TMD_not_detected	no	IPR003439;PF00005	ABC transporter;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN1124_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN1142_c1_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF06472	ABC transporter;ABC transporter transmembrane region 2;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN11606_c0_g1	review	NBD_only_or_TMD_not_detected	yes	IPR003439;PF00005;PF12698	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 family transporter protein
+ABC	TRINITY_DN11773_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN12134_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN12905_c0_g2	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;PF00005;PF01061	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN13145_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	no	IPR003439;IPR013525;IPR043926;PF00005;PF01061;PF19055	ABC transporter;ABC transporter family G domain;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN1442_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;PF00005;PF01061	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN16854_c0_g1	review	NBD_only_or_TMD_not_detected	no	IPR003439;PF00005	ABC transporter;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN16854_c0_g2	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN16854_c0_g4	review	TMD_only_or_NBD_not_detected	no	IPR011527;PF00664	ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain
+ABC	TRINITY_DN16854_c0_g5	review	no_family_defining_domain_in_current_core_table	no	none	none
+ABC	TRINITY_DN18075_c0_g1	review	NBD_only_or_TMD_not_detected	yes	IPR003439;PF00005	ABC transporter;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN18452_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN18570_c0_g1	review	TMD_only_or_NBD_not_detected	no	IPR011527;PF00664	ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain
+ABC	TRINITY_DN20355_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN21667_c0_g1	review	no_family_defining_domain_in_current_core_table	yes	PF12698	ABC-2 family transporter protein
+ABC	TRINITY_DN21780_c0_g1	review	TMD_only_or_NBD_not_detected	no	IPR013525;IPR043926;PF01061;PF19055	ABC transporter family G domain;ABC-2 type transporter
+ABC	TRINITY_DN21780_c0_g2	review	TMD_only_or_NBD_not_detected	no	IPR013525;PF01061	ABC-2 type transporter
+ABC	TRINITY_DN2350_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;PF00005;PF01061	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN254_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN264_c0_g1	review	NBD_only_or_TMD_not_detected	yes	IPR003439;PF00005;PF12698	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 family transporter protein
+ABC	TRINITY_DN30_c14_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF06472	ABC transporter;ABC transporter transmembrane region 2;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN332_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;PF00005;PF01061	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN33353_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;IPR032410;PF00005;PF00664;PF16185	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain;Mitochondrial ABC-transporter N-terminal five TM region;Mitochondrial ABC-transporter, N-terminal five TM domain
+ABC	TRINITY_DN33832_c0_g1	review	NBD_only_or_TMD_not_detected	yes	IPR003439;PF00005;PF12698	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 family transporter protein
+ABC	TRINITY_DN35371_c0_g1	review	no_family_defining_domain_in_current_core_table	no	none	none
+ABC	TRINITY_DN35371_c0_g2	review	NBD_only_or_TMD_not_detected	no	IPR003439;PF00005	ABC transporter;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN37894_c0_g1	review	NBD_only_or_TMD_not_detected	no	IPR003439;PF00005	ABC transporter;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN4426_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN44328_c0_g1	review	TMD_only_or_NBD_not_detected	no	IPR011527;PF00664	ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain
+ABC	TRINITY_DN4518_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN4644_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;PF00005;PF01061	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN4709_c2_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;PF00005;PF01061	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN4830_c1_g1	review	NBD_only_or_TMD_not_detected	yes	IPR003439;PF00005	ABC transporter;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN48819_c0_g1	review	no_family_defining_domain_in_current_core_table	no	none	none
+ABC	TRINITY_DN49408_c0_g1	review	NBD_only_or_TMD_not_detected	no	IPR003439;PF00005	ABC transporter;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN5175_c0_g1	review	NBD_only_or_TMD_not_detected	yes	IPR003439;PF00005;PF12698	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 family transporter protein
+ABC	TRINITY_DN5424_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN54_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN58313_c0_g1	review	no_family_defining_domain_in_current_core_table	no	none	none
+ABC	TRINITY_DN662_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN662_c0_g4	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN7214_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;IPR043926;PF00005;PF01061;PF19055	ABC transporter;ABC transporter family G domain;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN9037_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN9474_c0_g1	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR011527;PF00005;PF00664	ABC transporter;ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain;ABC transporter-like, ATP-binding domain
+ABC	TRINITY_DN9946_c0_g2	provisional_HQ_domain	NBD_and_TMD_evidence	yes	IPR003439;IPR013525;PF00005;PF01061	ABC transporter;ABC transporter-like, ATP-binding domain;ABC-2 type transporter
+ABC	TRINITY_DN9986_c0_g1	review	TMD_only_or_NBD_not_detected	yes	IPR011527;PF00664	ABC transporter transmembrane region;ABC transporter type 1, transmembrane domain

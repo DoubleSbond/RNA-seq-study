@@ -1,0 +1,16 @@
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/reference_trees_v2_20260819T210000JST/ABC/ABC_reference_augmented.mafft.fa
+# output HMM file:                  /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST/ABC/ABC_inclusive.hmm
+# name (the single) HMM:            ABC_inclusive_profile
+# number of worker threads:         8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     ABC_inclusive_profile   272  6198  1038    11.25  0.590 
+
+# CPU time: 1.09u 0.02s 00:00:01.11 Elapsed: 00:00:00.45

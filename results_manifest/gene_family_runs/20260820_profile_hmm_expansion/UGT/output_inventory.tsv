@@ -1,0 +1,14 @@
+UGT.stderr.log	0
+UGT.stdout.log	1085
+UGT_inclusive.hmm	230737
+UGT_proteome.domtblout	21594
+UGT_proteome.full.txt	170790
+UGT_proteome.sto	209392
+UGT_proteome.tblout	19194
+all_hit_genes.txt	1318
+current_candidate_genes.txt	765
+novel_profile_hit_genes.txt	614
+output_inventory.tsv	0
+run_summary.tsv	111
+scheduler.stderr	0
+scheduler.stdout	0

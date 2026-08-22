@@ -1,0 +1,46 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 19 Aug 2026 17:36:17
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/CarE/CarE_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/CarE/CarE.prosite_pruned
+#    -prune
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/CarE/CarE.prosite_pruned
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN10214_c0_g1_i1.p1     from: 1   to: 550
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 8
+Start = position 25 of sequence
+End = position 32 of sequence
+
+Motif = TYR_PHOSPHO_SITE_1
+
+CGYSEKTDEGTCYKFKSI
+     |      |
+    25      32
+
+Length = 16
+Start = position 176 of sequence
+End = position 191 of sequence
+
+Motif = CARBOXYLESTERASE_B_1
+
+RHISSFGGDPNNVTIFGSSSGGSIVN
+     |              |
+   176              191
+
+
+#---------------------------------------
+#---------------------------------------

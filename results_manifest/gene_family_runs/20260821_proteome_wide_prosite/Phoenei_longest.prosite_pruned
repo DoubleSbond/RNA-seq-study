@@ -1,0 +1,76 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Fri 21 Aug 2026 17:40:48
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_wide_prosite_20260821T180000JST/Phoenei_longest.prosite_pruned
+#    -prune
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/proteome_wide_prosite_20260821T180000JST/Phoenei_longest.prosite_pruned
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN7610_c0_g1_i3.p1     from: 1   to: 553
+# HitCount: 5
+#
+# Full: No
+# Prune: Yes
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 8
+Start = position 86 of sequence
+End = position 93 of sequence
+
+Motif = TYR_PHOSPHO_SITE_1
+
+ATGGTKFSDCLIYTSREN
+     |      |
+    86      93
+
+Length = 4
+Start = position 482 of sequence
+End = position 485 of sequence
+
+Motif = AMIDATION
+
+PYILHLGRRFDVRY
+     |  |
+   482  485
+
+Length = 4
+Start = position 390 of sequence
+End = position 393 of sequence
+
+Motif = AMIDATION
+
+WLADRIGRRYTGMI
+     |  |
+   390  393
+
+Length = 4
+Start = position 157 of sequence
+End = position 160 of sequence
+
+Motif = AMIDATION
+
+WFGDVYGRKPTYII
+     |  |
+   157  160
+
+Length = 18
+Start = position 383 of sequence
+End = position 400 of sequence
+
+Motif = SUGAR_TRANSPORT_1
+
+PGFFIASWLADRIGRRYTGMISTTLTTL
+     |                |
+   383                400
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,5676 @@
+########################################
+# Program: antigenic
+# Rundate: Wed 19 Aug 2026 17:16:11
+# Commandline: antigenic
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/GST/GST_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/GST/GST.antigenic
+#    -auto
+# Report_format: motif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/GST/GST.antigenic
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i10.p1     from: 1   to: 271
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.197 length 31 at residues 104->134
+                                    *
+ Sequence: PGGHNLFVQDKEVASLIENLYSKLKLVLVRK
+           |                             |
+         104                             134
+ Max_score_pos: 129
+
+(2) Score 1.185 length 28 at residues 164->191
+                 *
+ Sequence: DTMCCFDCELMPRLQHIRVAGKYFVDFE
+           |                          |
+         164                          191
+ Max_score_pos: 170
+
+(3) Score 1.178 length 11 at residues 243->253
+                  *
+ Sequence: GTRICWCVAKI
+           |         |
+         243         253
+ Max_score_pos: 250
+
+(4) Score 1.170 length 29 at residues 33->61
+                *
+ Sequence: GACLFCQEYFMDLYLLAELKTISLKVTTV
+           |                           |
+          33                           61
+ Max_score_pos: 38
+
+(5) Score 1.154 length 17 at residues 223->239
+                   *
+ Sequence: INHYKLQQVIYHHADSS
+           |               |
+         223               239
+ Max_score_pos: 231
+
+(6) Score 1.100 length 10 at residues 16->25
+             *
+ Sequence: PEIELIIKAS
+           |        |
+          16        25
+ Max_score_pos: 18
+
+(7) Score 1.099 length 14 at residues 77->90
+              *
+ Sequence: THPPILIDNGLAIL
+           |            |
+          77            90
+ Max_score_pos: 80
+
+(8) Score 1.088 length 14 at residues 139->152
+               *
+ Sequence: SAALRSHLSRIDGL
+           |            |
+         139            152
+ Max_score_pos: 143
+
+(9) Score 1.081 length 17 at residues 204->220
+                     *
+ Sequence: YHMYQLDAFTQSCPADQ
+           |               |
+         204               220
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i11.p1     from: 1   to: 283
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.197 length 31 at residues 104->134
+                                    *
+ Sequence: PGGHNLFVQDKEVASLIENLYSKLKLVLVRK
+           |                             |
+         104                             134
+ Max_score_pos: 129
+
+(2) Score 1.185 length 28 at residues 164->191
+                 *
+ Sequence: DTMCCFDCELMPRLQHIRVAGKYFVDFE
+           |                          |
+         164                          191
+ Max_score_pos: 170
+
+(3) Score 1.170 length 29 at residues 33->61
+                *
+ Sequence: GACLFCQEYFMDLYLLAELKTISLKVTTV
+           |                           |
+          33                           61
+ Max_score_pos: 38
+
+(4) Score 1.118 length 11 at residues 233->243
+                 *
+ Sequence: AKGLVLTPTPT
+           |         |
+         233         243
+ Max_score_pos: 239
+
+(5) Score 1.100 length 10 at residues 16->25
+             *
+ Sequence: PEIELIIKAS
+           |        |
+          16        25
+ Max_score_pos: 18
+
+(6) Score 1.099 length 14 at residues 77->90
+              *
+ Sequence: THPPILIDNGLAIL
+           |            |
+          77            90
+ Max_score_pos: 80
+
+(7) Score 1.098 length 8 at residues 250->257
+             *
+ Sequence: PTDVALKM
+           |      |
+         250      257
+ Max_score_pos: 252
+
+(8) Score 1.092 length 11 at residues 269->279
+                *
+ Sequence: TTSIPIDVSEN
+           |         |
+         269         279
+ Max_score_pos: 274
+
+(9) Score 1.088 length 14 at residues 139->152
+               *
+ Sequence: SAALRSHLSRIDGL
+           |            |
+         139            152
+ Max_score_pos: 143
+
+(10) Score 1.081 length 17 at residues 204->220
+                     *
+ Sequence: YHMYQLDAFTQSCPADQ
+           |               |
+         204               220
+ Max_score_pos: 214
+
+(11) Score 1.075 length 9 at residues 223->231
+             *
+ Sequence: INHYKLQQQ
+           |       |
+         223       231
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i13.p1     from: 1   to: 283
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.197 length 31 at residues 104->134
+                                    *
+ Sequence: PGGHNLFVQDKEVASLIENLYSKLKLVLVRK
+           |                             |
+         104                             134
+ Max_score_pos: 129
+
+(2) Score 1.185 length 28 at residues 164->191
+                 *
+ Sequence: DTMCCFDCELMPRLQHIRVAGKYFVDFE
+           |                          |
+         164                          191
+ Max_score_pos: 170
+
+(3) Score 1.170 length 29 at residues 33->61
+                *
+ Sequence: GACLFCQEYFMDLYLLAELKTISLKVTTV
+           |                           |
+          33                           61
+ Max_score_pos: 38
+
+(4) Score 1.118 length 11 at residues 233->243
+                 *
+ Sequence: AKGLVLTPTPT
+           |         |
+         233         243
+ Max_score_pos: 239
+
+(5) Score 1.100 length 10 at residues 16->25
+             *
+ Sequence: PEIELIIKAS
+           |        |
+          16        25
+ Max_score_pos: 18
+
+(6) Score 1.099 length 14 at residues 77->90
+              *
+ Sequence: THPPILIDNGLAIL
+           |            |
+          77            90
+ Max_score_pos: 80
+
+(7) Score 1.098 length 8 at residues 250->257
+             *
+ Sequence: PTDVALKM
+           |      |
+         250      257
+ Max_score_pos: 252
+
+(8) Score 1.092 length 11 at residues 269->279
+                *
+ Sequence: TTSIPIDVSEN
+           |         |
+         269         279
+ Max_score_pos: 274
+
+(9) Score 1.088 length 14 at residues 139->152
+               *
+ Sequence: SAALRSHLSRIDGL
+           |            |
+         139            152
+ Max_score_pos: 143
+
+(10) Score 1.081 length 17 at residues 204->220
+                     *
+ Sequence: YHMYQLDAFTQSCPADQ
+           |               |
+         204               220
+ Max_score_pos: 214
+
+(11) Score 1.075 length 9 at residues 223->231
+             *
+ Sequence: INHYKLQQQ
+           |       |
+         223       231
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i4.p1     from: 1   to: 271
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.197 length 31 at residues 104->134
+                                    *
+ Sequence: PGGHNLFVQDKEVASLIENLYSKLKLVLVRK
+           |                             |
+         104                             134
+ Max_score_pos: 129
+
+(2) Score 1.185 length 28 at residues 164->191
+                 *
+ Sequence: DTMCCFDCELMPRLQHIRVAGKYFVDFE
+           |                          |
+         164                          191
+ Max_score_pos: 170
+
+(3) Score 1.178 length 11 at residues 243->253
+                  *
+ Sequence: GTRICWCVAKI
+           |         |
+         243         253
+ Max_score_pos: 250
+
+(4) Score 1.170 length 29 at residues 33->61
+                *
+ Sequence: GACLFCQEYFMDLYLLAELKTISLKVTTV
+           |                           |
+          33                           61
+ Max_score_pos: 38
+
+(5) Score 1.154 length 17 at residues 223->239
+                   *
+ Sequence: INHYKLQQVIYHHADSS
+           |               |
+         223               239
+ Max_score_pos: 231
+
+(6) Score 1.100 length 10 at residues 16->25
+             *
+ Sequence: PEIELIIKAS
+           |        |
+          16        25
+ Max_score_pos: 18
+
+(7) Score 1.099 length 14 at residues 77->90
+              *
+ Sequence: THPPILIDNGLAIL
+           |            |
+          77            90
+ Max_score_pos: 80
+
+(8) Score 1.088 length 14 at residues 139->152
+               *
+ Sequence: SAALRSHLSRIDGL
+           |            |
+         139            152
+ Max_score_pos: 143
+
+(9) Score 1.081 length 17 at residues 204->220
+                     *
+ Sequence: YHMYQLDAFTQSCPADQ
+           |               |
+         204               220
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i6.p2     from: 1   to: 260
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.197 length 31 at residues 104->134
+                                    *
+ Sequence: PGGHNLFVQDKEVASLIENLYSKLKLVLVRK
+           |                             |
+         104                             134
+ Max_score_pos: 129
+
+(2) Score 1.185 length 28 at residues 164->191
+                 *
+ Sequence: DTMCCFDCELMPRLQHIRVAGKYFVDFE
+           |                          |
+         164                          191
+ Max_score_pos: 170
+
+(3) Score 1.170 length 29 at residues 33->61
+                *
+ Sequence: GACLFCQEYFMDLYLLAELKTISLKVTTV
+           |                           |
+          33                           61
+ Max_score_pos: 38
+
+(4) Score 1.100 length 10 at residues 16->25
+             *
+ Sequence: PEIELIIKAS
+           |        |
+          16        25
+ Max_score_pos: 18
+
+(5) Score 1.099 length 14 at residues 77->90
+              *
+ Sequence: THPPILIDNGLAIL
+           |            |
+          77            90
+ Max_score_pos: 80
+
+(6) Score 1.098 length 10 at residues 223->232
+                 *
+ Sequence: INHYKLQQAL
+           |        |
+         223        232
+ Max_score_pos: 229
+
+(7) Score 1.092 length 11 at residues 246->256
+                *
+ Sequence: TTSIPIDVSEN
+           |         |
+         246         256
+ Max_score_pos: 251
+
+(8) Score 1.088 length 14 at residues 139->152
+               *
+ Sequence: SAALRSHLSRIDGL
+           |            |
+         139            152
+ Max_score_pos: 143
+
+(9) Score 1.081 length 17 at residues 204->220
+                     *
+ Sequence: YHMYQLDAFTQSCPADQ
+           |               |
+         204               220
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i7.p1     from: 1   to: 271
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.197 length 31 at residues 104->134
+                                    *
+ Sequence: PGGHNLFVQDKEVASLIENLYSKLKLVLVRK
+           |                             |
+         104                             134
+ Max_score_pos: 129
+
+(2) Score 1.185 length 28 at residues 164->191
+                 *
+ Sequence: DTMCCFDCELMPRLQHIRVAGKYFVDFE
+           |                          |
+         164                          191
+ Max_score_pos: 170
+
+(3) Score 1.178 length 11 at residues 243->253
+                  *
+ Sequence: GTRICWCVAKI
+           |         |
+         243         253
+ Max_score_pos: 250
+
+(4) Score 1.170 length 29 at residues 33->61
+                *
+ Sequence: GACLFCQEYFMDLYLLAELKTISLKVTTV
+           |                           |
+          33                           61
+ Max_score_pos: 38
+
+(5) Score 1.154 length 17 at residues 223->239
+                   *
+ Sequence: INHYKLQQVIYHHADSS
+           |               |
+         223               239
+ Max_score_pos: 231
+
+(6) Score 1.100 length 10 at residues 16->25
+             *
+ Sequence: PEIELIIKAS
+           |        |
+          16        25
+ Max_score_pos: 18
+
+(7) Score 1.099 length 14 at residues 77->90
+              *
+ Sequence: THPPILIDNGLAIL
+           |            |
+          77            90
+ Max_score_pos: 80
+
+(8) Score 1.088 length 14 at residues 139->152
+               *
+ Sequence: SAALRSHLSRIDGL
+           |            |
+         139            152
+ Max_score_pos: 143
+
+(9) Score 1.081 length 17 at residues 204->220
+                     *
+ Sequence: YHMYQLDAFTQSCPADQ
+           |               |
+         204               220
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11666_c0_g1_i1.p1     from: 1   to: 204
+# HitCount: 6
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.306 length 40 at residues 162->201
+                                           *
+ Sequence: IPNLPVHLKMIVMSQPPAYLGAAGAVSVGVVVAVVYIFKK
+           |                                      |
+         162                                      201
+ Max_score_pos: 194
+
+(2) Score 1.179 length 32 at residues 4->35
+                                    *
+ Sequence: ALPAGLITVGSFFHPHLSGTPKLPFILPVREI
+           |                              |
+           4                              35
+ Max_score_pos: 29
+
+(3) Score 1.128 length 16 at residues 115->130
+                 *
+ Sequence: IADINLAILLQRLWEL
+           |              |
+         115              130
+ Max_score_pos: 121
+
+(4) Score 1.117 length 9 at residues 58->66
+             *
+ Sequence: KSILLYKAE
+           |       |
+          58       66
+ Max_score_pos: 60
+
+(5) Score 1.117 length 18 at residues 81->98
+              *
+ Sequence: YSKVLKIIDQVLTEVEEQ
+           |                |
+          81                98
+ Max_score_pos: 84
+
+(6) Score 1.115 length 8 at residues 106->113
+                *
+ Sequence: NWLCCENF
+           |      |
+         106      113
+ Max_score_pos: 111
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11666_c0_g1_i1.p2     from: 1   to: 124
+# HitCount: 7
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.188 length 20 at residues 28->47
+                *
+ Sequence: NIYLYCSYYSFYSQKVLMAL
+           |                  |
+          28                  47
+ Max_score_pos: 33
+
+(2) Score 1.156 length 16 at residues 79->94
+               *
+ Sequence: EIPVLKVKNEVIPDST
+           |              |
+          79              94
+ Max_score_pos: 83
+
+(3) Score 1.144 length 11 at residues 4->14
+            *
+ Sequence: VQKYLEKLPIP
+           |         |
+           4         14
+ Max_score_pos: 5
+
+(4) Score 1.128 length 8 at residues 54->61
+               *
+ Sequence: FKPLLVDI
+           |      |
+          54      61
+ Max_score_pos: 58
+
+(5) Score 1.111 length 6 at residues 116->121
+               *
+ Sequence: NIIQAI
+           |    |
+         116    121
+ Max_score_pos: 120
+
+(6) Score 1.092 length 16 at residues 96->111
+                      *
+ Sequence: ILDYLEFYLDPGLFLN
+           |              |
+          96              111
+ Max_score_pos: 107
+
+(7) Score 1.062 length 7 at residues 68->74
+            *
+ Sequence: SSWFLDI
+           |     |
+          68     74
+ Max_score_pos: 69
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11666_c0_g1_i2.p1     from: 1   to: 333
+# HitCount: 12
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.306 length 40 at residues 291->330
+                                           *
+ Sequence: IPNLPVHLKMIVMSQPPAYLGAAGAVSVGVVVAVVYIFKK
+           |                                      |
+         291                                      330
+ Max_score_pos: 323
+
+(2) Score 1.188 length 20 at residues 28->47
+                *
+ Sequence: NIYLYCSYYSFYSQKVLMAL
+           |                  |
+          28                  47
+ Max_score_pos: 33
+
+(3) Score 1.179 length 33 at residues 132->164
+                                     *
+ Sequence: EALPAGLITVGSFFHPHLSGTPKLPFILPVREI
+           |                               |
+         132                               164
+ Max_score_pos: 158
+
+(4) Score 1.156 length 16 at residues 79->94
+               *
+ Sequence: EIPVLKVKNEVIPDST
+           |              |
+          79              94
+ Max_score_pos: 83
+
+(5) Score 1.144 length 11 at residues 4->14
+            *
+ Sequence: VQKYLEKLPIP
+           |         |
+           4         14
+ Max_score_pos: 5
+
+(6) Score 1.134 length 20 at residues 96->115
+                          *
+ Sequence: ILDYLEFYLDPELTPLIKVS
+           |                  |
+          96                  115
+ Max_score_pos: 111
+
+(7) Score 1.128 length 8 at residues 54->61
+               *
+ Sequence: FKPLLVDI
+           |      |
+          54      61
+ Max_score_pos: 58
+
+(8) Score 1.128 length 16 at residues 244->259
+                 *
+ Sequence: IADINLAILLQRLWEL
+           |              |
+         244              259
+ Max_score_pos: 250
+
+(9) Score 1.117 length 9 at residues 187->195
+             *
+ Sequence: KSILLYKAE
+           |       |
+         187       195
+ Max_score_pos: 189
+
+(10) Score 1.117 length 18 at residues 210->227
+              *
+ Sequence: YSKVLKIIDQVLTEVEEQ
+           |                |
+         210                227
+ Max_score_pos: 213
+
+(11) Score 1.115 length 8 at residues 235->242
+                *
+ Sequence: NWLCCENF
+           |      |
+         235      242
+ Max_score_pos: 240
+
+(12) Score 1.062 length 7 at residues 68->74
+            *
+ Sequence: SSWFLDI
+           |     |
+          68     74
+ Max_score_pos: 69
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN12434_c0_g2_i1.p1     from: 1   to: 216
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.186 length 7 at residues 114->120
+             *
+ Sequence: TYPLIVE
+           |     |
+         114     120
+ Max_score_pos: 116
+
+(2) Score 1.157 length 11 at residues 168->178
+               *
+ Sequence: GLEVILPIDAK
+           |         |
+         168         178
+ Max_score_pos: 172
+
+(3) Score 1.140 length 27 at residues 51->77
+              *
+ Sequence: LHTIPLLEDGDLILHDSHAIMAYLAEA
+           |                         |
+          51                         77
+ Max_score_pos: 54
+
+(4) Score 1.134 length 37 at residues 4->40
+                                         *
+ Sequence: KLYTLDLSPPVRAAMMACDIFNVPFEKIPVNLLAKDH
+           |                                   |
+           4                                   40
+ Max_score_pos: 34
+
+(5) Score 1.116 length 18 at residues 91->108
+            *
+ Sequence: KRALVNQKLFFDTSILFP
+           |                |
+          91                108
+ Max_score_pos: 92
+
+(6) Score 1.098 length 19 at residues 145->163
+                          *
+ Sequence: SRTAYLAADHITIADVAAF
+           |                 |
+         145                 163
+ Max_score_pos: 160
+
+(7) Score 1.088 length 8 at residues 181->188
+                 *
+ Sequence: PKTIVWLT
+           |      |
+         181      188
+ Max_score_pos: 187
+
+(8) Score 1.043 length 11 at residues 133->143
+                    *
+ Sequence: IAEAYGFIEEF
+           |         |
+         133         143
+ Max_score_pos: 142
+
+(9) Score 1.021 length 6 at residues 205->210
+           *
+ Sequence: SGLAKM
+           |    |
+         205    210
+ Max_score_pos: 205
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN12434_c0_g2_i2.p1     from: 1   to: 216
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.186 length 7 at residues 114->120
+             *
+ Sequence: TYPLIVE
+           |     |
+         114     120
+ Max_score_pos: 116
+
+(2) Score 1.157 length 11 at residues 168->178
+               *
+ Sequence: GLEVILPIDAK
+           |         |
+         168         178
+ Max_score_pos: 172
+
+(3) Score 1.140 length 27 at residues 51->77
+              *
+ Sequence: LHTIPLLEDGDLILHDSHAIMAYLAEA
+           |                         |
+          51                         77
+ Max_score_pos: 54
+
+(4) Score 1.134 length 37 at residues 4->40
+                                         *
+ Sequence: KLYTLDLSPPVRAAMMACDIFNVPFEKIPVNLLAKDH
+           |                                   |
+           4                                   40
+ Max_score_pos: 34
+
+(5) Score 1.116 length 18 at residues 91->108
+            *
+ Sequence: KRALVNQKLFFDTSILFP
+           |                |
+          91                108
+ Max_score_pos: 92
+
+(6) Score 1.098 length 19 at residues 145->163
+                          *
+ Sequence: SRTAYLAADHITIADVAAF
+           |                 |
+         145                 163
+ Max_score_pos: 160
+
+(7) Score 1.088 length 8 at residues 181->188
+                 *
+ Sequence: PKTIVWLT
+           |      |
+         181      188
+ Max_score_pos: 187
+
+(8) Score 1.043 length 11 at residues 133->143
+                    *
+ Sequence: IAEAYGFIEEF
+           |         |
+         133         143
+ Max_score_pos: 142
+
+(9) Score 1.021 length 6 at residues 205->210
+           *
+ Sequence: SGLAKM
+           |    |
+         205    210
+ Max_score_pos: 205
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i1.p1     from: 1   to: 227
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.221 length 22 at residues 102->123
+                          *
+ Sequence: FFNVGVYFVRLKVIVLPALFGD
+           |                    |
+         102                    123
+ Max_score_pos: 117
+
+(2) Score 1.144 length 32 at residues 138->169
+                 *
+ Sequence: AYGVVEAYISSHNLKYLVTDQLTIADLSVGGT
+           |                              |
+         138                              169
+ Max_score_pos: 144
+
+(3) Score 1.114 length 30 at residues 4->33
+               *
+ Sequence: TLYMIQVSTPANAVRILAEIIGLDLEIKDL
+           |                            |
+           4                            33
+ Max_score_pos: 8
+
+(4) Score 1.110 length 9 at residues 53->61
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          53       61
+ Max_score_pos: 55
+
+(5) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(6) Score 1.103 length 7 at residues 74->80
+            *
+ Sequence: MLSVYGG
+           |     |
+          74     80
+ Max_score_pos: 75
+
+(7) Score 1.092 length 9 at residues 200->208
+              *
+ Sequence: INKFLVPNS
+           |       |
+         200       208
+ Max_score_pos: 203
+
+(8) Score 1.085 length 10 at residues 173->182
+                *
+ Sequence: MGYLYKLNAS
+           |        |
+         173        182
+ Max_score_pos: 178
+
+(9) Score 1.077 length 10 at residues 188->197
+                 *
+ Sequence: ASWVARLEQH
+           |        |
+         188        197
+ Max_score_pos: 194
+
+(10) Score 1.069 length 7 at residues 41->47
+             *
+ Sequence: KSPQHLK
+           |     |
+          41     47
+ Max_score_pos: 43
+
+(11) Score 1.066 length 7 at residues 212->218
+             *
+ Sequence: GDIIHAA
+           |     |
+         212     218
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i20.p1     from: 1   to: 148
+# HitCount: 6
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.213 length 19 at residues 104->122
+                        *
+ Sequence: FFNVGVYFVRLKVIVVSTQ
+           |                 |
+         104                 122
+ Max_score_pos: 117
+
+(2) Score 1.136 length 16 at residues 125->140
+                    *
+ Sequence: EIALTYFSSSCYLKFN
+           |              |
+         125              140
+ Max_score_pos: 134
+
+(3) Score 1.114 length 29 at residues 5->33
+                *
+ Sequence: PTLYMIQVSTPANAVRILAEIIGLDLEIK
+           |                           |
+           5                           33
+ Max_score_pos: 10
+
+(4) Score 1.110 length 9 at residues 55->63
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          55       63
+ Max_score_pos: 57
+
+(5) Score 1.107 length 7 at residues 86->92
+               *
+ Sequence: ESLYPSD
+           |     |
+          86     92
+ Max_score_pos: 90
+
+(6) Score 1.103 length 7 at residues 76->82
+            *
+ Sequence: MLSVYGG
+           |     |
+          76     82
+ Max_score_pos: 77
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i26.p1     from: 1   to: 227
+# HitCount: 10
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.221 length 22 at residues 102->123
+                          *
+ Sequence: FFNVGVYFVRLKVIVLPALFGD
+           |                    |
+         102                    123
+ Max_score_pos: 117
+
+(2) Score 1.144 length 32 at residues 138->169
+                 *
+ Sequence: AYGVVEAYISSHNLKYLVTDQLTIADLSVGGT
+           |                              |
+         138                              169
+ Max_score_pos: 144
+
+(3) Score 1.114 length 28 at residues 4->31
+               *
+ Sequence: TLYMIQVSTPANAVRILAEIIGLDLEIK
+           |                          |
+           4                          31
+ Max_score_pos: 8
+
+(4) Score 1.110 length 9 at residues 53->61
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          53       61
+ Max_score_pos: 55
+
+(5) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(6) Score 1.103 length 7 at residues 74->80
+            *
+ Sequence: MLSVYGG
+           |     |
+          74     80
+ Max_score_pos: 75
+
+(7) Score 1.092 length 9 at residues 200->208
+              *
+ Sequence: INKFLVPNS
+           |       |
+         200       208
+ Max_score_pos: 203
+
+(8) Score 1.085 length 10 at residues 173->182
+                *
+ Sequence: MGYLYKLNAS
+           |        |
+         173        182
+ Max_score_pos: 178
+
+(9) Score 1.077 length 10 at residues 188->197
+                 *
+ Sequence: ASWVARLEQH
+           |        |
+         188        197
+ Max_score_pos: 194
+
+(10) Score 1.066 length 7 at residues 212->218
+             *
+ Sequence: GDIIHAA
+           |     |
+         212     218
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i32.p1     from: 1   to: 146
+# HitCount: 6
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.213 length 19 at residues 102->120
+                        *
+ Sequence: FFNVGVYFVRLKVIVVSTQ
+           |                 |
+         102                 120
+ Max_score_pos: 115
+
+(2) Score 1.136 length 16 at residues 123->138
+                    *
+ Sequence: EIALTYFSSSCYLKFN
+           |              |
+         123              138
+ Max_score_pos: 132
+
+(3) Score 1.114 length 28 at residues 4->31
+               *
+ Sequence: TLYMIQVSTPANAVRILAEIIGLDLEIK
+           |                          |
+           4                          31
+ Max_score_pos: 8
+
+(4) Score 1.110 length 9 at residues 53->61
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          53       61
+ Max_score_pos: 55
+
+(5) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(6) Score 1.103 length 7 at residues 74->80
+            *
+ Sequence: MLSVYGG
+           |     |
+          74     80
+ Max_score_pos: 75
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i33.p1     from: 1   to: 227
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.221 length 22 at residues 102->123
+                          *
+ Sequence: FFNVGVYFVRLKVIVLPALFGD
+           |                    |
+         102                    123
+ Max_score_pos: 117
+
+(2) Score 1.144 length 32 at residues 138->169
+                 *
+ Sequence: AYGVVEAYISSHNLKYLVTDQLTIADLSVGGT
+           |                              |
+         138                              169
+ Max_score_pos: 144
+
+(3) Score 1.114 length 30 at residues 4->33
+               *
+ Sequence: TLYMIQVSTPANAVRILAEIIGLDLEIKDL
+           |                            |
+           4                            33
+ Max_score_pos: 8
+
+(4) Score 1.110 length 9 at residues 53->61
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          53       61
+ Max_score_pos: 55
+
+(5) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(6) Score 1.103 length 7 at residues 74->80
+            *
+ Sequence: MLSVYGG
+           |     |
+          74     80
+ Max_score_pos: 75
+
+(7) Score 1.092 length 9 at residues 200->208
+              *
+ Sequence: INKFLVPNS
+           |       |
+         200       208
+ Max_score_pos: 203
+
+(8) Score 1.085 length 10 at residues 173->182
+                *
+ Sequence: MGYLYKLNAS
+           |        |
+         173        182
+ Max_score_pos: 178
+
+(9) Score 1.077 length 10 at residues 188->197
+                 *
+ Sequence: ASWVARLEQH
+           |        |
+         188        197
+ Max_score_pos: 194
+
+(10) Score 1.069 length 7 at residues 41->47
+             *
+ Sequence: KSPQHLK
+           |     |
+          41     47
+ Max_score_pos: 43
+
+(11) Score 1.066 length 7 at residues 212->218
+             *
+ Sequence: GDIIHAA
+           |     |
+         212     218
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i39.p1     from: 1   to: 134
+# HitCount: 7
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.213 length 18 at residues 102->119
+                        *
+ Sequence: FFNVGVYFVRLKVIVVST
+           |                |
+         102                119
+ Max_score_pos: 115
+
+(2) Score 1.130 length 6 at residues 126->131
+                *
+ Sequence: MTYFAS
+           |    |
+         126    131
+ Max_score_pos: 131
+
+(3) Score 1.114 length 30 at residues 4->33
+               *
+ Sequence: TLYMIQVSTPANAVRILAEIIGLDLEIKDL
+           |                            |
+           4                            33
+ Max_score_pos: 8
+
+(4) Score 1.110 length 9 at residues 53->61
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          53       61
+ Max_score_pos: 55
+
+(5) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(6) Score 1.103 length 7 at residues 74->80
+            *
+ Sequence: MLSVYGG
+           |     |
+          74     80
+ Max_score_pos: 75
+
+(7) Score 1.069 length 7 at residues 41->47
+             *
+ Sequence: KSPQHLK
+           |     |
+          41     47
+ Max_score_pos: 43
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i47.p1     from: 1   to: 227
+# HitCount: 10
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.221 length 22 at residues 102->123
+                          *
+ Sequence: FFNVGVYFVRLKVIVLPALFGD
+           |                    |
+         102                    123
+ Max_score_pos: 117
+
+(2) Score 1.144 length 32 at residues 138->169
+                 *
+ Sequence: AYGVVEAYISSHNLKYLVTDQLTIADLSVGGT
+           |                              |
+         138                              169
+ Max_score_pos: 144
+
+(3) Score 1.114 length 28 at residues 4->31
+               *
+ Sequence: TLYMIQVSTPANAVRILAEIIGLDLEIK
+           |                          |
+           4                          31
+ Max_score_pos: 8
+
+(4) Score 1.110 length 9 at residues 53->61
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          53       61
+ Max_score_pos: 55
+
+(5) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(6) Score 1.103 length 7 at residues 74->80
+            *
+ Sequence: MLSVYGG
+           |     |
+          74     80
+ Max_score_pos: 75
+
+(7) Score 1.092 length 9 at residues 200->208
+              *
+ Sequence: INKFLVPNS
+           |       |
+         200       208
+ Max_score_pos: 203
+
+(8) Score 1.085 length 10 at residues 173->182
+                *
+ Sequence: MGYLYKLNAS
+           |        |
+         173        182
+ Max_score_pos: 178
+
+(9) Score 1.077 length 10 at residues 188->197
+                 *
+ Sequence: ASWVARLEQH
+           |        |
+         188        197
+ Max_score_pos: 194
+
+(10) Score 1.066 length 7 at residues 212->218
+             *
+ Sequence: GDIIHAA
+           |     |
+         212     218
+ Max_score_pos: 214
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i8.p1     from: 1   to: 134
+# HitCount: 6
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.213 length 18 at residues 102->119
+                        *
+ Sequence: FFNVGVYFVRLKVIVVST
+           |                |
+         102                119
+ Max_score_pos: 115
+
+(2) Score 1.130 length 6 at residues 126->131
+                *
+ Sequence: MTYFAS
+           |    |
+         126    131
+ Max_score_pos: 131
+
+(3) Score 1.114 length 28 at residues 4->31
+               *
+ Sequence: TLYMIQVSTPANAVRILAEIIGLDLEIK
+           |                          |
+           4                          31
+ Max_score_pos: 8
+
+(4) Score 1.110 length 9 at residues 53->61
+             *
+ Sequence: TVPTLVDGD
+           |       |
+          53       61
+ Max_score_pos: 55
+
+(5) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(6) Score 1.103 length 7 at residues 74->80
+            *
+ Sequence: MLSVYGG
+           |     |
+          74     80
+ Max_score_pos: 75
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i12.p1     from: 1   to: 201
+# HitCount: 7
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.165 length 22 at residues 76->97
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+          76                    97
+ Max_score_pos: 87
+
+(2) Score 1.160 length 33 at residues 106->138
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         106                               138
+ Max_score_pos: 110
+
+(3) Score 1.124 length 16 at residues 12->27
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+          12              27
+ Max_score_pos: 22
+
+(4) Score 1.091 length 7 at residues 176->182
+                *
+ Sequence: EKYLLTE
+           |     |
+         176     182
+ Max_score_pos: 181
+
+(5) Score 1.079 length 7 at residues 148->154
+            *
+ Sequence: KPWLSRH
+           |     |
+         148     154
+ Max_score_pos: 149
+
+(6) Score 1.053 length 7 at residues 32->38
+           *
+ Sequence: TRVLEHM
+           |     |
+          32     38
+ Max_score_pos: 32
+
+(7) Score 1.034 length 6 at residues 165->170
+            *
+ Sequence: KEAVKT
+           |    |
+         165    170
+ Max_score_pos: 166
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i12.p2     from: 1   to: 149
+# HitCount: 5
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(2) Score 1.094 length 11 at residues 43->53
+               *
+ Sequence: EAKVKAGCSKN
+           |         |
+          43         53
+ Max_score_pos: 47
+
+(3) Score 1.076 length 14 at residues 65->78
+               *
+ Sequence: ETKVKVAKTRVTKA
+           |            |
+          65            78
+ Max_score_pos: 69
+
+(4) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(5) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i14.p1     from: 1   to: 825
+# HitCount: 32
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 576->595
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+         576                  595
+ Max_score_pos: 589
+
+(2) Score 1.207 length 18 at residues 735->752
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         735                752
+ Max_score_pos: 746
+
+(3) Score 1.203 length 20 at residues 761->780
+                          *
+ Sequence: LIGVVRNVVPFGCFVDCGVG
+           |                  |
+         761                  780
+ Max_score_pos: 776
+
+(4) Score 1.193 length 21 at residues 503->523
+                 *
+ Sequence: CENVPIIIVPEQGASIYSISK
+           |                   |
+         503                   523
+ Max_score_pos: 509
+
+(5) Score 1.165 length 22 at residues 312->333
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+         312                    333
+ Max_score_pos: 323
+
+(6) Score 1.160 length 33 at residues 342->374
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         342                               374
+ Max_score_pos: 346
+
+(7) Score 1.156 length 13 at residues 716->728
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         716           728
+ Max_score_pos: 721
+
+(8) Score 1.144 length 9 at residues 433->441
+                *
+ Sequence: RAGCKVGVI
+           |       |
+         433       441
+ Max_score_pos: 438
+
+(9) Score 1.142 length 11 at residues 799->809
+                 *
+ Sequence: GDRVTVTVIGE
+           |         |
+         799         809
+ Max_score_pos: 805
+
+(10) Score 1.140 length 27 at residues 630->656
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+         630                         656
+ Max_score_pos: 649
+
+(11) Score 1.139 length 13 at residues 686->698
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         686           698
+ Max_score_pos: 692
+
+(12) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(13) Score 1.127 length 26 at residues 536->561
+              *
+ Sequence: LISALSIARRVLDPLGELIKVDPKNL
+           |                        |
+         536                        561
+ Max_score_pos: 539
+
+(14) Score 1.124 length 19 at residues 194->212
+                   *
+ Sequence: LSELDLIYAPLKSHSLSLA
+           |                 |
+         194                 212
+ Max_score_pos: 202
+
+(15) Score 1.124 length 16 at residues 248->263
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+         248              263
+ Max_score_pos: 258
+
+(16) Score 1.116 length 13 at residues 448->460
+              *
+ Sequence: LDACTIYPDLRQH
+           |           |
+         448           460
+ Max_score_pos: 451
+
+(17) Score 1.110 length 9 at residues 476->484
+                *
+ Sequence: KYSVELIGL
+           |       |
+         476       484
+ Max_score_pos: 481
+
+(18) Score 1.103 length 15 at residues 160->174
+                   *
+ Sequence: ITQLKKKVKSVIETL
+           |             |
+         160             174
+ Max_score_pos: 168
+
+(19) Score 1.094 length 7 at residues 43->49
+               *
+ Sequence: EAKVKAG
+           |     |
+          43     49
+ Max_score_pos: 47
+
+(20) Score 1.091 length 7 at residues 412->418
+                *
+ Sequence: EKYLLTE
+           |     |
+         412     418
+ Max_score_pos: 417
+
+(21) Score 1.090 length 8 at residues 220->227
+                *
+ Sequence: LEPHAIKA
+           |      |
+         220      227
+ Max_score_pos: 225
+
+(22) Score 1.087 length 11 at residues 812->822
+                   *
+ Sequence: PKKLQLRLDAI
+           |         |
+         812         822
+ Max_score_pos: 820
+
+(23) Score 1.083 length 25 at residues 660->684
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+         660                       684
+ Max_score_pos: 672
+
+(24) Score 1.079 length 7 at residues 384->390
+            *
+ Sequence: KPWLSRH
+           |     |
+         384     390
+ Max_score_pos: 385
+
+(25) Score 1.076 length 7 at residues 67->73
+             *
+ Sequence: KVKVAKT
+           |     |
+          67     73
+ Max_score_pos: 69
+
+(26) Score 1.072 length 8 at residues 462->469
+            *
+ Sequence: AFDPVTKQ
+           |      |
+         462      469
+ Max_score_pos: 463
+
+(27) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(28) Score 1.061 length 6 at residues 568->573
+            *
+ Sequence: HDIPPK
+           |    |
+         568    573
+ Max_score_pos: 569
+
+(29) Score 1.053 length 7 at residues 268->274
+           *
+ Sequence: TRVLEHM
+           |     |
+         268     274
+ Max_score_pos: 268
+
+(30) Score 1.044 length 7 at residues 704->710
+               *
+ Sequence: DSWLVET
+           |     |
+         704     710
+ Max_score_pos: 708
+
+(31) Score 1.034 length 6 at residues 401->406
+            *
+ Sequence: KEAVKT
+           |    |
+         401    406
+ Max_score_pos: 402
+
+(32) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i15.p1     from: 1   to: 108
+# HitCount: 5
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.203 length 20 at residues 44->63
+                          *
+ Sequence: KTSVVRNVVPFGCFVDCGVG
+           |                  |
+          44                  63
+ Max_score_pos: 59
+
+(2) Score 1.142 length 11 at residues 82->92
+                 *
+ Sequence: GDRVTVTVIGE
+           |         |
+          82         92
+ Max_score_pos: 88
+
+(3) Score 1.121 length 7 at residues 35->41
+               *
+ Sequence: WSLVARS
+           |     |
+          35     41
+ Max_score_pos: 39
+
+(4) Score 1.087 length 11 at residues 95->105
+                   *
+ Sequence: PKKLQLRLDAI
+           |         |
+          95         105
+ Max_score_pos: 103
+
+(5) Score 1.084 length 7 at residues 5->11
+               *
+ Sequence: DKLIIEV
+           |     |
+           5     11
+ Max_score_pos: 9
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i17.p2     from: 1   to: 261
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 12->31
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+          12                  31
+ Max_score_pos: 25
+
+(2) Score 1.207 length 18 at residues 171->188
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         171                188
+ Max_score_pos: 182
+
+(3) Score 1.203 length 20 at residues 197->216
+                          *
+ Sequence: LIGVVRNVVPFGCFVDCGVG
+           |                  |
+         197                  216
+ Max_score_pos: 212
+
+(4) Score 1.156 length 13 at residues 152->164
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         152           164
+ Max_score_pos: 157
+
+(5) Score 1.142 length 11 at residues 235->245
+                 *
+ Sequence: GDRVTVTVIGE
+           |         |
+         235         245
+ Max_score_pos: 241
+
+(6) Score 1.140 length 27 at residues 66->92
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+          66                         92
+ Max_score_pos: 85
+
+(7) Score 1.139 length 13 at residues 122->134
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         122           134
+ Max_score_pos: 128
+
+(8) Score 1.087 length 11 at residues 248->258
+                   *
+ Sequence: PKKLQLRLDAI
+           |         |
+         248         258
+ Max_score_pos: 256
+
+(9) Score 1.083 length 25 at residues 96->120
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+          96                       120
+ Max_score_pos: 108
+
+(10) Score 1.061 length 6 at residues 4->9
+            *
+ Sequence: HDIPPK
+           |    |
+           4    9
+ Max_score_pos: 5
+
+(11) Score 1.044 length 7 at residues 140->146
+               *
+ Sequence: DSWLVET
+           |     |
+         140     146
+ Max_score_pos: 144
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i17.p1     from: 1   to: 568
+# HitCount: 21
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.193 length 21 at residues 503->523
+                 *
+ Sequence: CENVPIIIVPEQGASIYSISK
+           |                   |
+         503                   523
+ Max_score_pos: 509
+
+(2) Score 1.165 length 22 at residues 312->333
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+         312                    333
+ Max_score_pos: 323
+
+(3) Score 1.160 length 33 at residues 342->374
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         342                               374
+ Max_score_pos: 346
+
+(4) Score 1.144 length 9 at residues 433->441
+                *
+ Sequence: RAGCKVGVI
+           |       |
+         433       441
+ Max_score_pos: 438
+
+(5) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(6) Score 1.127 length 30 at residues 536->565
+              *
+ Sequence: LISALSIARRVLDPLGELIKVDPKKFGCWH
+           |                            |
+         536                            565
+ Max_score_pos: 539
+
+(7) Score 1.124 length 19 at residues 194->212
+                   *
+ Sequence: LSELDLIYAPLKSHSLSLA
+           |                 |
+         194                 212
+ Max_score_pos: 202
+
+(8) Score 1.124 length 16 at residues 248->263
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+         248              263
+ Max_score_pos: 258
+
+(9) Score 1.116 length 13 at residues 448->460
+              *
+ Sequence: LDACTIYPDLRQH
+           |           |
+         448           460
+ Max_score_pos: 451
+
+(10) Score 1.110 length 9 at residues 476->484
+                *
+ Sequence: KYSVELIGL
+           |       |
+         476       484
+ Max_score_pos: 481
+
+(11) Score 1.103 length 15 at residues 160->174
+                   *
+ Sequence: ITQLKKKVKSVIETL
+           |             |
+         160             174
+ Max_score_pos: 168
+
+(12) Score 1.094 length 7 at residues 43->49
+               *
+ Sequence: EAKVKAG
+           |     |
+          43     49
+ Max_score_pos: 47
+
+(13) Score 1.091 length 7 at residues 412->418
+                *
+ Sequence: EKYLLTE
+           |     |
+         412     418
+ Max_score_pos: 417
+
+(14) Score 1.090 length 8 at residues 220->227
+                *
+ Sequence: LEPHAIKA
+           |      |
+         220      227
+ Max_score_pos: 225
+
+(15) Score 1.079 length 7 at residues 384->390
+            *
+ Sequence: KPWLSRH
+           |     |
+         384     390
+ Max_score_pos: 385
+
+(16) Score 1.076 length 7 at residues 67->73
+             *
+ Sequence: KVKVAKT
+           |     |
+          67     73
+ Max_score_pos: 69
+
+(17) Score 1.072 length 8 at residues 462->469
+            *
+ Sequence: AFDPVTKQ
+           |      |
+         462      469
+ Max_score_pos: 463
+
+(18) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(19) Score 1.053 length 7 at residues 268->274
+           *
+ Sequence: TRVLEHM
+           |     |
+         268     274
+ Max_score_pos: 268
+
+(20) Score 1.034 length 6 at residues 401->406
+            *
+ Sequence: KEAVKT
+           |    |
+         401    406
+ Max_score_pos: 402
+
+(21) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i18.p1     from: 1   to: 328
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.134 length 16 at residues 283->298
+                    *
+ Sequence: STPISQSILPSPVNAS
+           |              |
+         283              298
+ Max_score_pos: 292
+
+(2) Score 1.121 length 29 at residues 241->269
+               *
+ Sequence: MLFLKSLAPYFKYLTPVQKLRLKSKIQTF
+           |                           |
+         241                           269
+ Max_score_pos: 245
+
+(3) Score 1.121 length 7 at residues 35->41
+               *
+ Sequence: WSLVARS
+           |     |
+          35     41
+ Max_score_pos: 39
+
+(4) Score 1.099 length 18 at residues 210->227
+               *
+ Sequence: ELTLFQLKMIEVEQQKIQ
+           |                |
+         210                227
+ Max_score_pos: 214
+
+(5) Score 1.098 length 19 at residues 86->104
+                       *
+ Sequence: GKWCFFKELSFLKDIVKPR
+           |                 |
+          86                 104
+ Max_score_pos: 98
+
+(6) Score 1.084 length 7 at residues 5->11
+               *
+ Sequence: DKLIIEV
+           |     |
+           5     11
+ Max_score_pos: 9
+
+(7) Score 1.080 length 9 at residues 128->136
+                *
+ Sequence: VEIPKIDQV
+           |       |
+         128       136
+ Max_score_pos: 133
+
+(8) Score 1.080 length 15 at residues 162->176
+                  *
+ Sequence: VSESVNASSLASGNL
+           |             |
+         162             176
+ Max_score_pos: 169
+
+(9) Score 1.072 length 7 at residues 153->159
+           *
+ Sequence: EEVVENQ
+           |     |
+         153     159
+ Max_score_pos: 153
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i19.p1     from: 1   to: 825
+# HitCount: 32
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 576->595
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+         576                  595
+ Max_score_pos: 589
+
+(2) Score 1.207 length 18 at residues 735->752
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         735                752
+ Max_score_pos: 746
+
+(3) Score 1.203 length 20 at residues 761->780
+                          *
+ Sequence: LIGVVRNVVPFGCFVDCGVG
+           |                  |
+         761                  780
+ Max_score_pos: 776
+
+(4) Score 1.193 length 21 at residues 503->523
+                 *
+ Sequence: CENVPIIIVPEQGASIYSISK
+           |                   |
+         503                   523
+ Max_score_pos: 509
+
+(5) Score 1.165 length 22 at residues 312->333
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+         312                    333
+ Max_score_pos: 323
+
+(6) Score 1.160 length 33 at residues 342->374
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         342                               374
+ Max_score_pos: 346
+
+(7) Score 1.156 length 13 at residues 716->728
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         716           728
+ Max_score_pos: 721
+
+(8) Score 1.144 length 9 at residues 433->441
+                *
+ Sequence: RAGCKVGVI
+           |       |
+         433       441
+ Max_score_pos: 438
+
+(9) Score 1.142 length 11 at residues 799->809
+                 *
+ Sequence: GDRVTVTVIGE
+           |         |
+         799         809
+ Max_score_pos: 805
+
+(10) Score 1.140 length 27 at residues 630->656
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+         630                         656
+ Max_score_pos: 649
+
+(11) Score 1.139 length 13 at residues 686->698
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         686           698
+ Max_score_pos: 692
+
+(12) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(13) Score 1.127 length 26 at residues 536->561
+              *
+ Sequence: LISALSIARRVLDPLGELIKVDPKNL
+           |                        |
+         536                        561
+ Max_score_pos: 539
+
+(14) Score 1.124 length 19 at residues 194->212
+                   *
+ Sequence: LSELDLIYAPLKSHSLSLA
+           |                 |
+         194                 212
+ Max_score_pos: 202
+
+(15) Score 1.124 length 16 at residues 248->263
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+         248              263
+ Max_score_pos: 258
+
+(16) Score 1.116 length 13 at residues 448->460
+              *
+ Sequence: LDACTIYPDLRQH
+           |           |
+         448           460
+ Max_score_pos: 451
+
+(17) Score 1.110 length 9 at residues 476->484
+                *
+ Sequence: KYSVELIGL
+           |       |
+         476       484
+ Max_score_pos: 481
+
+(18) Score 1.103 length 15 at residues 160->174
+                   *
+ Sequence: ITQLKKKVKSVIETL
+           |             |
+         160             174
+ Max_score_pos: 168
+
+(19) Score 1.094 length 7 at residues 43->49
+               *
+ Sequence: EAKVKAG
+           |     |
+          43     49
+ Max_score_pos: 47
+
+(20) Score 1.091 length 7 at residues 412->418
+                *
+ Sequence: EKYLLTE
+           |     |
+         412     418
+ Max_score_pos: 417
+
+(21) Score 1.090 length 8 at residues 220->227
+                *
+ Sequence: LEPHAIKA
+           |      |
+         220      227
+ Max_score_pos: 225
+
+(22) Score 1.087 length 11 at residues 812->822
+                   *
+ Sequence: PKKLQLRLDAI
+           |         |
+         812         822
+ Max_score_pos: 820
+
+(23) Score 1.083 length 25 at residues 660->684
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+         660                       684
+ Max_score_pos: 672
+
+(24) Score 1.079 length 7 at residues 384->390
+            *
+ Sequence: KPWLSRH
+           |     |
+         384     390
+ Max_score_pos: 385
+
+(25) Score 1.076 length 7 at residues 67->73
+             *
+ Sequence: KVKVAKT
+           |     |
+          67     73
+ Max_score_pos: 69
+
+(26) Score 1.072 length 8 at residues 462->469
+            *
+ Sequence: AFDPVTKQ
+           |      |
+         462      469
+ Max_score_pos: 463
+
+(27) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(28) Score 1.061 length 6 at residues 568->573
+            *
+ Sequence: HDIPPK
+           |    |
+         568    573
+ Max_score_pos: 569
+
+(29) Score 1.053 length 7 at residues 268->274
+           *
+ Sequence: TRVLEHM
+           |     |
+         268     274
+ Max_score_pos: 268
+
+(30) Score 1.044 length 7 at residues 704->710
+               *
+ Sequence: DSWLVET
+           |     |
+         704     710
+ Max_score_pos: 708
+
+(31) Score 1.034 length 6 at residues 401->406
+            *
+ Sequence: KEAVKT
+           |    |
+         401    406
+ Max_score_pos: 402
+
+(32) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i2.p1     from: 1   to: 531
+# HitCount: 20
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.193 length 21 at residues 503->523
+                 *
+ Sequence: CENVPIIIVPEQGASIYSISK
+           |                   |
+         503                   523
+ Max_score_pos: 509
+
+(2) Score 1.165 length 22 at residues 312->333
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+         312                    333
+ Max_score_pos: 323
+
+(3) Score 1.160 length 33 at residues 342->374
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         342                               374
+ Max_score_pos: 346
+
+(4) Score 1.144 length 9 at residues 433->441
+                *
+ Sequence: RAGCKVGVI
+           |       |
+         433       441
+ Max_score_pos: 438
+
+(5) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(6) Score 1.124 length 19 at residues 194->212
+                   *
+ Sequence: LSELDLIYAPLKSHSLSLA
+           |                 |
+         194                 212
+ Max_score_pos: 202
+
+(7) Score 1.124 length 16 at residues 248->263
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+         248              263
+ Max_score_pos: 258
+
+(8) Score 1.116 length 13 at residues 448->460
+              *
+ Sequence: LDACTIYPDLRQH
+           |           |
+         448           460
+ Max_score_pos: 451
+
+(9) Score 1.110 length 9 at residues 476->484
+                *
+ Sequence: KYSVELIGL
+           |       |
+         476       484
+ Max_score_pos: 481
+
+(10) Score 1.103 length 15 at residues 160->174
+                   *
+ Sequence: ITQLKKKVKSVIETL
+           |             |
+         160             174
+ Max_score_pos: 168
+
+(11) Score 1.094 length 7 at residues 43->49
+               *
+ Sequence: EAKVKAG
+           |     |
+          43     49
+ Max_score_pos: 47
+
+(12) Score 1.091 length 7 at residues 412->418
+                *
+ Sequence: EKYLLTE
+           |     |
+         412     418
+ Max_score_pos: 417
+
+(13) Score 1.090 length 8 at residues 220->227
+                *
+ Sequence: LEPHAIKA
+           |      |
+         220      227
+ Max_score_pos: 225
+
+(14) Score 1.079 length 7 at residues 384->390
+            *
+ Sequence: KPWLSRH
+           |     |
+         384     390
+ Max_score_pos: 385
+
+(15) Score 1.076 length 7 at residues 67->73
+             *
+ Sequence: KVKVAKT
+           |     |
+          67     73
+ Max_score_pos: 69
+
+(16) Score 1.072 length 8 at residues 462->469
+            *
+ Sequence: AFDPVTKQ
+           |      |
+         462      469
+ Max_score_pos: 463
+
+(17) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(18) Score 1.053 length 7 at residues 268->274
+           *
+ Sequence: TRVLEHM
+           |     |
+         268     274
+ Max_score_pos: 268
+
+(19) Score 1.034 length 6 at residues 401->406
+            *
+ Sequence: KEAVKT
+           |    |
+         401    406
+ Max_score_pos: 402
+
+(20) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i20.p2     from: 1   to: 149
+# HitCount: 5
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(2) Score 1.094 length 11 at residues 43->53
+               *
+ Sequence: EAKVKAGCSKN
+           |         |
+          43         53
+ Max_score_pos: 47
+
+(3) Score 1.076 length 14 at residues 65->78
+               *
+ Sequence: ETKVKVAKTRVTKA
+           |            |
+          65            78
+ Max_score_pos: 69
+
+(4) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(5) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i20.p1     from: 1   to: 201
+# HitCount: 7
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.165 length 22 at residues 76->97
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+          76                    97
+ Max_score_pos: 87
+
+(2) Score 1.160 length 33 at residues 106->138
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         106                               138
+ Max_score_pos: 110
+
+(3) Score 1.124 length 16 at residues 12->27
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+          12              27
+ Max_score_pos: 22
+
+(4) Score 1.091 length 7 at residues 176->182
+                *
+ Sequence: EKYLLTE
+           |     |
+         176     182
+ Max_score_pos: 181
+
+(5) Score 1.079 length 7 at residues 148->154
+            *
+ Sequence: KPWLSRH
+           |     |
+         148     154
+ Max_score_pos: 149
+
+(6) Score 1.053 length 7 at residues 32->38
+           *
+ Sequence: TRVLEHM
+           |     |
+          32     38
+ Max_score_pos: 32
+
+(7) Score 1.034 length 6 at residues 165->170
+            *
+ Sequence: KEAVKT
+           |    |
+         165    170
+ Max_score_pos: 166
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i4.p1     from: 1   to: 825
+# HitCount: 32
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 576->595
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+         576                  595
+ Max_score_pos: 589
+
+(2) Score 1.207 length 18 at residues 735->752
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         735                752
+ Max_score_pos: 746
+
+(3) Score 1.203 length 20 at residues 761->780
+                          *
+ Sequence: LIGVVRNVVPFGCFVDCGVG
+           |                  |
+         761                  780
+ Max_score_pos: 776
+
+(4) Score 1.193 length 21 at residues 503->523
+                 *
+ Sequence: CENVPIIIVPEQGASIYSISK
+           |                   |
+         503                   523
+ Max_score_pos: 509
+
+(5) Score 1.165 length 22 at residues 312->333
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+         312                    333
+ Max_score_pos: 323
+
+(6) Score 1.160 length 33 at residues 342->374
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         342                               374
+ Max_score_pos: 346
+
+(7) Score 1.156 length 13 at residues 716->728
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         716           728
+ Max_score_pos: 721
+
+(8) Score 1.144 length 9 at residues 433->441
+                *
+ Sequence: RAGCKVGVI
+           |       |
+         433       441
+ Max_score_pos: 438
+
+(9) Score 1.142 length 11 at residues 799->809
+                 *
+ Sequence: GDRVTVTVIGE
+           |         |
+         799         809
+ Max_score_pos: 805
+
+(10) Score 1.140 length 27 at residues 630->656
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+         630                         656
+ Max_score_pos: 649
+
+(11) Score 1.139 length 13 at residues 686->698
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         686           698
+ Max_score_pos: 692
+
+(12) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(13) Score 1.127 length 26 at residues 536->561
+              *
+ Sequence: LISALSIARRVLDPLGELIKVDPKNL
+           |                        |
+         536                        561
+ Max_score_pos: 539
+
+(14) Score 1.124 length 19 at residues 194->212
+                   *
+ Sequence: LSELDLIYAPLKSHSLSLA
+           |                 |
+         194                 212
+ Max_score_pos: 202
+
+(15) Score 1.124 length 16 at residues 248->263
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+         248              263
+ Max_score_pos: 258
+
+(16) Score 1.116 length 13 at residues 448->460
+              *
+ Sequence: LDACTIYPDLRQH
+           |           |
+         448           460
+ Max_score_pos: 451
+
+(17) Score 1.110 length 9 at residues 476->484
+                *
+ Sequence: KYSVELIGL
+           |       |
+         476       484
+ Max_score_pos: 481
+
+(18) Score 1.103 length 15 at residues 160->174
+                   *
+ Sequence: ITQLKKKVKSVIETL
+           |             |
+         160             174
+ Max_score_pos: 168
+
+(19) Score 1.094 length 7 at residues 43->49
+               *
+ Sequence: EAKVKAG
+           |     |
+          43     49
+ Max_score_pos: 47
+
+(20) Score 1.091 length 7 at residues 412->418
+                *
+ Sequence: EKYLLTE
+           |     |
+         412     418
+ Max_score_pos: 417
+
+(21) Score 1.090 length 8 at residues 220->227
+                *
+ Sequence: LEPHAIKA
+           |      |
+         220      227
+ Max_score_pos: 225
+
+(22) Score 1.087 length 11 at residues 812->822
+                   *
+ Sequence: PKKLQLRLDAI
+           |         |
+         812         822
+ Max_score_pos: 820
+
+(23) Score 1.083 length 25 at residues 660->684
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+         660                       684
+ Max_score_pos: 672
+
+(24) Score 1.079 length 7 at residues 384->390
+            *
+ Sequence: KPWLSRH
+           |     |
+         384     390
+ Max_score_pos: 385
+
+(25) Score 1.076 length 7 at residues 67->73
+             *
+ Sequence: KVKVAKT
+           |     |
+          67     73
+ Max_score_pos: 69
+
+(26) Score 1.072 length 8 at residues 462->469
+            *
+ Sequence: AFDPVTKQ
+           |      |
+         462      469
+ Max_score_pos: 463
+
+(27) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(28) Score 1.061 length 6 at residues 568->573
+            *
+ Sequence: HDIPPK
+           |    |
+         568    573
+ Max_score_pos: 569
+
+(29) Score 1.053 length 7 at residues 268->274
+           *
+ Sequence: TRVLEHM
+           |     |
+         268     274
+ Max_score_pos: 268
+
+(30) Score 1.044 length 7 at residues 704->710
+               *
+ Sequence: DSWLVET
+           |     |
+         704     710
+ Max_score_pos: 708
+
+(31) Score 1.034 length 6 at residues 401->406
+            *
+ Sequence: KEAVKT
+           |    |
+         401    406
+ Max_score_pos: 402
+
+(32) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i5.p1     from: 1   to: 231
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 45->64
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+          45                  64
+ Max_score_pos: 58
+
+(2) Score 1.207 length 18 at residues 204->221
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         204                221
+ Max_score_pos: 215
+
+(3) Score 1.156 length 13 at residues 185->197
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         185           197
+ Max_score_pos: 190
+
+(4) Score 1.140 length 27 at residues 99->125
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+          99                         125
+ Max_score_pos: 118
+
+(5) Score 1.139 length 13 at residues 155->167
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         155           167
+ Max_score_pos: 161
+
+(6) Score 1.127 length 26 at residues 5->30
+              *
+ Sequence: LISALSIARRVLDPLGELIKVDPKNL
+           |                        |
+           5                        30
+ Max_score_pos: 8
+
+(7) Score 1.083 length 25 at residues 129->153
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+         129                       153
+ Max_score_pos: 141
+
+(8) Score 1.061 length 6 at residues 37->42
+            *
+ Sequence: HDIPPK
+           |    |
+          37    42
+ Max_score_pos: 38
+
+(9) Score 1.044 length 7 at residues 173->179
+               *
+ Sequence: DSWLVET
+           |     |
+         173     179
+ Max_score_pos: 177
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i7.p1     from: 1   to: 261
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 12->31
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+          12                  31
+ Max_score_pos: 25
+
+(2) Score 1.207 length 18 at residues 171->188
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         171                188
+ Max_score_pos: 182
+
+(3) Score 1.203 length 20 at residues 197->216
+                          *
+ Sequence: LIGVVRNVVPFGCFVDCGVG
+           |                  |
+         197                  216
+ Max_score_pos: 212
+
+(4) Score 1.156 length 13 at residues 152->164
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         152           164
+ Max_score_pos: 157
+
+(5) Score 1.142 length 11 at residues 235->245
+                 *
+ Sequence: GDRVTVTVIGE
+           |         |
+         235         245
+ Max_score_pos: 241
+
+(6) Score 1.140 length 27 at residues 66->92
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+          66                         92
+ Max_score_pos: 85
+
+(7) Score 1.139 length 13 at residues 122->134
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         122           134
+ Max_score_pos: 128
+
+(8) Score 1.087 length 11 at residues 248->258
+                   *
+ Sequence: PKKLQLRLDAI
+           |         |
+         248         258
+ Max_score_pos: 256
+
+(9) Score 1.083 length 25 at residues 96->120
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+          96                       120
+ Max_score_pos: 108
+
+(10) Score 1.061 length 6 at residues 4->9
+            *
+ Sequence: HDIPPK
+           |    |
+           4    9
+ Max_score_pos: 5
+
+(11) Score 1.044 length 7 at residues 140->146
+               *
+ Sequence: DSWLVET
+           |     |
+         140     146
+ Max_score_pos: 144
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i8.p1     from: 1   to: 568
+# HitCount: 21
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.193 length 21 at residues 503->523
+                 *
+ Sequence: CENVPIIIVPEQGASIYSISK
+           |                   |
+         503                   523
+ Max_score_pos: 509
+
+(2) Score 1.165 length 22 at residues 312->333
+                      *
+ Sequence: TYKLYFDWQCPSHYVKPHQTLA
+           |                    |
+         312                    333
+ Max_score_pos: 323
+
+(3) Score 1.160 length 33 at residues 342->374
+               *
+ Sequence: ILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKG
+           |                               |
+         342                               374
+ Max_score_pos: 346
+
+(4) Score 1.144 length 9 at residues 433->441
+                *
+ Sequence: RAGCKVGVI
+           |       |
+         433       441
+ Max_score_pos: 438
+
+(5) Score 1.135 length 18 at residues 121->138
+                      *
+ Sequence: FIELLEEGCTLPFIARYR
+           |                |
+         121                138
+ Max_score_pos: 132
+
+(6) Score 1.127 length 30 at residues 536->565
+              *
+ Sequence: LISALSIARRVLDPLGELIKVDPKKFGCWH
+           |                            |
+         536                            565
+ Max_score_pos: 539
+
+(7) Score 1.124 length 19 at residues 194->212
+                   *
+ Sequence: LSELDLIYAPLKSHSLSLA
+           |                 |
+         194                 212
+ Max_score_pos: 202
+
+(8) Score 1.124 length 16 at residues 248->263
+                     *
+ Sequence: TVDKVESHITHIVADI
+           |              |
+         248              263
+ Max_score_pos: 258
+
+(9) Score 1.116 length 13 at residues 448->460
+              *
+ Sequence: LDACTIYPDLRQH
+           |           |
+         448           460
+ Max_score_pos: 451
+
+(10) Score 1.110 length 9 at residues 476->484
+                *
+ Sequence: KYSVELIGL
+           |       |
+         476       484
+ Max_score_pos: 481
+
+(11) Score 1.103 length 15 at residues 160->174
+                   *
+ Sequence: ITQLKKKVKSVIETL
+           |             |
+         160             174
+ Max_score_pos: 168
+
+(12) Score 1.094 length 7 at residues 43->49
+               *
+ Sequence: EAKVKAG
+           |     |
+          43     49
+ Max_score_pos: 47
+
+(13) Score 1.091 length 7 at residues 412->418
+                *
+ Sequence: EKYLLTE
+           |     |
+         412     418
+ Max_score_pos: 417
+
+(14) Score 1.090 length 8 at residues 220->227
+                *
+ Sequence: LEPHAIKA
+           |      |
+         220      227
+ Max_score_pos: 225
+
+(15) Score 1.079 length 7 at residues 384->390
+            *
+ Sequence: KPWLSRH
+           |     |
+         384     390
+ Max_score_pos: 385
+
+(16) Score 1.076 length 7 at residues 67->73
+             *
+ Sequence: KVKVAKT
+           |     |
+          67     73
+ Max_score_pos: 69
+
+(17) Score 1.072 length 8 at residues 462->469
+            *
+ Sequence: AFDPVTKQ
+           |      |
+         462      469
+ Max_score_pos: 463
+
+(18) Score 1.065 length 7 at residues 107->113
+           *
+ Sequence: LAQVERM
+           |     |
+         107     113
+ Max_score_pos: 107
+
+(19) Score 1.053 length 7 at residues 268->274
+           *
+ Sequence: TRVLEHM
+           |     |
+         268     274
+ Max_score_pos: 268
+
+(20) Score 1.034 length 6 at residues 401->406
+            *
+ Sequence: KEAVKT
+           |    |
+         401    406
+ Max_score_pos: 402
+
+(21) Score 1.027 length 7 at residues 31->37
+                 *
+ Sequence: AKTVTKP
+           |     |
+          31     37
+ Max_score_pos: 37
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i8.p2     from: 1   to: 261
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 12->31
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+          12                  31
+ Max_score_pos: 25
+
+(2) Score 1.207 length 18 at residues 171->188
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         171                188
+ Max_score_pos: 182
+
+(3) Score 1.203 length 20 at residues 197->216
+                          *
+ Sequence: LIGVVRNVVPFGCFVDCGVG
+           |                  |
+         197                  216
+ Max_score_pos: 212
+
+(4) Score 1.156 length 13 at residues 152->164
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         152           164
+ Max_score_pos: 157
+
+(5) Score 1.142 length 11 at residues 235->245
+                 *
+ Sequence: GDRVTVTVIGE
+           |         |
+         235         245
+ Max_score_pos: 241
+
+(6) Score 1.140 length 27 at residues 66->92
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+          66                         92
+ Max_score_pos: 85
+
+(7) Score 1.139 length 13 at residues 122->134
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         122           134
+ Max_score_pos: 128
+
+(8) Score 1.087 length 11 at residues 248->258
+                   *
+ Sequence: PKKLQLRLDAI
+           |         |
+         248         258
+ Max_score_pos: 256
+
+(9) Score 1.083 length 25 at residues 96->120
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+          96                       120
+ Max_score_pos: 108
+
+(10) Score 1.061 length 6 at residues 4->9
+            *
+ Sequence: HDIPPK
+           |    |
+           4    9
+ Max_score_pos: 5
+
+(11) Score 1.044 length 7 at residues 140->146
+               *
+ Sequence: DSWLVET
+           |     |
+         140     146
+ Max_score_pos: 144
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i9.p1     from: 1   to: 231
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.238 length 20 at residues 45->64
+                        *
+ Sequence: ETALDSAVEKVVSLVGVDLN
+           |                  |
+          45                  64
+ Max_score_pos: 58
+
+(2) Score 1.207 length 18 at residues 204->221
+                      *
+ Sequence: DDVITFCKPVYSVAVQSM
+           |                |
+         204                221
+ Max_score_pos: 215
+
+(3) Score 1.156 length 13 at residues 185->197
+                *
+ Sequence: TDVYTVELIISAF
+           |           |
+         185           197
+ Max_score_pos: 190
+
+(4) Score 1.140 length 27 at residues 99->125
+                              *
+ Sequence: AEILKVPGIGKVTFQQCAGFLTVLGSS
+           |                         |
+          99                         125
+ Max_score_pos: 118
+
+(5) Score 1.139 length 13 at residues 155->167
+                 *
+ Sequence: LTKPHFPQLVESK
+           |           |
+         155           167
+ Max_score_pos: 161
+
+(6) Score 1.127 length 26 at residues 5->30
+              *
+ Sequence: LISALSIARRVLDPLGELIKVDPKNL
+           |                        |
+           5                        30
+ Max_score_pos: 8
+
+(7) Score 1.083 length 25 at residues 129->153
+                       *
+ Sequence: DTTIIHPESYKVSKSIAKKIGVNLK
+           |                       |
+         129                       153
+ Max_score_pos: 141
+
+(8) Score 1.061 length 6 at residues 37->42
+            *
+ Sequence: HDIPPK
+           |    |
+          37    42
+ Max_score_pos: 38
+
+(9) Score 1.044 length 7 at residues 173->179
+               *
+ Sequence: DSWLVET
+           |     |
+         173     179
+ Max_score_pos: 177
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13779_c0_g1_i1.p1     from: 1   to: 219
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.257 length 30 at residues 4->33
+                        *
+ Sequence: ALYYTPGSAPCRLVLLVAAALNIQLDLNLM
+           |                            |
+           4                            33
+ Max_score_pos: 17
+
+(2) Score 1.159 length 16 at residues 153->168
+                    *
+ Sequence: ELTLADLGLVATVSTI
+           |              |
+         153              168
+ Max_score_pos: 162
+
+(3) Score 1.143 length 8 at residues 70->77
+             *
+ Sequence: IAKYLVNK
+           |      |
+          70      77
+ Max_score_pos: 72
+
+(4) Score 1.110 length 15 at residues 43->57
+                       *
+ Sequence: PDFLKLNPQHTVPTI
+           |             |
+          43             57
+ Max_score_pos: 55
+
+(5) Score 1.107 length 14 at residues 129->142
+                     *
+ Sequence: LKKLEEALVFLNTF
+           |            |
+         129            142
+ Max_score_pos: 139
+
+(6) Score 1.105 length 22 at residues 100->121
+                           *
+ Sequence: DFDLGTLYPRFGQYFYPQIFGG
+           |                    |
+         100                    121
+ Max_score_pos: 116
+
+(7) Score 1.100 length 8 at residues 91->98
+                *
+ Sequence: QRALVDQR
+           |      |
+          91      98
+ Max_score_pos: 96
+
+(8) Score 1.073 length 8 at residues 184->191
+                 *
+ Sequence: WFELVKTT
+           |      |
+         184      191
+ Max_score_pos: 190
+
+(9) Score 1.047 length 8 at residues 81->88
+                *
+ Sequence: GSSLYPTD
+           |      |
+          81      88
+ Max_score_pos: 86
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13779_c0_g1_i5.p1     from: 1   to: 219
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.257 length 30 at residues 4->33
+                        *
+ Sequence: ALYYTPGSAPCRLVLLVAAALNIQLDLNLM
+           |                            |
+           4                            33
+ Max_score_pos: 17
+
+(2) Score 1.159 length 16 at residues 153->168
+                    *
+ Sequence: ELTLADLGLVATVSTI
+           |              |
+         153              168
+ Max_score_pos: 162
+
+(3) Score 1.143 length 8 at residues 70->77
+             *
+ Sequence: IAKYLVNK
+           |      |
+          70      77
+ Max_score_pos: 72
+
+(4) Score 1.110 length 15 at residues 43->57
+                       *
+ Sequence: PDFLKLNPQHTVPTI
+           |             |
+          43             57
+ Max_score_pos: 55
+
+(5) Score 1.107 length 14 at residues 129->142
+                     *
+ Sequence: LKKLEEALVFLNTF
+           |            |
+         129            142
+ Max_score_pos: 139
+
+(6) Score 1.105 length 22 at residues 100->121
+                           *
+ Sequence: DFDLGTLYPRFGQYFYPQIFGG
+           |                    |
+         100                    121
+ Max_score_pos: 116
+
+(7) Score 1.100 length 8 at residues 91->98
+                *
+ Sequence: QRALVDQR
+           |      |
+          91      98
+ Max_score_pos: 96
+
+(8) Score 1.073 length 8 at residues 184->191
+                 *
+ Sequence: WFELVKTT
+           |      |
+         184      191
+ Max_score_pos: 190
+
+(9) Score 1.047 length 8 at residues 81->88
+                *
+ Sequence: GSSLYPTD
+           |      |
+          81      88
+ Max_score_pos: 86
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13779_c0_g1_i6.p1     from: 1   to: 219
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.257 length 30 at residues 4->33
+                        *
+ Sequence: ALYYTPGSAPCRLVLLVAAALNIQLDLNLM
+           |                            |
+           4                            33
+ Max_score_pos: 17
+
+(2) Score 1.159 length 16 at residues 153->168
+                    *
+ Sequence: ELTLADLGLVATVSTI
+           |              |
+         153              168
+ Max_score_pos: 162
+
+(3) Score 1.143 length 8 at residues 70->77
+             *
+ Sequence: IAKYLVNK
+           |      |
+          70      77
+ Max_score_pos: 72
+
+(4) Score 1.110 length 15 at residues 43->57
+                       *
+ Sequence: PDFLKLNPQHTVPTI
+           |             |
+          43             57
+ Max_score_pos: 55
+
+(5) Score 1.107 length 14 at residues 129->142
+                     *
+ Sequence: LKKLEEALVFLNTF
+           |            |
+         129            142
+ Max_score_pos: 139
+
+(6) Score 1.105 length 22 at residues 100->121
+                           *
+ Sequence: DFDLGTLYPRFGQYFYPQIFGG
+           |                    |
+         100                    121
+ Max_score_pos: 116
+
+(7) Score 1.100 length 8 at residues 91->98
+                *
+ Sequence: QRALVDQR
+           |      |
+          91      98
+ Max_score_pos: 96
+
+(8) Score 1.073 length 8 at residues 184->191
+                 *
+ Sequence: WFELVKTT
+           |      |
+         184      191
+ Max_score_pos: 190
+
+(9) Score 1.047 length 8 at residues 81->88
+                *
+ Sequence: GSSLYPTD
+           |      |
+          81      88
+ Max_score_pos: 86
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1407_c0_g1_i1.p1     from: 1   to: 206
+# HitCount: 8
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.185 length 13 at residues 153->165
+                 *
+ Sequence: WADLYFVGIVESV
+           |           |
+         153           165
+ Max_score_pos: 159
+
+(2) Score 1.181 length 42 at residues 44->85
+                                *
+ Sequence: VQKSVPFGKLPVLEVDNKVLYQSVAISRYLGKQVGLVPADDL
+           |                                        |
+          44                                        85
+ Max_score_pos: 65
+
+(3) Score 1.145 length 25 at residues 87->111
+                   *
+ Sequence: AAELDAIALSVFDFGSKVYEWYHEV
+           |                       |
+          87                       111
+ Max_score_pos: 95
+
+(4) Score 1.132 length 7 at residues 4->10
+              *
+ Sequence: VYQLKFF
+           |     |
+           4     10
+ Max_score_pos: 7
+
+(5) Score 1.114 length 7 at residues 30->36
+            *
+ Sequence: YKNVVIN
+           |     |
+          30     36
+ Max_score_pos: 31
+
+(6) Score 1.110 length 23 at residues 175->197
+                           *
+ Sequence: EKQYPMLQRIYTHVHEIPAIDTY
+           |                     |
+         175                     197
+ Max_score_pos: 191
+
+(7) Score 1.107 length 14 at residues 15->28
+                  *
+ Sequence: VAEPIRYLFAYGGI
+           |            |
+          15            28
+ Max_score_pos: 22
+
+(8) Score 1.044 length 8 at residues 136->143
+                 *
+ Sequence: EEIVQKKG
+           |      |
+         136      143
+ Max_score_pos: 142
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1430_c2_g2_i1.p1     from: 1   to: 149
+# HitCount: 5
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.252 length 20 at residues 96->115
+                        *
+ Sequence: DLALNYEVSSVPVLVIIKNG
+           |                  |
+          96                  115
+ Max_score_pos: 109
+
+(2) Score 1.222 length 34 at residues 45->78
+                     *
+ Sequence: DKVINSKVPVVVDFFATWCNPCRLLTPRLESIIS
+           |                                |
+          45                                78
+ Max_score_pos: 55
+
+(3) Score 1.189 length 11 at residues 82->92
+               *
+ Sequence: GKVVLAKVDID
+           |         |
+          82         92
+ Max_score_pos: 86
+
+(4) Score 1.168 length 25 at residues 14->38
+                *
+ Sequence: ATVVKSLAIRNFSVTSVKGDIVKIQ
+           |                       |
+          14                       38
+ Max_score_pos: 19
+
+(5) Score 1.121 length 8 at residues 118->125
+            *
+ Sequence: LNRLVGLQ
+           |      |
+         118      125
+ Max_score_pos: 119
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN163_c3_g1_i1.p1     from: 1   to: 217
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.166 length 21 at residues 146->166
+                         *
+ Sequence: RTTYIAADHITIADVAVLSTT
+           |                   |
+         146                   166
+ Max_score_pos: 160
+
+(2) Score 1.159 length 27 at residues 51->77
+              *
+ Sequence: LHTIPVLEDGDFVLFDSHAIMVYLAEA
+           |                         |
+          51                         77
+ Max_score_pos: 54
+
+(3) Score 1.116 length 27 at residues 91->117
+            *
+ Sequence: KRALVNQKLFFDTSILFPRIRGVTYPI
+           |                         |
+          91                         117
+ Max_score_pos: 92
+
+(4) Score 1.108 length 12 at residues 4->15
+            *
+ Sequence: KLYTLDWSPPVR
+           |          |
+           4          15
+ Max_score_pos: 5
+
+(5) Score 1.106 length 23 at residues 192->214
+                           *
+ Sequence: KTPYFKKHCEPGAILLSNIIKKC
+           |                     |
+         192                     214
+ Max_score_pos: 208
+
+(6) Score 1.097 length 9 at residues 170->178
+             *
+ Sequence: EMIVPIEAE
+           |       |
+         170       178
+ Max_score_pos: 172
+
+(7) Score 1.096 length 13 at residues 131->143
+                 *
+ Sequence: DDILEAYGFVEEF
+           |           |
+         131           143
+ Max_score_pos: 137
+
+(8) Score 1.073 length 7 at residues 20->26
+              *
+ Sequence: ACDIFNI
+           |     |
+          20     26
+ Max_score_pos: 23
+
+(9) Score 1.046 length 7 at residues 28->34
+             *
+ Sequence: FEKIEVN
+           |     |
+          28     34
+ Max_score_pos: 30
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1682_c0_g2_i1.p1     from: 1   to: 222
+# HitCount: 8
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.175 length 23 at residues 97->119
+                             *
+ Sequence: VNQVLFFDTGILFIRIKVVALPT
+           |                     |
+          97                     119
+ Max_score_pos: 115
+
+(2) Score 1.152 length 27 at residues 4->30
+                     *
+ Sequence: LLYKLDASPPACAVRMVADIIGLQLDF
+           |                         |
+           4                         30
+ Max_score_pos: 14
+
+(3) Score 1.145 length 35 at residues 43->77
+                       *
+ Sequence: PDYLQLNPLGTIPVLVDDDFVLSDSHAIMIYLLSK
+           |                                 |
+          43                                 77
+ Max_score_pos: 55
+
+(4) Score 1.145 length 36 at residues 142->177
+                                           *
+ Sequence: IEAYLRRHTHIAADQLTIADLSVATTLAAAEVILPL
+           |                                  |
+         142                                  177
+ Max_score_pos: 174
+
+(5) Score 1.104 length 14 at residues 193->206
+                *
+ Sequence: QELPYYKSIAAPGI
+           |            |
+         193            206
+ Max_score_pos: 198
+
+(6) Score 1.088 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(7) Score 1.085 length 6 at residues 214->219
+           *
+ Sequence: RHYCRK
+           |    |
+         214    219
+ Max_score_pos: 214
+
+(8) Score 1.051 length 8 at residues 129->136
+              *
+ Sequence: EKHLHDLE
+           |      |
+         129      136
+ Max_score_pos: 132
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1682_c0_g2_i2.p1     from: 1   to: 246
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.180 length 20 at residues 4->23
+                         *
+ Sequence: TFFHAIKRSVSLSVHAVAGS
+           |                  |
+           4                  23
+ Max_score_pos: 18
+
+(2) Score 1.175 length 23 at residues 121->143
+                             *
+ Sequence: VNQVLFFDTGILFIRIKVVALPT
+           |                     |
+         121                     143
+ Max_score_pos: 139
+
+(3) Score 1.152 length 30 at residues 25->54
+                        *
+ Sequence: MAPLLYKLDASPPACAVRMVADIIGLQLDF
+           |                            |
+          25                            54
+ Max_score_pos: 38
+
+(4) Score 1.145 length 35 at residues 67->101
+                       *
+ Sequence: PDYLQLNPLGTIPVLVDDDFVLSDSHAIMIYLLSK
+           |                                 |
+          67                                 101
+ Max_score_pos: 79
+
+(5) Score 1.145 length 36 at residues 166->201
+                                           *
+ Sequence: IEAYLRRHTHIAADQLTIADLSVATTLAAAEVILPL
+           |                                  |
+         166                                  201
+ Max_score_pos: 198
+
+(6) Score 1.104 length 14 at residues 217->230
+                *
+ Sequence: QELPYYKSIAAPGI
+           |            |
+         217            230
+ Max_score_pos: 222
+
+(7) Score 1.088 length 7 at residues 108->114
+               *
+ Sequence: ESLYPSD
+           |     |
+         108     114
+ Max_score_pos: 112
+
+(8) Score 1.085 length 6 at residues 238->243
+           *
+ Sequence: RHYCRK
+           |    |
+         238    243
+ Max_score_pos: 238
+
+(9) Score 1.051 length 8 at residues 153->160
+              *
+ Sequence: EKHLHDLE
+           |      |
+         153      160
+ Max_score_pos: 156
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN18158_c2_g1_i1.p1     from: 1   to: 114
+# HitCount: 5
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.221 length 11 at residues 4->14
+               *
+ Sequence: KVIVLPALFGD
+           |         |
+           4         14
+ Max_score_pos: 8
+
+(2) Score 1.132 length 32 at residues 29->60
+                 *
+ Sequence: AYGIVEAYLAGHNLNYLVTDHLTIADLSVGAT
+           |                              |
+          29                              60
+ Max_score_pos: 35
+
+(3) Score 1.115 length 16 at residues 90->105
+                    *
+ Sequence: SINKIFVPSSKILGEV
+           |              |
+          90              105
+ Max_score_pos: 99
+
+(4) Score 1.077 length 10 at residues 79->88
+                 *
+ Sequence: TSWVARLEQH
+           |        |
+          79        88
+ Max_score_pos: 85
+
+(5) Score 1.069 length 10 at residues 64->73
+                *
+ Sequence: MRHLHKLNPA
+           |        |
+          64        73
+ Max_score_pos: 69
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN18158_c2_g2_i1.p1     from: 1   to: 226
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.240 length 23 at residues 102->124
+                          *
+ Sequence: FFNVGIFFIRLKVVVLPAIFGEL
+           |                     |
+         102                     124
+ Max_score_pos: 117
+
+(2) Score 1.164 length 11 at residues 70->80
+                *
+ Sequence: TMKYLLSVYGG
+           |         |
+          70         80
+ Max_score_pos: 75
+
+(3) Score 1.132 length 32 at residues 138->169
+                             *
+ Sequence: AYGIVEAYLNLSGHKYLVTDHLTIADLSVGAT
+           |                              |
+         138                              169
+ Max_score_pos: 156
+
+(4) Score 1.127 length 12 at residues 173->184
+                *
+ Sequence: MDHLHKLDVAKF
+           |          |
+         173          184
+ Max_score_pos: 178
+
+(5) Score 1.120 length 8 at residues 211->218
+            *
+ Sequence: LGDVVNAA
+           |      |
+         211      218
+ Max_score_pos: 212
+
+(6) Score 1.116 length 10 at residues 200->209
+              *
+ Sequence: FKKYLVPGSK
+           |        |
+         200        209
+ Max_score_pos: 203
+
+(7) Score 1.107 length 7 at residues 84->90
+               *
+ Sequence: ESLYPSD
+           |     |
+          84     90
+ Max_score_pos: 88
+
+(8) Score 1.106 length 21 at residues 13->33
+                  *
+ Sequence: PANAVRILADILGLELDLRDV
+           |                   |
+          13                   33
+ Max_score_pos: 20
+
+(9) Score 1.105 length 8 at residues 93->100
+            *
+ Sequence: TRALVDQA
+           |      |
+          93      100
+ Max_score_pos: 94
+
+(10) Score 1.087 length 7 at residues 43->49
+             *
+ Sequence: ADHVKLN
+           |     |
+          43     49
+ Max_score_pos: 45
+
+(11) Score 1.045 length 8 at residues 129->136
+               *
+ Sequence: EQHLADID
+           |      |
+         129      136
+ Max_score_pos: 133
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1824_c0_g1_i1.p1     from: 1   to: 225
+# HitCount: 6
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.188 length 18 at residues 62->79
+              *
+ Sequence: LHSVPLLEDDGLVLPDSH
+           |                |
+          62                79
+ Max_score_pos: 65
+
+(2) Score 1.182 length 42 at residues 94->135
+                                             *
+ Sequence: QTLYPKHVAARAIVDQRLFFDASILFPRLKGVIYSLVKFRAP
+           |                                        |
+          94                                        135
+ Max_score_pos: 128
+
+(3) Score 1.169 length 27 at residues 168->194
+                 *
+ Sequence: LADISCVATLSSLDCIVTIDKKYVKIH
+           |                         |
+         168                         194
+ Max_score_pos: 174
+
+(4) Score 1.163 length 43 at residues 5->47
+                                        *
+ Sequence: QTIVFLNMPIVIHKTDVSPPARATLMVVEILGLKVQTREVNLP
+           |                                         |
+           5                                         47
+ Max_score_pos: 34
+
+(5) Score 1.127 length 16 at residues 145->160
+                        *
+ Sequence: IKECYDVTEKYLVKEY
+           |              |
+         145              160
+ Max_score_pos: 158
+
+(6) Score 1.110 length 9 at residues 81->89
+                 *
+ Sequence: IMMYLVSKY
+           |       |
+          81       89
+ Max_score_pos: 87
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c0_g1_i1.p1     from: 1   to: 118
+# HitCount: 5
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.142 length 33 at residues 83->115
+                               *
+ Sequence: IPDLEAKYPAFQKVIDNVYAIPQIKAYVDKAPV
+           |                               |
+          83                               115
+ Max_score_pos: 103
+
+(2) Score 1.111 length 7 at residues 57->63
+              *
+ Sequence: YLALGKL
+           |     |
+          57     63
+ Max_score_pos: 60
+
+(3) Score 1.095 length 18 at residues 33->50
+                    *
+ Sequence: ADALKNVFPDYLEKLSDI
+           |                |
+          33                50
+ Max_score_pos: 42
+
+(4) Score 1.095 length 17 at residues 65->81
+                  *
+ Sequence: WADFVLTGTFLYLKMIT
+           |               |
+          65               81
+ Max_score_pos: 72
+
+(5) Score 1.052 length 6 at residues 14->19
+              *
+ Sequence: LKASDI
+           |    |
+          14    19
+ Max_score_pos: 17
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c1_g2_i1.p1     from: 1   to: 217
+# HitCount: 10
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.215 length 19 at residues 22->40
+               *
+ Sequence: IISVSICVNTALAVRVCGN
+           |                 |
+          22                 40
+ Max_score_pos: 26
+
+(2) Score 1.143 length 11 at residues 198->208
+                *
+ Sequence: GDFVLAGLFDY
+           |         |
+         198         208
+ Max_score_pos: 203
+
+(3) Score 1.140 length 9 at residues 47->55
+                *
+ Sequence: MSKYVFYYF
+           |       |
+          47       55
+ Max_score_pos: 52
+
+(4) Score 1.134 length 24 at residues 164->187
+                            *
+ Sequence: YAKYAQTVFPDYLEKLNAIVVKNN
+           |                      |
+         164                      187
+ Max_score_pos: 181
+
+(5) Score 1.128 length 14 at residues 89->102
+                  *
+ Sequence: KQKTLYGQIPVLEI
+           |            |
+          89            102
+ Max_score_pos: 96
+
+(6) Score 1.103 length 6 at residues 189->194
+              *
+ Sequence: HLALGK
+           |    |
+         189    194
+ Max_score_pos: 192
+
+(7) Score 1.095 length 9 at residues 108->116
+             *
+ Sequence: SQSLAITRY
+           |       |
+         108       116
+ Max_score_pos: 110
+
+(8) Score 1.093 length 11 at residues 4->14
+               *
+ Sequence: ALTILNKVFSA
+           |         |
+           4         14
+ Max_score_pos: 8
+
+(9) Score 1.085 length 9 at residues 118->126
+              *
+ Sequence: GRKCGLVGD
+           |       |
+         118       126
+ Max_score_pos: 121
+
+(10) Score 1.062 length 8 at residues 63->70
+               *
+ Sequence: PSRLLMAY
+           |      |
+          63      70
+ Max_score_pos: 67
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i1.p1     from: 1   to: 170
+# HitCount: 8
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.163 length 14 at residues 85->98
+                   *
+ Sequence: ALEVDQIVDFLVDF
+           |            |
+          85            98
+ Max_score_pos: 93
+
+(2) Score 1.149 length 9 at residues 4->12
+               *
+ Sequence: YVFYYFNVK
+           |       |
+           4       12
+ Max_score_pos: 8
+
+(3) Score 1.147 length 18 at residues 124->141
+                         *
+ Sequence: SKNVFPNYLERLDAVIVK
+           |                |
+         124                141
+ Max_score_pos: 138
+
+(4) Score 1.146 length 16 at residues 41->56
+                    *
+ Sequence: AIKPKMLYGTVPVLEI
+           |              |
+          41              56
+ Max_score_pos: 50
+
+(5) Score 1.143 length 11 at residues 145->155
+               *
+ Sequence: HLALGKVLTIH
+           |         |
+         145         155
+ Max_score_pos: 149
+
+(6) Score 1.108 length 7 at residues 161->167
+                 *
+ Sequence: SYTLAFG
+           |     |
+         161     167
+ Max_score_pos: 167
+
+(7) Score 1.072 length 18 at residues 63->80
+                       *
+ Sequence: QSKAISRYLGHKFGLVGD
+           |                |
+          63                80
+ Max_score_pos: 75
+
+(8) Score 1.062 length 8 at residues 17->24
+               *
+ Sequence: PSRLLMAY
+           |      |
+          17      24
+ Max_score_pos: 21
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i10.p1     from: 1   to: 200
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.178 length 23 at residues 175->197
+                           *
+ Sequence: TTKYPAFQQVVDNVYFIPQVKAY
+           |                     |
+         175                     197
+ Max_score_pos: 191
+
+(2) Score 1.163 length 15 at residues 85->99
+                   *
+ Sequence: ALEVDQIVDFLVDFR
+           |             |
+          85             99
+ Max_score_pos: 93
+
+(3) Score 1.149 length 9 at residues 4->12
+               *
+ Sequence: YVFYYFNVK
+           |       |
+           4       12
+ Max_score_pos: 8
+
+(4) Score 1.146 length 16 at residues 41->56
+                    *
+ Sequence: AIKPKMLYGTVPVLEI
+           |              |
+          41              56
+ Max_score_pos: 50
+
+(5) Score 1.134 length 18 at residues 124->141
+                         *
+ Sequence: SKNVFPDYLERLNAVIVK
+           |                |
+         124                141
+ Max_score_pos: 138
+
+(6) Score 1.103 length 7 at residues 145->151
+              *
+ Sequence: HLALGKL
+           |     |
+         145     151
+ Max_score_pos: 148
+
+(7) Score 1.072 length 18 at residues 63->80
+                       *
+ Sequence: QSKAISRYLGHKFGLVGD
+           |                |
+          63                80
+ Max_score_pos: 75
+
+(8) Score 1.062 length 8 at residues 17->24
+               *
+ Sequence: PSRLLMAY
+           |      |
+          17      24
+ Max_score_pos: 21
+
+(9) Score 1.058 length 7 at residues 161->167
+               *
+ Sequence: WIDYLRE
+           |     |
+         161     167
+ Max_score_pos: 165
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i3.p1     from: 1   to: 170
+# HitCount: 8
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.163 length 15 at residues 85->99
+                   *
+ Sequence: ALEVDQIVDFLVDFR
+           |             |
+          85             99
+ Max_score_pos: 93
+
+(2) Score 1.149 length 9 at residues 4->12
+               *
+ Sequence: YVFYYFNVK
+           |       |
+           4       12
+ Max_score_pos: 8
+
+(3) Score 1.146 length 16 at residues 41->56
+                    *
+ Sequence: AIKPKMLYGTVPVLEI
+           |              |
+          41              56
+ Max_score_pos: 50
+
+(4) Score 1.143 length 11 at residues 145->155
+               *
+ Sequence: HLALGKVLTIH
+           |         |
+         145         155
+ Max_score_pos: 149
+
+(5) Score 1.134 length 18 at residues 124->141
+                         *
+ Sequence: SKNVFPDYLERLNAVIVK
+           |                |
+         124                141
+ Max_score_pos: 138
+
+(6) Score 1.108 length 7 at residues 161->167
+                 *
+ Sequence: SYTLAFG
+           |     |
+         161     167
+ Max_score_pos: 167
+
+(7) Score 1.072 length 18 at residues 63->80
+                       *
+ Sequence: QSKAISRYLGHKFGLVGD
+           |                |
+          63                80
+ Max_score_pos: 75
+
+(8) Score 1.062 length 8 at residues 17->24
+               *
+ Sequence: PSRLLMAY
+           |      |
+          17      24
+ Max_score_pos: 21
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i4.p1     from: 1   to: 200
+# HitCount: 9
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.178 length 23 at residues 175->197
+                           *
+ Sequence: TTKYPAFQQVVDNVYFIPQVKAY
+           |                     |
+         175                     197
+ Max_score_pos: 191
+
+(2) Score 1.163 length 14 at residues 85->98
+                   *
+ Sequence: ALEVDQIVDFLVDF
+           |            |
+          85            98
+ Max_score_pos: 93
+
+(3) Score 1.149 length 9 at residues 4->12
+               *
+ Sequence: YVFYYFNVK
+           |       |
+           4       12
+ Max_score_pos: 8
+
+(4) Score 1.147 length 18 at residues 124->141
+                         *
+ Sequence: SKNVFPNYLERLDAVIVK
+           |                |
+         124                141
+ Max_score_pos: 138
+
+(5) Score 1.146 length 16 at residues 41->56
+                    *
+ Sequence: AIKPKMLYGTVPVLEI
+           |              |
+          41              56
+ Max_score_pos: 50
+
+(6) Score 1.103 length 7 at residues 145->151
+              *
+ Sequence: HLALGKL
+           |     |
+         145     151
+ Max_score_pos: 148
+
+(7) Score 1.072 length 18 at residues 63->80
+                       *
+ Sequence: QSKAISRYLGHKFGLVGD
+           |                |
+          63                80
+ Max_score_pos: 75
+
+(8) Score 1.062 length 8 at residues 17->24
+               *
+ Sequence: PSRLLMAY
+           |      |
+          17      24
+ Max_score_pos: 21
+
+(9) Score 1.058 length 7 at residues 161->167
+               *
+ Sequence: WIDYLRE
+           |     |
+         161     167
+ Max_score_pos: 165
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i1.p1     from: 1   to: 240
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.230 length 14 at residues 82->95
+                   *
+ Sequence: YLFESVVICDYLDE
+           |            |
+          82            95
+ Max_score_pos: 90
+
+(2) Score 1.180 length 11 at residues 32->42
+               *
+ Sequence: GHRVLLILEAK
+           |         |
+          32         42
+ Max_score_pos: 36
+
+(3) Score 1.168 length 13 at residues 174->186
+                    *
+ Sequence: WPWVERLYLLRSV
+           |           |
+         174           186
+ Max_score_pos: 183
+
+(4) Score 1.136 length 25 at residues 4->28
+                              *
+ Sequence: YQQRTVGPLPPSALSDKLRLYHVDM
+           |                       |
+           4                       28
+ Max_score_pos: 23
+
+(5) Score 1.131 length 8 at residues 67->74
+                *
+ Sequence: LKIPVLEI
+           |      |
+          67      74
+ Max_score_pos: 72
+
+(6) Score 1.129 length 13 at residues 45->57
+                 *
+ Sequence: KYEVYKLDPLRLP
+           |           |
+          45           57
+ Max_score_pos: 51
+
+(7) Score 1.099 length 8 at residues 210->217
+             *
+ Sequence: LDDVVKKH
+           |      |
+         210      217
+ Max_score_pos: 212
+
+(8) Score 1.071 length 10 at residues 139->148
+                 *
+ Sequence: SEQIIQTLDI
+           |        |
+         139        148
+ Max_score_pos: 145
+
+(9) Score 1.069 length 15 at residues 104->118
+                *
+ Sequence: SRDPYVKAQDRLLIE
+           |             |
+         104             118
+ Max_score_pos: 109
+
+(10) Score 1.069 length 7 at residues 125->131
+             *
+ Sequence: KGSLECF
+           |     |
+         125     131
+ Max_score_pos: 127
+
+(11) Score 1.044 length 6 at residues 223->228
+             *
+ Sequence: EYFDYY
+           |    |
+         223    228
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i10.p1     from: 1   to: 240
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.230 length 14 at residues 82->95
+                   *
+ Sequence: YLFESVVICDYLDE
+           |            |
+          82            95
+ Max_score_pos: 90
+
+(2) Score 1.180 length 11 at residues 32->42
+               *
+ Sequence: GHRVLLILEAK
+           |         |
+          32         42
+ Max_score_pos: 36
+
+(3) Score 1.168 length 13 at residues 174->186
+                    *
+ Sequence: WPWVERLYLLRSV
+           |           |
+         174           186
+ Max_score_pos: 183
+
+(4) Score 1.136 length 25 at residues 4->28
+                              *
+ Sequence: YQQRTVGPLPPSALSDKLRLYHVDM
+           |                       |
+           4                       28
+ Max_score_pos: 23
+
+(5) Score 1.131 length 8 at residues 67->74
+                *
+ Sequence: LKIPVLEI
+           |      |
+          67      74
+ Max_score_pos: 72
+
+(6) Score 1.129 length 13 at residues 45->57
+                 *
+ Sequence: KYEVYKLDPLRLP
+           |           |
+          45           57
+ Max_score_pos: 51
+
+(7) Score 1.099 length 8 at residues 210->217
+             *
+ Sequence: LDDVVKKH
+           |      |
+         210      217
+ Max_score_pos: 212
+
+(8) Score 1.071 length 10 at residues 139->148
+                 *
+ Sequence: SEQIIQTLDI
+           |        |
+         139        148
+ Max_score_pos: 145
+
+(9) Score 1.069 length 15 at residues 104->118
+                *
+ Sequence: SRDPYVKAQDRLLIE
+           |             |
+         104             118
+ Max_score_pos: 109
+
+(10) Score 1.069 length 7 at residues 125->131
+             *
+ Sequence: KGSLECF
+           |     |
+         125     131
+ Max_score_pos: 127
+
+(11) Score 1.044 length 6 at residues 223->228
+             *
+ Sequence: EYFDYY
+           |    |
+         223    228
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i13.p1     from: 1   to: 240
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.230 length 14 at residues 82->95
+                   *
+ Sequence: YLFESVVICDYLDE
+           |            |
+          82            95
+ Max_score_pos: 90
+
+(2) Score 1.180 length 11 at residues 32->42
+               *
+ Sequence: GHRVLLILEAK
+           |         |
+          32         42
+ Max_score_pos: 36
+
+(3) Score 1.168 length 13 at residues 174->186
+                    *
+ Sequence: WPWVERLYLLRSV
+           |           |
+         174           186
+ Max_score_pos: 183
+
+(4) Score 1.136 length 25 at residues 4->28
+                              *
+ Sequence: YQQRTVGPLPPSALSDKLRLYHVDM
+           |                       |
+           4                       28
+ Max_score_pos: 23
+
+(5) Score 1.131 length 8 at residues 67->74
+                *
+ Sequence: LKIPVLEI
+           |      |
+          67      74
+ Max_score_pos: 72
+
+(6) Score 1.129 length 13 at residues 45->57
+                 *
+ Sequence: KYEVYKLDPLRLP
+           |           |
+          45           57
+ Max_score_pos: 51
+
+(7) Score 1.099 length 8 at residues 210->217
+             *
+ Sequence: LDDVVKKH
+           |      |
+         210      217
+ Max_score_pos: 212
+
+(8) Score 1.071 length 10 at residues 139->148
+                 *
+ Sequence: SEQIIQTLDI
+           |        |
+         139        148
+ Max_score_pos: 145
+
+(9) Score 1.069 length 15 at residues 104->118
+                *
+ Sequence: SRDPYVKAQDRLLIE
+           |             |
+         104             118
+ Max_score_pos: 109
+
+(10) Score 1.069 length 7 at residues 125->131
+             *
+ Sequence: KGSLECF
+           |     |
+         125     131
+ Max_score_pos: 127
+
+(11) Score 1.044 length 6 at residues 223->228
+             *
+ Sequence: EYFDYY
+           |    |
+         223    228
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i14.p1     from: 1   to: 240
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.230 length 14 at residues 82->95
+                   *
+ Sequence: YLFESVVICDYLDE
+           |            |
+          82            95
+ Max_score_pos: 90
+
+(2) Score 1.180 length 11 at residues 32->42
+               *
+ Sequence: GHRVLLILEAK
+           |         |
+          32         42
+ Max_score_pos: 36
+
+(3) Score 1.168 length 13 at residues 174->186
+                    *
+ Sequence: WPWVERLYLLRSV
+           |           |
+         174           186
+ Max_score_pos: 183
+
+(4) Score 1.136 length 25 at residues 4->28
+                              *
+ Sequence: YQQRTVGPLPPSALSDKLRLYHVDM
+           |                       |
+           4                       28
+ Max_score_pos: 23
+
+(5) Score 1.131 length 8 at residues 67->74
+                *
+ Sequence: LKIPVLEI
+           |      |
+          67      74
+ Max_score_pos: 72
+
+(6) Score 1.129 length 13 at residues 45->57
+                 *
+ Sequence: KYEVYKLDPLRLP
+           |           |
+          45           57
+ Max_score_pos: 51
+
+(7) Score 1.099 length 8 at residues 210->217
+             *
+ Sequence: LDDVVKKH
+           |      |
+         210      217
+ Max_score_pos: 212
+
+(8) Score 1.071 length 10 at residues 139->148
+                 *
+ Sequence: SEQIIQTLDI
+           |        |
+         139        148
+ Max_score_pos: 145
+
+(9) Score 1.069 length 15 at residues 104->118
+                *
+ Sequence: SRDPYVKAQDRLLIE
+           |             |
+         104             118
+ Max_score_pos: 109
+
+(10) Score 1.069 length 7 at residues 125->131
+             *
+ Sequence: KGSLECF
+           |     |
+         125     131
+ Max_score_pos: 127
+
+(11) Score 1.044 length 6 at residues 223->228
+             *
+ Sequence: EYFDYY
+           |    |
+         223    228
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i2.p1     from: 1   to: 240
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.230 length 14 at residues 82->95
+                   *
+ Sequence: YLFESVVICDYLDE
+           |            |
+          82            95
+ Max_score_pos: 90
+
+(2) Score 1.180 length 11 at residues 32->42
+               *
+ Sequence: GHRVLLILEAK
+           |         |
+          32         42
+ Max_score_pos: 36
+
+(3) Score 1.168 length 13 at residues 174->186
+                    *
+ Sequence: WPWVERLYLLRSV
+           |           |
+         174           186
+ Max_score_pos: 183
+
+(4) Score 1.136 length 25 at residues 4->28
+                              *
+ Sequence: YQQRTVGPLPPSALSDKLRLYHVDM
+           |                       |
+           4                       28
+ Max_score_pos: 23
+
+(5) Score 1.131 length 8 at residues 67->74
+                *
+ Sequence: LKIPVLEI
+           |      |
+          67      74
+ Max_score_pos: 72
+
+(6) Score 1.129 length 13 at residues 45->57
+                 *
+ Sequence: KYEVYKLDPLRLP
+           |           |
+          45           57
+ Max_score_pos: 51
+
+(7) Score 1.099 length 8 at residues 210->217
+             *
+ Sequence: LDDVVKKH
+           |      |
+         210      217
+ Max_score_pos: 212
+
+(8) Score 1.071 length 10 at residues 139->148
+                 *
+ Sequence: SEQIIQTLDI
+           |        |
+         139        148
+ Max_score_pos: 145
+
+(9) Score 1.069 length 15 at residues 104->118
+                *
+ Sequence: SRDPYVKAQDRLLIE
+           |             |
+         104             118
+ Max_score_pos: 109
+
+(10) Score 1.069 length 7 at residues 125->131
+             *
+ Sequence: KGSLECF
+           |     |
+         125     131
+ Max_score_pos: 127
+
+(11) Score 1.044 length 6 at residues 223->228
+             *
+ Sequence: EYFDYY
+           |    |
+         223    228
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i5.p1     from: 1   to: 240
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.230 length 14 at residues 82->95
+                   *
+ Sequence: YLFESVVICDYLDE
+           |            |
+          82            95
+ Max_score_pos: 90
+
+(2) Score 1.180 length 11 at residues 32->42
+               *
+ Sequence: GHRVLLILEAK
+           |         |
+          32         42
+ Max_score_pos: 36
+
+(3) Score 1.168 length 13 at residues 174->186
+                    *
+ Sequence: WPWVERLYLLRSV
+           |           |
+         174           186
+ Max_score_pos: 183
+
+(4) Score 1.136 length 25 at residues 4->28
+                              *
+ Sequence: YQQRTVGPLPPSALSDKLRLYHVDM
+           |                       |
+           4                       28
+ Max_score_pos: 23
+
+(5) Score 1.131 length 8 at residues 67->74
+                *
+ Sequence: LKIPVLEI
+           |      |
+          67      74
+ Max_score_pos: 72
+
+(6) Score 1.129 length 13 at residues 45->57
+                 *
+ Sequence: KYEVYKLDPLRLP
+           |           |
+          45           57
+ Max_score_pos: 51
+
+(7) Score 1.099 length 8 at residues 210->217
+             *
+ Sequence: LDDVVKKH
+           |      |
+         210      217
+ Max_score_pos: 212
+
+(8) Score 1.071 length 10 at residues 139->148
+                 *
+ Sequence: SEQIIQTLDI
+           |        |
+         139        148
+ Max_score_pos: 145
+
+(9) Score 1.069 length 15 at residues 104->118
+                *
+ Sequence: SRDPYVKAQDRLLIE
+           |             |
+         104             118
+ Max_score_pos: 109
+
+(10) Score 1.069 length 7 at residues 125->131
+             *
+ Sequence: KGSLECF
+           |     |
+         125     131
+ Max_score_pos: 127
+
+(11) Score 1.044 length 6 at residues 223->228
+             *
+ Sequence: EYFDYY
+           |    |
+         223    228
+ Max_score_pos: 225
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i17.p1     from: 1   to: 388
+# HitCount: 13
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.243 length 41 at residues 101->141
+                         *
+ Sequence: DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQA
+           |                                       |
+         101                                       141
+ Max_score_pos: 115
+
+(2) Score 1.195 length 15 at residues 6->20
+                *
+ Sequence: FTILQKVVLPSLREN
+           |             |
+           6             20
+ Max_score_pos: 11
+
+(3) Score 1.182 length 21 at residues 338->358
+                 *
+ Sequence: LADVTVFGVLSSIEGCGAFQD
+           |                   |
+         338                   358
+ Max_score_pos: 344
+
+(4) Score 1.156 length 31 at residues 147->177
+                 *
+ Sequence: YKKVPILLAKVDGGYQQLLDSTAIISVLETY
+           |                             |
+         147                             177
+ Max_score_pos: 153
+
+(5) Score 1.156 length 16 at residues 274->289
+                    *
+ Sequence: LFPAWECTLMVYIGAA
+           |              |
+         274              289
+ Max_score_pos: 283
+
+(6) Score 1.141 length 15 at residues 40->54
+                    *
+ Sequence: KLTLVSASIGVLLGA
+           |             |
+          40             54
+ Max_score_pos: 49
+
+(7) Score 1.130 length 11 at residues 22->32
+             *
+ Sequence: SIKKLLFSTKS
+           |         |
+          22         32
+ Max_score_pos: 24
+
+(8) Score 1.121 length 11 at residues 185->195
+                 *
+ Sequence: LREIVKFYPAT
+           |         |
+         185         195
+ Max_score_pos: 191
+
+(9) Score 1.095 length 9 at residues 59->67
+                *
+ Sequence: YTHYKVNVK
+           |       |
+          59       67
+ Max_score_pos: 64
+
+(10) Score 1.092 length 11 at residues 244->254
+             *
+ Sequence: VNTLSPNVYRT
+           |         |
+         244         254
+ Max_score_pos: 246
+
+(11) Score 1.084 length 6 at residues 310->315
+              *
+ Sequence: ESLYDA
+           |    |
+         310    315
+ Max_score_pos: 313
+
+(12) Score 1.059 length 11 at residues 210->220
+                *
+ Sequence: NKYFIMHQANV
+           |         |
+         210         220
+ Max_score_pos: 215
+
+(13) Score 1.059 length 7 at residues 78->84
+              *
+ Sequence: YAFLKEA
+           |     |
+          78     84
+ Max_score_pos: 81
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i2.p1     from: 1   to: 388
+# HitCount: 13
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.243 length 41 at residues 101->141
+                         *
+ Sequence: DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQA
+           |                                       |
+         101                                       141
+ Max_score_pos: 115
+
+(2) Score 1.195 length 15 at residues 6->20
+                *
+ Sequence: FTILQKVVLPSLREN
+           |             |
+           6             20
+ Max_score_pos: 11
+
+(3) Score 1.182 length 21 at residues 338->358
+                 *
+ Sequence: LADVTVFGVLSSIEGCGAFQD
+           |                   |
+         338                   358
+ Max_score_pos: 344
+
+(4) Score 1.156 length 31 at residues 147->177
+                 *
+ Sequence: YKKVPILLAKVDGGYQQLLDSTAIISVLETY
+           |                             |
+         147                             177
+ Max_score_pos: 153
+
+(5) Score 1.156 length 16 at residues 274->289
+                    *
+ Sequence: LFPAWECTLMVYIGAA
+           |              |
+         274              289
+ Max_score_pos: 283
+
+(6) Score 1.141 length 15 at residues 40->54
+                    *
+ Sequence: KLTLVSASIGVLLGA
+           |             |
+          40             54
+ Max_score_pos: 49
+
+(7) Score 1.130 length 11 at residues 22->32
+             *
+ Sequence: SIKKLLFSTKS
+           |         |
+          22         32
+ Max_score_pos: 24
+
+(8) Score 1.121 length 11 at residues 185->195
+                 *
+ Sequence: LREIVKFYPAT
+           |         |
+         185         195
+ Max_score_pos: 191
+
+(9) Score 1.095 length 9 at residues 59->67
+                *
+ Sequence: YTHYKVNVK
+           |       |
+          59       67
+ Max_score_pos: 64
+
+(10) Score 1.092 length 11 at residues 244->254
+             *
+ Sequence: VNTLSPNVYRT
+           |         |
+         244         254
+ Max_score_pos: 246
+
+(11) Score 1.084 length 6 at residues 310->315
+              *
+ Sequence: ESLYDA
+           |    |
+         310    315
+ Max_score_pos: 313
+
+(12) Score 1.059 length 11 at residues 210->220
+                *
+ Sequence: NKYFIMHQANV
+           |         |
+         210         220
+ Max_score_pos: 215
+
+(13) Score 1.059 length 7 at residues 78->84
+              *
+ Sequence: YAFLKEA
+           |     |
+          78     84
+ Max_score_pos: 81
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i29.p1     from: 1   to: 388
+# HitCount: 13
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.243 length 41 at residues 101->141
+                         *
+ Sequence: DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQA
+           |                                       |
+         101                                       141
+ Max_score_pos: 115
+
+(2) Score 1.195 length 15 at residues 6->20
+                *
+ Sequence: FTILQKVVLPSLREN
+           |             |
+           6             20
+ Max_score_pos: 11
+
+(3) Score 1.182 length 21 at residues 338->358
+                 *
+ Sequence: LADVTVFGVLSSIEGCGAFQD
+           |                   |
+         338                   358
+ Max_score_pos: 344
+
+(4) Score 1.156 length 31 at residues 147->177
+                 *
+ Sequence: YKKVPILLAKVDGGYQQLLDSTAIISVLETY
+           |                             |
+         147                             177
+ Max_score_pos: 153
+
+(5) Score 1.156 length 16 at residues 274->289
+                    *
+ Sequence: LFPAWECTLMVYIGAA
+           |              |
+         274              289
+ Max_score_pos: 283
+
+(6) Score 1.141 length 15 at residues 40->54
+                    *
+ Sequence: KLTLVSASIGVLLGA
+           |             |
+          40             54
+ Max_score_pos: 49
+
+(7) Score 1.130 length 11 at residues 22->32
+             *
+ Sequence: SIKKLLFSTKS
+           |         |
+          22         32
+ Max_score_pos: 24
+
+(8) Score 1.121 length 11 at residues 185->195
+                 *
+ Sequence: LREIVKFYPAT
+           |         |
+         185         195
+ Max_score_pos: 191
+
+(9) Score 1.095 length 9 at residues 59->67
+                *
+ Sequence: YTHYKVNVK
+           |       |
+          59       67
+ Max_score_pos: 64
+
+(10) Score 1.092 length 11 at residues 244->254
+             *
+ Sequence: VNTLSPNVYRT
+           |         |
+         244         254
+ Max_score_pos: 246
+
+(11) Score 1.084 length 6 at residues 310->315
+              *
+ Sequence: ESLYDA
+           |    |
+         310    315
+ Max_score_pos: 313
+
+(12) Score 1.059 length 11 at residues 210->220
+                *
+ Sequence: NKYFIMHQANV
+           |         |
+         210         220
+ Max_score_pos: 215
+
+(13) Score 1.059 length 7 at residues 78->84
+              *
+ Sequence: YAFLKEA
+           |     |
+          78     84
+ Max_score_pos: 81
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i7.p1     from: 1   to: 388
+# HitCount: 13
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.243 length 41 at residues 101->141
+                         *
+ Sequence: DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQA
+           |                                       |
+         101                                       141
+ Max_score_pos: 115
+
+(2) Score 1.195 length 15 at residues 6->20
+                *
+ Sequence: FTILQKVVLPSLREN
+           |             |
+           6             20
+ Max_score_pos: 11
+
+(3) Score 1.182 length 21 at residues 338->358
+                 *
+ Sequence: LADVTVFGVLSSIEGCGAFQD
+           |                   |
+         338                   358
+ Max_score_pos: 344
+
+(4) Score 1.156 length 31 at residues 147->177
+                 *
+ Sequence: YKKVPILLAKVDGGYQQLLDSTAIISVLETY
+           |                             |
+         147                             177
+ Max_score_pos: 153
+
+(5) Score 1.156 length 16 at residues 274->289
+                    *
+ Sequence: LFPAWECTLMVYIGAA
+           |              |
+         274              289
+ Max_score_pos: 283
+
+(6) Score 1.141 length 15 at residues 40->54
+                    *
+ Sequence: KLTLVSASIGVLLGA
+           |             |
+          40             54
+ Max_score_pos: 49
+
+(7) Score 1.130 length 11 at residues 22->32
+             *
+ Sequence: SIKKLLFSTKS
+           |         |
+          22         32
+ Max_score_pos: 24
+
+(8) Score 1.121 length 11 at residues 185->195
+                 *
+ Sequence: LREIVKFYPAT
+           |         |
+         185         195
+ Max_score_pos: 191
+
+(9) Score 1.095 length 9 at residues 59->67
+                *
+ Sequence: YTHYKVNVK
+           |       |
+          59       67
+ Max_score_pos: 64
+
+(10) Score 1.092 length 11 at residues 244->254
+             *
+ Sequence: VNTLSPNVYRT
+           |         |
+         244         254
+ Max_score_pos: 246
+
+(11) Score 1.084 length 6 at residues 310->315
+              *
+ Sequence: ESLYDA
+           |    |
+         310    315
+ Max_score_pos: 313
+
+(12) Score 1.059 length 11 at residues 210->220
+                *
+ Sequence: NKYFIMHQANV
+           |         |
+         210         220
+ Max_score_pos: 215
+
+(13) Score 1.059 length 7 at residues 78->84
+              *
+ Sequence: YAFLKEA
+           |     |
+          78     84
+ Max_score_pos: 81
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2379_c0_g3_i1.p1     from: 1   to: 142
+# HitCount: 5
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.221 length 32 at residues 105->136
+                            *
+ Sequence: TGQSLNVTDIAAFYVLYPIIVSKPFFCQPSST
+           |                              |
+         105                              136
+ Max_score_pos: 122
+
+(2) Score 1.201 length 34 at residues 4->37
+                            *
+ Sequence: CNVEVIKQVGRYYNVPVGTVCYNTDKVLTTVLNK
+           |                                |
+           4                                37
+ Max_score_pos: 21
+
+(3) Score 1.149 length 15 at residues 43->57
+                 *
+ Sequence: FATIVLKLASSAGVK
+           |             |
+          43             57
+ Max_score_pos: 49
+
+(4) Score 1.119 length 14 at residues 62->75
+                *
+ Sequence: QMLLSYQWLEHFAM
+           |            |
+          62            75
+ Max_score_pos: 67
+
+(5) Score 1.090 length 10 at residues 82->91
+                 *
+ Sequence: ANPSFALGFL
+           |        |
+          82        91
+ Max_score_pos: 88
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2379_c0_g3_i3.p1     from: 1   to: 173
+# HitCount: 7
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.201 length 34 at residues 4->37
+                            *
+ Sequence: CNVEVIKQVGRYYNVPVGTVCYNTDKVLTTVLNK
+           |                                |
+           4                                37
+ Max_score_pos: 21
+
+(2) Score 1.189 length 37 at residues 105->141
+                           *
+ Sequence: TGQSLNVTDIAAFYVLYPIIKRLSVTELESLIHVSRW
+           |                                   |
+         105                                   141
+ Max_score_pos: 121
+
+(3) Score 1.155 length 14 at residues 157->170
+                        *
+ Sequence: PLTLNTLNLSILAP
+           |            |
+         157            170
+ Max_score_pos: 170
+
+(4) Score 1.149 length 15 at residues 43->57
+                 *
+ Sequence: FATIVLKLASSAGVK
+           |             |
+          43             57
+ Max_score_pos: 49
+
+(5) Score 1.119 length 14 at residues 62->75
+                *
+ Sequence: QMLLSYQWLEHFAM
+           |            |
+          62            75
+ Max_score_pos: 67
+
+(6) Score 1.118 length 12 at residues 144->155
+                *
+ Sequence: HIQAQPRVCTNQ
+           |          |
+         144          155
+ Max_score_pos: 149
+
+(7) Score 1.090 length 10 at residues 82->91
+                 *
+ Sequence: ANPSFALGFL
+           |        |
+          82        91
+ Max_score_pos: 88
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2529_c0_g1_i19.p1     from: 1   to: 259
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.183 length 36 at residues 23->58
+                                  *
+ Sequence: NVKLFQPYEVEQILLPDNASCLAVQAFLKMCNLPFE
+           |                                  |
+          23                                  58
+ Max_score_pos: 46
+
+(2) Score 1.174 length 24 at residues 71->94
+                      *
+ Sequence: SGRVPFIKCGAFVVSELEPIVQFA
+           |                      |
+          71                      94
+ Max_score_pos: 82
+
+(3) Score 1.170 length 10 at residues 96->105
+                 *
+ Sequence: NKGVSLCSRL
+           |        |
+          96        105
+ Max_score_pos: 102
+
+(4) Score 1.168 length 15 at residues 210->224
+                    *
+ Sequence: PTELDALVFGHVFTI
+           |             |
+         210             224
+ Max_score_pos: 219
+
+(5) Score 1.158 length 18 at residues 116->133
+                 *
+ Sequence: YMSLITNVLVNAELYISW
+           |                |
+         116                133
+ Max_score_pos: 122
+
+(6) Score 1.143 length 18 at residues 181->198
+                   *
+ Sequence: LDQVLADVEQCCNSLSQR
+           |                |
+         181                198
+ Max_score_pos: 189
+
+(7) Score 1.136 length 11 at residues 240->250
+                 *
+ Sequence: KHESLVALAKR
+           |         |
+         240         250
+ Max_score_pos: 246
+
+(8) Score 1.120 length 13 at residues 226->238
+                 *
+ Sequence: TTRLPCRKLADTV
+           |           |
+         226           238
+ Max_score_pos: 232
+
+(9) Score 1.118 length 12 at residues 147->158
+                *
+ Sequence: NSSVYPWPLGWL
+           |          |
+         147          158
+ Max_score_pos: 152
+
+(10) Score 1.093 length 14 at residues 165->178
+                    *
+ Sequence: NAVIKRLKALHWYD
+           |            |
+         165            178
+ Max_score_pos: 174
+
+(11) Score 1.064 length 11 at residues 4->14
+               *
+ Sequence: FHLTDSIITQL
+           |         |
+           4         14
+ Max_score_pos: 8
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2529_c0_g1_i23.p1     from: 1   to: 259
+# HitCount: 11
+#=======================================
+
+Max_score_pos at "*"
+
+(1) Score 1.183 length 36 at residues 23->58
+                                  *
+ Sequence: NVKLFQPYEVEQILLPDNASCLAVQAFLKMCNLPFE
+           |                                  |
+          23                                  58
+ Max_score_pos: 46
+
+(2) Score 1.174 length 24 at residues 71->94
+                      *
+ Sequence: SGRVPFIKCGAFVVSELEPIVQFA
+           |                      |
+          71                      94
+ Max_score_pos: 82
+
+(3) Score 1.170 length 10 at residues 96->105
+                 *
+ Sequence: NKGVSLCSRL
+           |        |
+          96        105
+ Max_score_pos: 102
+
+(4) Score 1.168 length 15 at residues 210->224
+                    *
+ Sequence: PTELDALVFGHVFTI
+           |             |
+         210             224
+ Max_score_pos: 219
+
+(5) Score 1.158 length 18 at residues 116->133
+                 *
+ Sequence: YMSLITNVLVNAELYISW
+           |                |
+         116                133
+ Max_score_pos: 122
+
+(6) Score 1.143 length 18 at residues 181->198
+                   *
+ Sequence: LDQVLADVEQCCNSLSQR
+           |                |
+         181                198
+ Max_score_pos: 189
+
+(7) Score 1.136 length 11 at residues 240->250
+                 *
+ Sequence: KHESLVALAKR
+           |         |
+         240         250
+ Max_score_pos: 246
+
+(8) Score 1.120 length 13 at residues 226->238
+                 *
+ Sequence: TTRLPCRKLADTV
+           |           |
+         226           238
+ Max_score_pos: 232
+
+(9) Score 1.118 length 12 at residues 147->158
+                *
+ Sequence: NSSVYPWPLGWL
+           |          |
+         147          158
+ Max_score_pos: 152
+
+(10) Score 1.093 length 14 at residues 165->178
+                    *
+ Sequence: NAVIKRLKALHWYD
+           |            |
+         165            178
+ Max_score_pos: 174
+
+(11) Score 1.064 length 11 at residues 4->14
+               *
+ Sequence: FHLTDSIITQL
+           |         |
+           4         14
+ Max_score_pos: 8
+
+
+#---------------------------------------
+#---------------------------------------

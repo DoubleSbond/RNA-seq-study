@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -N detox_emboss
+#PBS -q epyc
+#PBS -l select=1:ncpus=1:mem=4gb
+#PBS -l walltime=12:00:00
+
+set -euo pipefail
+family="${FAMILY:?FAMILY must be supplied with qsub -v}"
+source_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/sequence_20260819T143800JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST
+source_fasta="$source_root/$family/${family}_broad_peptides.fasta"
+out="$run_root/$family"
+clean="$out/${family}_all_isoforms.stop_stripped.pep.fa"
+
+test -d "$out"
+exec >"$out/${family}.stdout.log" 2>"$out/${family}.stderr.log"
+awk '/^>/{print; next} {gsub(/\*/, ""); print}' "$source_fasta" >"$clean"
+pepstats -sequence "$clean" -outfile "$out/${family}.pepstats" -auto
+pepinfo -sequence "$clean" -outfile "$out/${family}.pepinfo" -graph none -auto
+sigcleave -sequence "$clean" -outfile "$out/${family}.sigcleave" -auto
+tmap -sequences "$clean" -outfile "$out/${family}.tmap" -graph none -auto
+garnier -sequence "$clean" -outfile "$out/${family}.garnier" -auto
+antigenic -sequence "$clean" -outfile "$out/${family}.antigenic" -auto
+printf 'family\tpeptides\tpepstats_records\tsigcleave_records\ttmap_records\n' >"$out/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\t%s\n' "$family" "$(grep -c '^>' "$clean")" "$(grep -c '^PEPSTATS of' "$out/${family}.pepstats" || true)" "$(grep -c '^# Sequence:' "$out/${family}.sigcleave" || true)" "$(grep -c '^# Sequence:' "$out/${family}.tmap" || true)" >>"$out/run_summary.tsv"
+find "$out" -type f -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/* 2>/dev/null >"$out/sha256.tsv" || true

@@ -1,0 +1,20 @@
+{
+  "species": "Bombyx mori",
+  "project": "PRJNA729897",
+  "tissue": "midgut",
+  "diet": "mulberry leaf",
+  "samples": [
+    "SRR14535556",
+    "SRR14535555",
+    "SRR14535554",
+    "SRR14535566",
+    "SRR14535565",
+    "SRR14535564"
+  ],
+  "tpm_rows_with_annotation": 28236,
+  "functional_markers_requested": 22,
+  "functional_markers_recovered": 21,
+  "random_background_n": 20,
+  "seed": 20260822,
+  "unit": "transcript-level TPM"
+}

@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -N detox_iqtree
+#PBS -q epyc
+#PBS -l select=1:ncpus=16:mem=24gb
+#PBS -l walltime=48:00:00
+
+set -euo pipefail
+family="${FAMILY:?FAMILY must be supplied with qsub -v}"
+source_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/reference_trees_v2_20260819T210000JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_20260819T220000JST
+code=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/code_representative_iqtree_20260819T220000JST/select_longest_fasta_per_gene.py
+python=/home/tuatchenjh9703/miniconda3/bin/python
+mafft=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/mafft
+iqtree=/home/tuatchenjh9703/miniconda3/bin/iqtree
+out="$run_root/$family"
+
+test -d "$out"
+exec >"$out/${family}.stdout.log" 2>"$out/${family}.stderr.log"
+"$python" "$code" --input "$source_root/$family/${family}_Phoenei_all_isoforms.fa" --output "$out/${family}_Phoenei_longest_per_gene.fa"
+cat "$out/${family}_Phoenei_longest_per_gene.fa" "$source_root/$family/${family}_Bmori_top1.prefixed.fa" "$source_root/$family/${family}_Spodoptera_top1.prefixed.fa" >"$out/${family}_representative_with_references.fa"
+"$mafft" --auto --thread 16 "$out/${family}_representative_with_references.fa" >"$out/${family}_representative_with_references.mafft.fa"
+"$iqtree" -s "$out/${family}_representative_with_references.mafft.fa" -m MFP -B 1000 -alrt 1000 -T AUTO --threads-max 16 --prefix "$out/${family}_representative"
+printf 'family\tphoenei_genes\tbmori_references\tspodoptera_references\talignment_sequences\n' >"$out/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\t%s\n' "$family" "$(grep -c '^>' "$out/${family}_Phoenei_longest_per_gene.fa")" "$(grep -c '^>' "$source_root/$family/${family}_Bmori_top1.prefixed.fa")" "$(grep -c '^>' "$source_root/$family/${family}_Spodoptera_top1.prefixed.fa")" "$(grep -c '^>' "$out/${family}_representative_with_references.mafft.fa")" >>"$out/run_summary.tsv"
+find "$out" -type f -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/* 2>/dev/null >"$out/sha256.tsv" || true

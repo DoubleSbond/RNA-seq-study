@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -N detox_hmmnovel
+#PBS -q epyc
+#PBS -l select=1:ncpus=8:mem=12gb
+#PBS -l walltime=24:00:00
+
+set -euo pipefail
+family="${FAMILY:?FAMILY must be supplied with qsub -v}"
+profile_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST
+run_root=/lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_novel_annotation_20260820T004500JST
+proteome=/lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+out="$run_root/$family"
+diamond=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/diamond
+blastp=/home/tuatchenjh9703/miniconda3/envs/busco_env/bin/blastp
+seqkit=/usr/bin/seqkit
+
+test -d "$out"
+exec >"$out/${family}.stdout.log" 2>"$out/${family}.stderr.log"
+awk 'NR==FNR {novel[$1]=1; next} !/^#/ {id=$1; gene=id; sub(/_i[0-9].*$/, "", gene); if(gene in novel) print id}' "$profile_root/$family/novel_profile_hit_genes.txt" "$profile_root/$family/${family}_proteome.tblout" | sort -u >"$out/novel_profile_hit_peptide_ids.txt"
+"$seqkit" grep -f "$out/novel_profile_hit_peptide_ids.txt" "$proteome" -o "$out/${family}_novel_profile_hits.pep.fa"
+"$diamond" blastp --db /lustre10/home/tuatchenjh9703/ph/db/uniprot/uniprot_sprot.dmnd --query "$out/${family}_novel_profile_hits.pep.fa" --out "$out/${family}_novel_vs_sprot_top10.tsv" --outfmt 6 qseqid sseqid pident length qlen slen qstart qend sstart send evalue bitscore stitle --max-target-seqs 10 --evalue 1e-3 --sensitive --threads 8
+for label_db in Bmori:/lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Bmori_db Spodoptera:/lustre10/home/tuatchenjh9703/ph/07_homology/ABC/Spodo_db; do
+  label="${label_db%%:*}"; db="${label_db#*:}"
+  "$blastp" -query "$out/${family}_novel_profile_hits.pep.fa" -db "$db" -out "$out/${family}_novel_vs_${label}_top10.tsv" -evalue 1e-3 -max_target_seqs 10 -num_threads 8 -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen qcovs stitle'
+done
+printf 'family\tnovel_genes\textracted_peptides\tsprot_hits\tbmori_hits\tspodoptera_hits\n' >"$out/run_summary.tsv"
+printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$family" "$(wc -l < "$profile_root/$family/novel_profile_hit_genes.txt")" "$(grep -c '^>' "$out/${family}_novel_profile_hits.pep.fa")" "$(wc -l < "$out/${family}_novel_vs_sprot_top10.tsv")" "$(wc -l < "$out/${family}_novel_vs_Bmori_top10.tsv")" "$(wc -l < "$out/${family}_novel_vs_Spodoptera_top10.tsv")" >>"$out/run_summary.tsv"
+find "$out" -type f -printf '%P\t%s\n' | sort >"$out/output_inventory.tsv"
+sha256sum "$out"/* 2>/dev/null >"$out/sha256.tsv" || true

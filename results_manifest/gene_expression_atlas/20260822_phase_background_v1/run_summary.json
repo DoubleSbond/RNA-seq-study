@@ -1,0 +1,11 @@
+{
+  "seed": 20260822,
+  "tpm_rows": 179924,
+  "annotated_expression_rows": 20505,
+  "functional_markers_requested": 22,
+  "functional_markers_recovered": 17,
+  "random_background_n": 20,
+  "selection_note": "Top-expressed annotated representative per predefined function; random background stratified across expression quintiles.",
+  "tpm_source": "C:\\Users\\chenj\\Documents\\Codex\\2026-08-19\\referenced-chatgpt-conversation-this-is-an\\work\\background_atlas_20260822\\TPM_gene_all_withMeanSD.tsv",
+  "annotation_source": "C:\\Users\\chenj\\Documents\\Codex\\2026-08-19\\referenced-chatgpt-conversation-this-is-an\\work\\background_atlas_20260822\\nr_sprot_annotated_tx.tsv"
+}

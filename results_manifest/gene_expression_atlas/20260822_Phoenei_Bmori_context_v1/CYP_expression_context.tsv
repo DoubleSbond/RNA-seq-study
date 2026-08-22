@@ -1,0 +1,3 @@
+Species	Dataset	Aggregation	GeneCount	MeanGeneTPM	MedianGeneTPM	MaxGeneTPM	GenesMeanTPM_GE10
+P. hoenei	current six-sample de novo gene-level matrix	91 broad CYP genes	91	27.451469694139192	3.7881153333333333	291.58598383333333	34
+B. mori	PRJNA729897 mulberry-fed midgut	RefSeq transcripts summed by annotated gene	83	3.961378642570281	0.10279516666666666	105.41160016666667	6

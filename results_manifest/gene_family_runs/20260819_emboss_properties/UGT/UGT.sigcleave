@@ -1,0 +1,3730 @@
+########################################
+# Program: sigcleave
+# Rundate: Wed 19 Aug 2026 17:16:42
+# Commandline: sigcleave
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/UGT/UGT_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/UGT/UGT.sigcleave
+#    -auto
+# Report_format: motif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/UGT/UGT.sigcleave
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN11717_c0_g2_i1.p1     from: 1   to: 220
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.054 length 13 at residues 7->19
+           
+ Sequence: LYLIVVCAAAARA
+           |           |
+           7           19
+ mature_peptide: ARLLAVLPTNTKSHHAMYGRLLDALARRDHHLTVVTHFPMKNPLPNVHQI
+
+(2) Score 4.518 length 13 at residues 5->17
+           
+ Sequence: RLLYLIVVCAAAA
+           |           |
+           5           17
+ mature_peptide: RAARLLAVLPTNTKSHHAMYGRLLDALARRDHHLTVVTHFPMKNPLPNVH
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11717_c0_g2_i2.p1     from: 1   to: 540
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.054 length 13 at residues 7->19
+           
+ Sequence: LYLIVVCAAAARA
+           |           |
+           7           19
+ mature_peptide: ARLLAVLPTNTKSHHAMYGRLLDALARRDHHLTVVTHFPMKNPLPNVHQI
+
+(2) Score 5.420 length 13 at residues 475->487
+           
+ Sequence: ILLDVVALSTAIA
+           |           |
+         475           487
+ mature_peptide: LLTIFILHKLFRYLCTRCIKWWPKQNLIFEKRFLKRNISFFLCILWKYKV
+
+(3) Score 4.518 length 13 at residues 5->17
+           
+ Sequence: RLLYLIVVCAAAA
+           |           |
+           5           17
+ mature_peptide: RAARLLAVLPTNTKSHHAMYGRLLDALARRDHHLTVVTHFPMKNPLPNVH
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11717_c0_g2_i3.p2     from: 1   to: 165
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.420 length 13 at residues 100->112
+           
+ Sequence: ILLDVVALSTAIA
+           |           |
+         100           112
+ mature_peptide: LLTIFILHKLFRYLCTRCIKWWPKQNLIFEKRFLKRNISFFLCILWKYKV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN12106_c1_g5_i1.p1     from: 1   to: 132
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i1.p5     from: 1   to: 104
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i1.p1     from: 1   to: 286
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.387 length 13 at residues 16->28
+           
+ Sequence: LIFVILFLFNTRP
+           |           |
+          16           28
+ mature_peptide: VFQCQFNAEVSSYLPVIYGITPTYMRLAQKADLTRLSQTLMHVKNFHWVV
+
+(2) Score 6.306 length 13 at residues 19->31
+           
+ Sequence: VILFLFNTRPVFQ
+           |           |
+          19           31
+ mature_peptide: CQFNAEVSSYLPVIYGITPTYMRLAQKADLTRLSQTLMHVKNFHWVVIED
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i1.p3     from: 1   to: 144
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i1.p4     from: 1   to: 114
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i10.p3     from: 1   to: 114
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i10.p1     from: 1   to: 144
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i10.p4     from: 1   to: 104
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i10.p2     from: 1   to: 142
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i2.p1     from: 1   to: 144
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i2.p2     from: 1   to: 142
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i2.p5     from: 1   to: 114
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i2.p6     from: 1   to: 104
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i6.p1     from: 1   to: 300
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.387 length 13 at residues 16->28
+           
+ Sequence: LIFVILFLFNTRP
+           |           |
+          16           28
+ mature_peptide: VFQCQFNAEVSSYLPVIYGITPTYMRLAQKADLTRLSQTLMHVKNFHWVV
+
+(2) Score 6.306 length 13 at residues 19->31
+           
+ Sequence: VILFLFNTRPVFQ
+           |           |
+          19           31
+ mature_peptide: CQFNAEVSSYLPVIYGITPTYMRLAQKADLTRLSQTLMHVKNFHWVVIED
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i7.p1     from: 1   to: 114
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i9.p4     from: 1   to: 114
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i9.p1     from: 1   to: 286
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 6.387 length 13 at residues 16->28
+           
+ Sequence: LIFVILFLFNTRP
+           |           |
+          16           28
+ mature_peptide: VFQCQFNAEVSSYLPVIYGITPTYMRLAQKADLTRLSQTLMHVKNFHWVV
+
+(2) Score 6.306 length 13 at residues 19->31
+           
+ Sequence: VILFLFNTRPVFQ
+           |           |
+          19           31
+ mature_peptide: CQFNAEVSSYLPVIYGITPTYMRLAQKADLTRLSQTLMHVKNFHWVVIED
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i9.p3     from: 1   to: 144
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1342_c0_g2_i9.p5     from: 1   to: 104
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13580_c0_g1_i1.p1     from: 1   to: 344
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.796 length 13 at residues 209->221
+           
+ Sequence: VVAFFDSWPGSRT
+           |           |
+         209           221
+ mature_peptide: FPVDMAGFAVNIEYLKPSASMPYIAGHEEDRFLVSLGIKLDEIEPLAANC
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13580_c0_g1_i2.p1     from: 1   to: 344
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.796 length 13 at residues 209->221
+           
+ Sequence: VVAFFDSWPGSRT
+           |           |
+         209           221
+ mature_peptide: FPVDMAGFAVNIEYLKPSASMPYIAGHEEDRFLVSLGIKLDEIEPLAANC
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN16531_c0_g1_i1.p1     from: 1   to: 568
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.767 length 13 at residues 4->16
+           
+ Sequence: LVLALLVNFYSGS
+           |           |
+           4           16
+ mature_peptide: LYSCYGEDVKKVASKLPTVGISVLVRNKAHTLPYFLTCIRDLDYPKKRLY
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN16531_c0_g1_i2.p1     from: 1   to: 394
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1687_c0_g1_i10.p1     from: 1   to: 138
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1687_c0_g1_i11.p1     from: 1   to: 215
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.707 length 13 at residues 50->62
+           
+ Sequence: SLSLSSALPDSDS
+           |           |
+          50           62
+ mature_peptide: EYSLELDLAHEVIPHMSHHIITPSKIEVKLRKKEGLRWTQLDGDRTEDNV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1687_c0_g1_i12.p1     from: 1   to: 215
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.707 length 13 at residues 50->62
+           
+ Sequence: SLSLSSALPDSDS
+           |           |
+          50           62
+ mature_peptide: EYSLELDLAHEVIPHMSHHIITPSKIEVKLRKKEGLRWTQLDGDRTEDNV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1687_c0_g1_i21.p1     from: 1   to: 215
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.707 length 13 at residues 50->62
+           
+ Sequence: SLSLSSALPDSDS
+           |           |
+          50           62
+ mature_peptide: EYSLELDLAHEVIPHMSHHIITPSKIEVKLRKKEGLRWTQLDGDRTEDNV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1687_c0_g1_i4.p1     from: 1   to: 215
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.707 length 13 at residues 50->62
+           
+ Sequence: SLSLSSALPDSDS
+           |           |
+          50           62
+ mature_peptide: EYSLELDLAHEVIPHMSHHIITPSKIEVKLRKKEGLRWTQLDGDRTEDNV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1687_c0_g1_i6.p1     from: 1   to: 215
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.707 length 13 at residues 50->62
+           
+ Sequence: SLSLSSALPDSDS
+           |           |
+          50           62
+ mature_peptide: EYSLELDLAHEVIPHMSHHIITPSKIEVKLRKKEGLRWTQLDGDRTEDNV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1687_c0_g1_i8.p1     from: 1   to: 215
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.707 length 13 at residues 50->62
+           
+ Sequence: SLSLSSALPDSDS
+           |           |
+          50           62
+ mature_peptide: EYSLELDLAHEVIPHMSHHIITPSKIEVKLRKKEGLRWTQLDGDRTEDNV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1689_c0_g1_i1.p1     from: 1   to: 497
+# HitCount: 7
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 13.582 length 13 at residues 4->16
+           
+ Sequence: LLLLLAAVSCCYG
+           |           |
+           4           16
+ mature_peptide: HHILVLFPTPSHSHNILGKGFVDALLKGGHTMTWATPYPEKVKSPPKTLN
+
+(2) Score 10.012 length 13 at residues 1->13
+           
+ Sequence: MKLLLLLLAAVSC
+           |           |
+           1           13
+ mature_peptide: CYGHHILVLFPTPSHSHNILGKGFVDALLKGGHTMTWATPYPEKVKSPPK
+
+(3) Score 7.305 length 13 at residues 2->14
+           
+ Sequence: KLLLLLLAAVSCC
+           |           |
+           2           14
+ mature_peptide: YGHHILVLFPTPSHSHNILGKGFVDALLKGGHTMTWATPYPEKVKSPPKT
+
+(4) Score 6.249 length 13 at residues 147->159
+           
+ Sequence: VLAATQMFPLLEA
+           |           |
+         147           159
+ mature_peptide: QVDEVRSVATIPLMFNPSDTPMGFKSRAFNAVIHIAMTILTWLDRFTTVS
+
+(5) Score 5.054 length 13 at residues 17->29
+           
+ Sequence: HHILVLFPTPSHS
+           |           |
+          17           29
+ mature_peptide: HNILGKGFVDALLKGGHTMTWATPYPEKVKSPPKTLNILDISTVKKFHDG
+
+(6) Score 4.737 length 13 at residues 478->490
+           
+ Sequence: VAVVLAVLAVLIA
+           |           |
+         478           490
+ mature_peptide: LLKFLIK
+
+(7) Score 3.568 length 13 at residues 123->135
+           
+ Sequence: AVVTETFFSDVLA
+           |           |
+         123           135
+ mature_peptide: GVAAVQQAPWIVLAATQMFPLLEAQVDEVRSVATIPLMFNPSDTPMGFKS
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1689_c0_g1_i2.p1     from: 1   to: 518
+# HitCount: 9
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 13.582 length 13 at residues 4->16
+           
+ Sequence: LLLLLAAVSCCYG
+           |           |
+           4           16
+ mature_peptide: HHILVLFPTPSHSHNILGKGFVDALLKGGHTMTWATPYPEKVKSPPKTLN
+
+(2) Score 10.012 length 13 at residues 1->13
+           
+ Sequence: MKLLLLLLAAVSC
+           |           |
+           1           13
+ mature_peptide: CYGHHILVLFPTPSHSHNILGKGFVDALLKGGHTMTWATPYPEKVKSPPK
+
+(3) Score 8.979 length 13 at residues 478->490
+           
+ Sequence: ILVMISLLTLLFA
+           |           |
+         478           490
+ mature_peptide: LISYSIKKVIRIVSRTKPSEEKLNKKRV
+
+(4) Score 7.305 length 13 at residues 2->14
+           
+ Sequence: KLLLLLLAAVSCC
+           |           |
+           2           14
+ mature_peptide: YGHHILVLFPTPSHSHNILGKGFVDALLKGGHTMTWATPYPEKVKSPPKT
+
+(5) Score 6.249 length 13 at residues 147->159
+           
+ Sequence: VLAATQMFPLLEA
+           |           |
+         147           159
+ mature_peptide: QVDEVRSVATIPLMFNPSDTPMGFKSRAFNAVIHIAMTILTWLDRFTTVS
+
+(6) Score 5.700 length 13 at residues 483->495
+           
+ Sequence: SLLTLLFALISYS
+           |           |
+         483           495
+ mature_peptide: IKKVIRIVSRTKPSEEKLNKKRV
+
+(7) Score 5.054 length 13 at residues 17->29
+           
+ Sequence: HHILVLFPTPSHS
+           |           |
+          17           29
+ mature_peptide: HNILGKGFVDALLKGGHTMTWATPYPEKVKSPPKTLNILDISTVKKFHDG
+
+(8) Score 4.056 length 13 at residues 481->493
+           
+ Sequence: MISLLTLLFALIS
+           |           |
+         481           493
+ mature_peptide: YSIKKVIRIVSRTKPSEEKLNKKRV
+
+(9) Score 3.568 length 13 at residues 123->135
+           
+ Sequence: AVVTETFFSDVLA
+           |           |
+         123           135
+ mature_peptide: GVAAVQQAPWIVLAATQMFPLLEAQVDEVRSVATIPLMFNPSDTPMGFKS
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1689_c0_g2_i1.p1     from: 1   to: 475
+# HitCount: 7
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.259 length 13 at residues 3->15
+           
+ Sequence: LVLLLLLAAVSSS
+           |           |
+           3           15
+ mature_peptide: YGYKILVLVPAPSHSHNTLGKGLVDALLKGGHTVTWATPFPDKVKNPPKN
+
+(2) Score 10.938 length 13 at residues 5->17
+           
+ Sequence: LLLLLAAVSSSYG
+           |           |
+           5           17
+ mature_peptide: YKILVLVPAPSHSHNTLGKGLVDALLKGGHTVTWATPFPDKVKNPPKNLH
+
+(3) Score 10.817 length 13 at residues 2->14
+           
+ Sequence: KLVLLLLLAAVSS
+           |           |
+           2           14
+ mature_peptide: SYGYKILVLVPAPSHSHNTLGKGLVDALLKGGHTVTWATPFPDKVKNPPK
+
+(4) Score 6.365 length 13 at residues 148->160
+           
+ Sequence: VLAATQLFPTLEA
+           |           |
+         148           160
+ mature_peptide: QMDEVRSIATIPLMFNPSDIPMGFVKRSINGMIHIAMTVAEWLDRPKTIS
+
+(5) Score 5.507 length 13 at residues 1->13
+           
+ Sequence: MKLVLLLLLAAVS
+           |           |
+           1           13
+ mature_peptide: SSYGYKILVLVPAPSHSHNTLGKGLVDALLKGGHTVTWATPFPDKVKNPP
+
+(6) Score 4.444 length 13 at residues 131->143
+           
+ Sequence: FCDFLAGVAAVQQ
+           |           |
+         131           143
+ mature_peptide: APWIVLAATQLFPTLEAQMDEVRSIATIPLMFNPSDIPMGFVKRSINGMI
+
+(7) Score 3.748 length 13 at residues 128->140
+           
+ Sequence: ETFFCDFLAGVAA
+           |           |
+         128           140
+ mature_peptide: VQQAPWIVLAATQLFPTLEAQMDEVRSIATIPLMFNPSDIPMGFVKRSIN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1689_c1_g1_i4.p1     from: 1   to: 517
+# HitCount: 8
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 8.548 length 13 at residues 480->492
+           
+ Sequence: VLALLCVLAVLIA
+           |           |
+         480           492
+ mature_peptide: LLTFTVKACVRRITGKKVDVTKKRN
+
+(2) Score 7.491 length 13 at residues 483->495
+           
+ Sequence: LLCVLAVLIALLT
+           |           |
+         483           495
+ mature_peptide: FTVKACVRRITGKKVDVTKKRN
+
+(3) Score 6.678 length 13 at residues 488->500
+           
+ Sequence: AVLIALLTFTVKA
+           |           |
+         488           500
+ mature_peptide: CVRRITGKKVDVTKKRN
+
+(4) Score 5.441 length 13 at residues 476->488
+           
+ Sequence: MLDLVLALLCVLA
+           |           |
+         476           488
+ mature_peptide: VLIALLTFTVKACVRRITGKKVDVTKKRN
+
+(5) Score 5.128 length 13 at residues 9->21
+           
+ Sequence: LAVLMLCISSSLS
+           |           |
+           9           21
+ mature_peptide: YKILCIFPAPTKSHDHLSQGVVQSLLKAGHEVTWATPFKKKDVPANLTIV
+
+(6) Score 4.177 length 13 at residues 8->20
+           
+ Sequence: TLAVLMLCISSSL
+           |           |
+           8           20
+ mature_peptide: SYKILCIFPAPTKSHDHLSQGVVQSLLKAGHEVTWATPFKKKDVPANLTI
+
+(7) Score 4.059 length 13 at residues 485->497
+           
+ Sequence: CVLAVLIALLTFT
+           |           |
+         485           497
+ mature_peptide: VKACVRRITGKKVDVTKKRN
+
+(8) Score 3.739 length 13 at residues 7->19
+           
+ Sequence: ATLAVLMLCISSS
+           |           |
+           7           19
+ mature_peptide: LSYKILCIFPAPTKSHDHLSQGVVQSLLKAGHEVTWATPFKKKDVPANLT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN17113_c0_g1_i1.p1     from: 1   to: 303
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN17113_c0_g1_i10.p1     from: 1   to: 418
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.711 length 13 at residues 95->107
+           
+ Sequence: IGFFLTSTGSVNC
+           |           |
+          95           107
+ mature_peptide: DTLIEDENVQNLWKSKRKFDLVLVEQFNSDCALGLAHVLGAPVVGLTSHV
+
+(2) Score 4.188 length 13 at residues 8->20
+           
+ Sequence: VLFVSILFKQVLT
+           |           |
+           8           20
+ mature_peptide: LNILGVFPYQGKSHFFVFAPYLRELANRGHNLTVISYFPQEKPIKNYHDI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN17113_c0_g1_i12.p1     from: 1   to: 446
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.711 length 13 at residues 95->107
+           
+ Sequence: IGFFLTSTGSVNC
+           |           |
+          95           107
+ mature_peptide: DTLIEDENVQNLWKSKRKFDLVLVEQFNSDCALGLAHVLGAPVVGLTSHV
+
+(2) Score 4.188 length 13 at residues 8->20
+           
+ Sequence: VLFVSILFKQVLT
+           |           |
+           8           20
+ mature_peptide: LNILGVFPYQGKSHFFVFAPYLRELANRGHNLTVISYFPQEKPIKNYHDI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN17113_c0_g1_i15.p1     from: 1   to: 303
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN17113_c0_g1_i16.p1     from: 1   to: 510
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.711 length 13 at residues 95->107
+           
+ Sequence: IGFFLTSTGSVNC
+           |           |
+          95           107
+ mature_peptide: DTLIEDENVQNLWKSKRKFDLVLVEQFNSDCALGLAHVLGAPVVGLTSHV
+
+(2) Score 4.188 length 13 at residues 8->20
+           
+ Sequence: VLFVSILFKQVLT
+           |           |
+           8           20
+ mature_peptide: LNILGVFPYQGKSHFFVFAPYLRELANRGHNLTVISYFPQEKPIKNYHDI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN17113_c0_g1_i8.p1     from: 1   to: 510
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.711 length 13 at residues 95->107
+           
+ Sequence: IGFFLTSTGSVNC
+           |           |
+          95           107
+ mature_peptide: DTLIEDENVQNLWKSKRKFDLVLVEQFNSDCALGLAHVLGAPVVGLTSHV
+
+(2) Score 4.188 length 13 at residues 8->20
+           
+ Sequence: VLFVSILFKQVLT
+           |           |
+           8           20
+ mature_peptide: LNILGVFPYQGKSHFFVFAPYLRELANRGHNLTVISYFPQEKPIKNYHDI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN18424_c0_g1_i1.p1     from: 1   to: 521
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.365 length 13 at residues 7->19
+           
+ Sequence: VLFFLTVAKYCES
+           |           |
+           7           19
+ mature_peptide: ANILYVVPFTSKSHYIMLKPIGLELARRGHNVTVITGNRVPNPPKNYHQY
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN20280_c0_g1_i1.p1     from: 1   to: 135
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN20280_c1_g1_i1.p1     from: 1   to: 170
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN20280_c1_g1_i2.p1     from: 1   to: 170
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN20280_c1_g1_i3.p1     from: 1   to: 185
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.610 length 13 at residues 151->163
+           
+ Sequence: VSTIALLSLLVLS
+           |           |
+         151           163
+ mature_peptide: FIAYKVWKILSVHQVKTKLKEN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN20280_c1_g1_i5.p1     from: 1   to: 185
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.355 length 13 at residues 151->163
+           
+ Sequence: ISAIALLSLLVLS
+           |           |
+         151           163
+ mature_peptide: FIAYKVWKILSVHQVKTKLKEN
+
+(2) Score 4.124 length 13 at residues 143->155
+           
+ Sequence: LELDLLLTISAIA
+           |           |
+         143           155
+ mature_peptide: LLSLLVLSFIAYKVWKILSVHQVKTKLKEN
+
+(3) Score 3.645 length 13 at residues 147->159
+           
+ Sequence: LLLTISAIALLSL
+           |           |
+         147           159
+ mature_peptide: LVLSFIAYKVWKILSVHQVKTKLKEN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN20280_c1_g1_i6.p1     from: 1   to: 102
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN21024_c0_g1_i1.p1     from: 1   to: 322
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.414 length 13 at residues 33->45
+           
+ Sequence: LRAFATWLFRCQP
+           |           |
+          33           45
+ mature_peptide: EIYSRLALHITMPSERPGLHGSMPVWARDCEANPLPPGERRADTVAWRAR
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN21024_c0_g1_i2.p1     from: 1   to: 264
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.414 length 13 at residues 33->45
+           
+ Sequence: LRAFATWLFRCQP
+           |           |
+          33           45
+ mature_peptide: EIYSRLALHITMPSERPGLHGSMPVWARDCEANPLPPGERRADTVAWRAR
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2328_c0_g1_i1.p1     from: 1   to: 527
+# HitCount: 7
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.828 length 13 at residues 10->22
+           
+ Sequence: FLLCLLIFSSCEA
+           |           |
+          10           22
+ mature_peptide: YKALVIFGMPARSHAILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLRQI
+
+(2) Score 8.267 length 13 at residues 8->20
+           
+ Sequence: IYFLLCLLIFSSC
+           |           |
+           8           20
+ mature_peptide: EAYKALVIFGMPARSHAILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLR
+
+(3) Score 6.521 length 13 at residues 498->510
+           
+ Sequence: LLVVFILLRFVCS
+           |           |
+         498           510
+ mature_peptide: LLCSKKKQTVDGKKKKK
+
+(4) Score 5.808 length 13 at residues 501->513
+           
+ Sequence: VFILLRFVCSLLC
+           |           |
+         501           513
+ mature_peptide: SKKKQTVDGKKKKK
+
+(5) Score 4.925 length 13 at residues 502->514
+           
+ Sequence: FILLRFVCSLLCS
+           |           |
+         502           514
+ mature_peptide: KKKQTVDGKKKKK
+
+(6) Score 4.044 length 13 at residues 493->505
+           
+ Sequence: LLAVALLVVFILL
+           |           |
+         493           505
+ mature_peptide: RFVCSLLCSKKKQTVDGKKKKK
+
+(7) Score 3.686 length 13 at residues 25->37
+           
+ Sequence: ALVIFGMPARSHA
+           |           |
+          25           37
+ mature_peptide: ILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLRQIDVSSNIDIMPVDSIN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2328_c0_g1_i2.p1     from: 1   to: 527
+# HitCount: 7
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.828 length 13 at residues 10->22
+           
+ Sequence: FLLCLLIFSSCEA
+           |           |
+          10           22
+ mature_peptide: YKALVIFGMPARSHAILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLRQI
+
+(2) Score 8.267 length 13 at residues 8->20
+           
+ Sequence: IYFLLCLLIFSSC
+           |           |
+           8           20
+ mature_peptide: EAYKALVIFGMPARSHAILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLR
+
+(3) Score 6.521 length 13 at residues 498->510
+           
+ Sequence: LLVVFILLRFVCS
+           |           |
+         498           510
+ mature_peptide: LLCSKKKQTVDGKKKKK
+
+(4) Score 5.808 length 13 at residues 501->513
+           
+ Sequence: VFILLRFVCSLLC
+           |           |
+         501           513
+ mature_peptide: SKKKQTVDGKKKKK
+
+(5) Score 4.925 length 13 at residues 502->514
+           
+ Sequence: FILLRFVCSLLCS
+           |           |
+         502           514
+ mature_peptide: KKKQTVDGKKKKK
+
+(6) Score 4.044 length 13 at residues 493->505
+           
+ Sequence: LLAVALLVVFILL
+           |           |
+         493           505
+ mature_peptide: RFVCSLLCSKKKQTVDGKKKKK
+
+(7) Score 3.686 length 13 at residues 25->37
+           
+ Sequence: ALVIFGMPARSHA
+           |           |
+          25           37
+ mature_peptide: ILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLRQIDVSSNIDIMPVDSIN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2328_c0_g1_i3.p1     from: 1   to: 527
+# HitCount: 7
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.828 length 13 at residues 10->22
+           
+ Sequence: FLLCLLIFSSCEA
+           |           |
+          10           22
+ mature_peptide: YKALVIFGMPARSHAILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLRQI
+
+(2) Score 8.267 length 13 at residues 8->20
+           
+ Sequence: IYFLLCLLIFSSC
+           |           |
+           8           20
+ mature_peptide: EAYKALVIFGMPARSHAILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLR
+
+(3) Score 6.521 length 13 at residues 498->510
+           
+ Sequence: LLVVFILLRFVCS
+           |           |
+         498           510
+ mature_peptide: LLCSKKKQTVDGKKKKK
+
+(4) Score 5.808 length 13 at residues 501->513
+           
+ Sequence: VFILLRFVCSLLC
+           |           |
+         501           513
+ mature_peptide: SKKKQTVDGKKKKK
+
+(5) Score 4.925 length 13 at residues 502->514
+           
+ Sequence: FILLRFVCSLLCS
+           |           |
+         502           514
+ mature_peptide: KKKQTVDGKKKKK
+
+(6) Score 4.044 length 13 at residues 493->505
+           
+ Sequence: LLAVALLVVFILL
+           |           |
+         493           505
+ mature_peptide: RFVCSLLCSKKKQTVDGKKKKK
+
+(7) Score 3.686 length 13 at residues 25->37
+           
+ Sequence: ALVIFGMPARSHA
+           |           |
+          25           37
+ mature_peptide: ILGDGVVRHLLKEGHEVTYIRVFEYKNPPPNLRQIDVSSNIDIMPVDSIN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2332_c0_g1_i2.p1     from: 1   to: 544
+# HitCount: 5
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 8.193 length 13 at residues 9->21
+           
+ Sequence: LCLPILLAASVCG
+           |           |
+           9           21
+ mature_peptide: SDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEEI
+
+(2) Score 6.152 length 13 at residues 8->20
+           
+ Sequence: FLCLPILLAASVC
+           |           |
+           8           20
+ mature_peptide: GSDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEE
+
+(3) Score 5.774 length 13 at residues 10->22
+           
+ Sequence: CLPILLAASVCGS
+           |           |
+          10           22
+ mature_peptide: DILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEEIA
+
+(4) Score 4.647 length 13 at residues 5->17
+           
+ Sequence: RWPFLCLPILLAA
+           |           |
+           5           17
+ mature_peptide: SVCGSDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITG
+
+(5) Score 3.849 length 13 at residues 488->500
+           
+ Sequence: SVMVTLFALISYA
+           |           |
+         488           500
+ mature_peptide: LRLGFNRLINYVQKKQMHKLLGKSNDLLTTSKLLRQAAVAKKKL
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2332_c0_g1_i3.p1     from: 1   to: 544
+# HitCount: 5
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 8.193 length 13 at residues 9->21
+           
+ Sequence: LCLPILLAASVCG
+           |           |
+           9           21
+ mature_peptide: SDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEEI
+
+(2) Score 6.152 length 13 at residues 8->20
+           
+ Sequence: FLCLPILLAASVC
+           |           |
+           8           20
+ mature_peptide: GSDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEE
+
+(3) Score 5.774 length 13 at residues 10->22
+           
+ Sequence: CLPILLAASVCGS
+           |           |
+          10           22
+ mature_peptide: DILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEEIA
+
+(4) Score 4.647 length 13 at residues 5->17
+           
+ Sequence: RWPFLCLPILLAA
+           |           |
+           5           17
+ mature_peptide: SVCGSDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITG
+
+(5) Score 3.849 length 13 at residues 488->500
+           
+ Sequence: SVMVTLFALISYA
+           |           |
+         488           500
+ mature_peptide: LRLGFNRLINYVQKKQMHKLLGKSNDLLTTSKLLRQAAVAKKKL
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2332_c0_g1_i4.p1     from: 1   to: 544
+# HitCount: 5
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 8.193 length 13 at residues 9->21
+           
+ Sequence: LCLPILLAASVCG
+           |           |
+           9           21
+ mature_peptide: SDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEEI
+
+(2) Score 6.152 length 13 at residues 8->20
+           
+ Sequence: FLCLPILLAASVC
+           |           |
+           8           20
+ mature_peptide: GSDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEE
+
+(3) Score 5.774 length 13 at residues 10->22
+           
+ Sequence: CLPILLAASVCGS
+           |           |
+          10           22
+ mature_peptide: DILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITGLEEIA
+
+(4) Score 4.647 length 13 at residues 5->17
+           
+ Sequence: RWPFLCLPILLAA
+           |           |
+           5           17
+ mature_peptide: SVCGSDILMITMGGTKSHKMPFWELARGLIRRDHNITFISGFPADFHITG
+
+(5) Score 3.849 length 13 at residues 488->500
+           
+ Sequence: SVMVTLFALISYA
+           |           |
+         488           500
+ mature_peptide: LRLGFNRLINYVQKKQMHKLLGKSNDLLTTSKLLRQAAVAKKKL
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN243_c0_g1_i5.p1     from: 1   to: 517
+# HitCount: 4
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.588 length 13 at residues 91->103
+           
+ Sequence: LTLFFVSLFLANA
+           |           |
+          91           103
+ mature_peptide: GIENCNVMLANNRVQSLIKEQPKFDVIVVEQFNSDCALGVAHKLQAPVVG
+
+(2) Score 6.641 length 13 at residues 4->16
+           
+ Sequence: SVLIATLSLLVLT
+           |           |
+           4           16
+ mature_peptide: DYACSLNILGIFPYQGKSHFIVFRIYLRELARRGHNVTVISHFPEQDPPA
+
+(3) Score 6.623 length 13 at residues 486->498
+           
+ Sequence: LILLSVLIKKCCC
+           |           |
+         486           498
+ mature_peptide: SKKITKTTTKTDKKKAKRA
+
+(4) Score 4.472 length 13 at residues 9->21
+           
+ Sequence: TLSLLVLTDYACS
+           |           |
+           9           21
+ mature_peptide: LNILGIFPYQGKSHFIVFRIYLRELARRGHNVTVISHFPEQDPPANYHDI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN243_c0_g1_i6.p1     from: 1   to: 517
+# HitCount: 4
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.588 length 13 at residues 91->103
+           
+ Sequence: LTLFFVSLFLANA
+           |           |
+          91           103
+ mature_peptide: GIENCNVMLANNRVQSLIKEQPKFDVIVVEQFNSDCALGVAHKLQAPVVG
+
+(2) Score 6.641 length 13 at residues 4->16
+           
+ Sequence: SVLIATLSLLVLT
+           |           |
+           4           16
+ mature_peptide: DYACSLNILGIFPYQGKSHFIVFRIYLRELARRGHNVTVISHFPEQDPPA
+
+(3) Score 6.623 length 13 at residues 486->498
+           
+ Sequence: LILLSVLIKKCCC
+           |           |
+         486           498
+ mature_peptide: SKKITKTTTKTDKKKAKRA
+
+(4) Score 4.472 length 13 at residues 9->21
+           
+ Sequence: TLSLLVLTDYACS
+           |           |
+           9           21
+ mature_peptide: LNILGIFPYQGKSHFIVFRIYLRELARRGHNVTVISHFPEQDPPANYHDI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN243_c0_g1_i8.p1     from: 1   to: 517
+# HitCount: 4
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.588 length 13 at residues 91->103
+           
+ Sequence: LTLFFVSLFLANA
+           |           |
+          91           103
+ mature_peptide: GIENCNVMLANNRVQSLIKEQPKFDVIVVEQFNSDCALGVAHKLQAPVVG
+
+(2) Score 6.641 length 13 at residues 4->16
+           
+ Sequence: SVLIATLSLLVLT
+           |           |
+           4           16
+ mature_peptide: DYACSLNILGIFPYQGKSHFIVFRIYLRELARRGHNVTVISHFPEQDPPA
+
+(3) Score 6.623 length 13 at residues 486->498
+           
+ Sequence: LILLSVLIKKCCC
+           |           |
+         486           498
+ mature_peptide: SKKITKTTTKTDKKKAKRA
+
+(4) Score 4.472 length 13 at residues 9->21
+           
+ Sequence: TLSLLVLTDYACS
+           |           |
+           9           21
+ mature_peptide: LNILGIFPYQGKSHFIVFRIYLRELARRGHNVTVISHFPEQDPPANYHDI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN28473_c0_g1_i1.p1     from: 1   to: 435
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.675 length 13 at residues 6->18
+           
+ Sequence: IFGVIVCFSLALA
+           |           |
+           6           18
+ mature_peptide: EQETLVLVDNLNIRETHSQFFKSLQDRGYSLTYKLADDPNLVLSKYGEYL
+
+(2) Score 4.413 length 13 at residues 8->20
+           
+ Sequence: GVIVCFSLALAEQ
+           |           |
+           8           20
+ mature_peptide: ETLVLVDNLNIRETHSQFFKSLQDRGYSLTYKLADDPNLVLSKYGEYLYK
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i1.p1     from: 1   to: 759
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i10.p1     from: 1   to: 769
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i11.p1     from: 1   to: 753
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i12.p1     from: 1   to: 748
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i13.p1     from: 1   to: 753
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i2.p1     from: 1   to: 777
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i4.p1     from: 1   to: 759
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3225_c0_g1_i7.p1     from: 1   to: 759
+# HitCount: 13
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 11.107 length 13 at residues 494->506
+           
+ Sequence: ILLMLFSVHCTWA
+           |           |
+         494           506
+ mature_peptide: TSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDY
+
+(2) Score 7.703 length 13 at residues 35->47
+           
+ Sequence: LAWLAGFASRLFA
+           |           |
+          35           47
+ mature_peptide: VIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGRIVGGT
+
+(3) Score 7.449 length 13 at residues 491->503
+           
+ Sequence: LFMILLMLFSVHC
+           |           |
+         491           503
+ mature_peptide: TWATSNAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSW
+
+(4) Score 6.922 length 13 at residues 30->42
+           
+ Sequence: VTVLSLAWLAGFA
+           |           |
+          30           42
+ mature_peptide: SRLFAVIRFESIIHEFDPWFNYRSTAYMVQHGFYNFLNWFDERAWYPLGR
+
+(5) Score 5.738 length 13 at residues 228->240
+           
+ Sequence: LIPLHVFLLLIMG
+           |           |
+         228           240
+ mature_peptide: RFSQRLFVSYSVFYIVGLLMSMQIPFVGFQPIRTSEHMAASGVFALVMAI
+
+(6) Score 5.652 length 13 at residues 126->138
+           
+ Sequence: CVFLAPVFSGLTA
+           |           |
+         126           138
+ mature_peptide: IATYLLTSELWSRGAGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQF
+
+(7) Score 5.650 length 13 at residues 307->319
+           
+ Sequence: QLLILGGLAAAGA
+           |           |
+         307           319
+ mature_peptide: VFLAVVLLTYAGVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSS
+
+(8) Score 5.563 length 13 at residues 318->330
+           
+ Sequence: GAVFLAVVLLTYA
+           |           |
+         318           330
+ mature_peptide: GVIAPWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCT
+
+(9) Score 4.936 length 13 at residues 322->334
+           
+ Sequence: LAVVLLTYAGVIA
+           |           |
+         322           334
+ mature_peptide: PWSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVG
+
+(10) Score 4.930 length 13 at residues 496->508
+           
+ Sequence: LMLFSVHCTWATS
+           |           |
+         496           508
+ mature_peptide: NAYSSPSIVLASYGNDGSRKILDDFREAYGWLSQNTAEDARVMSWWDYGY
+
+(11) Score 4.338 length 13 at residues 140->152
+           
+ Sequence: ATYLLTSELWSRG
+           |           |
+         140           152
+ mature_peptide: AGLFAACFIAIVPGYSSRSVAGSYDNEGIAIFALQFTYYLWLKSLKNGSV
+
+(12) Score 3.798 length 13 at residues 323->335
+           
+ Sequence: AVVLLTYAGVIAP
+           |           |
+         323           335
+ mature_peptide: WSGRFYSLWDTTYAKIHIPIIASVSEHQPTTWSSFFFDLHVLVCTFPVGL
+
+(13) Score 3.574 length 13 at residues 416->428
+           
+ Sequence: LMLTLTPVVCVLS
+           |           |
+         416           428
+ mature_peptide: GIAFSILLDLVLREDDLPVPQVDTEESKSLYDKAGKLKKRTHEPTTPPDT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN3269_c0_g1_i2.p1     from: 1   to: 522
+# HitCount: 9
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 10.509 length 13 at residues 8->20
+           
+ Sequence: LFGLLLSFSLCDG
+           |           |
+           8           20
+ mature_peptide: AKILAVFPVPSLSHGILGDNMIKHLLDGGHEVTYITPFVSKQQKHPKLHI
+
+(2) Score 8.941 length 13 at residues 6->18
+           
+ Sequence: CLLFGLLLSFSLC
+           |           |
+           6           18
+ mature_peptide: DGAKILAVFPVPSLSHGILGDNMIKHLLDGGHEVTYITPFVSKQQKHPKL
+
+(3) Score 5.743 length 13 at residues 4->16
+           
+ Sequence: LKCLLFGLLLSFS
+           |           |
+           4           16
+ mature_peptide: LCDGAKILAVFPVPSLSHGILGDNMIKHLLDGGHEVTYITPFVSKQQKHP
+
+(4) Score 5.375 length 13 at residues 247->259
+           
+ Sequence: ASLLLGNSQVAIG
+           |           |
+         247           259
+ mature_peptide: SSIPLPSSYKHIGGYHIAEPVKPLPEDLKKIMDNAENGVIYFSLGSNLKS
+
+(5) Score 5.282 length 13 at residues 23->35
+           
+ Sequence: ILAVFPVPSLSHG
+           |           |
+          23           35
+ mature_peptide: ILGDNMIKHLLDGGHEVTYITPFVSKQQKHPKLHIVDVTDNVKFFDNNML
+
+(6) Score 4.176 length 13 at residues 140->152
+           
+ Sequence: FTDLYSALPAVFQ
+           |           |
+         140           152
+ mature_peptide: CPFIWFSTIEPHWMILNLVHGPPNPAYTTDYIQARVAPFSFNGRVKELWT
+
+(7) Score 3.871 length 13 at residues 366->378
+           
+ Sequence: FVTHGGLLSVTEA
+           |           |
+         366           378
+ mature_peptide: IHFAAPLIAIPVFADQFLNANRAQQKGYAIKVDLTYHLHEDLKVALDKIL
+
+(8) Score 3.606 length 13 at residues 26->38
+           
+ Sequence: VFPVPSLSHGILG
+           |           |
+          26           38
+ mature_peptide: DNMIKHLLDGGHEVTYITPFVSKQQKHPKLHIVDVTDNVKFFDNNMLDVK
+
+(9) Score 3.588 length 13 at residues 497->509
+           
+ Sequence: LIVIVLVIRKICC
+           |           |
+         497           509
+ mature_peptide: LVAGKKSMKLKTN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN37939_c0_g1_i1.p1     from: 1   to: 167
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN38523_c0_g1_i1.p1     from: 1   to: 116
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN39303_c0_g1_i1.p1     from: 1   to: 259
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.410 length 13 at residues 228->240
+           
+ Sequence: LTVLVIVLSFVLL
+           |           |
+         228           240
+ mature_peptide: SYKLWKYLSFCLTHKKVKV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN39303_c0_g1_i2.p1     from: 1   to: 281
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.410 length 13 at residues 250->262
+           
+ Sequence: LTVLVIVLSFVLL
+           |           |
+         250           262
+ mature_peptide: SYKLWKYLSFCLTHKKVKV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN39303_c0_g1_i3.p1     from: 1   to: 521
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.410 length 13 at residues 490->502
+           
+ Sequence: LTVLVIVLSFVLL
+           |           |
+         490           502
+ mature_peptide: SYKLWKYLSFCLTHKKVKV
+
+(2) Score 5.201 length 13 at residues 12->24
+           
+ Sequence: TLLVTCLSLVVNQ
+           |           |
+          12           24
+ mature_peptide: NEAARILGVFPFPSISHQVVFRSLMHELAKRGHEVTVITTDPAFPKGEAI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN39303_c0_g1_i5.p1     from: 1   to: 528
+# HitCount: 4
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.449 length 13 at residues 498->510
+           
+ Sequence: IGLFVTISLLVFS
+           |           |
+         498           510
+ mature_peptide: IYSLCKLLRKGGRKIKNS
+
+(2) Score 5.201 length 13 at residues 16->28
+           
+ Sequence: TLLVTCLSLVVNQ
+           |           |
+          16           28
+ mature_peptide: NEAARILGVFPFPSISHQVVFRSLMHELAKRGHEVTVITTDPAFPKGEAI
+
+(3) Score 4.340 length 13 at residues 501->513
+           
+ Sequence: FVTISLLVFSIYS
+           |           |
+         501           513
+ mature_peptide: LCKLLRKGGRKIKNS
+
+(4) Score 3.663 length 13 at residues 503->515
+           
+ Sequence: TISLLVFSIYSLC
+           |           |
+         503           515
+ mature_peptide: KLLRKGGRKIKNS
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN39303_c0_g1_i7.p1     from: 1   to: 525
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.410 length 13 at residues 494->506
+           
+ Sequence: LTVLVIVLSFVLL
+           |           |
+         494           506
+ mature_peptide: SYKLWKYLSFCLTHKKVKV
+
+(2) Score 5.201 length 13 at residues 16->28
+           
+ Sequence: TLLVTCLSLVVNQ
+           |           |
+          16           28
+ mature_peptide: NEAARILGVFPFPSISHQVVFRSLMHELAKRGHEVTVITTDPAFPKGEAI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN41259_c0_g1_i1.p1     from: 1   to: 238
+# HitCount: 5
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 3.942 length 13 at residues 106->118
+           
+ Sequence: NITILLLARFLQG
+           |           |
+         106           118
+ mature_peptide: LSMGMATSISSLLIGEYTSPINRGAFLMTISVSIATAVMVVHSIGSVLTW
+
+(2) Score 3.745 length 13 at residues 143->155
+           
+ Sequence: AFLMTISVSIATA
+           |           |
+         143           155
+ mature_peptide: VMVVHSIGSVLTWQYTALVCGAVAFIDLFIVMYSPESPSWLAEKGRYDAC
+
+(3) Score 3.697 length 13 at residues 155->167
+           
+ Sequence: AVMVVHSIGSVLT
+           |           |
+         155           167
+ mature_peptide: WQYTALVCGAVAFIDLFIVMYSPESPSWLAEKGRYDACKQSFRWLRGDTE
+
+(4) Score 3.596 length 13 at residues 58->70
+           
+ Sequence: WIAAIPGISLVFG
+           |           |
+          58           70
+ mature_peptide: NFIAPPTMSKYGRKPANMLSIMPLIFGWAAIYFANNITILLLARFLQGLS
+
+(5) Score 3.539 length 13 at residues 164->176
+           
+ Sequence: SVLTWQYTALVCG
+           |           |
+         164           176
+ mature_peptide: AVAFIDLFIVMYSPESPSWLAEKGRYDACKQSFRWLRGDTEEEELRRIIE
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5199_c0_g1_i1.p1     from: 1   to: 525
+# HitCount: 5
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 10.276 length 13 at residues 8->20
+           
+ Sequence: LLLLCVSVRVCVC
+           |           |
+           8           20
+ mature_peptide: KRTLVVFPVASRSHTLLGDHLVNTLLNGGHNVTYITTFTRVKASERLRVI
+
+(2) Score 5.150 length 13 at residues 162->174
+           
+ Sequence: SWMSLQLVHEASS
+           |           |
+         162           174
+ mature_peptide: PTLFVDPMAAALPTLPPSVGDRVYRIGRQAYLSAWVYYITHYVESPAYYE
+
+(3) Score 5.072 length 13 at residues 247->259
+           
+ Sequence: GAMLLVNSQPLLG
+           |           |
+         247           259
+ mature_peptide: QGLPLPHTAKYVGGHHIEGSDSTLPKKLQDLLDKAKHGVIYFNLGATVSE
+
+(4) Score 4.395 length 13 at residues 394->406
+           
+ Sequence: LLTVDLASSRGRG
+           |           |
+         394           406
+ mature_peptide: IRVPISSMIGYRVKDAIIEILGNYSYRSNAKEASFVLQTPLVPMKQEMLY
+
+(5) Score 3.698 length 13 at residues 182->194
+           
+ Sequence: MAAALPTLPPSVG
+           |           |
+         182           194
+ mature_peptide: DRVYRIGRQAYLSAWVYYITHYVESPAYYEIYQLAIQWRGRSPPLYEDLV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN5252_c0_g3_i1.p1     from: 1   to: 166
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN566_c0_g2_i1.p1     from: 1   to: 491
+# HitCount: 14
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.055 length 13 at residues 350->362
+           
+ Sequence: LLILTSASSGVFT
+           |           |
+         350           362
+ mature_peptide: VLLGAQLQFHWAPAWFTVFLIYGFSFVFTLGCAVIPFVLTAEVFLPEVRS
+
+(2) Score 6.756 length 13 at residues 329->341
+           
+ Sequence: LDFLIASILCVLA
+           |           |
+         329           341
+ mature_peptide: IDRCGRKFLLILTSASSGVFTVLLGAQLQFHWAPAWFTVFLIYGFSFVFT
+
+(3) Score 5.448 length 13 at residues 390->402
+           
+ Sequence: FTLGCAVIPFVLT
+           |           |
+         390           402
+ mature_peptide: AEVFLPEVRSFCNSVVMAFTWIFNFITLVIFNPLVEAVGLGPVFYFFSVV
+
+(4) Score 5.147 length 13 at residues 295->307
+           
+ Sequence: TIMMGCVVLQVYA
+           |           |
+         295           307
+ mature_peptide: EPLFKEAAPTMPANQCAIFLALDFLIASILCVLAIDRCGRKFLLILTSAS
+
+(5) Score 4.908 length 13 at residues 427->439
+           
+ Sequence: FITLVIFNPLVEA
+           |           |
+         427           439
+ mature_peptide: VGLGPVFYFFSVVCFIGALYSKFCVPETKGLSADAIQALFLKGRRQSVKP
+
+(6) Score 4.853 length 13 at residues 400->412
+           
+ Sequence: VLTAEVFLPEVRS
+           |           |
+         400           412
+ mature_peptide: FCNSVVMAFTWIFNFITLVIFNPLVEAVGLGPVFYFFSVVCFIGALYSKF
+
+(7) Score 4.826 length 13 at residues 57->69
+           
+ Sequence: DVSLLGSLPNIGG
+           |           |
+          57           69
+ mature_peptide: LVISPFCGYAFNTWGRKYATMLFTLPYVFAWLTISLTGNVPLVLIATCVA
+
+(8) Score 4.762 length 13 at residues 326->338
+           
+ Sequence: FLALDFLIASILC
+           |           |
+         326           338
+ mature_peptide: VLAIDRCGRKFLLILTSASSGVFTVLLGAQLQFHWAPAWFTVFLIYGFSF
+
+(9) Score 4.282 length 13 at residues 112->124
+           
+ Sequence: VLIATCVAGVGIA
+           |           |
+         112           124
+ mature_peptide: GQNVAIIYISEISHDSIRGGLTASSASGYFVGILTTYTLGGYLTYMQTIY
+
+(10) Score 4.141 length 13 at residues 448->460
+           
+ Sequence: FFSVVCFIGALYS
+           |           |
+         448           460
+ mature_peptide: KFCVPETKGLSADAIQALFLKGRRQSVKPKA
+
+(11) Score 4.069 length 13 at residues 347->359
+           
+ Sequence: RKFLLILTSASSG
+           |           |
+         347           359
+ mature_peptide: VFTVLLGAQLQFHWAPAWFTVFLIYGFSFVFTLGCAVIPFVLTAEVFLPE
+
+(12) Score 3.906 length 13 at residues 16->28
+           
+ Sequence: LATAVICFQACQT
+           |           |
+          16           28
+ mature_peptide: GFVIAWPSNTVANFMSNETVLSRPMSSMDVSLLGSLPNIGGLVISPFCGY
+
+(13) Score 3.702 length 13 at residues 325->337
+           
+ Sequence: IFLALDFLIASIL
+           |           |
+         325           337
+ mature_peptide: CVLAIDRCGRKFLLILTSASSGVFTVLLGAQLQFHWAPAWFTVFLIYGFS
+
+(14) Score 3.629 length 13 at residues 87->99
+           
+ Sequence: YATMLFTLPYVFA
+           |           |
+          87           99
+ mature_peptide: WLTISLTGNVPLVLIATCVAGVGIAGQNVAIIYISEISHDSIRGGLTASS
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN566_c0_g2_i2.p1     from: 1   to: 491
+# HitCount: 14
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.055 length 13 at residues 350->362
+           
+ Sequence: LLILTSASSGVFT
+           |           |
+         350           362
+ mature_peptide: VLLGAQLQFHWAPAWFTVFLIYGFSFVFTLGCAVIPFVLTAEVFLPEVRS
+
+(2) Score 6.756 length 13 at residues 329->341
+           
+ Sequence: LDFLIASILCVLA
+           |           |
+         329           341
+ mature_peptide: IDRCGRKFLLILTSASSGVFTVLLGAQLQFHWAPAWFTVFLIYGFSFVFT
+
+(3) Score 5.448 length 13 at residues 390->402
+           
+ Sequence: FTLGCAVIPFVLT
+           |           |
+         390           402
+ mature_peptide: AEVFLPEVRSFCNSVVMAFTWIFNFITLVIFNPLVEAVGLGPVFYFFSVV
+
+(4) Score 5.147 length 13 at residues 295->307
+           
+ Sequence: TIMMGCVVLQVYA
+           |           |
+         295           307
+ mature_peptide: EPLFKEAAPTMPANQCAIFLALDFLIASILCVLAIDRCGRKFLLILTSAS
+
+(5) Score 4.908 length 13 at residues 427->439
+           
+ Sequence: FITLVIFNPLVEA
+           |           |
+         427           439
+ mature_peptide: VGLGPVFYFFSVVCFIGALYSKFCVPETKGLSADAIQALFLKGRRQSVKP
+
+(6) Score 4.853 length 13 at residues 400->412
+           
+ Sequence: VLTAEVFLPEVRS
+           |           |
+         400           412
+ mature_peptide: FCNSVVMAFTWIFNFITLVIFNPLVEAVGLGPVFYFFSVVCFIGALYSKF
+
+(7) Score 4.826 length 13 at residues 57->69
+           
+ Sequence: DVSLLGSLPNIGG
+           |           |
+          57           69
+ mature_peptide: LVISPFCGYAFNTWGRKYATMLFTLPYVFAWLTISLTGNVPLVLIATCVA
+
+(8) Score 4.762 length 13 at residues 326->338
+           
+ Sequence: FLALDFLIASILC
+           |           |
+         326           338
+ mature_peptide: VLAIDRCGRKFLLILTSASSGVFTVLLGAQLQFHWAPAWFTVFLIYGFSF
+
+(9) Score 4.282 length 13 at residues 112->124
+           
+ Sequence: VLIATCVAGVGIA
+           |           |
+         112           124
+ mature_peptide: GQNVAIIYISEISHDSIRGGLTASSASGYFVGILTTYTLGGYLTYMQTIY
+
+(10) Score 4.141 length 13 at residues 448->460
+           
+ Sequence: FFSVVCFIGALYS
+           |           |
+         448           460
+ mature_peptide: KFCVPETKGLSADAIQALFLKGRRQSVKPKA
+
+(11) Score 4.069 length 13 at residues 347->359
+           
+ Sequence: RKFLLILTSASSG
+           |           |
+         347           359
+ mature_peptide: VFTVLLGAQLQFHWAPAWFTVFLIYGFSFVFTLGCAVIPFVLTAEVFLPE
+
+(12) Score 3.906 length 13 at residues 16->28
+           
+ Sequence: LATAVICFQACQT
+           |           |
+          16           28
+ mature_peptide: GFVIAWPSNTVANFMSNETVLSRPMSSMDVSLLGSLPNIGGLVISPFCGY
+
+(13) Score 3.702 length 13 at residues 325->337
+           
+ Sequence: IFLALDFLIASIL
+           |           |
+         325           337
+ mature_peptide: CVLAIDRCGRKFLLILTSASSGVFTVLLGAQLQFHWAPAWFTVFLIYGFS
+
+(14) Score 3.629 length 13 at residues 87->99
+           
+ Sequence: YATMLFTLPYVFA
+           |           |
+          87           99
+ mature_peptide: WLTISLTGNVPLVLIATCVAGVGIAGQNVAIIYISEISHDSIRGGLTASS
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN60107_c0_g1_i1.p1     from: 1   to: 102
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN654_c0_g1_i1.p1     from: 1   to: 145
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.098 length 13 at residues 7->19
+           
+ Sequence: ILLSTIFLSHVCA
+           |           |
+           7           19
+ mature_peptide: YKILVAFPYPGKSHSILGEGYVRHLLDAGHEVTYLTAIPYKNPHQNLRQV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN654_c0_g1_i2.p1     from: 1   to: 518
+# HitCount: 1
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 5.098 length 13 at residues 7->19
+           
+ Sequence: ILLSTIFLSHVCA
+           |           |
+           7           19
+ mature_peptide: YKILVAFPYPGKSHSILGEGYVRHLLDAGHEVTYLTAIPYKNPHQNLRQV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN6816_c0_g1_i13.p1     from: 1   to: 518
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN6816_c0_g1_i14.p1     from: 1   to: 358
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN6816_c0_g1_i16.p1     from: 1   to: 518
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN6816_c0_g1_i2.p1     from: 1   to: 177
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN6816_c0_g1_i4.p1     from: 1   to: 358
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN6816_c0_g1_i6.p1     from: 1   to: 277
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN7259_c0_g1_i1.p1     from: 1   to: 483
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.313 length 13 at residues 26->38
+           
+ Sequence: YIFLLFIVIKCES
+           |           |
+          26           38
+ mature_peptide: ANVDTISSDVRFKNVDRTIDISSQLVKISSKLTLENTGGTPVKNFLIAVE
+
+(2) Score 3.925 length 13 at residues 146->158
+           
+ Sequence: FTKALLPFPTAIS
+           |           |
+         146           158
+ mature_peptide: QQEDQLVKYIGNLYTYTPYYVTSQKTNVILNTKSVETFTKVKPFTQQDGG
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN729_c0_g1_i2.p1     from: 1   to: 237
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN729_c0_g1_i3.p1     from: 1   to: 112
+# HitCount: 2
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 4.462 length 13 at residues 66->78
+           
+ Sequence: FVLGVCLRLQVNP
+           |           |
+          66           78
+ mature_peptide: ENKNEFQGLSAERGFADFIFAHLVLHIVVINFIG
+
+(2) Score 3.565 length 13 at residues 53->65
+           
+ Sequence: NSFLSGFISTVSS
+           |           |
+          53           65
+ mature_peptide: FVLGVCLRLQVNPENKNEFQGLSAERGFADFIFAHLVLHIVVINFIG
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN729_c0_g1_i4.p1     from: 1   to: 287
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN729_c0_g1_i7.p1     from: 1   to: 228
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN729_c0_g1_i9.p1     from: 1   to: 288
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN7973_c0_g1_i1.p1     from: 1   to: 332
+# HitCount: 6
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.201 length 13 at residues 304->316
+           
+ Sequence: LILVCVFFSLLLS
+           |           |
+         304           316
+ mature_peptide: VFRAKTQGYPYSFLFK
+
+(2) Score 7.366 length 13 at residues 211->223
+           
+ Sequence: VCAVFFCFALVSG
+           |           |
+         211           223
+ mature_peptide: QMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLNGAVVVGMIL
+
+(3) Score 6.376 length 13 at residues 312->324
+           
+ Sequence: SLLLSVFRAKTQG
+           |           |
+         312           324
+ mature_peptide: YPYSFLFK
+
+(4) Score 5.721 length 13 at residues 310->322
+           
+ Sequence: FFSLLLSVFRAKT
+           |           |
+         310           322
+ mature_peptide: QGYPYSFLFK
+
+(5) Score 5.533 length 13 at residues 179->191
+           
+ Sequence: FVAFSMLFILIAG
+           |           |
+         179           191
+ mature_peptide: FLYLRRNNLEFLYNKQMWAVCAVFFCFALVSGQMWNHIRGPPFFHRTKNG
+
+(6) Score 4.761 length 13 at residues 207->219
+           
+ Sequence: QMWAVCAVFFCFA
+           |           |
+         207           219
+ mature_peptide: LVSGQMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLNGAVVV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN7973_c0_g1_i4.p1     from: 1   to: 293
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.366 length 13 at residues 211->223
+           
+ Sequence: VCAVFFCFALVSG
+           |           |
+         211           223
+ mature_peptide: QMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLSILFKIDYIV
+
+(2) Score 5.533 length 13 at residues 179->191
+           
+ Sequence: FVAFSMLFILIAG
+           |           |
+         179           191
+ mature_peptide: FLYLRRNNLEFLYNKQMWAVCAVFFCFALVSGQMWNHIRGPPFFHRTKNG
+
+(3) Score 4.761 length 13 at residues 207->219
+           
+ Sequence: QMWAVCAVFFCFA
+           |           |
+         207           219
+ mature_peptide: LVSGQMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLSILFKI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN7973_c0_g1_i8.p1     from: 1   to: 352
+# HitCount: 6
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.201 length 13 at residues 304->316
+           
+ Sequence: LILVCVFFSLLLS
+           |           |
+         304           316
+ mature_peptide: VFRAKTQGYPYRYVYLQKFPDDRESYLTRFYSLSPA
+
+(2) Score 7.366 length 13 at residues 211->223
+           
+ Sequence: VCAVFFCFALVSG
+           |           |
+         211           223
+ mature_peptide: QMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLNGAVVVGMIL
+
+(3) Score 6.376 length 13 at residues 312->324
+           
+ Sequence: SLLLSVFRAKTQG
+           |           |
+         312           324
+ mature_peptide: YPYRYVYLQKFPDDRESYLTRFYSLSPA
+
+(4) Score 5.721 length 13 at residues 310->322
+           
+ Sequence: FFSLLLSVFRAKT
+           |           |
+         310           322
+ mature_peptide: QGYPYRYVYLQKFPDDRESYLTRFYSLSPA
+
+(5) Score 5.533 length 13 at residues 179->191
+           
+ Sequence: FVAFSMLFILIAG
+           |           |
+         179           191
+ mature_peptide: FLYLRRNNLEFLYNKQMWAVCAVFFCFALVSGQMWNHIRGPPFFHRTKNG
+
+(6) Score 4.761 length 13 at residues 207->219
+           
+ Sequence: QMWAVCAVFFCFA
+           |           |
+         207           219
+ mature_peptide: LVSGQMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLNGAVVV
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN7973_c0_g1_i9.p1     from: 1   to: 293
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.366 length 13 at residues 211->223
+           
+ Sequence: VCAVFFCFALVSG
+           |           |
+         211           223
+ mature_peptide: QMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLSILFKIDYIV
+
+(2) Score 5.533 length 13 at residues 179->191
+           
+ Sequence: FVAFSMLFILIAG
+           |           |
+         179           191
+ mature_peptide: FLYLRRNNLEFLYNKQMWAVCAVFFCFALVSGQMWNHIRGPPFFHRTKNG
+
+(3) Score 4.761 length 13 at residues 207->219
+           
+ Sequence: QMWAVCAVFFCFA
+           |           |
+         207           219
+ mature_peptide: LVSGQMWNHIRGPPFFHRTKNGPVYINGGSHGQFILESYIVAVLSILFKI
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN8039_c0_g1_i1.p1     from: 1   to: 329
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN87_c1_g3_i1.p1     from: 1   to: 102
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN87_c1_g3_i2.p1     from: 1   to: 465
+# HitCount: 0
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+
+#---------------------------------------
+#
+# 
+# No scores over 3.50
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN87_c1_g3_i3.p1     from: 1   to: 99
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.941 length 13 at residues 62->74
+           
+ Sequence: LELVLTLLAISLA
+           |           |
+          62           74
+ mature_peptide: LILLLSFVLYKLWKYFSYSEKIKAN
+
+(2) Score 7.707 length 13 at residues 68->80
+           
+ Sequence: LLAISLALILLLS
+           |           |
+          68           80
+ mature_peptide: FVLYKLWKYFSYSEKIKAN
+
+(3) Score 6.015 length 13 at residues 66->78
+           
+ Sequence: LTLLAISLALILL
+           |           |
+          66           78
+ mature_peptide: LSFVLYKLWKYFSYSEKIKAN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN87_c1_g3_i4.p1     from: 1   to: 462
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.941 length 13 at residues 425->437
+           
+ Sequence: LELVLTLLAISLA
+           |           |
+         425           437
+ mature_peptide: LILLLSFVLYKLWKYFSYSEKIKAN
+
+(2) Score 7.707 length 13 at residues 431->443
+           
+ Sequence: LLAISLALILLLS
+           |           |
+         431           443
+ mature_peptide: FVLYKLWKYFSYSEKIKAN
+
+(3) Score 6.015 length 13 at residues 429->441
+           
+ Sequence: LTLLAISLALILL
+           |           |
+         429           441
+ mature_peptide: LSFVLYKLWKYFSYSEKIKAN
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN87_c1_g3_i5.p1     from: 1   to: 540
+# HitCount: 9
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 9.365 length 13 at residues 31->43
+           
+ Sequence: PIALLLFISLSIA
+           |           |
+          31           43
+ mature_peptide: SIDAARILAFFPLPSISHQVVFRPLTEELARRGHEVTVITTDAAFPKGGT
+
+(2) Score 8.085 length 13 at residues 35->47
+           
+ Sequence: LLFISLSIASIDA
+           |           |
+          35           47
+ mature_peptide: ARILAFFPLPSISHQVVFRPLTEELARRGHEVTVITTDAAFPKGGTPANL
+
+(3) Score 7.941 length 13 at residues 503->515
+           
+ Sequence: LELVLTLLAISLA
+           |           |
+         503           515
+ mature_peptide: LILLLSFVLYKLWKYFSYSEKIKAN
+
+(4) Score 7.707 length 13 at residues 509->521
+           
+ Sequence: LLAISLALILLLS
+           |           |
+         509           521
+ mature_peptide: FVLYKLWKYFSYSEKIKAN
+
+(5) Score 6.112 length 13 at residues 32->44
+           
+ Sequence: IALLLFISLSIAS
+           |           |
+          32           44
+ mature_peptide: IDAARILAFFPLPSISHQVVFRPLTEELARRGHEVTVITTDAAFPKGGTP
+
+(6) Score 6.015 length 13 at residues 507->519
+           
+ Sequence: LTLLAISLALILL
+           |           |
+         507           519
+ mature_peptide: LSFVLYKLWKYFSYSEKIKAN
+
+(7) Score 3.759 length 13 at residues 159->171
+           
+ Sequence: LLLLEAGVRPALL
+           |           |
+         159           171
+ mature_peptide: LSHAVKAPVILVSSLGPFNVNVETVGAAWHPLLYPDCLSQRLYNLSKWDK
+
+(8) Score 3.758 length 13 at residues 48->60
+           
+ Sequence: ARILAFFPLPSIS
+           |           |
+          48           60
+ mature_peptide: HQVVFRPLTEELARRGHEVTVITTDAAFPKGGTPANLTEIDVHDFSYENW
+
+(9) Score 3.720 length 13 at residues 50->62
+           
+ Sequence: ILAFFPLPSISHQ
+           |           |
+          50           62
+ mature_peptide: VVFRPLTEELARRGHEVTVITTDAAFPKGGTPANLTEIDVHDFSYENWRT
+
+
+#---------------------------------------
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN9587_c0_g1_i1.p1     from: 1   to: 148
+# HitCount: 3
+#
+# Reporting scores over 3.50
+#
+#=======================================
+
+(1) Score 7.437 length 13 at residues 107->119
+           
+ Sequence: LELFSLVLSALLA
+           |           |
+         107           119
+ mature_peptide: IILVSVGIVYSLYKFIANNYIIKAKVKST
+
+(2) Score 4.774 length 13 at residues 114->126
+           
+ Sequence: LSALLAIILVSVG
+           |           |
+         114           126
+ mature_peptide: IVYSLYKFIANNYIIKAKVKST
+
+(3) Score 4.623 length 13 at residues 118->130
+           
+ Sequence: LAIILVSVGIVYS
+           |           |
+         118           130
+ mature_peptide: LYKFIANNYIIKAKVKST
+
+
+#---------------------------------------
+#---------------------------------------
+
+#---------------------------------------
+# Total_sequences: 109
+# Total_length: 37531
+# Reported_sequences: 109
+# Reported_hitcount: 320
+#---------------------------------------

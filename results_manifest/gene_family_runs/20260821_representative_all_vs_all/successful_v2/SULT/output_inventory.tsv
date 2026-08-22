@@ -1,0 +1,10 @@
+SULT_Phoenei_longest_per_gene.fa	5244
+SULT_all_vs_all.tsv	5620
+SULT_edges_e1e5_cov50.tsv	3882
+SULT_nonself_edges.tsv	5604
+blastp.stderr.log	0
+blastp.stdout.log	0
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	540
+output_inventory.tsv	0
+run_summary.tsv	77

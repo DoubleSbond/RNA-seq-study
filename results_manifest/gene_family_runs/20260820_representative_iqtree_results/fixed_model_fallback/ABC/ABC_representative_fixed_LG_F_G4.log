@@ -1,0 +1,284 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    a024 (AVX512, FMA3, 1511 GB RAM)
+Command: /home/tuatchenjh9703/miniconda3/bin/iqtree -s /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_with_references.mafft.fa -m LG+F+G4 -B 1000 -alrt 1000 -T AUTO --threads-max 16 --prefix /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4
+Seed:    13791 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 19 17:51:23 2026
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_with_references.mafft.fa ... Fasta format detected
+Reading fasta file: done in 0.030144 secs using 73.11% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.037667 secs using 1175% CPU
+Alignment has 142 sequences with 6541 columns, 4122 distinct patterns
+2599 parsimony-informative, 1945 singleton sites, 1997 constant sites
+                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000274181 secs using 1134% CPU
+   1  TRINITY_DN10989_c0_g1_i5.p1    96.97%    passed     37.83%
+   2  TRINITY_DN1124_c0_g1_i10.p1    80.55%    failed      0.00%
+   3  TRINITY_DN1142_c1_g1_i12.p1    88.34%    failed      1.26%
+   4  TRINITY_DN11606_c0_g1_i6.p1    74.93%    failed      0.43%
+   5  TRINITY_DN11773_c0_g1_i7.p1    88.27%    failed      0.36%
+   6  TRINITY_DN12134_c0_g1_i3.p1    78.69%    passed      9.88%
+   7  TRINITY_DN12905_c0_g2_i1.p1    90.40%    passed     11.98%
+   8  TRINITY_DN13145_c0_g1_i1.p1    90.95%    passed      9.48%
+   9  TRINITY_DN1442_c0_g1_i7.p1     87.86%    passed     61.81%
+  10  TRINITY_DN16854_c0_g1_i1.p1    97.72%    passed     12.23%
+  11  TRINITY_DN16854_c0_g2_i2.p1    91.64%    failed      0.00%
+  12  TRINITY_DN16854_c0_g4_i1.p1    96.73%    failed      0.95%
+  13  TRINITY_DN16854_c0_g5_i1.p2    98.46%    passed     10.95%
+  14  TRINITY_DN18075_c0_g1_i1.p1    90.15%    failed      0.12%
+  15  TRINITY_DN18452_c0_g1_i1.p1    78.63%    failed      0.09%
+  16  TRINITY_DN18570_c0_g1_i2.p1    97.72%    passed     18.92%
+  17  TRINITY_DN20355_c0_g1_i13.p1   86.42%    failed      1.15%
+  18  TRINITY_DN21667_c0_g1_i1.p1    92.89%    passed     33.98%
+  19  TRINITY_DN21780_c0_g1_i1.p1    97.32%    passed     67.77%
+  20  TRINITY_DN21780_c0_g2_i1.p1    97.92%    failed      1.37%
+  21  TRINITY_DN2350_c0_g1_i14.p1    87.92%    passed      5.67%
+  22  TRINITY_DN254_c0_g1_i11.p1     75.63%    failed      0.00%
+  23  TRINITY_DN264_c0_g1_i11.p1     73.35%    failed      0.05%
+  24  TRINITY_DN30_c14_g1_i4.p1      89.79%    passed     22.31%
+  25  TRINITY_DN332_c0_g1_i5.p1      89.34%    passed     34.02%
+  26  TRINITY_DN33353_c0_g1_i3.p1    87.04%    failed      0.06%
+  27  TRINITY_DN33832_c0_g1_i10.p1   74.07%    failed      0.67%
+  28  TRINITY_DN35371_c0_g1_i1.p1    98.17%    failed      0.34%
+  29  TRINITY_DN35371_c0_g2_i1.p1    96.58%    passed     50.42%
+  30  TRINITY_DN37894_c0_g1_i1.p1    98.09%    failed      0.02%
+  31  TRINITY_DN4426_c0_g1_i3.p1     89.21%    failed      0.04%
+  32  TRINITY_DN44328_c0_g1_i1.p1    98.26%    failed      4.37%
+  33  TRINITY_DN4518_c0_g1_i1.p1     79.18%    failed      0.01%
+  34  TRINITY_DN4644_c0_g1_i1.p1     90.26%    passed     19.10%
+  35  TRINITY_DN4709_c2_g1_i1.p1     89.80%    passed      6.45%
+  36  TRINITY_DN4830_c1_g1_i1.p1     86.58%    failed      0.00%
+  37  TRINITY_DN48819_c0_g1_i1.p1    97.89%    passed     55.28%
+  38  TRINITY_DN49408_c0_g1_i1.p1    97.69%    passed     37.66%
+  39  TRINITY_DN5175_c0_g1_i3.p1     88.98%    failed      1.43%
+  40  TRINITY_DN5424_c0_g1_i1.p1     79.13%    failed      0.05%
+  41  TRINITY_DN54_c0_g1_i1.p1       78.93%    failed      0.03%
+  42  TRINITY_DN58313_c0_g1_i1.p1    98.41%    failed      1.27%
+  43  TRINITY_DN662_c0_g1_i2.p1      76.84%    failed      0.06%
+  44  TRINITY_DN662_c0_g4_i1.p1      79.45%    failed      0.02%
+  45  TRINITY_DN7214_c0_g1_i11.p1    90.00%    passed      5.25%
+  46  TRINITY_DN9037_c0_g1_i11.p1    87.01%    failed      0.00%
+  47  TRINITY_DN9474_c0_g1_i1.p1     77.82%    failed      1.62%
+  48  TRINITY_DN9946_c0_g2_i2.p1     90.52%    passed     21.05%
+  49  TRINITY_DN9986_c0_g1_i1.p1     91.38%    failed      1.37%
+  50  Bmori|NP_001266398.1           89.47%    passed      7.87%
+  51  Bmori|NP_001296549.1           91.00%    failed      3.88%
+  52  Bmori|XP_004925578.2           75.63%    failed      0.00%
+  53  Bmori|XP_004925914.2           88.85%    failed      0.08%
+  54  Bmori|XP_004925915.2           89.13%    failed      0.08%
+  55  Bmori|XP_004928585.1           86.15%    failed      0.00%
+  56  Bmori|XP_004929563.1           89.65%    failed      0.82%
+  57  Bmori|XP_004931997.1           90.22%    failed      1.02%
+  58  Bmori|XP_012544692.1           74.64%    failed      0.00%
+  59  Bmori|XP_012544694.1           74.65%    failed      0.00%
+  60  Bmori|XP_012545620.2           89.01%    failed      0.05%
+  61  Bmori|XP_012546162.1           90.34%    passed      5.25%
+  62  Bmori|XP_012546341.1           89.28%    passed      7.63%
+  63  Bmori|XP_012547622.2           89.34%    failed      0.05%
+  64  Bmori|XP_012548268.1           71.46%    failed      0.02%
+  65  Bmori|XP_012548721.2           90.46%    failed      0.01%
+  66  Bmori|XP_012549839.2           79.90%    failed      0.00%
+  67  Bmori|XP_012550859.1           87.01%    failed      0.05%
+  68  Bmori|XP_012551708.2           89.13%    passed     14.38%
+  69  Bmori|XP_021202653.1           79.96%    failed      0.00%
+  70  Bmori|XP_021202654.1           79.99%    failed      0.00%
+  71  Bmori|XP_037870027.1           90.38%    passed     10.58%
+  72  Bmori|XP_037870185.1           90.29%    passed     22.96%
+  73  Bmori|XP_037870408.1           90.35%    failed      1.48%
+  74  Bmori|XP_037871413.1           38.21%    failed      0.00%
+  75  Bmori|XP_037871705.1           79.16%    failed      0.30%
+  76  Bmori|XP_037871800.1           78.69%    passed      5.01%
+  77  Bmori|XP_037871801.1           78.69%    passed      5.42%
+  78  Bmori|XP_037871935.1           78.67%    failed      0.03%
+  79  Bmori|XP_037872082.1           79.15%    failed      0.00%
+  80  Bmori|XP_037872811.1           73.57%    failed      0.21%
+  81  Bmori|XP_037873529.1           74.94%    failed      0.00%
+  82  Bmori|XP_037874940.1           89.80%    passed     17.43%
+  83  Bmori|XP_037875232.1           78.23%    failed      0.13%
+  84  Bmori|XP_037876655.1           87.69%    passed     27.67%
+  85  Bmori|XP_037876657.1           88.27%    passed     19.69%
+  86  Bmori|XP_062527523.1           76.82%    failed      0.01%
+  87  Bmori|XP_062527524.1           76.84%    failed      0.02%
+  88  Bmori|XP_062528276.1           53.36%    failed      0.00%
+  89  Bmori|XP_062528587.1           80.61%    failed      0.00%
+  90  Bmori|XP_062529329.1           73.99%    failed      0.11%
+  91  Bmori|XP_062529330.1           75.74%    failed      0.26%
+  92  Bmori|XP_062532269.1           87.28%    failed      0.98%
+  93  Bmori|XP_062532619.1           88.47%    failed      0.67%
+  94  Spodoptera|XP_035429361.2      51.02%    failed      0.00%
+  95  Spodoptera|XP_035429563.2      78.69%    passed     13.01%
+  96  Spodoptera|XP_035429631.1      79.19%    failed      0.05%
+  97  Spodoptera|XP_035430840.1      78.67%    failed      0.00%
+  98  Spodoptera|XP_035432403.2      74.04%    failed      0.05%
+  99  Spodoptera|XP_035433428.2      75.65%    failed      0.00%
+ 100  Spodoptera|XP_035433541.1      89.33%    passed     14.87%
+ 101  Spodoptera|XP_035433542.1      89.50%    passed     12.01%
+ 102  Spodoptera|XP_035433730.1      90.26%    passed     14.25%
+ 103  Spodoptera|XP_035433785.2      90.52%    failed      0.61%
+ 104  Spodoptera|XP_035433786.2      90.00%    passed      8.09%
+ 105  Spodoptera|XP_035434175.2      76.82%    failed      0.07%
+ 106  Spodoptera|XP_035434176.2      76.85%    failed      0.00%
+ 107  Spodoptera|XP_035436877.2      74.59%    failed      0.00%
+ 108  Spodoptera|XP_035437183.1      89.22%    failed      0.25%
+ 109  Spodoptera|XP_035439505.2      87.04%    failed      0.02%
+ 110  Spodoptera|XP_035440320.2      81.07%    failed      0.00%
+ 111  Spodoptera|XP_035442104.1      87.86%    passed     52.21%
+ 112  Spodoptera|XP_035442105.1      87.86%    passed     40.56%
+ 113  Spodoptera|XP_035442106.1      88.04%    passed     52.67%
+ 114  Spodoptera|XP_035442107.1      88.12%    passed     37.38%
+ 115  Spodoptera|XP_035444891.1      90.40%    passed     30.48%
+ 116  Spodoptera|XP_035459161.2      88.64%    failed      0.00%
+ 117  Spodoptera|XP_035459162.2      88.92%    failed      0.00%
+ 118  Spodoptera|XP_050549297.1      79.07%    failed      0.00%
+ 119  Spodoptera|XP_050551035.1      72.36%    failed      0.00%
+ 120  Spodoptera|XP_050551669.1      37.93%    failed      0.00%
+ 121  Spodoptera|XP_050552858.1      71.69%    failed      0.28%
+ 122  Spodoptera|XP_050553324.1      80.11%    failed      0.00%
+ 123  Spodoptera|XP_050553743.1      78.69%    passed     13.09%
+ 124  Spodoptera|XP_050553760.1      79.22%    failed      0.15%
+ 125  Spodoptera|XP_050553786.1      85.92%    failed      0.00%
+ 126  Spodoptera|XP_050554070.1      88.30%    passed     36.63%
+ 127  Spodoptera|XP_050554087.1      88.99%    failed      1.08%
+ 128  Spodoptera|XP_050554172.1      87.92%    failed      0.48%
+ 129  Spodoptera|XP_050555130.1      90.95%    passed      9.74%
+ 130  Spodoptera|XP_050555131.1      90.98%    passed     12.23%
+ 131  Spodoptera|XP_050555165.1      88.30%    failed      2.38%
+ 132  Spodoptera|XP_050557282.1      90.29%    failed      0.22%
+ 133  Spodoptera|XP_050557302.1      90.23%    passed     55.82%
+ 134  Spodoptera|XP_050557326.1      83.95%    failed      0.00%
+ 135  Spodoptera|XP_050557659.1      88.79%    failed      0.00%
+ 136  Spodoptera|XP_050557763.1      77.82%    failed      0.75%
+ 137  Spodoptera|XP_050558209.1      79.33%    failed      0.00%
+ 138  Spodoptera|XP_050558210.1      79.79%    failed      0.00%
+ 139  Spodoptera|XP_050560908.1      73.48%    failed      0.01%
+ 140  Spodoptera|XP_050561843.1      76.84%    failed      0.05%
+ 141  Spodoptera|XP_050561861.1      89.82%    failed      3.34%
+ 142  Spodoptera|XP_050561948.1      90.43%    failed      3.99%
+WARNING: 140 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                          84.28%  96 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00221395 secs using 1238% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.184 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 13791)...
+
+NOTE: 379 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+11 trees examined
+Threads: 1 / Time: 17.099 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -334534
+Threads: 2 / Time: 8.504 sec / Speedup: 2.011 / Efficiency: 101% / LogL: -334534
+Threads: 3 / Time: 5.743 sec / Speedup: 2.978 / Efficiency: 99% / LogL: -334534
+Threads: 4 / Time: 6.048 sec / Speedup: 2.827 / Efficiency: 71% / LogL: -334534
+Threads: 5 / Time: 5.787 sec / Speedup: 2.955 / Efficiency: 59% / LogL: -334534
+Threads: 6 / Time: 5.050 sec / Speedup: 3.386 / Efficiency: 56% / LogL: -334534
+Threads: 7 / Time: 4.389 sec / Speedup: 3.896 / Efficiency: 56% / LogL: -334534
+Threads: 8 / Time: 4.036 sec / Speedup: 4.236 / Efficiency: 53% / LogL: -334534
+Threads: 9 / Time: 3.714 sec / Speedup: 4.604 / Efficiency: 51% / LogL: -334534
+Threads: 10 / Time: 3.605 sec / Speedup: 4.743 / Efficiency: 47% / LogL: -334534
+Determining AUTO threadcount: done in 64.3349 secs using 413% CPU
+BEST NUMBER OF THREADS: 9
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -191284.084
+2. Current log-likelihood: -169750.044
+3. Current log-likelihood: -169308.507
+4. Current log-likelihood: -169300.646
+5. Current log-likelihood: -169299.146
+6. Current log-likelihood: -169298.672
+Optimal log-likelihood: -169298.601
+Gamma shape alpha: 2.271
+Parameters optimization took 6 rounds (6.826 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.213175 secs using 900.2% CPU
+Computing ML distances took 0.214500 sec (of wall-clock time) 1.929920 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000236988 secs using 839.3% CPU
+Constructing RapidNJ tree: done in 0.0091269 secs using 887.8% CPU
+Computing RapidNJ tree took 0.009898 sec (of wall-clock time) 0.091598 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -172979.541
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 17.855 second
+Computing log-likelihood of 98 initial trees ... 35.189 seconds
+Current best score: -169298.601
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -169205.970
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -169205.009
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -169204.712
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -169203.757
+Iteration 10 / LogL: -169204.772 / Time: 0h:4m:45s
+Iteration 20 / LogL: -169204.689 / Time: 0h:7m:22s
+Finish initializing candidate tree set (12)
+Current best tree score: -169203.757 / CPU time: 362.605
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -169522.324 / Time: 0h:9m:24s (0h:24m:0s left)
+Iteration 40 / LogL: -169479.927 / Time: 0h:11m:26s (0h:18m:46s left)
+Iteration 50 / LogL: -169203.855 / Time: 0h:13m:35s (0h:14m:58s left)
+Log-likelihood cutoff on original alignment: -169251.317
+Iteration 60 / LogL: -169204.862 / Time: 0h:15m:37s (0h:11m:39s left)
+Iteration 70 / LogL: -169346.911 / Time: 0h:17m:48s (0h:8m:46s left)
+Iteration 80 / LogL: -169203.798 / Time: 0h:19m:59s (0h:6m:4s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -169203.721
+Iteration 90 / LogL: -169478.453 / Time: 0h:22m:48s (0h:3m:35s left)
+UPDATE BEST LOG-LIKELIHOOD: -169203.720
+Iteration 100 / LogL: -169204.703 / Time: 0h:25m:27s (0h:1m:1s left)
+Log-likelihood cutoff on original alignment: -169251.317
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:26m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -169203.720
+Optimal log-likelihood: -169203.718
+Gamma shape alpha: 2.265
+Parameters optimization took 1 rounds (0.746 sec)
+BEST SCORE FOUND : -169203.718
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+2.724 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.splits.nex
+Total tree length: 64.035
+
+Total number of iterations: 105
+CPU time used for tree search: 13306.552 sec (3h:41m:46s)
+Wall-clock time used for tree search: 1511.504 sec (0h:25m:11s)
+Total CPU time used: 13742.335 sec (3h:49m:2s)
+Total wall-clock time used: 1594.895 sec (0h:26m:34s)
+
+Computing bootstrap consensus tree...
+Reading input file /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.splits.nex...
+142 taxa and 416 splits.
+Consensus tree written to /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.contree
+Reading input trees file /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.contree
+Log-likelihood of consensus tree: -169203.784
+
+Analysis results written to: 
+  IQ-TREE report:                /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.iqtree
+  Maximum-likelihood tree:       /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.treefile
+  Likelihood distances:          /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.splits.nex
+  Consensus tree:                /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.contree
+  Screen log file:               /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/representative_iqtree_fixed_model_20260820T000000JST/ABC/ABC_representative_fixed_LG_F_G4.log
+
+Date and Time: Wed Aug 19 18:18:08 2026

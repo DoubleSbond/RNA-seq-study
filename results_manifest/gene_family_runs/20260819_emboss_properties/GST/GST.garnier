@@ -1,0 +1,3692 @@
+########################################
+# Program: garnier
+# Rundate: Wed 19 Aug 2026 17:16:11
+# Commandline: garnier
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/GST/GST_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/GST/GST.garnier
+#    -auto
+# Report_format: tagseq
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/GST/GST.garnier
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i10.p1     from: 1   to: 271
+# HitCount: 67
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSDEIAENGTANGDVPEIELIIKASTIDGRRKGACLFCQEYFMDLYLLAE
+helix HHHHHHHH       HHHHHHHHHH            HHHHHHHHHHHHH
+sheet                          E        EEE             
+turns                           TTTTTTTT                
+ coil         CCCCCCC                                   
+          .   60    .   70    .   80    .   90    .  100
+      LKTISLKVTTVDMQKPPPDFRTNFEATHPPILIDNGLAILENEKIERHIM
+helix HHHHHH                              HHHHHHHHHHHHH 
+sheet       EEEEEE                  EEEE               E
+turns             TT   TTT   TTT   T                    
+ coil               CCC   CCC   CCC     CC              
+          .  110    .  120    .  130    .  140    .  150
+      KSVPGGHNLFVQDKEVASLIENLYSKLKLVLVRKDDQKSAALRSHLSRID
+helix           HHHHHHHHHHHHHHHHHH   HHHHHHHHHHHHH      
+sheet         EE                  EEE                   
+turns T   T                                          TTT
+ coil  CCC CCC                                    CCC   
+          .  160    .  170    .  180    .  190    .  200
+      GLLERRGTRFLTGDTMCCFDCELMPRLQHIRVAGKYFVDFEIPTSFRALW
+helix                    HHHHHHHHHH                HHHHH
+sheet  EEE                         EEE    EEEEE         
+turns     TTTT TTTTTTTTTT             TTT        T      
+ coil C       C                          C     CC C     
+          .  210    .  220    .  230    .  240    .  250
+      RYMYHMYQLDAFTQSCPADQDIINHYKLQQVIYHHADSSSIAGTRICWCV
+helix H       H          H        H                     
+sheet     E EE            EEEE     EEEEE           EEEEE
+turns  TTT T   TTTTT  TTT     TTTT        T  TTTTTT     
+ coil               CC                  CC CC           
+          .  260    .  270
+      AKIGTNGAILWSKIPEPPDVT
+helix                      
+sheet E       EEE        EE
+turns  TTT             TT  
+ coil     CCCC   CCCCCC    
+
+#---------------------------------------
+#
+#  Residue totals: H:100   E: 54   T: 68   C: 49
+#         percent: H: 39.2 E: 21.2 T: 26.7 C: 19.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i11.p1     from: 1   to: 283
+# HitCount: 70
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSDEIAENGTANGDVPEIELIIKASTIDGRRKGACLFCQEYFMDLYLLAE
+helix HHHHHHHH       HHHHHHHHHH            HHHHHHHHHHHHH
+sheet                          E        EEE             
+turns                           TTTTTTTT                
+ coil         CCCCCCC                                   
+          .   60    .   70    .   80    .   90    .  100
+      LKTISLKVTTVDMQKPPPDFRTNFEATHPPILIDNGLAILENEKIERHIM
+helix HHHHHH                              HHHHHHHHHHHHH 
+sheet       EEEEEE                  EEEE               E
+turns             TT   TTT   TTT   T                    
+ coil               CCC   CCC   CCC     CC              
+          .  110    .  120    .  130    .  140    .  150
+      KSVPGGHNLFVQDKEVASLIENLYSKLKLVLVRKDDQKSAALRSHLSRID
+helix           HHHHHHHHHHHHHHHHHH   HHHHHHHHHHHHH      
+sheet         EE                  EEE                   
+turns T   T                                          TTT
+ coil  CCC CCC                                    CCC   
+          .  160    .  170    .  180    .  190    .  200
+      GLLERRGTRFLTGDTMCCFDCELMPRLQHIRVAGKYFVDFEIPTSFRALW
+helix                    HHHHHHHHHH                HHHHH
+sheet  EEE                         EEE    EEEEE         
+turns     TTTT TTTTTTTTTT             TTT        T      
+ coil C       C                          C     CC C     
+          .  210    .  220    .  230    .  240    .  250
+      RYMYHMYQLDAFTQSCPADQDIINHYKLQQQSAKGLVLTPTPTLQRKEIP
+helix H       H          H        HH                   H
+sheet     E EE            EEE       E   EEEEE     EE EE 
+turns  TTT T   TTTTT  TTT    TTTT     TT            T   
+ coil               CC           C   C       CCCCC      
+          .  260    .  270    .  280
+      TDVALKMKKHEELETPTFTTSIPIDVSENSVAE
+helix HHHHHHHHHHHHHHHH              HHH
+sheet                      EE          
+turns                 TTT              
+ coil                    CC  CCCCCCC   
+
+#---------------------------------------
+#
+#  Residue totals: H:121   E: 49   T: 62   C: 51
+#         percent: H: 45.3 E: 18.4 T: 23.2 C: 19.1
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i13.p1     from: 1   to: 283
+# HitCount: 70
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSDEIAENGTANGDVPEIELIIKASTIDGRRKGACLFCQEYFMDLYLLAE
+helix HHHHHHHH       HHHHHHHHHH            HHHHHHHHHHHHH
+sheet                          E        EEE             
+turns                           TTTTTTTT                
+ coil         CCCCCCC                                   
+          .   60    .   70    .   80    .   90    .  100
+      LKTISLKVTTVDMQKPPPDFRTNFEATHPPILIDNGLAILENEKIERHIM
+helix HHHHHH                              HHHHHHHHHHHHH 
+sheet       EEEEEE                  EEEE               E
+turns             TT   TTT   TTT   T                    
+ coil               CCC   CCC   CCC     CC              
+          .  110    .  120    .  130    .  140    .  150
+      KSVPGGHNLFVQDKEVASLIENLYSKLKLVLVRKDDQKSAALRSHLSRID
+helix           HHHHHHHHHHHHHHHHHH   HHHHHHHHHHHHH      
+sheet         EE                  EEE                   
+turns T   T                                          TTT
+ coil  CCC CCC                                    CCC   
+          .  160    .  170    .  180    .  190    .  200
+      GLLERRGTRFLTGDTMCCFDCELMPRLQHIRVAGKYFVDFEIPTSFRALW
+helix                    HHHHHHHHHH                HHHHH
+sheet  EEE                         EEE    EEEEE         
+turns     TTTT TTTTTTTTTT             TTT        T      
+ coil C       C                          C     CC C     
+          .  210    .  220    .  230    .  240    .  250
+      RYMYHMYQLDAFTQSCPADQDIINHYKLQQQSAKGLVLTPTPTLQRKEIP
+helix H       H          H        HH                   H
+sheet     E EE            EEE       E   EEEEE     EE EE 
+turns  TTT T   TTTTT  TTT    TTTT     TT            T   
+ coil               CC           C   C       CCCCC      
+          .  260    .  270    .  280
+      TDVALKMKKHEELETPTFTTSIPIDVSENSVAE
+helix HHHHHHHHHHHHHHHH              HHH
+sheet                      EE          
+turns                 TTT              
+ coil                    CC  CCCCCCC   
+
+#---------------------------------------
+#
+#  Residue totals: H:121   E: 49   T: 62   C: 51
+#         percent: H: 45.3 E: 18.4 T: 23.2 C: 19.1
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i4.p1     from: 1   to: 271
+# HitCount: 67
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSDEIAENGTANGDVPEIELIIKASTIDGRRKGACLFCQEYFMDLYLLAE
+helix HHHHHHHH       HHHHHHHHHH            HHHHHHHHHHHHH
+sheet                          E        EEE             
+turns                           TTTTTTTT                
+ coil         CCCCCCC                                   
+          .   60    .   70    .   80    .   90    .  100
+      LKTISLKVTTVDMQKPPPDFRTNFEATHPPILIDNGLAILENEKIERHIM
+helix HHHHHH                              HHHHHHHHHHHHH 
+sheet       EEEEEE                  EEEE               E
+turns             TT   TTT   TTT   T                    
+ coil               CCC   CCC   CCC     CC              
+          .  110    .  120    .  130    .  140    .  150
+      KSVPGGHNLFVQDKEVASLIENLYSKLKLVLVRKDDQKSAALRSHLSRID
+helix           HHHHHHHHHHHHHHHHHH   HHHHHHHHHHHHH      
+sheet         EE                  EEE                   
+turns T   T                                          TTT
+ coil  CCC CCC                                    CCC   
+          .  160    .  170    .  180    .  190    .  200
+      GLLERRGTRFLTGDTMCCFDCELMPRLQHIRVAGKYFVDFEIPTSFRALW
+helix                    HHHHHHHHHH                HHHHH
+sheet  EEE                         EEE    EEEEE         
+turns     TTTT TTTTTTTTTT             TTT        T      
+ coil C       C                          C     CC C     
+          .  210    .  220    .  230    .  240    .  250
+      RYMYHMYQLDAFTQSCPADQDIINHYKLQQVIYHHADSSSIAGTRICWCV
+helix H       H          H        H                     
+sheet     E EE            EEEE     EEEEE           EEEEE
+turns  TTT T   TTTTT  TTT     TTTT        T  TTTTTT     
+ coil               CC                  CC CC           
+          .  260    .  270
+      AKIGTNGAILWSKIPEPPDVT
+helix                      
+sheet E       EEE        EE
+turns  TTT             TT  
+ coil     CCCC   CCCCCC    
+
+#---------------------------------------
+#
+#  Residue totals: H:100   E: 54   T: 68   C: 49
+#         percent: H: 39.2 E: 21.2 T: 26.7 C: 19.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i6.p2     from: 1   to: 260
+# HitCount: 60
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSDEIAENGTANGDVPEIELIIKASTIDGRRKGACLFCQEYFMDLYLLAE
+helix HHHHHHHH       HHHHHHHHHH            HHHHHHHHHHHHH
+sheet                          E        EEE             
+turns                           TTTTTTTT                
+ coil         CCCCCCC                                   
+          .   60    .   70    .   80    .   90    .  100
+      LKTISLKVTTVDMQKPPPDFRTNFEATHPPILIDNGLAILENEKIERHIM
+helix HHHHHH                              HHHHHHHHHHHHH 
+sheet       EEEEEE                  EEEE               E
+turns             TT   TTT   TTT   T                    
+ coil               CCC   CCC   CCC     CC              
+          .  110    .  120    .  130    .  140    .  150
+      KSVPGGHNLFVQDKEVASLIENLYSKLKLVLVRKDDQKSAALRSHLSRID
+helix           HHHHHHHHHHHHHHHHHH   HHHHHHHHHHHHH      
+sheet         EE                  EEE                   
+turns T   T                                          TTT
+ coil  CCC CCC                                    CCC   
+          .  160    .  170    .  180    .  190    .  200
+      GLLERRGTRFLTGDTMCCFDCELMPRLQHIRVAGKYFVDFEIPTSFRALW
+helix                    HHHHHHHHHH                HHHHH
+sheet  EEE                         EEE    EEEEE         
+turns     TTTT TTTTTTTTTT             TTT        T      
+ coil C       C                          C     CC C     
+          .  210    .  220    .  230    .  240    .  250
+      RYMYHMYQLDAFTQSCPADQDIINHYKLQQALKMKKHEELETPTFTTSIP
+helix H       H          H      HHHHHHHHHHHHHHHHH       
+sheet     E EE            EEEE                        EE
+turns  TTT T   TTTTT  TTT     TT                 TTT    
+ coil               CC                              CC  
+          .  260
+      IDVSENSVAE
+helix        HHH
+sheet           
+turns           
+ coil CCCCCCC   
+
+#---------------------------------------
+#
+#  Residue totals: H:119   E: 40   T: 57   C: 44
+#         percent: H: 48.8 E: 16.4 T: 23.4 C: 18.0
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN114_c0_g1_i7.p1     from: 1   to: 271
+# HitCount: 67
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSDEIAENGTANGDVPEIELIIKASTIDGRRKGACLFCQEYFMDLYLLAE
+helix HHHHHHHH       HHHHHHHHHH            HHHHHHHHHHHHH
+sheet                          E        EEE             
+turns                           TTTTTTTT                
+ coil         CCCCCCC                                   
+          .   60    .   70    .   80    .   90    .  100
+      LKTISLKVTTVDMQKPPPDFRTNFEATHPPILIDNGLAILENEKIERHIM
+helix HHHHHH                              HHHHHHHHHHHHH 
+sheet       EEEEEE                  EEEE               E
+turns             TT   TTT   TTT   T                    
+ coil               CCC   CCC   CCC     CC              
+          .  110    .  120    .  130    .  140    .  150
+      KSVPGGHNLFVQDKEVASLIENLYSKLKLVLVRKDDQKSAALRSHLSRID
+helix           HHHHHHHHHHHHHHHHHH   HHHHHHHHHHHHH      
+sheet         EE                  EEE                   
+turns T   T                                          TTT
+ coil  CCC CCC                                    CCC   
+          .  160    .  170    .  180    .  190    .  200
+      GLLERRGTRFLTGDTMCCFDCELMPRLQHIRVAGKYFVDFEIPTSFRALW
+helix                    HHHHHHHHHH                HHHHH
+sheet  EEE                         EEE    EEEEE         
+turns     TTTT TTTTTTTTTT             TTT        T      
+ coil C       C                          C     CC C     
+          .  210    .  220    .  230    .  240    .  250
+      RYMYHMYQLDAFTQSCPADQDIINHYKLQQVIYHHADSSSIAGTRICWCV
+helix H       H          H        H                     
+sheet     E EE            EEEE     EEEEE           EEEEE
+turns  TTT T   TTTTT  TTT     TTTT        T  TTTTTT     
+ coil               CC                  CC CC           
+          .  260    .  270
+      AKIGTNGAILWSKIPEPPDVT
+helix                      
+sheet E       EEE        EE
+turns  TTT             TT  
+ coil     CCCC   CCCCCC    
+
+#---------------------------------------
+#
+#  Residue totals: H:100   E: 54   T: 68   C: 49
+#         percent: H: 39.2 E: 21.2 T: 26.7 C: 19.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11666_c0_g1_i1.p1     from: 1   to: 204
+# HitCount: 48
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MLEALPAGLITVGSFFHPHLSGTPKLPFILPVREILKSGDIGNSSNLRKL
+helix HHHHHHHH                       HHHH              H
+sheet         EEEEEEEE         EEEEEE    E            E 
+turns                   TTTT T            TTTT          
+ coil                 CC    C C               CCCCCCCC  
+          .   60    .   70    .   80    .   90    .  100
+      AEENPNAKSILLYKAEIQDRKHGIITNEEEYSKVLKIIDQVLTEVEEQLK
+helix HHHHHHHHHHHHHHHHHHHH       HHHHHHHHH     HHHHHHHHH
+sheet                                     EEEEE         
+turns                     T                             
+ coil                      CCCCCC                       
+          .  110    .  120    .  130    .  140    .  150
+      KQPEGNWLCCENFSIADINLAILLQRLWELGYEGRYWEAGKRPLLENYYN
+helix              HHHHHHHHHH H H         HH            
+sheet        E               E E                  EE    
+turns   TTTTT TTTTT                 TT  TT  TT      TTTT
+ coil CC                         CCC  CC      CCCC      
+          .  160    .  170    .  180    .  190    .  200
+      RVKQRESFKKTIPNLPVHLKMIVMSQPPAYLGAAGAVSVGVVVAVVYIFK
+helix  HHHHH         HHHH              H           HHHHH
+sheet                    EEEEEE    EEEE EEEEEEEEEEE     
+turns T     TTTT                                        
+ coil           CCCCC          CCCC                     
+      0
+      KIIH
+helix H   
+sheet  EEE
+turns     
+ coil     
+
+#---------------------------------------
+#
+#  Residue totals: H: 81   E: 50   T: 35   C: 38
+#         percent: H: 43.1 E: 26.6 T: 18.6 C: 20.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11666_c0_g1_i1.p2     from: 1   to: 124
+# HitCount: 29
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MHYVQKYLEKLPIPTFNTNTNAGKKSSNIYLYCSYYSFYSQKVLMALYEK
+helix HHHHHHH                                 HHHHHHHHHH
+sheet        E EEEEEEE          EEEEEEEE                
+turns         T            TTTTT        TTTTTT          
+ coil                 CCCCC                             
+          .   60    .   70    .   80    .   90    .  100
+      NIDFKPLLVDITKGEQYSSWFLDINPRGEIPVLKVKNEVIPDSTRILDYL
+helix HHHHHHHHHH                      HHHH              
+sheet           EEE      EE        EEE    EEEE   EEEEEEE
+turns               TTTTT   T   TT             T        
+ coil              C       C CCC  C           C C       
+          .  110    .  120
+      EFYLDPGLFLNKFKKNIIQAIIFI
+helix      HHHHHHHHHHHHH      
+sheet EE                EEEEEE
+turns   T                     
+ coil    CC                   
+
+#---------------------------------------
+#
+#  Residue totals: H: 44   E: 43   T: 22   C: 15
+#         percent: H: 40.7 E: 39.8 T: 20.4 C: 13.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN11666_c0_g1_i2.p1     from: 1   to: 333
+# HitCount: 75
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MHYVQKYLEKLPIPTFNTNTNAGKKSSNIYLYCSYYSFYSQKVLMALYEK
+helix HHHHHHH                                 HHHHHHHHHH
+sheet        E EEEEEEE          EEEEEEEE                
+turns         T            TTTTT        TTTTTT          
+ coil                 CCCCC                             
+          .   60    .   70    .   80    .   90    .  100
+      NIDFKPLLVDITKGEQYSSWFLDINPRGEIPVLKVKNEVIPDSTRILDYL
+helix HHHHHHHHHH                      HHHH              
+sheet           EEE      EE        EEE    EEEE   EEEEEEE
+turns               TTTTT   T   TT             T        
+ coil              C       C CCC  C           C C       
+          .  110    .  120    .  130    .  140    .  150
+      EFYLDPELTPLIKVSTERKVLENINKFREMLEALPAGLITVGSFFHPHLS
+helix      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH             
+sheet EE                                   EEEEEEEE     
+turns   T                                            TTT
+ coil    CC                                        CC   
+          .  160    .  170    .  180    .  190    .  200
+      GTPKLPFILPVREILKSGDIGNSSNLRKLAEENPNAKSILLYKAEIQDRK
+helix           HHHH              HHHHHHHHHHHHHHHHHHHHH 
+sheet     EEEEEE    E            E                      
+turns T T            TTTT                              T
+ coil  C C               CCCCCCCC                       
+          .  210    .  220    .  230    .  240    .  250
+      HGIITNEEEYSKVLKIIDQVLTEVEEQLKKQPEGNWLCCENFSIADINLA
+helix       HHHHHHHHH     HHHHHHHHH             HHHHHHHH
+sheet                EEEEE                E             
+turns                                TTTTT TTTTT        
+ coil CCCCCC                       CC                   
+          .  260    .  270    .  280    .  290    .  300
+      ILLQRLWELGYEGRYWEAGKRPLLENYYNRVKQRESFKKTIPNLPVHLKM
+helix HH H H         HH             HHHHH         HHHH  
+sheet   E E                  EE                       EE
+turns          TT  TT  TT      TTTTT     TTTT           
+ coil       CCC  CC      CCCC                CCCCC      
+          .  310    .  320    .  330
+      IVMSQPPAYLGAAGAVSVGVVVAVVYIFKKIIH
+helix             H           HHHHHH   
+sheet EEEE    EEEE EEEEEEEEEEE      EEE
+turns                                  
+ coil     CCCC                         
+
+#---------------------------------------
+#
+#  Residue totals: H:136   E: 87   T: 57   C: 53
+#         percent: H: 42.9 E: 27.4 T: 18.0 C: 16.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN12434_c0_g2_i1.p1     from: 1   to: 216
+# HitCount: 42
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSVKLYTLDLSPPVRAAMMACDIFNVPFEKIPVNLLAKDHLKPEYLKKNP
+helix HH           HHHHHHHHHHH     HHHHHHHHHHHHHHHHH    
+sheet   EEEEEE                                          
+turns         T                  TT                 TT  
+ coil          CCCC           CCC                     CC
+          .   60    .   70    .   80    .   90    .  100
+      LHTIPLLEDGDLILHDSHAIMAYLAEAYGQDDSWYPKDVKKRALVNQKLF
+helix       HHHHHHHHHHHHHHHHHHHHH           HHHHHHHH    
+sheet  EEEEE                                        EEEE
+turns T                          TTTTTTT TTT            
+ coil                                   C               
+          .  110    .  120    .  130    .  140    .  150
+      FDTSILFPRMRNVTYPLIVEGNKNIDPKRYDDIAEAYGFIEEFLSRTAYL
+helix                                 HHHHHHHHHHHHHHHHHH
+sheet EEE           EEEEEE        E EE                  
+turns         TTTTT       TTTT  TT T                    
+ coil    CCCCC     C          CC                        
+          .  160    .  170    .  180    .  190    .  200
+      AADHITIADVAAFSTMTGLEVILPIDAKKFPKTIVWLTNLKKTPFSINQN
+helix HHHHHHHHHHHHHHH   HHH HHHHHH        HH            
+sheet                      E          EEEE        EE    
+turns                               TT      TTT         
+ coil                CCC          CC           CCC  CCCC
+          .  210
+      ESGASGLAKMIKKSLA
+helix    HHHHHHHHHHHHH
+sheet                 
+turns                 
+ coil CCC             
+
+#---------------------------------------
+#
+#  Residue totals: H:116   E: 34   T: 33   C: 33
+#         percent: H: 58.0 E: 17.0 T: 16.5 C: 16.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN12434_c0_g2_i2.p1     from: 1   to: 216
+# HitCount: 42
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSVKLYTLDLSPPVRAAMMACDIFNVPFEKIPVNLLAKDHLKPEYLKKNP
+helix HH           HHHHHHHHHHH     HHHHHHHHHHHHHHHHH    
+sheet   EEEEEE                                          
+turns         T                  TT                 TT  
+ coil          CCCC           CCC                     CC
+          .   60    .   70    .   80    .   90    .  100
+      LHTIPLLEDGDLILHDSHAIMAYLAEAYGQDDSWYPKDVKKRALVNQKLF
+helix       HHHHHHHHHHHHHHHHHHHHH           HHHHHHHH    
+sheet  EEEEE                                        EEEE
+turns T                          TTTTTTT TTT            
+ coil                                   C               
+          .  110    .  120    .  130    .  140    .  150
+      FDTSILFPRMRNVTYPLIVEGNKNIDPKRYDDIAEAYGFIEEFLSRTAYL
+helix                                 HHHHHHHHHHHHHHHHHH
+sheet EEE           EEEEEE        E EE                  
+turns         TTTTT       TTTT  TT T                    
+ coil    CCCCC     C          CC                        
+          .  160    .  170    .  180    .  190    .  200
+      AADHITIADVAAFSTMTGLEVILPIDAKKFPKTIVWLTNLKKTPFSINQN
+helix HHHHHHHHHHHHHHH   HHH HHHHHH        HH            
+sheet                      E          EEEE        EE    
+turns                               TT      TTT         
+ coil                CCC          CC           CCC  CCCC
+          .  210
+      ESGASGLAKMIKKSLA
+helix    HHHHHHHHHHHHH
+sheet                 
+turns                 
+ coil CCC             
+
+#---------------------------------------
+#
+#  Residue totals: H:116   E: 34   T: 33   C: 33
+#         percent: H: 58.0 E: 17.0 T: 16.5 C: 16.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i1.p1     from: 1   to: 227
+# HitCount: 59
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPTLYMIQVSTPANAVRILAEIIGLDLEIKDLDFANLEHKSPQHLKRNP
+helix HHHHH          HHHHHHHHHHHHHHHHHHHHHHHHHH H H     
+sheet      EEEEE                                        
+turns                                            T  TT T
+ coil           CCCCC                          C   C  C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALIDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEE              EEEEE     EEEE    EEEE      
+turns TT      TT                 T         TTT          
+ coil           CCC               CCCC    C             
+          .  110    .  120    .  130    .  140    .  150
+      MFFNVGVYFVRLKVIVLPALFGDLDGPTEKHKADIDEAYGVVEAYISSHN
+helix       HHH                 HHHHHHHHHHHHHHHHHHHHHH  
+sheet EEE      EEEEEEEEEEEE                             
+turns    TT                TT                         T 
+ coil      C                 CCC                       C
+          .  160    .  170    .  180    .  190    .  200
+      LKYLVTDQLTIADLSVGGTTIAMGYLYKLNASKFPRTASWVARLEQHPTI
+helix                          HHH           HHHHHH     
+sheet   EEEEEEEEEEEE    EEEEEEE   E    E                
+turns  T              T            TTT   T            TT
+ coil C             CC C              C C CCC      CCC  
+          .  210    .  220
+      NKFLVPNSKTLGDIIHAAWQANKDKKH
+helix                HHHHHHHH    
+sheet EEEEE      EEEE            
+turns       TTT              TTT 
+ coil      C   CC               C
+
+#---------------------------------------
+#
+#  Residue totals: H: 90   E: 69   T: 31   C: 37
+#         percent: H: 42.7 E: 32.7 T: 14.7 C: 17.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i20.p1     from: 1   to: 148
+# HitCount: 37
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      NKMAPTLYMIQVSTPANAVRILAEIIGLDLEIKELDFANMEHKSPQHIKR
+helix     HH           HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH   
+sheet       EEEEEE                                      
+turns  T                                             TTT
+ coil C CC        CCCCC                                 
+          .   60    .   70    .   80    .   90    .  100
+      NPMGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALID
+helix                HHHHHHHHH                      HHHH
+sheet     EEEEEE              EEEEE     EEEE    EEEE    
+turns  TTT      TT                 T         TTT        
+ coil C           CCC               CCCC    C           
+          .  110    .  120    .  130    .  140
+      QAMFFNVGVYFVRLKVIVVSTQDQEIALTYFSSSCYLKFNHASSNVSR
+helix HH      HHHH          HH                        
+sheet   EEE       EEEEEEEE    EEEEE        EE         
+turns      TT                      TTTTTTTT  T    T  T
+ coil        C            CC                  CCCC CC 
+
+#---------------------------------------
+#
+#  Residue totals: H: 53   E: 43   T: 26   C: 26
+#         percent: H: 40.2 E: 32.6 T: 19.7 C: 19.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i26.p1     from: 1   to: 227
+# HitCount: 54
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPTLYMIQVSTPANAVRILAEIIGLDLEIKELDFANMEHKSPQHIKRNP
+helix HHHHH          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+sheet      EEEEE                                        
+turns                                              TTT T
+ coil           CCCCC                                 C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALIDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEE              EEEEE     EEEE    EEEE      
+turns TT      TT                 T         TTT          
+ coil           CCC               CCCC    C             
+          .  110    .  120    .  130    .  140    .  150
+      MFFNVGVYFVRLKVIVLPALFGDLDGPTEKHKADIDEAYGVVEAYISSHN
+helix       HHH                 HHHHHHHHHHHHHHHHHHHHHH  
+sheet EEE      EEEEEEEEEEEE                             
+turns    TT                TT                         T 
+ coil      C                 CCC                       C
+          .  160    .  170    .  180    .  190    .  200
+      LKYLVTDQLTIADLSVGGTTIAMGYLYKLNASKFPRTASWVARLEQHPTI
+helix                          HHH           HHHHHH     
+sheet   EEEEEEEEEEEE    EEEEEEE   E    E                
+turns  T              T            TTT   T            TT
+ coil C             CC C              C C CCC      CCC  
+          .  210    .  220
+      NKFLVPNSKTLGDIIHAAWQANKDKKH
+helix                HHHHHHHH    
+sheet EEEEE      EEEE            
+turns       TTT              TTT 
+ coil      C   CC               C
+
+#---------------------------------------
+#
+#  Residue totals: H: 92   E: 69   T: 31   C: 35
+#         percent: H: 43.6 E: 32.7 T: 14.7 C: 16.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i32.p1     from: 1   to: 146
+# HitCount: 32
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPTLYMIQVSTPANAVRILAEIIGLDLEIKELDFANMEHKSPQHIKRNP
+helix HHHHH          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+sheet      EEEEE                                        
+turns                                              TTT T
+ coil           CCCCC                                 C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALIDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEE              EEEEE     EEEE    EEEE      
+turns TT      TT                 T         TTT          
+ coil           CCC               CCCC    C             
+          .  110    .  120    .  130    .  140
+      MFFNVGVYFVRLKVIVVSTQDQEIALTYFSSSCYLKFNHASSSVSR
+helix       HHHH          HH                        
+sheet EEE       EEEEEEEE    EEEEE        EE         
+turns    TT                      TTTTTTTT  T       T
+ coil      C            CC                  CCCCCCC 
+
+#---------------------------------------
+#
+#  Residue totals: H: 56   E: 42   T: 24   C: 24
+#         percent: H: 43.1 E: 32.3 T: 18.5 C: 18.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i33.p1     from: 1   to: 227
+# HitCount: 59
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPTLYMIQVSTPANAVRILAEIIGLDLEIKDLDFANLEHKSPQHLKRNP
+helix HHHHH          HHHHHHHHHHHHHHHHHHHHHHHHHH H H     
+sheet      EEEEE                                        
+turns                                            T  TT T
+ coil           CCCCC                          C   C  C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALIDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEE              EEEEE     EEEE    EEEE      
+turns TT      TT                 T         TTT          
+ coil           CCC               CCCC    C             
+          .  110    .  120    .  130    .  140    .  150
+      MFFNVGVYFVRLKVIVLPALFGDLDGPTEKHKADIDEAYGVVEAYISSHN
+helix       HHH                 HHHHHHHHHHHHHHHHHHHHHH  
+sheet EEE      EEEEEEEEEEEE                             
+turns    TT                TT                         T 
+ coil      C                 CCC                       C
+          .  160    .  170    .  180    .  190    .  200
+      LKYLVTDQLTIADLSVGGTTIAMGYLYKLNASKFPRTASWVARLEQHPTI
+helix                          HHH           HHHHHH     
+sheet   EEEEEEEEEEEE    EEEEEEE   E    E                
+turns  T              T            TTT   T            TT
+ coil C             CC C              C C CCC      CCC  
+          .  210    .  220
+      NKFLVPNSKTLGDIIHAAWQANKDKKH
+helix                HHHHHHHH    
+sheet EEEEE      EEEE            
+turns       TTT              TTT 
+ coil      C   CC               C
+
+#---------------------------------------
+#
+#  Residue totals: H: 90   E: 69   T: 31   C: 37
+#         percent: H: 42.7 E: 32.7 T: 14.7 C: 17.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i39.p1     from: 1   to: 134
+# HitCount: 33
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPTLYMIQVSTPANAVRILAEIIGLDLEIKDLDFANLEHKSPQHLKRNP
+helix HHHHH          HHHHHHHHHHHHHHHHHHHHHHHHHH H H     
+sheet      EEEEE                                        
+turns                                            T  TT T
+ coil           CCCCC                          C   C  C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALIDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEE              EEEEE     EEEE    EEEE      
+turns TT      TT                 T         TTT          
+ coil           CCC               CCCC    C             
+          .  110    .  120    .  130
+      MFFNVGVYFVRLKVIVVSTQNQEIAMTYFASSCY
+helix       HHHH            H           
+sheet EEE       EEEEEEE      EEEEE      
+turns    TT                       TTTTTT
+ coil      C           CCCCC            
+
+#---------------------------------------
+#
+#  Residue totals: H: 53   E: 39   T: 20   C: 22
+#         percent: H: 44.9 E: 33.1 T: 16.9 C: 18.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i47.p1     from: 1   to: 227
+# HitCount: 54
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPTLYMIQVSTPANAVRILAEIIGLDLEIKELDFANMEHKSPQHIKRNP
+helix HHHHH          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+sheet      EEEEE                                        
+turns                                              TTT T
+ coil           CCCCC                                 C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALIDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEE              EEEEE     EEEE    EEEE      
+turns TT      TT                 T         TTT          
+ coil           CCC               CCCC    C             
+          .  110    .  120    .  130    .  140    .  150
+      MFFNVGVYFVRLKVIVLPALFGDLDGPTEKHKADIDEAYGVVEAYISSHN
+helix       HHH                 HHHHHHHHHHHHHHHHHHHHHH  
+sheet EEE      EEEEEEEEEEEE                             
+turns    TT                TT                         T 
+ coil      C                 CCC                       C
+          .  160    .  170    .  180    .  190    .  200
+      LKYLVTDQLTIADLSVGGTTIAMGYLYKLNASKFPRTASWVARLEQHPTI
+helix                          HHH           HHHHHH     
+sheet   EEEEEEEEEEEE    EEEEEEE   E    E                
+turns  T              T            TTT   T            TT
+ coil C             CC C              C C CCC      CCC  
+          .  210    .  220
+      NKFLVPNSKTLGDIIHAAWQANKDKKH
+helix                HHHHHHHH    
+sheet EEEEE      EEEE            
+turns       TTT              TTT 
+ coil      C   CC               C
+
+#---------------------------------------
+#
+#  Residue totals: H: 92   E: 69   T: 31   C: 35
+#         percent: H: 43.6 E: 32.7 T: 14.7 C: 16.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1310_c0_g1_i8.p1     from: 1   to: 134
+# HitCount: 28
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPTLYMIQVSTPANAVRILAEIIGLDLEIKELDFANMEHKSPQHIKRNP
+helix HHHHH          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+sheet      EEEEE                                        
+turns                                              TTT T
+ coil           CCCCC                                 C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTVPTLVDGDFTISESHATMKYMLSVYGGDKAESLYPSDVRTRALIDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEE              EEEEE     EEEE    EEEE      
+turns TT      TT                 T         TTT          
+ coil           CCC               CCCC    C             
+          .  110    .  120    .  130
+      MFFNVGVYFVRLKVIVVSTQNQEIAMTYFASSCY
+helix       HHHH            H           
+sheet EEE       EEEEEEE      EEEEE      
+turns    TT                       TTTTTT
+ coil      C           CCCCC            
+
+#---------------------------------------
+#
+#  Residue totals: H: 55   E: 39   T: 20   C: 20
+#         percent: H: 46.6 E: 33.1 T: 16.9 C: 16.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i12.p1     from: 1   to: 201
+# HitCount: 44
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MLCSKNNEELGTVDKVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQ
+helix HHH    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H  
+sheet                                               E EE
+turns                                             T     
+ coil    CCCC                                           
+          .   60    .   70    .   80    .   90    .  100
+      SSRTKSSTKEKVDDKKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNR
+helix         HHHHHHHHHHHH   H H                        
+sheet E                                         EEEEE   
+turns  TTT                    T TTTTTTTT TTTT  T        
+ coil     CCCC            CCC           C    CC      CCC
+          .  110    .  120    .  130    .  140    .  150
+      GEDEKILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPW
+helix  HHHHHHH               HHHH                       
+sheet         EEEEEE  EE              EEEEE     EEEEE   
+turns               TT  TTTTT    TTTTT     T  T       TT
+ coil C                                     CC C     C  
+          .  160    .  170    .  180    .  190    .  200
+      LSRHIRSELTATAQKEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGC
+helix        HHHHHHHHHHHHHHHHHHHHHHHHHH                 
+sheet E                                   EEEEE         
+turns                                  TTT       TTTTTTT
+ coil  CCCCCC                                  CC       
+      0
+      K
+helix  
+sheet  
+turns T
+ coil  
+
+#---------------------------------------
+#
+#  Residue totals: H: 93   E: 33   T: 45   C: 30
+#         percent: H: 50.3 E: 17.8 T: 24.3 C: 16.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i12.p2     from: 1   to: 149
+# HitCount: 13
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDR
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHH
+sheet                                                  
+turns                            TT                    
+ coil                                                  
+
+#---------------------------------------
+#
+#  Residue totals: H:134   E:  3   T:  6   C:  6
+#         percent: H: 100.8 E:  2.3 T:  4.5 C:  4.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i14.p1     from: 1   to: 825
+# HitCount: 167
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140    .  150
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDRL
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                            TT                     
+ coil                                                   
+          .  160    .  170    .  180    .  190    .  200
+      QELHERYEKITQLKKKVKSVIETLKKSKKLTPDIEKGILNAHNLSELDLI
+helix HHHHHHHHHHHHHHHHHHHHHHHHHH     HHHHHHHHHH  HHHHHHH
+sheet                                                   
+turns                           TTT                     
+ coil                              CC          CC       
+          .  210    .  220    .  230    .  240    .  250
+      YAPLKSHSLSLAERARNLGLEPHAIKALDGENINLSMLCSKNNEELGTVD
+helix HHHHH   HHHHHHHH    HHHHHHHHHHHHHHHHHH     HHHHHHH
+sheet                                                   
+turns                                       T           
+ coil      CCC        CCCC                   CCCC       
+          .  260    .  270    .  280    .  290    .  300
+      KVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQSSRTKSSTKEKVDD
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H          HHHHHH
+sheet                                 E EEE             
+turns                               T      TTT          
+ coil                                         CCCC      
+          .  310    .  320    .  330    .  340    .  350
+      KKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNRGEDEKILSVKVNVP
+helix HHHHHH   H H                         HHHHHHH      
+sheet                             EEEEE           EEEEEE
+turns           T TTTTTTTT TTTT  T                      
+ coil       CCC           C    CC      CCCC             
+          .  360    .  370    .  380    .  390    .  400
+      DWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPWLSRHIRSELTATAQ
+helix          HHHH                              HHHHHHH
+sheet   EE              EEEEE     EEEEE   E             
+turns TT  TTTTT    TTTTT     T  T       TT              
+ coil                         CC C     C   CCCCCC       
+          .  410    .  420    .  430    .  440    .  450
+      KEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGCKVGVINPNGEKLDA
+helix HHHHHHHHHHHHHHHHHHH                            H  
+sheet                       EEEEE         EEEEE       EE
+turns                    TTT       TTTTTTT       TTTT   
+ coil                            CC            CC       
+          .  460    .  470    .  480    .  490    .  500
+      CTIYPDLRQHKAFDPVTKQLKDMINKYSVELIGLGNGTACRETELWLKSN
+helix       HH      HHHHHHHHHH                 HHHHHH   
+sheet EEEE                    E EEEEEE       EE         
+turns     TT  TTTT                    TTT            TTT
+ coil             CC           C         CCCC           
+          .  510    .  520    .  530    .  540    .  550
+      NICENVPIIIVPEQGASIYSISKEAQKEHPNMDPNLISALSIARRVLDPL
+helix                      HHHHHH       HHHHHH         H
+sheet     EEEEEEEE     EE                     EEEEEEE   
+turns TTTT        TTTT              T                   
+ coil                 C  CC      CCC CCC             CC 
+          .  560    .  570    .  580    .  590    .  600
+      GELIKVDPKNLGVGMYQHDIPPKMLETALDSAVEKVVSLVGVDLNTASQA
+helix HHH                    HHHHHHHHHHHHH         HHHHH
+sheet    EEE      EEEEE                   EEEEEEE       
+turns         T  T     T                                
+ coil       CC CC       CCCCC                    CC     
+          .  610    .  620    .  630    .  640    .  650
+      MLRRISGLNEGRARKIIEYRHENNGFKTRAEILKVPGIGKVTFQQCAGFL
+helix            HHHH    H       HHHHHH                 
+sheet EEEE           EEEE              EE     EEEEE   EE
+turns     T     T         TTTTTT          TTTT     TTT  
+ coil      CCCCC                C        C              
+          .  660    .  670    .  680    .  690    .  700
+      TVLGSSEPLDTTIIHPESYKVSKSIAKKIGVNLKDLTKPHFPQLVESKEE
+helix                    HHHHHHHH     H        HHHHHHHHH
+sheet EE        EEEEE            EEEEE                  
+turns         TT      TTT              TTT  T           
+ coil   CCCCCC       C                    CC CC         
+          .  710    .  720    .  730    .  740    .  750
+      VTTDSWLVETSEEFDTDVYTVELIISAFKQKKYEDDVITFCKPVYSVAVQ
+helix HHHHHHH    HHHHHHHHHHHHHHHHHHH   HHH            HH
+sheet                                     EEEEE   EEEE  
+turns                               TTT         TT      
+ coil        CCCC                              C        
+          .  760    .  770    .  780    .  790    .  800
+      SMDQLKDGTTLIGVVRNVVPFGCFVDCGVGDNGLIHRSNLGGNQMPKLGD
+helix HHHH                                              
+sheet          EEEEEEEEEE  EEEEE      EEEEE      EEE   E
+turns      TTT           TT     TTTTT      TTTTT    T T 
+ coil     C   C                      C          C    C  
+          .  810    .  820
+      RVTVTVIGEPKPKKLQLRLDAIIDQ
+helix              HHHHHHHH    
+sheet EEEEEEE              EEEE
+turns            TT            
+ coil        CCCC              
+
+#---------------------------------------
+#
+#  Residue totals: H:424   E:161   T:130   C:110
+#         percent: H: 52.4 E: 19.9 T: 16.1 C: 13.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i15.p1     from: 1   to: 108
+# HitCount: 28
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSFEDKLIIEVRNRPILWDKRKDDYKNRLKSDREWSLVARSLNKTSVVRN
+helix HHHHHHHHHHH     HHH              HHHHHHH          
+sheet                                              EEEEE
+turns            TT TT   TTTTTTTTT   TT         TTT     
+ coil              C              CCC         CC        
+          .   60    .   70    .   80    .   90    .  100
+      VVPFGCFVDCGVGDNGLIHRSNLGGNQMPKLGDRVTVTVIGEPKPKKLQL
+helix                                               HHHH
+sheet EE  EEEEE      EEEEE      EEE   EEEEEEEE          
+turns   TT     TTTTT      TTTTT    T T            TT    
+ coil               C          C    C         CCCC      
+      0
+      RLDAIIDQ
+helix HHHH    
+sheet     EEEE
+turns         
+ coil         
+
+#---------------------------------------
+#
+#  Residue totals: H: 29   E: 32   T: 34   C: 13
+#         percent: H: 31.5 E: 34.8 T: 37.0 C: 14.1
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i17.p2     from: 1   to: 261
+# HitCount: 65
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MYQHDIPPKMLETALDSAVEKVVSLVGVDLNTASQAMLRRISGLNEGRAR
+helix          HHHHHHHHHHHHH         HHHHH           HHH
+sheet EEE                   EEEEEEE       EEEE          
+turns    T                                    T     T   
+ coil     CCCCC                    CC          CCCCC    
+          .   60    .   70    .   80    .   90    .  100
+      KIIEYRHENNGFKTRAEILKVPGIGKVTFQQCAGFLTVLGSSEPLDTTII
+helix H    H       HHHHHH                               
+sheet  EEEE              EE     EEEEE   EEEE        EEEE
+turns       TTTTTT          TTTT     TTT          TT    
+ coil             C        C                CCCCCC      
+          .  110    .  120    .  130    .  140    .  150
+      HPESYKVSKSIAKKIGVNLKDLTKPHFPQLVESKEEVTTDSWLVETSEEF
+helix      HHHHHHHH     H        HHHHHHHHHHHHHHHH    HHH
+sheet E            EEEEE                                
+turns   TTT              TTT  T                         
+ coil  C                    CC CC                CCCC   
+          .  160    .  170    .  180    .  190    .  200
+      DTDVYTVELIISAFKQKKYEDDVITFCKPVYSVAVQSMDQLKDGTTLIGV
+helix HHHHHHHHHHHHHHHH   HHH            HHHHHH          
+sheet                       EEEEE   EEEE           EEEEE
+turns                 TTT         TT           TTT      
+ coil                            C            C   C     
+          .  210    .  220    .  230    .  240    .  250
+      VRNVVPFGCFVDCGVGDNGLIHRSNLGGNQMPKLGDRVTVTVIGEPKPKK
+helix                                                  H
+sheet EEEEE  EEEEE      EEEEE      EEE   EEEEEEEE       
+turns      TT     TTTTT      TTTTT    T T            TT 
+ coil                  C          C    C         CCCC   
+          .  260
+      LQLRLDAIIDQ
+helix HHHHHHH    
+sheet        EEEE
+turns            
+ coil            
+
+#---------------------------------------
+#
+#  Residue totals: H: 90   E: 83   T: 49   C: 39
+#         percent: H: 36.7 E: 33.9 T: 20.0 C: 15.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i17.p1     from: 1   to: 568
+# HitCount: 100
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140    .  150
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDRL
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                            TT                     
+ coil                                                   
+          .  160    .  170    .  180    .  190    .  200
+      QELHERYEKITQLKKKVKSVIETLKKSKKLTPDIEKGILNAHNLSELDLI
+helix HHHHHHHHHHHHHHHHHHHHHHHHHH     HHHHHHHHHH  HHHHHHH
+sheet                                                   
+turns                           TTT                     
+ coil                              CC          CC       
+          .  210    .  220    .  230    .  240    .  250
+      YAPLKSHSLSLAERARNLGLEPHAIKALDGENINLSMLCSKNNEELGTVD
+helix HHHHH   HHHHHHHH    HHHHHHHHHHHHHHHHHH     HHHHHHH
+sheet                                                   
+turns                                       T           
+ coil      CCC        CCCC                   CCCC       
+          .  260    .  270    .  280    .  290    .  300
+      KVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQSSRTKSSTKEKVDD
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H          HHHHHH
+sheet                                 E EEE             
+turns                               T      TTT          
+ coil                                         CCCC      
+          .  310    .  320    .  330    .  340    .  350
+      KKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNRGEDEKILSVKVNVP
+helix HHHHHH   H H                         HHHHHHH      
+sheet                             EEEEE           EEEEEE
+turns           T TTTTTTTT TTTT  T                      
+ coil       CCC           C    CC      CCCC             
+          .  360    .  370    .  380    .  390    .  400
+      DWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPWLSRHIRSELTATAQ
+helix          HHHH                              HHHHHHH
+sheet   EE              EEEEE     EEEEE   E             
+turns TT  TTTTT    TTTTT     T  T       TT              
+ coil                         CC C     C   CCCCCC       
+          .  410    .  420    .  430    .  440    .  450
+      KEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGCKVGVINPNGEKLDA
+helix HHHHHHHHHHHHHHHHHHH                            H  
+sheet                       EEEEE         EEEEE       EE
+turns                    TTT       TTTTTTT       TTTT   
+ coil                            CC            CC       
+          .  460    .  470    .  480    .  490    .  500
+      CTIYPDLRQHKAFDPVTKQLKDMINKYSVELIGLGNGTACRETELWLKSN
+helix       HH      HHHHHHHHHH                 HHHHHH   
+sheet EEEE                    E EEEEEE       EE         
+turns     TT  TTTT                    TTT            TTT
+ coil             CC           C         CCCC           
+          .  510    .  520    .  530    .  540    .  550
+      NICENVPIIIVPEQGASIYSISKEAQKEHPNMDPNLISALSIARRVLDPL
+helix                      HHHHHH       HHHHHH         H
+sheet     EEEEEEEE     EE                     EEEEEEE   
+turns TTTT        TTTT              T                   
+ coil                 C  CC      CCC CCC             CC 
+          .  560
+      GELIKVDPKKFGCWHVSA
+helix HHHHHHH           
+sheet              E    
+turns        TTTTTT     
+ coil               CCCC
+
+#---------------------------------------
+#
+#  Residue totals: H:338   E: 74   T: 85   C: 71
+#         percent: H: 61.2 E: 13.4 T: 15.4 C: 12.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i18.p1     from: 1   to: 328
+# HitCount: 72
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSFEDKLIIEVRNRPILWDKRKDDYKNRLKSDREWSLVARSLNKTKADVK
+helix HHHHHHHHHHH     HHH              HHHHHHHHHHHHHHHHH
+sheet                                                   
+turns            TT TT   TTTTTTTTT   TT                 
+ coil              C              CCC                   
+          .   60    .   70    .   80    .   90    .  100
+      NKWKNLRDVFMKEAKKVRRPRSGDPGSPNSDETYIGKWCFFKELSFLKDI
+helix H  HHHHHHHHHHHHHH                    HHHHHHHHHHHHH
+sheet                  EE            EE                 
+turns  TT                TTTT       T  TTTT             
+ coil                        CCCCCCC                    
+          .  110    .  120    .  130    .  140    .  150
+      VKPRHTQSNFQDLNAGSDNNETQNSDTVEIPKIDQVETSEMDQVETPEMD
+helix                                 HHHHHHHHHHHHHHHHHH
+sheet EEE       E                EEEE                   
+turns    TT   TT            TT       T                  
+ coil      CCC   CCCCCCCCCCC  CCC                       
+          .  160    .  170    .  180    .  190    .  200
+      QIEEVVENQEPVSESVNASSLASGNLIPRNRFPTTTDDSESGSSRASEFR
+helix HHHHHHHHH  HHHHHHHH                            HHH
+sheet                          EEE                      
+turns                      TTTT   TTT  T   T T          
+ coil          CC        CC          CC CCC C CCCCCCC   
+          .  210    .  220    .  230    .  240    .  250
+      QRQRQAKKPELTLFQLKMIEVEQQKIQAFNEKNKEQDDEDMLFLKSLAPY
+helix HHH      HHHHHHHHHHHHHHHHHHHH    HHHHHHHHHHHHHH   
+sheet                                                   
+turns    TT                                           TT
+ coil      CCCC                    CCCC              C  
+          .  260    .  270    .  280    .  290    .  300
+      FKYLTPVQKLRLKSKIQTFIADEISLTTSSTSSTPISQSILPSPVNASHH
+helix      HHHHHHH        HHHH                      HH  
+sheet  EEEE          EEEEE                EEEEE         
+turns T           TTT               TT   T              
+ coil                         CCCCCC  CCC      CCCCC  CC
+          .  310    .  320
+      SMSSVRNYYENDPLGLHEYDTELSVNDY
+helix                HH HHHHHH    
+sheet     E            E          
+turns  T   TTTTTT             TTTT
+ coil C CC       CCCC             
+
+#---------------------------------------
+#
+#  Residue totals: H:155   E: 31   T: 65   C: 77
+#         percent: H: 49.7 E:  9.9 T: 20.8 C: 24.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i19.p1     from: 1   to: 825
+# HitCount: 167
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140    .  150
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDRL
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                            TT                     
+ coil                                                   
+          .  160    .  170    .  180    .  190    .  200
+      QELHERYEKITQLKKKVKSVIETLKKSKKLTPDIEKGILNAHNLSELDLI
+helix HHHHHHHHHHHHHHHHHHHHHHHHHH     HHHHHHHHHH  HHHHHHH
+sheet                                                   
+turns                           TTT                     
+ coil                              CC          CC       
+          .  210    .  220    .  230    .  240    .  250
+      YAPLKSHSLSLAERARNLGLEPHAIKALDGENINLSMLCSKNNEELGTVD
+helix HHHHH   HHHHHHHH    HHHHHHHHHHHHHHHHHH     HHHHHHH
+sheet                                                   
+turns                                       T           
+ coil      CCC        CCCC                   CCCC       
+          .  260    .  270    .  280    .  290    .  300
+      KVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQSSRTKSSTKEKVDD
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H          HHHHHH
+sheet                                 E EEE             
+turns                               T      TTT          
+ coil                                         CCCC      
+          .  310    .  320    .  330    .  340    .  350
+      KKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNRGEDEKILSVKVNVP
+helix HHHHHH   H H                         HHHHHHH      
+sheet                             EEEEE           EEEEEE
+turns           T TTTTTTTT TTTT  T                      
+ coil       CCC           C    CC      CCCC             
+          .  360    .  370    .  380    .  390    .  400
+      DWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPWLSRHIRSELTATAQ
+helix          HHHH                              HHHHHHH
+sheet   EE              EEEEE     EEEEE   E             
+turns TT  TTTTT    TTTTT     T  T       TT              
+ coil                         CC C     C   CCCCCC       
+          .  410    .  420    .  430    .  440    .  450
+      KEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGCKVGVINPNGEKLDA
+helix HHHHHHHHHHHHHHHHHHH                            H  
+sheet                       EEEEE         EEEEE       EE
+turns                    TTT       TTTTTTT       TTTT   
+ coil                            CC            CC       
+          .  460    .  470    .  480    .  490    .  500
+      CTIYPDLRQHKAFDPVTKQLKDMINKYSVELIGLGNGTACRETELWLKSN
+helix       HH      HHHHHHHHHH                 HHHHHH   
+sheet EEEE                    E EEEEEE       EE         
+turns     TT  TTTT                    TTT            TTT
+ coil             CC           C         CCCC           
+          .  510    .  520    .  530    .  540    .  550
+      NICENVPIIIVPEQGASIYSISKEAQKEHPNMDPNLISALSIARRVLDPL
+helix                      HHHHHH       HHHHHH         H
+sheet     EEEEEEEE     EE                     EEEEEEE   
+turns TTTT        TTTT              T                   
+ coil                 C  CC      CCC CCC             CC 
+          .  560    .  570    .  580    .  590    .  600
+      GELIKVDPKNLGVGMYQHDIPPKMLETALDSAVEKVVSLVGVDLNTASQA
+helix HHH                    HHHHHHHHHHHHH         HHHHH
+sheet    EEE      EEEEE                   EEEEEEE       
+turns         T  T     T                                
+ coil       CC CC       CCCCC                    CC     
+          .  610    .  620    .  630    .  640    .  650
+      MLRRISGLNEGRARKIIEYRHENNGFKTRAEILKVPGIGKVTFQQCAGFL
+helix            HHHH    H       HHHHHH                 
+sheet EEEE           EEEE              EE     EEEEE   EE
+turns     T     T         TTTTTT          TTTT     TTT  
+ coil      CCCCC                C        C              
+          .  660    .  670    .  680    .  690    .  700
+      TVLGSSEPLDTTIIHPESYKVSKSIAKKIGVNLKDLTKPHFPQLVESKEE
+helix                    HHHHHHHH     H        HHHHHHHHH
+sheet EE        EEEEE            EEEEE                  
+turns         TT      TTT              TTT  T           
+ coil   CCCCCC       C                    CC CC         
+          .  710    .  720    .  730    .  740    .  750
+      VTTDSWLVETSEEFDTDVYTVELIISAFKQKKYEDDVITFCKPVYSVAVQ
+helix HHHHHHH    HHHHHHHHHHHHHHHHHHH   HHH            HH
+sheet                                     EEEEE   EEEE  
+turns                               TTT         TT      
+ coil        CCCC                              C        
+          .  760    .  770    .  780    .  790    .  800
+      SMDQLKDGTTLIGVVRNVVPFGCFVDCGVGDNGLIHRSNLGGNQMPKLGD
+helix HHHH                                              
+sheet          EEEEEEEEEE  EEEEE      EEEEE      EEE   E
+turns      TTT           TT     TTTTT      TTTTT    T T 
+ coil     C   C                      C          C    C  
+          .  810    .  820
+      RVTVTVIGEPKPKKLQLRLDAIIDQ
+helix              HHHHHHHH    
+sheet EEEEEEE              EEEE
+turns            TT            
+ coil        CCCC              
+
+#---------------------------------------
+#
+#  Residue totals: H:424   E:161   T:130   C:110
+#         percent: H: 52.4 E: 19.9 T: 16.1 C: 13.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i2.p1     from: 1   to: 531
+# HitCount: 91
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140    .  150
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDRL
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                            TT                     
+ coil                                                   
+          .  160    .  170    .  180    .  190    .  200
+      QELHERYEKITQLKKKVKSVIETLKKSKKLTPDIEKGILNAHNLSELDLI
+helix HHHHHHHHHHHHHHHHHHHHHHHHHH     HHHHHHHHHH  HHHHHHH
+sheet                                                   
+turns                           TTT                     
+ coil                              CC          CC       
+          .  210    .  220    .  230    .  240    .  250
+      YAPLKSHSLSLAERARNLGLEPHAIKALDGENINLSMLCSKNNEELGTVD
+helix HHHHH   HHHHHHHH    HHHHHHHHHHHHHHHHHH     HHHHHHH
+sheet                                                   
+turns                                       T           
+ coil      CCC        CCCC                   CCCC       
+          .  260    .  270    .  280    .  290    .  300
+      KVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQSSRTKSSTKEKVDD
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H          HHHHHH
+sheet                                 E EEE             
+turns                               T      TTT          
+ coil                                         CCCC      
+          .  310    .  320    .  330    .  340    .  350
+      KKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNRGEDEKILSVKVNVP
+helix HHHHHH   H H                         HHHHHHH      
+sheet                             EEEEE           EEEEEE
+turns           T TTTTTTTT TTTT  T                      
+ coil       CCC           C    CC      CCCC             
+          .  360    .  370    .  380    .  390    .  400
+      DWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPWLSRHIRSELTATAQ
+helix          HHHH                              HHHHHHH
+sheet   EE              EEEEE     EEEEE   E             
+turns TT  TTTTT    TTTTT     T  T       TT              
+ coil                         CC C     C   CCCCCC       
+          .  410    .  420    .  430    .  440    .  450
+      KEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGCKVGVINPNGEKLDA
+helix HHHHHHHHHHHHHHHHHHH                            H  
+sheet                       EEEEE         EEEEE       EE
+turns                    TTT       TTTTTTT       TTTT   
+ coil                            CC            CC       
+          .  460    .  470    .  480    .  490    .  500
+      CTIYPDLRQHKAFDPVTKQLKDMINKYSVELIGLGNGTACRETELWLKSN
+helix       HH      HHHHHHHHHH                 HHHHHH   
+sheet EEEE                    E EEEEEE       EE         
+turns     TT  TTTT                    TTT            TTT
+ coil             CC           C         CCCC           
+          .  510    .  520    .  530
+      NICENVPIIIVPEQGASIYSISKEAQKVGLL
+helix                      HHHHHHHH  
+sheet     EEEEEEEE     EE          EE
+turns TTTT        TTTT               
+ coil                 C  CC          
+
+#---------------------------------------
+#
+#  Residue totals: H:326   E: 68   T: 78   C: 59
+#         percent: H: 63.3 E: 13.2 T: 15.1 C: 11.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i20.p2     from: 1   to: 149
+# HitCount: 13
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDR
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHH
+sheet                                                  
+turns                            TT                    
+ coil                                                  
+
+#---------------------------------------
+#
+#  Residue totals: H:134   E:  3   T:  6   C:  6
+#         percent: H: 100.8 E:  2.3 T:  4.5 C:  4.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i20.p1     from: 1   to: 201
+# HitCount: 44
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MLCSKNNEELGTVDKVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQ
+helix HHH    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H  
+sheet                                               E EE
+turns                                             T     
+ coil    CCCC                                           
+          .   60    .   70    .   80    .   90    .  100
+      SSRTKSSTKEKVDDKKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNR
+helix         HHHHHHHHHHHH   H H                        
+sheet E                                         EEEEE   
+turns  TTT                    T TTTTTTTT TTTT  T        
+ coil     CCCC            CCC           C    CC      CCC
+          .  110    .  120    .  130    .  140    .  150
+      GEDEKILSVKVNVPDWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPW
+helix  HHHHHHH               HHHH                       
+sheet         EEEEEE  EE              EEEEE     EEEEE   
+turns               TT  TTTTT    TTTTT     T  T       TT
+ coil C                                     CC C     C  
+          .  160    .  170    .  180    .  190    .  200
+      LSRHIRSELTATAQKEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGC
+helix        HHHHHHHHHHHHHHHHHHHHHHHHHH                 
+sheet E                                   EEEEE         
+turns                                  TTT       TTTTTTT
+ coil  CCCCCC                                  CC       
+      0
+      K
+helix  
+sheet  
+turns T
+ coil  
+
+#---------------------------------------
+#
+#  Residue totals: H: 93   E: 33   T: 45   C: 30
+#         percent: H: 50.3 E: 17.8 T: 24.3 C: 16.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i4.p1     from: 1   to: 825
+# HitCount: 167
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140    .  150
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDRL
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                            TT                     
+ coil                                                   
+          .  160    .  170    .  180    .  190    .  200
+      QELHERYEKITQLKKKVKSVIETLKKSKKLTPDIEKGILNAHNLSELDLI
+helix HHHHHHHHHHHHHHHHHHHHHHHHHH     HHHHHHHHHH  HHHHHHH
+sheet                                                   
+turns                           TTT                     
+ coil                              CC          CC       
+          .  210    .  220    .  230    .  240    .  250
+      YAPLKSHSLSLAERARNLGLEPHAIKALDGENINLSMLCSKNNEELGTVD
+helix HHHHH   HHHHHHHH    HHHHHHHHHHHHHHHHHH     HHHHHHH
+sheet                                                   
+turns                                       T           
+ coil      CCC        CCCC                   CCCC       
+          .  260    .  270    .  280    .  290    .  300
+      KVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQSSRTKSSTKEKVDD
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H          HHHHHH
+sheet                                 E EEE             
+turns                               T      TTT          
+ coil                                         CCCC      
+          .  310    .  320    .  330    .  340    .  350
+      KKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNRGEDEKILSVKVNVP
+helix HHHHHH   H H                         HHHHHHH      
+sheet                             EEEEE           EEEEEE
+turns           T TTTTTTTT TTTT  T                      
+ coil       CCC           C    CC      CCCC             
+          .  360    .  370    .  380    .  390    .  400
+      DWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPWLSRHIRSELTATAQ
+helix          HHHH                              HHHHHHH
+sheet   EE              EEEEE     EEEEE   E             
+turns TT  TTTTT    TTTTT     T  T       TT              
+ coil                         CC C     C   CCCCCC       
+          .  410    .  420    .  430    .  440    .  450
+      KEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGCKVGVINPNGEKLDA
+helix HHHHHHHHHHHHHHHHHHH                            H  
+sheet                       EEEEE         EEEEE       EE
+turns                    TTT       TTTTTTT       TTTT   
+ coil                            CC            CC       
+          .  460    .  470    .  480    .  490    .  500
+      CTIYPDLRQHKAFDPVTKQLKDMINKYSVELIGLGNGTACRETELWLKSN
+helix       HH      HHHHHHHHHH                 HHHHHH   
+sheet EEEE                    E EEEEEE       EE         
+turns     TT  TTTT                    TTT            TTT
+ coil             CC           C         CCCC           
+          .  510    .  520    .  530    .  540    .  550
+      NICENVPIIIVPEQGASIYSISKEAQKEHPNMDPNLISALSIARRVLDPL
+helix                      HHHHHH       HHHHHH         H
+sheet     EEEEEEEE     EE                     EEEEEEE   
+turns TTTT        TTTT              T                   
+ coil                 C  CC      CCC CCC             CC 
+          .  560    .  570    .  580    .  590    .  600
+      GELIKVDPKNLGVGMYQHDIPPKMLETALDSAVEKVVSLVGVDLNTASQA
+helix HHH                    HHHHHHHHHHHHH         HHHHH
+sheet    EEE      EEEEE                   EEEEEEE       
+turns         T  T     T                                
+ coil       CC CC       CCCCC                    CC     
+          .  610    .  620    .  630    .  640    .  650
+      MLRRISGLNEGRARKIIEYRHENNGFKTRAEILKVPGIGKVTFQQCAGFL
+helix            HHHH    H       HHHHHH                 
+sheet EEEE           EEEE              EE     EEEEE   EE
+turns     T     T         TTTTTT          TTTT     TTT  
+ coil      CCCCC                C        C              
+          .  660    .  670    .  680    .  690    .  700
+      TVLGSSEPLDTTIIHPESYKVSKSIAKKIGVNLKDLTKPHFPQLVESKEE
+helix                    HHHHHHHH     H        HHHHHHHHH
+sheet EE        EEEEE            EEEEE                  
+turns         TT      TTT              TTT  T           
+ coil   CCCCCC       C                    CC CC         
+          .  710    .  720    .  730    .  740    .  750
+      VTTDSWLVETSEEFDTDVYTVELIISAFKQKKYEDDVITFCKPVYSVAVQ
+helix HHHHHHH    HHHHHHHHHHHHHHHHHHH   HHH            HH
+sheet                                     EEEEE   EEEE  
+turns                               TTT         TT      
+ coil        CCCC                              C        
+          .  760    .  770    .  780    .  790    .  800
+      SMDQLKDGTTLIGVVRNVVPFGCFVDCGVGDNGLIHRSNLGGNQMPKLGD
+helix HHHH                                              
+sheet          EEEEEEEEEE  EEEEE      EEEEE      EEE   E
+turns      TTT           TT     TTTTT      TTTTT    T T 
+ coil     C   C                      C          C    C  
+          .  810    .  820
+      RVTVTVIGEPKPKKLQLRLDAIIDQ
+helix              HHHHHHHH    
+sheet EEEEEEE              EEEE
+turns            TT            
+ coil        CCCC              
+
+#---------------------------------------
+#
+#  Residue totals: H:424   E:161   T:130   C:110
+#         percent: H: 52.4 E: 19.9 T: 16.1 C: 13.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i5.p1     from: 1   to: 231
+# HitCount: 60
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MDPNLISALSIARRVLDPLGELIKVDPKNLGVGMYQHDIPPKMLETALDS
+helix    HHHHHH         HHHH                    HHHHHHHH
+sheet E        EEEEEEE      EEE      EEEEE              
+turns                            T  T     T             
+ coil  CC             CC       CC CC       CCCCC        
+          .   60    .   70    .   80    .   90    .  100
+      AVEKVVSLVGVDLNTASQAMLRRISGLNEGRARKIIEYRHENNGFKTRAE
+helix HHHHH         HHHHH           HHHH    H       HHHH
+sheet      EEEEEEE       EEEE           EEEE            
+turns                        T     T         TTTTTT     
+ coil             CC          CCCCC                C    
+          .  110    .  120    .  130    .  140    .  150
+      ILKVPGIGKVTFQQCAGFLTVLGSSEPLDTTIIHPESYKVSKSIAKKIGV
+helix HH                                    HHHHHHHH    
+sheet   EE     EEEEE   EEEE        EEEEE            EEEE
+turns      TTTT     TTT          TT      TTT            
+ coil     C                CCCCCC       C               
+          .  160    .  170    .  180    .  190    .  200
+      NLKDLTKPHFPQLVESKEEVTTDSWLVETSEEFDTDVYTVELIISAFKQK
+helix  H        HHHHHHHHHHHHHHHH    HHHHHHHHHHHHHHHHHHH 
+sheet E                                                 
+turns   TTT  T                                         T
+ coil      CC CC                CCCC                    
+          .  210    .  220    .  230
+      KYEDDVITFCKPVYSVAVQSMDQLKDGTTLI
+helix   HHH            HHHHHH        
+sheet      EEEEE   EEEE           EEE
+turns TT         TT           TTT    
+ coil           C            C   C   
+
+#---------------------------------------
+#
+#  Residue totals: H: 92   E: 64   T: 35   C: 40
+#         percent: H: 42.8 E: 29.8 T: 16.3 C: 18.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i7.p1     from: 1   to: 261
+# HitCount: 65
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MYQHDIPPKMLETALDSAVEKVVSLVGVDLNTASQAMLRRISGLNEGRAR
+helix          HHHHHHHHHHHHH         HHHHH           HHH
+sheet EEE                   EEEEEEE       EEEE          
+turns    T                                    T     T   
+ coil     CCCCC                    CC          CCCCC    
+          .   60    .   70    .   80    .   90    .  100
+      KIIEYRHENNGFKTRAEILKVPGIGKVTFQQCAGFLTVLGSSEPLDTTII
+helix H    H       HHHHHH                               
+sheet  EEEE              EE     EEEEE   EEEE        EEEE
+turns       TTTTTT          TTTT     TTT          TT    
+ coil             C        C                CCCCCC      
+          .  110    .  120    .  130    .  140    .  150
+      HPESYKVSKSIAKKIGVNLKDLTKPHFPQLVESKEEVTTDSWLVETSEEF
+helix      HHHHHHHH     H        HHHHHHHHHHHHHHHH    HHH
+sheet E            EEEEE                                
+turns   TTT              TTT  T                         
+ coil  C                    CC CC                CCCC   
+          .  160    .  170    .  180    .  190    .  200
+      DTDVYTVELIISAFKQKKYEDDVITFCKPVYSVAVQSMDQLKDGTTLIGV
+helix HHHHHHHHHHHHHHHH   HHH            HHHHHH          
+sheet                       EEEEE   EEEE           EEEEE
+turns                 TTT         TT           TTT      
+ coil                            C            C   C     
+          .  210    .  220    .  230    .  240    .  250
+      VRNVVPFGCFVDCGVGDNGLIHRSNLGGNQMPKLGDRVTVTVIGEPKPKK
+helix                                                  H
+sheet EEEEE  EEEEE      EEEEE      EEE   EEEEEEEE       
+turns      TT     TTTTT      TTTTT    T T            TT 
+ coil                  C          C    C         CCCC   
+          .  260
+      LQLRLDAIIDQ
+helix HHHHHHH    
+sheet        EEEE
+turns            
+ coil            
+
+#---------------------------------------
+#
+#  Residue totals: H: 90   E: 83   T: 49   C: 39
+#         percent: H: 36.7 E: 33.9 T: 20.0 C: 15.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i8.p1     from: 1   to: 568
+# HitCount: 100
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      METAPKLRKRKAVEYIEDEIETDDESPKKKAKTVTKPTKAKAEAKVKAGC
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                                                   
+ coil                                                   
+          .   60    .   70    .   80    .   90    .  100
+      SKNAKSTEKIPKSKETKVKVAKTRVTKAPAENDKEKHWQMCDNHENIPAL
+helix HH HHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHH       HHH
+sheet                        EEE                        
+turns                                         TTT T     
+ coil   C                       CC               C CC   
+          .  110    .  120    .  130    .  140    .  150
+      WDEAEMLAQVERMPLKMAQMFIELLEEGCTLPFIARYRKAAMDNMMPDRL
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHHHHHHHHHH
+sheet                                                   
+turns                            TT                     
+ coil                                                   
+          .  160    .  170    .  180    .  190    .  200
+      QELHERYEKITQLKKKVKSVIETLKKSKKLTPDIEKGILNAHNLSELDLI
+helix HHHHHHHHHHHHHHHHHHHHHHHHHH     HHHHHHHHHH  HHHHHHH
+sheet                                                   
+turns                           TTT                     
+ coil                              CC          CC       
+          .  210    .  220    .  230    .  240    .  250
+      YAPLKSHSLSLAERARNLGLEPHAIKALDGENINLSMLCSKNNEELGTVD
+helix HHHHH   HHHHHHHH    HHHHHHHHHHHHHHHHHH     HHHHHHH
+sheet                                                   
+turns                                       T           
+ coil      CCC        CCCC                   CCCC       
+          .  260    .  270    .  280    .  290    .  300
+      KVESHITHIVADIMYKDTRVLEHMRTLKEDTKCTIQSSRTKSSTKEKVDD
+helix HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH H H          HHHHHH
+sheet                                 E EEE             
+turns                               T      TTT          
+ coil                                         CCCC      
+          .  310    .  320    .  330    .  340    .  350
+      KKKVETKSDPETYKLYFDWQCPSHYVKPHQTLALNRGEDEKILSVKVNVP
+helix HHHHHH   H H                         HHHHHHH      
+sheet                             EEEEE           EEEEEE
+turns           T TTTTTTTT TTTT  T                      
+ coil       CCC           C    CC      CCCC             
+          .  360    .  370    .  380    .  390    .  400
+      DWFYYKLESFCLSLWKSGVWVRKGLGDAYNRLIKPWLSRHIRSELTATAQ
+helix          HHHH                              HHHHHHH
+sheet   EE              EEEEE     EEEEE   E             
+turns TT  TTTTT    TTTTT     T  T       TT              
+ coil                         CC C     C   CCCCCC       
+          .  410    .  420    .  430    .  440    .  450
+      KEAVKTFTTNLEKYLLTEPIKNRTILGLDPGFRAGCKVGVINPNGEKLDA
+helix HHHHHHHHHHHHHHHHHHH                            H  
+sheet                       EEEEE         EEEEE       EE
+turns                    TTT       TTTTTTT       TTTT   
+ coil                            CC            CC       
+          .  460    .  470    .  480    .  490    .  500
+      CTIYPDLRQHKAFDPVTKQLKDMINKYSVELIGLGNGTACRETELWLKSN
+helix       HH      HHHHHHHHHH                 HHHHHH   
+sheet EEEE                    E EEEEEE       EE         
+turns     TT  TTTT                    TTT            TTT
+ coil             CC           C         CCCC           
+          .  510    .  520    .  530    .  540    .  550
+      NICENVPIIIVPEQGASIYSISKEAQKEHPNMDPNLISALSIARRVLDPL
+helix                      HHHHHH       HHHHHH         H
+sheet     EEEEEEEE     EE                     EEEEEEE   
+turns TTTT        TTTT              T                   
+ coil                 C  CC      CCC CCC             CC 
+          .  560
+      GELIKVDPKKFGCWHVSA
+helix HHHHHHH           
+sheet              E    
+turns        TTTTTT     
+ coil               CCCC
+
+#---------------------------------------
+#
+#  Residue totals: H:338   E: 74   T: 85   C: 71
+#         percent: H: 61.2 E: 13.4 T: 15.4 C: 12.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i8.p2     from: 1   to: 261
+# HitCount: 65
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MYQHDIPPKMLETALDSAVEKVVSLVGVDLNTASQAMLRRISGLNEGRAR
+helix          HHHHHHHHHHHHH         HHHHH           HHH
+sheet EEE                   EEEEEEE       EEEE          
+turns    T                                    T     T   
+ coil     CCCCC                    CC          CCCCC    
+          .   60    .   70    .   80    .   90    .  100
+      KIIEYRHENNGFKTRAEILKVPGIGKVTFQQCAGFLTVLGSSEPLDTTII
+helix H    H       HHHHHH                               
+sheet  EEEE              EE     EEEEE   EEEE        EEEE
+turns       TTTTTT          TTTT     TTT          TT    
+ coil             C        C                CCCCCC      
+          .  110    .  120    .  130    .  140    .  150
+      HPESYKVSKSIAKKIGVNLKDLTKPHFPQLVESKEEVTTDSWLVETSEEF
+helix      HHHHHHHH     H        HHHHHHHHHHHHHHHH    HHH
+sheet E            EEEEE                                
+turns   TTT              TTT  T                         
+ coil  C                    CC CC                CCCC   
+          .  160    .  170    .  180    .  190    .  200
+      DTDVYTVELIISAFKQKKYEDDVITFCKPVYSVAVQSMDQLKDGTTLIGV
+helix HHHHHHHHHHHHHHHH   HHH            HHHHHH          
+sheet                       EEEEE   EEEE           EEEEE
+turns                 TTT         TT           TTT      
+ coil                            C            C   C     
+          .  210    .  220    .  230    .  240    .  250
+      VRNVVPFGCFVDCGVGDNGLIHRSNLGGNQMPKLGDRVTVTVIGEPKPKK
+helix                                                  H
+sheet EEEEE  EEEEE      EEEEE      EEE   EEEEEEEE       
+turns      TT     TTTTT      TTTTT    T T            TT 
+ coil                  C          C    C         CCCC   
+          .  260
+      LQLRLDAIIDQ
+helix HHHHHHH    
+sheet        EEEE
+turns            
+ coil            
+
+#---------------------------------------
+#
+#  Residue totals: H: 90   E: 83   T: 49   C: 39
+#         percent: H: 36.7 E: 33.9 T: 20.0 C: 15.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1343_c0_g1_i9.p1     from: 1   to: 231
+# HitCount: 60
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MDPNLISALSIARRVLDPLGELIKVDPKNLGVGMYQHDIPPKMLETALDS
+helix    HHHHHH         HHHH                    HHHHHHHH
+sheet E        EEEEEEE      EEE      EEEEE              
+turns                            T  T     T             
+ coil  CC             CC       CC CC       CCCCC        
+          .   60    .   70    .   80    .   90    .  100
+      AVEKVVSLVGVDLNTASQAMLRRISGLNEGRARKIIEYRHENNGFKTRAE
+helix HHHHH         HHHHH           HHHH    H       HHHH
+sheet      EEEEEEE       EEEE           EEEE            
+turns                        T     T         TTTTTT     
+ coil             CC          CCCCC                C    
+          .  110    .  120    .  130    .  140    .  150
+      ILKVPGIGKVTFQQCAGFLTVLGSSEPLDTTIIHPESYKVSKSIAKKIGV
+helix HH                                    HHHHHHHH    
+sheet   EE     EEEEE   EEEE        EEEEE            EEEE
+turns      TTTT     TTT          TT      TTT            
+ coil     C                CCCCCC       C               
+          .  160    .  170    .  180    .  190    .  200
+      NLKDLTKPHFPQLVESKEEVTTDSWLVETSEEFDTDVYTVELIISAFKQK
+helix  H        HHHHHHHHHHHHHHHH    HHHHHHHHHHHHHHHHHHH 
+sheet E                                                 
+turns   TTT  T                                         T
+ coil      CC CC                CCCC                    
+          .  210    .  220    .  230
+      KYEDDVITFCKPVYSVAVQSMDQLKDGTTLI
+helix   HHH            HHHHHH        
+sheet      EEEEE   EEEE           EEE
+turns TT         TT           TTT    
+ coil           C            C   C   
+
+#---------------------------------------
+#
+#  Residue totals: H: 92   E: 64   T: 35   C: 40
+#         percent: H: 42.8 E: 29.8 T: 16.3 C: 18.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13779_c0_g1_i1.p1     from: 1   to: 219
+# HitCount: 48
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSIALYYTPGSAPCRLVLLVAAALNIQLDLNLMDLRGGDQFKPDFLKLNP
+helix                   HHHHHHHHHHH                     
+sheet EEEEEE      EEEEEE           EEEEEE      EE       
+turns       T TT                         TTTT    TTTT  T
+ coil        C  CC                           CC      CC 
+          .   60    .   70    .   80    .   90    .  100
+      QHTVPTILDGDFSLWESRAIAKYLVNKYGEGSSLYPTDPKQRALVDQRLD
+helix              HHHHHHHHH                            
+sheet   EEEEEE              EEEEE             EEEEEEEEE 
+turns T       TT                 TTTTTT  TT TT         T
+ coil  C        CCC                    CC  C            
+          .  110    .  120    .  130    .  140    .  150
+      FDLGTLYPRFGQYFYPQIFGGAKADEAQLKKLEEALVFLNTFLEGRSYAA
+helix                       HHHHHHHHHHHHHHHHHHHH        
+sheet              EEE E                                
+turns TTTTT  TTTTTT   T T                        TTT    
+ coil      CC            CCC                    C   CCCC
+          .  160    .  170    .  180    .  190    .  200
+      GDELTLADLGLVATVSTIEATGISLDNYSNVQKWFELVKTTAPGYNEANE
+helix HHHHHHHHHHHH                   HHHHH              
+sheet             EEEEEEEEEEE             EE            
+turns                          TTT          T           
+ coil                        CC   CCC        CCCCCCCCCCC
+          .  210
+      PGIQAFKGMIAQWKAKTEL
+helix HHHHHHHHHHHHHHHHHHH
+sheet                    
+turns                    
+ coil                    
+
+#---------------------------------------
+#
+#  Residue totals: H: 76   E: 57   T: 46   C: 40
+#         percent: H: 37.4 E: 28.1 T: 22.7 C: 19.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13779_c0_g1_i5.p1     from: 1   to: 219
+# HitCount: 48
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSIALYYTPGSAPCRLVLLVAAALNIQLDLNLMDLRGGDQFKPDFLKLNP
+helix                   HHHHHHHHHHH                     
+sheet EEEEEE      EEEEEE           EEEEEE      EE       
+turns       T TT                         TTTT    TTTT  T
+ coil        C  CC                           CC      CC 
+          .   60    .   70    .   80    .   90    .  100
+      QHTVPTILDGDFSLWESRAIAKYLVNKYGEGSSLYPTDPKQRALVDQRLD
+helix              HHHHHHHHH                            
+sheet   EEEEEE              EEEEE             EEEEEEEEE 
+turns T       TT                 TTTTTT  TT TT         T
+ coil  C        CCC                    CC  C            
+          .  110    .  120    .  130    .  140    .  150
+      FDLGTLYPRFGQYFYPQIFGGAKADEAQLKKLEEALVFLNTFLEGRSYAA
+helix                       HHHHHHHHHHHHHHHHHHHH        
+sheet              EEE E                                
+turns TTTTT  TTTTTT   T T                        TTT    
+ coil      CC            CCC                    C   CCCC
+          .  160    .  170    .  180    .  190    .  200
+      GDELTLADLGLVATVSTIEATGISLDNYSNVQKWFELVKTTAPGYNEANE
+helix HHHHHHHHHHHH                   HHHHH              
+sheet             EEEEEEEEEEE             EE            
+turns                          TTT          T           
+ coil                        CC   CCC        CCCCCCCCCCC
+          .  210
+      PGIQAFKGMIAQWKAKTEL
+helix HHHHHHHHHHHHHHHHHHH
+sheet                    
+turns                    
+ coil                    
+
+#---------------------------------------
+#
+#  Residue totals: H: 76   E: 57   T: 46   C: 40
+#         percent: H: 37.4 E: 28.1 T: 22.7 C: 19.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN13779_c0_g1_i6.p1     from: 1   to: 219
+# HitCount: 48
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSIALYYTPGSAPCRLVLLVAAALNIQLDLNLMDLRGGDQFKPDFLKLNP
+helix                   HHHHHHHHHHH                     
+sheet EEEEEE      EEEEEE           EEEEEE      EE       
+turns       T TT                         TTTT    TTTT  T
+ coil        C  CC                           CC      CC 
+          .   60    .   70    .   80    .   90    .  100
+      QHTVPTILDGDFSLWESRAIAKYLVNKYGEGSSLYPTDPKQRALVDQRLD
+helix              HHHHHHHHH                            
+sheet   EEEEEE              EEEEE             EEEEEEEEE 
+turns T       TT                 TTTTTT  TT TT         T
+ coil  C        CCC                    CC  C            
+          .  110    .  120    .  130    .  140    .  150
+      FDLGTLYPRFGQYFYPQIFGGAKADEAQLKKLEEALVFLNTFLEGRSYAA
+helix                       HHHHHHHHHHHHHHHHHHHH        
+sheet              EEE E                                
+turns TTTTT  TTTTTT   T T                        TTT    
+ coil      CC            CCC                    C   CCCC
+          .  160    .  170    .  180    .  190    .  200
+      GDELTLADLGLVATVSTIEATGISLDNYSNVQKWFELVKTTAPGYNEANE
+helix HHHHHHHHHHHH                   HHHHH              
+sheet             EEEEEEEEEEE             EE            
+turns                          TTT          T           
+ coil                        CC   CCC        CCCCCCCCCCC
+          .  210
+      PGIQAFKGMIAQWKAKTEL
+helix HHHHHHHHHHHHHHHHHHH
+sheet                    
+turns                    
+ coil                    
+
+#---------------------------------------
+#
+#  Residue totals: H: 76   E: 57   T: 46   C: 40
+#         percent: H: 37.4 E: 28.1 T: 22.7 C: 19.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1407_c0_g1_i1.p1     from: 1   to: 206
+# HitCount: 60
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPVYQLKFFDFMGVAEPIRYLFAYGGISYKNVVINKDTNWPDVQKSVPF
+helix   HHHH  H  H  HHHHH                               
+sheet EE    EE EE        EEEEE     EEEEEEE        EEEE  
+turns                         TTT         TTTT  TT    TT
+ coil             CC             CC           CC        
+          .   60    .   70    .   80    .   90    .  100
+      GKLPVLEVDNKVLYQSVAISRYLGKQVGLVPADDLEAAELDAIALSVFDF
+helix      HHHHHHHH                  HHHHHHHHHHHHHHHHH  
+sheet    EE        EEEEEEEE    EEEEEE                   
+turns T                    TTTT                       TT
+ coil  CC                                               
+          .  110    .  120    .  130    .  140    .  150
+      GSKVYEWYHEVNKERKPNLWKELEELWFPRYLRDFEEIVQKKGSYFGGQK
+helix      HHHHHHH    H HHHHHHHHHHH    HHHHHHH          
+sheet                                                   
+turns T           TTT              T          TTT TTTT  
+ coil  CCCC          C C            CCC          C    CC
+          .  160    .  170    .  180    .  190    .  200
+      ISWADLYFVGIVESVEGMWGTRILEKQYPMLQRIYTHVHEIPAIDTYVSN
+helix                H  HHHHH       H                   
+sheet  EEEEEEEEEEEE                  EEEEE    EE EEE E  
+turns                 TT      TTT TT            T   T T 
+ coil C            CC        C   C        CCCC         C
+      0
+      RPHYKY
+helix       
+sheet      E
+turns  TTTT 
+ coil C     
+
+#---------------------------------------
+#
+#  Residue totals: H: 69   E: 62   T: 44   C: 31
+#         percent: H: 36.3 E: 32.6 T: 23.2 C: 16.3
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1430_c2_g2_i1.p1     from: 1   to: 149
+# HitCount: 35
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MFVKNGINLMIRNATVVKSLAIRNFSVTSVKGDIVKIQSADDFKDKVINS
+helix H HH        HHHH                      HHHHHHHHHH  
+sheet  E      EEEE    EEEEEEEEEEE     EEEEEE            
+turns                              TTT                TT
+ coil     CCCC                   CC                     
+          .   60    .   70    .   80    .   90    .  100
+      KVPVVVDFFATWCNPCRLLTPRLESIISESKGKVVLAKVDIDEQTDLALN
+helix                       HHHHHHHHH HHHHHHHHHHHHHHHHHH
+sheet EEEEEEEEE         E                               
+turns          TTTTTTTTT   T         T                  
+ coil                    CC                             
+          .  110    .  120    .  130    .  140
+      YEVSSVPVLVIIKNGKVLNRLVGLQDSDKLRKWIEEYTSEGETKHKVNV
+helix                         HHH H  HHHHH   HHHHHHHH  
+sheet  E  EEEEEEEEE    EEEEEEE                       EE
+turns T TT         TT            T                     
+ coil                CC            CC     CCC          
+
+#---------------------------------------
+#
+#  Residue totals: H: 61   E: 51   T: 22   C: 15
+#         percent: H: 45.9 E: 38.3 T: 16.5 C: 11.3
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN163_c3_g1_i1.p1     from: 1   to: 217
+# HitCount: 40
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MGVKLYTLDWSPPVRATMMACDIFNIPFEKIEVNLMKREHLTPEYLKKNP
+helix H             HHHHHHHHHHH H HHHHHHHHHHHHHHHHHH    
+sheet  EEEEEE                                           
+turns        TTT   T                                TT  
+ coil           CCC            C C                    CC
+          .   60    .   70    .   80    .   90    .  100
+      LHTIPVLEDGDFVLFDSHAIMVYLAEAYGMDDSWYPKDVKKRALVNQKLF
+helix        H  HHHHHHHHHHHHHHHHHH     HHH HHHHHHHHH    
+sheet  EEEEEE                                       EEEE
+turns T       TT                  TTTTT   T             
+ coil                                                   
+          .  110    .  120    .  130    .  140    .  150
+      FDTSILFPRIRGVTYPIMAEGNKIIEQKKIDDILEAYGFVEEFLSRTTYI
+helix                  HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+sheet EEE           EEE                                 
+turns         TTTTT                                     
+ coil    CCCCC     C                                    
+          .  160    .  170    .  180    .  190    .  200
+      AADHITIADVAVLSTTTALEMIVPIEAEKFPKTYAWLTNLKKTPYFKKHC
+helix HHHHHHHHH    HHHHHHHHHHHHHHHHH  HHHHHH            
+sheet          EEEE                                E    
+turns                               TT      TTTT TT TTT 
+ coil                                           C      C
+          .  210
+      EPGAILLSNIIKKCLES
+helix  HHHHHHHHHHH   HH
+sheet             EEE  
+turns                  
+ coil C                
+
+#---------------------------------------
+#
+#  Residue totals: H:140   E: 30   T: 31   C: 16
+#         percent: H: 69.7 E: 14.9 T: 15.4 C:  8.0
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1682_c0_g2_i1.p1     from: 1   to: 222
+# HitCount: 49
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPLLYKLDASPPACAVRMVADIIGLQLDFKDPDITQMEHKSPDYLQLNP
+helix HHHHH        HHHH HHHHHHHH        HHHHH           
+sheet      EE          E        EE                 EEE  
+turns        TTT  T               TT   T     T  TTT     
+ coil           CC                  CCC       CC      CC
+          .   60    .   70    .   80    .   90    .  100
+      LGTIPVLVDDDFVLSDSHAIMIYLLSKYGGDKSESLYPSDLRTRATVNQV
+helix          HHHHHHHHHHH                              
+sheet   EEEEEEE           EEEEE        EEE    EEEEEEEEEE
+turns TT                       TTTTT       TTT          
+ coil                               CCC   C             
+          .  110    .  120    .  130    .  140    .  150
+      LFFDTGILFIRIKVVALPTIMEGMKAPTEKHLHDLEEAYGMIEAYLRRHT
+helix       HHHH       HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 
+sheet EEE       EEEEEEE                                 
+turns    TTT                                            
+ coil                                                  C
+          .  160    .  170    .  180    .  190    .  200
+      HIAADQLTIADLSVATTLAAAEVILPLNTNKFTLTAKWQGMIQELPYYKS
+helix   HHHHHHHHHHHHHHHHHHHHH  H        HH              
+sheet                        EE      EEE      EEEE     E
+turns                           T   T     TT       TTTT 
+ coil CC                         CCC        CC    C     
+          .  210    .  220
+      IAAPGIAKFNAIMRHYCRKNSQ
+helix    HHHHHHHHHHHH       
+sheet EEE                   
+turns                TTTTTTT
+ coil                       
+
+#---------------------------------------
+#
+#  Residue totals: H:105   E: 56   T: 39   C: 22
+#         percent: H: 51.0 E: 27.2 T: 18.9 C: 10.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1682_c0_g2_i2.p1     from: 1   to: 246
+# HitCount: 54
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MIPTFFHAIKRSVSLSVHAVAGSKMAPLLYKLDASPPACAVRMVADIIGL
+helix   HHHHHHH        HHHHHHHHHHH         HHHH HHHHHHHH
+sheet EE            EEE           EEE          E        
+turns          TTT                   TTT  T             
+ coil             CC                    CC              
+          .   60    .   70    .   80    .   90    .  100
+      QLDFKDPDITQMEHKSPDYLQLNPLGTIPVLVDDDFVLSDSHAIMIYLLS
+helix         HHHHH                    HHHHHHHHHHH      
+sheet EE                 EEE    EEEEEEE           EEEEE 
+turns   TT   T     T  TTT     TT                       T
+ coil     CCC       CC      CC                          
+          .  110    .  120    .  130    .  140    .  150
+      KYGGDKSESLYPSDLRTRATVNQVLFFDTGILFIRIKVVALPTIMEGMKA
+helix                               HHHH       HHHHHHHHH
+sheet        EEE    EEEEEEEEEEEEE       EEEEEEE         
+turns TTTT       TTT             TTT                    
+ coil     CCC   C                                       
+          .  160    .  170    .  180    .  190    .  200
+      PTEKHLHDLEEAYGMIEAYLRRHTHIAADQLTIADLSVATTLAAAEVILP
+helix HHHHHHHHHHHHHHHHHHHHHHH   HHHHHHHHHHHHHHHHHHHHH  H
+sheet                                                EE 
+turns                                                   
+ coil                        CCC                        
+          .  210    .  220    .  230    .  240
+      LNTNKFTLTAKWQGMIQELPYYKSIAAPGIAKFNAIMRHYCRKNSQ
+helix         HH                 HHHHHHHHHHHH       
+sheet      EEE      EEEE     EEEE                   
+turns T   T     TT       TTTT                TTTTTTT
+ coil  CCC        CC    C                           
+
+#---------------------------------------
+#
+#  Residue totals: H:118   E: 62   T: 42   C: 24
+#         percent: H: 51.3 E: 27.0 T: 18.3 C: 10.4
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN18158_c2_g1_i1.p1     from: 1   to: 114
+# HitCount: 31
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      IRLKVIVLPALFGDLDGPTENHKADIDEAYGIVEAYLAGHNLNYLVTDHL
+helix HH                 HHHHHHHHHHHHHHHHHHHH           
+sheet   EEEEEEEEEE                               EEEEEEE
+turns             TT                         T  T       
+ coil               CCCCC                     CC        
+          .   60    .   70    .   80    .   90    .  100
+      TIADLSVGATTIAMRHLHKLNPAKFPRTTSWVARLEQHPSINKIFVPSSK
+helix  HH     HHHHHHHHHH               HHH              
+sheet E  EE                   E       E         EEEEE   
+turns                   T  TT   TT           TTT        
+ coil      CCC           CC  C C  CCCC    CCC        CCC
+          .  110
+      ILGEVMNATWQANK
+helix  H   HHHHHHH  
+sheet   EEE         
+turns               
+ coil C           CC
+
+#---------------------------------------
+#
+#  Residue totals: H: 45   E: 30   T: 12   C: 27
+#         percent: H: 45.9 E: 30.6 T: 12.2 C: 27.6
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN18158_c2_g2_i1.p1     from: 1   to: 226
+# HitCount: 43
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MAPILYKMDASPPANAVRILADILGLELDLRDVNFSNEEHKSADHVKLNP
+helix HHHHH        HHH    HHHHHHHHHHHHH HHHHHHHHHHHH    
+sheet      EEE        EEEE                          EE  
+turns         T                                        T
+ coil          CCCC                    C              C 
+          .   60    .   70    .   80    .   90    .  100
+      MGTLPTLIDGDFIISESHATMKYLLSVYGGDKAESLYPSDVRTRALVDQA
+helix              HHHHHHHHH                      HHHHHH
+sheet   EEEEEEE EEE         EEEEE     EEEE    EEEE      
+turns TT       T                 T         TTT          
+ coil                             CCCC    C             
+          .  110    .  120    .  130    .  140    .  150
+      MFFNVGIFFIRLKVVVLPAIFGELAGPTEQHLADIDEAYGIVEAYLNLSG
+helix HHH   HHHH                 HHHHHHHHHHHHHHHHHHHHH  
+sheet           EE EEEEEEEEE                            
+turns             T                                   TT
+ coil    CCC                CCCCC                       
+          .  160    .  170    .  180    .  190    .  200
+      HKYLVTDHLTIADLSVGATAIAMDHLHKLDVAKFPRTAAWKARLEEQPSF
+helix        H  HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH  
+sheet  EEEEEE EE                                        
+turns T                                               TT
+ coil                                                   
+          .  210    .  220
+      KKYLVPGSKILGDVVNAAWQKNKNKA
+helix                HHHHHH     
+sheet  EEEE  EEEEEEEE           
+turns T    TT              TTT  
+ coil                         CC
+
+#---------------------------------------
+#
+#  Residue totals: H:121   E: 63   T: 21   C: 21
+#         percent: H: 57.6 E: 30.0 T: 10.0 C: 10.0
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1824_c0_g1_i1.p1     from: 1   to: 225
+# HitCount: 63
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      NKLWQTIVFLNMPIVIHKTDVSPPARATLMVVEILGLKVQTREVNLPTRA
+helix    H        HHH         HHHH  HHHHHHHHH         HH
+sheet     EEEEE      EEE          EE         EEEE       
+turns T T               TT                       T   T  
+ coil  C       CCC        CCCC                    CCC   
+          .   60    .   70    .   80    .   90    .  100
+      QFKPEYLEKNPLHSVPLLEDDGLVLPDSHAIMMYLVSKYGDTQQTLYPKH
+helix      HH H        HHHHHHHHHHHHHHH                 H
+sheet  E            EEE               EEEE     EEEEEE   
+turns T   T  T  TT                         TTTT       T 
+ coil   CC     C  CC                      C          C  
+          .  110    .  120    .  130    .  140    .  150
+      VAARAIVDQRLFFDASILFPRLKGVIYSLVKFRAPGLTDEQFADIKECYD
+helix HHHHHHHH    H   HHHH                  HHHHHHHHHHHH
+sheet         EEE             EEEEEEEEE                 
+turns            T TT     TTTT                          
+ coil                C                 CCCCC            
+          .  160    .  170    .  180    .  190    .  200
+      VTEKYLVKEYIAGNELTLADISCVATLSSLDCIVTIDKKYVKIHEWWGRL
+helix HHHHHHHHHHHHHHHHHHHHH         H   HHHHH    HHHH   
+sheet                      EEEEE     EEE      EEE       
+turns                           TTTT                    
+ coil                                        C       CCC
+          .  210    .  220
+      KRESWYQKVNEPGLNIFGRFMKQFL
+helix                H HHHHHHHH
+sheet                 E        
+turns  TTTTTT    TT            
+ coil C      CCCC  CC          
+
+#---------------------------------------
+#
+#  Residue totals: H:103   E: 52   T: 35   C: 35
+#         percent: H: 49.3 E: 24.9 T: 16.7 C: 16.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c0_g1_i1.p1     from: 1   to: 118
+# HitCount: 26
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      EIDQNIDLFNEFRLKASDIFYEDDEVAKEKKYADALKNVFPDYLEKLSDI
+helix HHHHH  HHHHHHHHH   HHHHHHHHHHHHHHHHH    HHHHHHHHH 
+sheet                   E                 EEEE         E
+turns                                                   
+ coil      CC         CC                                
+          .   60    .   70    .   80    .   90    .  100
+      INKNNGYLALGKLTWADFVLTGTFLYLKMITQIPDLEAKYPAFQKVIDNV
+helix              HH       HHHH       H HHHHHHHHH      
+sheet E     EEEEEE   EEEEE      EEEEEEE           EEEEEE
+turns  TTTTT              T             T               
+ coil             C        C                            
+          .  110
+      YAIPQIKAYVDKAPVTRY
+helix     H             
+sheet EEEE EEEEE EEEEEEE
+turns           T       
+ coil                   
+
+#---------------------------------------
+#
+#  Residue totals: H: 57   E: 47   T:  8   C:  6
+#         percent: H: 55.9 E: 46.1 T:  7.8 C:  5.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c1_g2_i1.p1     from: 1   to: 217
+# HitCount: 48
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      IWFALTILNKVFSADNGGNWHIISVSICVNTALAVRVCGNQNKPKIMSKY
+helix HHHHHHH                        H                  
+sheet          EEEE       EEEEEEEEEEE EEEEEE       EEEEE
+turns         T     TTTTT                   TTT  TT     
+ coil        C     C     C                     CC       
+          .   60    .   70    .   80    .   90    .  100
+      VFYYFNERSLGEPSRLLMAYGGQEFDDRRFTYDEWPAFKQKTLYGQIPVL
+helix               H                    HHHH           
+sheet EEEEE          EEE      E                    EEEEE
+turns      TTT                 TTTTTTTTT     TTTTTT     
+ coil         CCCCCC    CCCCCC          C               
+          .  110    .  120    .  130    .  140    .  150
+      EIDGRQYSQSLAITRYLGRKCGLVGDTPEDALEIDQNIDLLNDFRLKAGE
+helix                             HHHHHHHHHHHHHHHHHHHH H
+sheet EE       EEEEEE      EEE                          
+turns   TTTTT        TTTTTT                             
+ coil        CC               CCCC                    C 
+          .  160    .  170    .  180    .  190    .  200
+      VRYERDEAVREARYAKYAQTVFPDYLEKLNAIVVKNNGHLALGKLTWGDF
+helix HHHHHHHHHHHHHHHH        HHHHHHHHH     HH          
+sheet                  EEEEEE          EE     EEEE   EEE
+turns                 T      T           T         TT   
+ coil                                     CC      C     
+          .  210
+      VLAGLFDYLKMMLRMPD
+helix   HHHHHHHHHHHHHH 
+sheet EE               
+turns                 T
+ coil                  
+
+#---------------------------------------
+#
+#  Residue totals: H: 75   E: 68   T: 46   C: 28
+#         percent: H: 37.3 E: 33.8 T: 22.9 C: 13.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i1.p1     from: 1   to: 170
+# HitCount: 39
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSKYVFYYFNVKGLGEPSRLLMAYGDQEFEDRRHTDEEWPAIKPKMLYGT
+helix H                HH   H  HHHHHHH    HHHHHHH       
+sheet  EEEEEEEE          EEE                       EEEEE
+turns          TT                     T          TT     
+ coil            CCCCCC      CC        CCC              
+          .   60    .   70    .   80    .   90    .  100
+      VPVLEIDGKQYGQSKAISRYLGHKFGLVGDTPEDALEVDQIVDFLVDFRM
+helix      H                          HHHHHHHHHHHHHHHHH 
+sheet EEEEE         EEEEEE    EEE                       
+turns       TTTTTTT       TTTT                          
+ coil              C             CCCCC                 C
+          .  110    .  120    .  130    .  140    .  150
+      KGEETSPWFQTDELVREKSYANYSKNVFPNYLERLDAVIVKNNGHLALGK
+helix         HHHHHHHHHHH            HHHHHHHH H   HHHHHH
+sheet                           EEE E        E          
+turns       TT           TTTTTTT   T           T        
+ coil CCCCCC                                    CC      
+          .  160    .  170
+      VLTIHMRKKTSYTLAFGALY
+helix HHHHHH           HHH
+sheet            EEEEEE   
+turns       TTTT          
+ coil           C         
+
+#---------------------------------------
+#
+#  Residue totals: H: 71   E: 41   T: 31   C: 27
+#         percent: H: 46.1 E: 26.6 T: 20.1 C: 17.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i10.p1     from: 1   to: 200
+# HitCount: 47
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSKYVFYYFNVKGLGEPSRLLMAYGDQEFEDRRHTDEEWPAIKPKMLYGT
+helix H                HH   H  HHHHHHH    HHHHHHH       
+sheet  EEEEEEEE          EEE                       EEEEE
+turns          TT                     T          TT     
+ coil            CCCCCC      CC        CCC              
+          .   60    .   70    .   80    .   90    .  100
+      VPVLEIDGKQYGQSKAISRYLGHKFGLVGDTPEDALEVDQIVDFLVDFRM
+helix      H                          HHHHHHHHHHHHHHHHHH
+sheet EEEEE         EEEEEE    EEE                       
+turns       TTTTTTT       TTTT                          
+ coil              C             CCCCC                  
+          .  110    .  120    .  130    .  140    .  150
+      KAEQTSRWFQSDEVVRERNYADYSKNVFPDYLERLNAVIVKNNGHLALGK
+helix HHHH          HHHHH           HHHHHHHHH          H
+sheet                          EEEEE         EE     EEE 
+turns       TT           TTTTTT                T        
+ coil     CC  CCCCCC                            CCCC    
+          .  160    .  170    .  180    .  190    .  200
+      LTWADFMFAGWIDYLRELMRMPDLTTKYPAFQQVVDNVYFIPQVKAYADK
+helix HHHHHHHH  HHHHHHHHHHHH H                    HHHHHH
+sheet                               EEEEEE EEEEEEE      
+turns          T            T  T   T      T             
+ coil         C               C CCC                     
+
+#---------------------------------------
+#
+#  Residue totals: H: 83   E: 53   T: 30   C: 34
+#         percent: H: 45.1 E: 28.8 T: 16.3 C: 18.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i3.p1     from: 1   to: 170
+# HitCount: 37
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSKYVFYYFNVKGLGEPSRLLMAYGDQEFEDRRHTDEEWPAIKPKMLYGT
+helix H                HH   H  HHHHHHH    HHHHHHH       
+sheet  EEEEEEEE          EEE                       EEEEE
+turns          TT                     T          TT     
+ coil            CCCCCC      CC        CCC              
+          .   60    .   70    .   80    .   90    .  100
+      VPVLEIDGKQYGQSKAISRYLGHKFGLVGDTPEDALEVDQIVDFLVDFRM
+helix      H                          HHHHHHHHHHHHHHHHHH
+sheet EEEEE         EEEEEE    EEE                       
+turns       TTTTTTT       TTTT                          
+ coil              C             CCCCC                  
+          .  110    .  120    .  130    .  140    .  150
+      KAEQTSRWFQSDEVVRERNYADYSKNVFPDYLERLNAVIVKNNGHLALGK
+helix HHHH          HHHHH           HHHHHHHHH     HHHHHH
+sheet                          EEEEE         EE         
+turns       TT           TTTTTT                T        
+ coil     CC  CCCCCC                            CC      
+          .  160    .  170
+      VLTIHMRKKTSYTLAFGALY
+helix HHHHHH           HHH
+sheet            EEEEEE   
+turns       TTTT          
+ coil           C         
+
+#---------------------------------------
+#
+#  Residue totals: H: 70   E: 43   T: 29   C: 28
+#         percent: H: 45.5 E: 27.9 T: 18.8 C: 18.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN196_c6_g1_i4.p1     from: 1   to: 200
+# HitCount: 49
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSKYVFYYFNVKGLGEPSRLLMAYGDQEFEDRRHTDEEWPAIKPKMLYGT
+helix H                HH   H  HHHHHHH    HHHHHHH       
+sheet  EEEEEEEE          EEE                       EEEEE
+turns          TT                     T          TT     
+ coil            CCCCCC      CC        CCC              
+          .   60    .   70    .   80    .   90    .  100
+      VPVLEIDGKQYGQSKAISRYLGHKFGLVGDTPEDALEVDQIVDFLVDFRM
+helix      H                          HHHHHHHHHHHHHHHHH 
+sheet EEEEE         EEEEEE    EEE                       
+turns       TTTTTTT       TTTT                          
+ coil              C             CCCCC                 C
+          .  110    .  120    .  130    .  140    .  150
+      KGEETSPWFQTDELVREKSYANYSKNVFPNYLERLDAVIVKNNGHLALGK
+helix         HHHHHHHHHHH            HHHHHHHH H        H
+sheet                           EEE E        E      EEE 
+turns       TT           TTTTTTT   T           T        
+ coil CCCCCC                                    CCCC    
+          .  160    .  170    .  180    .  190    .  200
+      LTWADFMFAGWIDYLRELMRMPDLTTKYPAFQQVVDNVYFIPQVKAYADK
+helix HHHHHHHH  HHHHHHHHHHHH H                    HHHHHH
+sheet                               EEEEEE EEEEEEE      
+turns          T            T  T   T      T             
+ coil         C               C CCC                     
+
+#---------------------------------------
+#
+#  Residue totals: H: 84   E: 51   T: 32   C: 33
+#         percent: H: 45.7 E: 27.7 T: 17.4 C: 17.9
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i1.p1     from: 1   to: 240
+# HitCount: 73
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSYYQQRTVGPLPPSALSDKLRLYHVDMNPYGHRVLLILEAKKAKYEVYK
+helix                HHHHHH           H   HHHHHHHHHHHH  
+sheet E   EEEEE            EEEEE       EEE            EE
+turns  TTT                      T  TTT                  
+ coil          CCCCCC            CC                     
+          .   60    .   70    .   80    .   90    .  100
+      LDPLRLPEWFRTKNPRLKIPVLEIPTDNGDKYLFESVVICDYLDEKYTRN
+helix       H HH                            HHHHH    HH 
+sheet E                EEEEEEE        EEEEEE            
+turns        T  TTT TTT        TTTTT             TTTT  T
+ coil  CCCCC       C          C     CC                  
+          .  110    .  120    .  130    .  140    .  150
+      QLHSRDPYVKAQDRLLIERFNELIKGSLECFDTNFAFGSEQIIQTLDIFE
+helix          HHHHH HHHHHHHH         H      HHHHH HHHHH
+sheet         E     E            EE               E     
+turns T  TT TT               TTT   TTT                  
+ coil  CC  C                    C      CCCCCC           
+          .  160    .  170    .  180    .  190    .  200
+      KELASRGTNYFGGHRPGMLDYMIWPWVERLYLLRSVSERKFDEKRGLFPN
+helix HHHH                     HHHH   HHHHHHHHHHH       
+sheet                   EEEEE                           
+turns     TTTT TTTT   TT           TT            TTT   T
+ coil         C    CCC       CC      C              CCC 
+          .  210    .  220    .  230    .  240
+      FADWGDQMQLDDVVKKHANSPQEYFDYYKNARTHSMGYYL
+helix       HHHHHHHHHH                        
+sheet                       EEE       E     EE
+turns   TT T               T   TTTTTTT  TTTT  
+ coil CC  C           CCCCC            C      
+
+#---------------------------------------
+#
+#  Residue totals: H: 82   E: 46   T: 66   C: 46
+#         percent: H: 36.6 E: 20.5 T: 29.5 C: 20.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i10.p1     from: 1   to: 240
+# HitCount: 73
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSYYQQRTVGPLPPSALSDKLRLYHVDMNPYGHRVLLILEAKKAKYEVYK
+helix                HHHHHH           H   HHHHHHHHHHHH  
+sheet E   EEEEE            EEEEE       EEE            EE
+turns  TTT                      T  TTT                  
+ coil          CCCCCC            CC                     
+          .   60    .   70    .   80    .   90    .  100
+      LDPLRLPEWFRTKNPRLKIPVLEIPTDNGDKYLFESVVICDYLDEKYTRN
+helix       H HH                            HHHHH    HH 
+sheet E                EEEEEEE        EEEEEE            
+turns        T  TTT TTT        TTTTT             TTTT  T
+ coil  CCCCC       C          C     CC                  
+          .  110    .  120    .  130    .  140    .  150
+      QLHSRDPYVKAQDRLLIERFNELIKGSLECFDTNFAFGSEQIIQTLDIFE
+helix          HHHHH HHHHHHHH         H      HHHHH HHHHH
+sheet         E     E            EE               E     
+turns T  TT TT               TTT   TTT                  
+ coil  CC  C                    C      CCCCCC           
+          .  160    .  170    .  180    .  190    .  200
+      KELASRGTNYFGGHRPGMLDYMIWPWVERLYLLRSVSERKFDEKRGLFPN
+helix HHHH                     HHHH   HHHHHHHHHHH       
+sheet                   EEEEE                           
+turns     TTTT TTTT   TT           TT            TTT   T
+ coil         C    CCC       CC      C              CCC 
+          .  210    .  220    .  230    .  240
+      FADWGDQMQLDDVVKKHANSPQEYFDYYKNARTHSMGYYL
+helix       HHHHHHHHHH                        
+sheet                       EEE       E     EE
+turns   TT T               T   TTTTTTT  TTTT  
+ coil CC  C           CCCCC            C      
+
+#---------------------------------------
+#
+#  Residue totals: H: 82   E: 46   T: 66   C: 46
+#         percent: H: 36.6 E: 20.5 T: 29.5 C: 20.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i13.p1     from: 1   to: 240
+# HitCount: 73
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSYYQQRTVGPLPPSALSDKLRLYHVDMNPYGHRVLLILEAKKAKYEVYK
+helix                HHHHHH           H   HHHHHHHHHHHH  
+sheet E   EEEEE            EEEEE       EEE            EE
+turns  TTT                      T  TTT                  
+ coil          CCCCCC            CC                     
+          .   60    .   70    .   80    .   90    .  100
+      LDPLRLPEWFRTKNPRLKIPVLEIPTDNGDKYLFESVVICDYLDEKYTRN
+helix       H HH                            HHHHH    HH 
+sheet E                EEEEEEE        EEEEEE            
+turns        T  TTT TTT        TTTTT             TTTT  T
+ coil  CCCCC       C          C     CC                  
+          .  110    .  120    .  130    .  140    .  150
+      QLHSRDPYVKAQDRLLIERFNELIKGSLECFDTNFAFGSEQIIQTLDIFE
+helix          HHHHH HHHHHHHH         H      HHHHH HHHHH
+sheet         E     E            EE               E     
+turns T  TT TT               TTT   TTT                  
+ coil  CC  C                    C      CCCCCC           
+          .  160    .  170    .  180    .  190    .  200
+      KELASRGTNYFGGHRPGMLDYMIWPWVERLYLLRSVSERKFDEKRGLFPN
+helix HHHH                     HHHH   HHHHHHHHHHH       
+sheet                   EEEEE                           
+turns     TTTT TTTT   TT           TT            TTT   T
+ coil         C    CCC       CC      C              CCC 
+          .  210    .  220    .  230    .  240
+      FADWGDQMQLDDVVKKHANSPQEYFDYYKNARTHSMGYYL
+helix       HHHHHHHHHH                        
+sheet                       EEE       E     EE
+turns   TT T               T   TTTTTTT  TTTT  
+ coil CC  C           CCCCC            C      
+
+#---------------------------------------
+#
+#  Residue totals: H: 82   E: 46   T: 66   C: 46
+#         percent: H: 36.6 E: 20.5 T: 29.5 C: 20.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i14.p1     from: 1   to: 240
+# HitCount: 73
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSYYQQRTVGPLPPSALSDKLRLYHVDMNPYGHRVLLILEAKKAKYEVYK
+helix                HHHHHH           H   HHHHHHHHHHHH  
+sheet E   EEEEE            EEEEE       EEE            EE
+turns  TTT                      T  TTT                  
+ coil          CCCCCC            CC                     
+          .   60    .   70    .   80    .   90    .  100
+      LDPLRLPEWFRTKNPRLKIPVLEIPTDNGDKYLFESVVICDYLDEKYTRN
+helix       H HH                            HHHHH    HH 
+sheet E                EEEEEEE        EEEEEE            
+turns        T  TTT TTT        TTTTT             TTTT  T
+ coil  CCCCC       C          C     CC                  
+          .  110    .  120    .  130    .  140    .  150
+      QLHSRDPYVKAQDRLLIERFNELIKGSLECFDTNFAFGSEQIIQTLDIFE
+helix          HHHHH HHHHHHHH         H      HHHHH HHHHH
+sheet         E     E            EE               E     
+turns T  TT TT               TTT   TTT                  
+ coil  CC  C                    C      CCCCCC           
+          .  160    .  170    .  180    .  190    .  200
+      KELASRGTNYFGGHRPGMLDYMIWPWVERLYLLRSVSERKFDEKRGLFPN
+helix HHHH                     HHHH   HHHHHHHHHHH       
+sheet                   EEEEE                           
+turns     TTTT TTTT   TT           TT            TTT   T
+ coil         C    CCC       CC      C              CCC 
+          .  210    .  220    .  230    .  240
+      FADWGDQMQLDDVVKKHANSPQEYFDYYKNARTHSMGYYL
+helix       HHHHHHHHHH                        
+sheet                       EEE       E     EE
+turns   TT T               T   TTTTTTT  TTTT  
+ coil CC  C           CCCCC            C      
+
+#---------------------------------------
+#
+#  Residue totals: H: 82   E: 46   T: 66   C: 46
+#         percent: H: 36.6 E: 20.5 T: 29.5 C: 20.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i2.p1     from: 1   to: 240
+# HitCount: 73
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSYYQQRTVGPLPPSALSDKLRLYHVDMNPYGHRVLLILEAKKAKYEVYK
+helix                HHHHHH           H   HHHHHHHHHHHH  
+sheet E   EEEEE            EEEEE       EEE            EE
+turns  TTT                      T  TTT                  
+ coil          CCCCCC            CC                     
+          .   60    .   70    .   80    .   90    .  100
+      LDPLRLPEWFRTKNPRLKIPVLEIPTDNGDKYLFESVVICDYLDEKYTRN
+helix       H HH                            HHHHH    HH 
+sheet E                EEEEEEE        EEEEEE            
+turns        T  TTT TTT        TTTTT             TTTT  T
+ coil  CCCCC       C          C     CC                  
+          .  110    .  120    .  130    .  140    .  150
+      QLHSRDPYVKAQDRLLIERFNELIKGSLECFDTNFAFGSEQIIQTLDIFE
+helix          HHHHH HHHHHHHH         H      HHHHH HHHHH
+sheet         E     E            EE               E     
+turns T  TT TT               TTT   TTT                  
+ coil  CC  C                    C      CCCCCC           
+          .  160    .  170    .  180    .  190    .  200
+      KELASRGTNYFGGHRPGMLDYMIWPWVERLYLLRSVSERKFDEKRGLFPN
+helix HHHH                     HHHH   HHHHHHHHHHH       
+sheet                   EEEEE                           
+turns     TTTT TTTT   TT           TT            TTT   T
+ coil         C    CCC       CC      C              CCC 
+          .  210    .  220    .  230    .  240
+      FADWGDQMQLDDVVKKHANSPQEYFDYYKNARTHSMGYYL
+helix       HHHHHHHHHH                        
+sheet                       EEE       E     EE
+turns   TT T               T   TTTTTTT  TTTT  
+ coil CC  C           CCCCC            C      
+
+#---------------------------------------
+#
+#  Residue totals: H: 82   E: 46   T: 66   C: 46
+#         percent: H: 36.6 E: 20.5 T: 29.5 C: 20.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN1970_c0_g1_i5.p1     from: 1   to: 240
+# HitCount: 73
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSYYQQRTVGPLPPSALSDKLRLYHVDMNPYGHRVLLILEAKKAKYEVYK
+helix                HHHHHH           H   HHHHHHHHHHHH  
+sheet E   EEEEE            EEEEE       EEE            EE
+turns  TTT                      T  TTT                  
+ coil          CCCCCC            CC                     
+          .   60    .   70    .   80    .   90    .  100
+      LDPLRLPEWFRTKNPRLKIPVLEIPTDNGDKYLFESVVICDYLDEKYTRN
+helix       H HH                            HHHHH    HH 
+sheet E                EEEEEEE        EEEEEE            
+turns        T  TTT TTT        TTTTT             TTTT  T
+ coil  CCCCC       C          C     CC                  
+          .  110    .  120    .  130    .  140    .  150
+      QLHSRDPYVKAQDRLLIERFNELIKGSLECFDTNFAFGSEQIIQTLDIFE
+helix          HHHHH HHHHHHHH         H      HHHHH HHHHH
+sheet         E     E            EE               E     
+turns T  TT TT               TTT   TTT                  
+ coil  CC  C                    C      CCCCCC           
+          .  160    .  170    .  180    .  190    .  200
+      KELASRGTNYFGGHRPGMLDYMIWPWVERLYLLRSVSERKFDEKRGLFPN
+helix HHHH                     HHHH   HHHHHHHHHHH       
+sheet                   EEEEE                           
+turns     TTTT TTTT   TT           TT            TTT   T
+ coil         C    CCC       CC      C              CCC 
+          .  210    .  220    .  230    .  240
+      FADWGDQMQLDDVVKKHANSPQEYFDYYKNARTHSMGYYL
+helix       HHHHHHHHHH                        
+sheet                       EEE       E     EE
+turns   TT T               T   TTTTTTT  TTTT  
+ coil CC  C           CCCCC            C      
+
+#---------------------------------------
+#
+#  Residue totals: H: 82   E: 46   T: 66   C: 46
+#         percent: H: 36.6 E: 20.5 T: 29.5 C: 20.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i17.p1     from: 1   to: 388
+# HitCount: 96
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MWRPTFTILQKVVLPSLRENVSIKKLLFSTKSRLPKSTSKLTLVSASIGV
+helix                 HHHHHHHHHH  H                     
+sheet       EEEEEEEEE           EE          EEEEEEEEEEEE
+turns T   T                        TTT  TT              
+ coil  CCC C         C                CC  CC            
+          .   60    .   70    .   80    .   90    .  100
+      LLGAGYGGYTHYKVNVKKNYKPSETEEYAFLKEAPEFEAHYRIVNDADTS
+helix                        HHHHHHHHHHHHHHHHHHHH       
+sheet EEE     EEEEEEEEE                          E      
+turns    T TTT         TT                         TT T  
+ coil     C              CCCC                       C CC
+          .  110    .  120    .  130    .  140    .  150
+      DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQAIKWSGYKKV
+helix HHH                              HHHHHHHHH        
+sheet    EEEE          EEEEE      EEEEE                E
+turns        TTTTTTTTTT     TTTT                TT TTT  
+ coil                           CC                C   C 
+          .  160    .  170    .  180    .  190    .  200
+      PILLAKVDGGYQQLLDSTAIISVLETYLRDKSSDLREIVKFYPATKFIND
+helix                           HH     HHHH     H       
+sheet EEEEEE    EEEEEE  EEEEEEEE           EEEEE   EEE  
+turns       TTTT                  TTT            TT    T
+ coil                 CC             CC               C 
+          .  210    .  220    .  230    .  240    .  250
+      AGTQTTDIANKYFIMHQANVPDEKERALEIEERQWRQWADRTLVNTLSPN
+helix        HH HH         HHHHHHHHHHHHHHH              
+sheet     EEE     EEEE                          EE      
+turns                                     TT TTT       T
+ coil CCCC     C      CCCCC                 C     CCCCC 
+          .  260    .  270    .  280    .  290    .  300
+      VYRTKAEALETFQWFEEAGGWRKLFPAWECTLMVYIGAAAMYMISKRLKT
+helix    HHHHHHHHHHHHHH          HHHHH HHHHHHHHHHHHHHHHH
+sheet EEE                             E                 
+turns                  TTTT T   T                       
+ coil                      C CCC                        
+          .  310    .  320    .  330    .  340    .  350
+      RHKIKDDPRESLYDAVNEWMDAVQKKGTPFLGGDRPNLADVTVFGVLSSI
+helix H        HHHHHHHHHHHHHHH                          
+sheet                             EEE       EEEEEEEE    
+turns  TTTT   T               TT     TT                T
+ coil      CCC                  CC     CCCCC        CCC 
+          .  360    .  370    .  380
+      EGCGAFQDLKDNTAVAKWYYDTKNEIQTRMGKVIAMHA
+helix     HHHHH  HHHHH        HHHHHHHHHHHHHH
+sheet                 EEE                   
+turns TTTT     TT        TT                 
+ coil                      CCC              
+
+#---------------------------------------
+#
+#  Residue totals: H:145   E:106   T: 75   C: 62
+#         percent: H: 39.0 E: 28.5 T: 20.2 C: 16.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i2.p1     from: 1   to: 388
+# HitCount: 96
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MWRPTFTILQKVVLPSLRENVSIKKLLFSTKSRLPKSTSKLTLVSASIGV
+helix                 HHHHHHHHHH  H                     
+sheet       EEEEEEEEE           EE          EEEEEEEEEEEE
+turns T   T                        TTT  TT              
+ coil  CCC C         C                CC  CC            
+          .   60    .   70    .   80    .   90    .  100
+      LLGAGYGGYTHYKVNVKKNYKPSETEEYAFLKEAPEFEAHYRIVNDADTS
+helix                        HHHHHHHHHHHHHHHHHHHH       
+sheet EEE     EEEEEEEEE                          E      
+turns    T TTT         TT                         TT T  
+ coil     C              CCCC                       C CC
+          .  110    .  120    .  130    .  140    .  150
+      DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQAIKWSGYKKV
+helix HHH                              HHHHHHHHH        
+sheet    EEEE          EEEEE      EEEEE                E
+turns        TTTTTTTTTT     TTTT                TT TTT  
+ coil                           CC                C   C 
+          .  160    .  170    .  180    .  190    .  200
+      PILLAKVDGGYQQLLDSTAIISVLETYLRDKSSDLREIVKFYPATKFIND
+helix                           HH     HHHH     H       
+sheet EEEEEE    EEEEEE  EEEEEEEE           EEEEE   EEE  
+turns       TTTT                  TTT            TT    T
+ coil                 CC             CC               C 
+          .  210    .  220    .  230    .  240    .  250
+      AGTQTTDIANKYFIMHQANVPDEKERALEIEERQWRQWADRTLVNTLSPN
+helix        HH HH         HHHHHHHHHHHHHHH              
+sheet     EEE     EEEE                          EE      
+turns                                     TT TTT       T
+ coil CCCC     C      CCCCC                 C     CCCCC 
+          .  260    .  270    .  280    .  290    .  300
+      VYRTKAEALETFQWFEEAGGWRKLFPAWECTLMVYIGAAAMYMISKRLKT
+helix    HHHHHHHHHHHHHH          HHHHH HHHHHHHHHHHHHHHHH
+sheet EEE                             E                 
+turns                  TTTT T   T                       
+ coil                      C CCC                        
+          .  310    .  320    .  330    .  340    .  350
+      RHKIKDDPRESLYDAVNEWMDAVQKKGTPFLGGDRPNLADVTVFGVLSSI
+helix H        HHHHHHHHHHHHHHH                          
+sheet                             EEE       EEEEEEEE    
+turns  TTTT   T               TT     TT                T
+ coil      CCC                  CC     CCCCC        CCC 
+          .  360    .  370    .  380
+      EGCGAFQDLKDNTAVAKWYYDTKNEIQTRMGKVIAMHA
+helix     HHHHH  HHHHH        HHHHHHHHHHHHHH
+sheet                 EEE                   
+turns TTTT     TT        TT                 
+ coil                      CCC              
+
+#---------------------------------------
+#
+#  Residue totals: H:145   E:106   T: 75   C: 62
+#         percent: H: 39.0 E: 28.5 T: 20.2 C: 16.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i29.p1     from: 1   to: 388
+# HitCount: 96
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MWRPTFTILQKVVLPSLRENVSIKKLLFSTKSRLPKSTSKLTLVSASIGV
+helix                 HHHHHHHHHH  H                     
+sheet       EEEEEEEEE           EE          EEEEEEEEEEEE
+turns T   T                        TTT  TT              
+ coil  CCC C         C                CC  CC            
+          .   60    .   70    .   80    .   90    .  100
+      LLGAGYGGYTHYKVNVKKNYKPSETEEYAFLKEAPEFEAHYRIVNDADTS
+helix                        HHHHHHHHHHHHHHHHHHHH       
+sheet EEE     EEEEEEEEE                          E      
+turns    T TTT         TT                         TT T  
+ coil     C              CCCC                       C CC
+          .  110    .  120    .  130    .  140    .  150
+      DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQAIKWSGYKKV
+helix HHH                              HHHHHHHHH        
+sheet    EEEE          EEEEE      EEEEE                E
+turns        TTTTTTTTTT     TTTT                TT TTT  
+ coil                           CC                C   C 
+          .  160    .  170    .  180    .  190    .  200
+      PILLAKVDGGYQQLLDSTAIISVLETYLRDKSSDLREIVKFYPATKFIND
+helix                           HH     HHHH     H       
+sheet EEEEEE    EEEEEE  EEEEEEEE           EEEEE   EEE  
+turns       TTTT                  TTT            TT    T
+ coil                 CC             CC               C 
+          .  210    .  220    .  230    .  240    .  250
+      AGTQTTDIANKYFIMHQANVPDEKERALEIEERQWRQWADRTLVNTLSPN
+helix        HH HH         HHHHHHHHHHHHHHH              
+sheet     EEE     EEEE                          EE      
+turns                                     TT TTT       T
+ coil CCCC     C      CCCCC                 C     CCCCC 
+          .  260    .  270    .  280    .  290    .  300
+      VYRTKAEALETFQWFEEAGGWRKLFPAWECTLMVYIGAAAMYMISKRLKT
+helix    HHHHHHHHHHHHHH          HHHHH HHHHHHHHHHHHHHHHH
+sheet EEE                             E                 
+turns                  TTTT T   T                       
+ coil                      C CCC                        
+          .  310    .  320    .  330    .  340    .  350
+      RHKIKDDPRESLYDAVNEWMDAVQKKGTPFLGGDRPNLADVTVFGVLSSI
+helix H        HHHHHHHHHHHHHHH                          
+sheet                             EEE       EEEEEEEE    
+turns  TTTT   T               TT     TT                T
+ coil      CCC                  CC     CCCCC        CCC 
+          .  360    .  370    .  380
+      EGCGAFQDLKDNTAVAKWYYDTKNEIQTRMGKVIAMHA
+helix     HHHHH  HHHHH        HHHHHHHHHHHHHH
+sheet                 EEE                   
+turns TTTT     TT        TT                 
+ coil                      CCC              
+
+#---------------------------------------
+#
+#  Residue totals: H:145   E:106   T: 75   C: 62
+#         percent: H: 39.0 E: 28.5 T: 20.2 C: 16.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2000_c0_g1_i7.p1     from: 1   to: 388
+# HitCount: 96
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MWRPTFTILQKVVLPSLRENVSIKKLLFSTKSRLPKSTSKLTLVSASIGV
+helix                 HHHHHHHHHH  H                     
+sheet       EEEEEEEEE           EE          EEEEEEEEEEEE
+turns T   T                        TTT  TT              
+ coil  CCC C         C                CC  CC            
+          .   60    .   70    .   80    .   90    .  100
+      LLGAGYGGYTHYKVNVKKNYKPSETEEYAFLKEAPEFEAHYRIVNDADTS
+helix                        HHHHHHHHHHHHHHHHHHHH       
+sheet EEE     EEEEEEEEE                          E      
+turns    T TTT         TT                         TT T  
+ coil     C              CCCC                       C CC
+          .  110    .  120    .  130    .  140    .  150
+      DLQLTLFQYQTCPFCCKVRSYLDARGISYDIVEVDAVIRQAIKWSGYKKV
+helix HHH                              HHHHHHHHH        
+sheet    EEEE          EEEEE      EEEEE                E
+turns        TTTTTTTTTT     TTTT                TT TTT  
+ coil                           CC                C   C 
+          .  160    .  170    .  180    .  190    .  200
+      PILLAKVDGGYQQLLDSTAIISVLETYLRDKSSDLREIVKFYPATKFIND
+helix                           HH     HHHH     H       
+sheet EEEEEE    EEEEEE  EEEEEEEE           EEEEE   EEE  
+turns       TTTT                  TTT            TT    T
+ coil                 CC             CC               C 
+          .  210    .  220    .  230    .  240    .  250
+      AGTQTTDIANKYFIMHQANVPDEKERALEIEERQWRQWADRTLVNTLSPN
+helix        HH HH         HHHHHHHHHHHHHHH              
+sheet     EEE     EEEE                          EE      
+turns                                     TT TTT       T
+ coil CCCC     C      CCCCC                 C     CCCCC 
+          .  260    .  270    .  280    .  290    .  300
+      VYRTKAEALETFQWFEEAGGWRKLFPAWECTLMVYIGAAAMYMISKRLKT
+helix    HHHHHHHHHHHHHH          HHHHH HHHHHHHHHHHHHHHHH
+sheet EEE                             E                 
+turns                  TTTT T   T                       
+ coil                      C CCC                        
+          .  310    .  320    .  330    .  340    .  350
+      RHKIKDDPRESLYDAVNEWMDAVQKKGTPFLGGDRPNLADVTVFGVLSSI
+helix H        HHHHHHHHHHHHHHH                          
+sheet                             EEE       EEEEEEEE    
+turns  TTTT   T               TT     TT                T
+ coil      CCC                  CC     CCCCC        CCC 
+          .  360    .  370    .  380
+      EGCGAFQDLKDNTAVAKWYYDTKNEIQTRMGKVIAMHA
+helix     HHHHH  HHHHH        HHHHHHHHHHHHHH
+sheet                 EEE                   
+turns TTTT     TT        TT                 
+ coil                      CCC              
+
+#---------------------------------------
+#
+#  Residue totals: H:145   E:106   T: 75   C: 62
+#         percent: H: 39.0 E: 28.5 T: 20.2 C: 16.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2379_c0_g3_i1.p1     from: 1   to: 142
+# HitCount: 24
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSACNVEVIKQVGRYYNVPVGTVCYNTDKVLTTVLNKQSIEGFATIVLKL
+helix HHHHHHHH                          H      HHHHHHHHH
+sheet         EEEE    EEEEEEEEE   EEEEEE      E         
+turns             TTTT         TTT                      
+ coil                                    CCCCC          
+          .   60    .   70    .   80    .   90    .  100
+      ASSAGVKMSQDQMLLSYQWLEHFAMYANQAAANPSFALGFLKDINKALEK
+helix HHHHHHHHHHHH     HHHHHHHHHHHHHH   HHHHHHHHHHHHHHHH
+sheet             EEE                                   
+turns                                                   
+ coil                CC              CCC                
+          .  110    .  120    .  130    .  140
+      NTYLTGQSLNVTDIAAFYVLYPIIVSKPFFCQPSSTTVEEFV
+helix                                       HHHH
+sheet  EEE    EEEEEEEEEEEEEEEEEEE          E    
+turns T   TTT                    TTTT           
+ coil        C                       CCCCCC     
+
+#---------------------------------------
+#
+#  Residue totals: H: 64   E: 46   T: 15   C: 17
+#         percent: H: 50.8 E: 36.5 T: 11.9 C: 13.5
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2379_c0_g3_i3.p1     from: 1   to: 173
+# HitCount: 31
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MSACNVEVIKQVGRYYNVPVGTVCYNTDKVLTTVLNKQSIEGFATIVLKL
+helix HHHHHHHH                          H      HHHHHHHHH
+sheet         EEEE    EEEEEEEEE   EEEEEE      E         
+turns             TTTT         TTT                      
+ coil                                    CCCCC          
+          .   60    .   70    .   80    .   90    .  100
+      ASSAGVKMSQDQMLLSYQWLEHFAMYANQAAANPSFALGFLKDINKALEK
+helix HHHHHHHHHHHH     HHHHHHHHHHHHHH   HHHHHHHHHHHHHHHH
+sheet             EEE                                   
+turns                                                   
+ coil                CC              CCC                
+          .  110    .  120    .  130    .  140    .  150
+      NTYLTGQSLNVTDIAAFYVLYPIIKRLSVTELESLIHVSRWTKHIQAQPR
+helix                              HHHHHHHHHH           
+sheet  EEE    EEEEEEEEEEEEEEEEEEEE                      
+turns T   TTT                                TT TTTTT TT
+ coil        C                    C            C     C  
+          .  160    .  170
+      VCTNQPPLTLNTLNLSILAPAVH
+helix                    HHHH
+sheet        EEEEEEEEEEEE    
+turns TTTT  T                
+ coil     CC                 
+
+#---------------------------------------
+#
+#  Residue totals: H: 74   E: 58   T: 25   C: 16
+#         percent: H: 47.1 E: 36.9 T: 15.9 C: 10.2
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2529_c0_g1_i19.p1     from: 1   to: 259
+# HitCount: 62
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MPEFHLTDSIITQLNAQEPWPDNVKLFQPYEVEQILLPDNASCLAVQAFL
+helix HHHHHHHHHH                    HHH        HHHHHHHHH
+sheet           EEE                    EEE              
+turns                   T  TTT             TTTT         
+ coil              CCCCC CC   CCCCCC      C             
+          .   60    .   70    .   80    .   90    .  100
+      KMCNLPFEVEMRWNAEFMSPSGRVPFIKCGAFVVSELEPIVQFAANKGVS
+helix H    HHHHHHHHHHH                 HHHHHHHHHHHH     
+sheet                        EEEEE  EEE                E
+turns  TT             T  TTTT     TT               TTTT 
+ coil    CC            CC                               
+          .  110    .  120    .  130    .  140    .  150
+      LCSRLSTEEKAEMRAYMSLITNVLVNAELYISWVDNETFNAVTKVRNSSV
+helix      HHHHHHHHHHHHH       HHH          HHHH        
+sheet EEE               EEEEEEE   EEEEE         EE      
+turns                                             TTTTT 
+ coil    CC                            CCCCC           C
+          .  160    .  170    .  180    .  190    .  200
+      YPWPLGWLQTRAKRNAVIKRLKALHWYDKTLDQVLADVEQCCNSLSQRLG
+helix              HHHHHHHHHHHH H    HHHHHHHHH          
+sheet        EE                                       E 
+turns  T  TT     TT            T TTT          TTTT   T T
+ coil C CC  C  CC                   C             CCC   
+          .  210    .  220    .  230    .  240    .  250
+      ERDYFFGAAPTELDALVFGHVFTIITTRLPCRKLADTVRKHESLVALAKR
+helix           HHHHHHHHHH            HHHHHHHHHHHHHHHHHH
+sheet                     EEEEE                         
+turns TTTTTT                   TT  TTT                  
+ coil       CCCC                 CC                     
+      0
+      VDEQYFKRP
+helix HHHH     
+sheet          
+turns     TTT T
+ coil        C 
+
+#---------------------------------------
+#
+#  Residue totals: H:120   E: 40   T: 56   C: 43
+#         percent: H: 49.4 E: 16.5 T: 23.0 C: 17.7
+#
+#---------------------------------------
+#=======================================
+#
+# Sequence: TRINITY_DN2529_c0_g1_i23.p1     from: 1   to: 259
+# HitCount: 62
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MPEFHLTDSIITQLNAQEPWPDNVKLFQPYEVEQILLPDNASCLAVQAFL
+helix HHHHHHHHHH                    HHH        HHHHHHHHH
+sheet           EEE                    EEE              
+turns                   T  TTT             TTTT         
+ coil              CCCCC CC   CCCCCC      C             
+          .   60    .   70    .   80    .   90    .  100
+      KMCNLPFEVEMRWNAEFMSPSGRVPFIKCGAFVVSELEPIVQFAANKGVS
+helix H    HHHHHHHHHHH                 HHHHHHHHHHHH     
+sheet                        EEEEE  EEE                E
+turns  TT             T  TTTT     TT               TTTT 
+ coil    CC            CC                               
+          .  110    .  120    .  130    .  140    .  150
+      LCSRLSTEEKAEMRAYMSLITNVLVNAELYISWVDNETFNAVTKVRNSSV
+helix      HHHHHHHHHHHHH       HHH          HHHH        
+sheet EEE               EEEEEEE   EEEEE         EE      
+turns                                             TTTTT 
+ coil    CC                            CCCCC           C
+          .  160    .  170    .  180    .  190    .  200
+      YPWPLGWLQTRAKRNAVIKRLKALHWYDKTLDQVLADVEQCCNSLSQRLG
+helix              HHHHHHHHHHHH H    HHHHHHHHH          
+sheet        EE                                       E 
+turns  T  TT     TT            T TTT          TTTT   T T
+ coil C CC  C  CC                   C             CCC   
+          .  210    .  220    .  230    .  240    .  250
+      ERDYFFGAAPTELDALVFGHVFTIITTRLPCRKLADTVRKHESLVALAKR
+helix           HHHHHHHHHH            HHHHHHHHHHHHHHHHHH
+sheet                     EEEEE                         
+turns TTTTTT                   TT  TTT                  
+ coil       CCCC                 CC                     
+      0
+      VDEQYFKRP
+helix HHHH     
+sheet          
+turns     TTT T
+ coil        C 
+
+#---------------------------------------
+#
+#  Residue totals: H:120   E: 40   T: 56   C: 43
+#         percent: H: 49.4 E: 16.5 T: 23.0 C: 17.7
+#
+#---------------------------------------
+
+#---------------------------------------
+# Total_sequences: 67
+# Total_length: 17887
+# Reported_sequences: 67
+# Reported_hitcount: 4080
+#---------------------------------------

@@ -1,0 +1,15 @@
+output_inventory.tsv	0
+run_summary.tsv	91
+scheduler.stderr	0
+scheduler.stdout	0
+SULT_all_isoforms.fasttree.nwk	2205
+SULT_all_isoforms.mafft.fa	34346
+SULT_all_isoforms.pep.fa	18461
+SULT_all_vs_Bmori_top25.tsv	141259
+SULT_all_vs_Spodoptera_top25.tsv	103517
+SULT_all_vs_sprot_top25.tsv	167115
+SULT_pfam.domtblout	31474
+SULT_pfam.full.txt	111205
+SULT_pfam.tblout	20497
+SULT.stderr.log	46072
+SULT.stdout.log	26

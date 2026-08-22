@@ -1,0 +1,954 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST/SULT/SULT_inclusive.hmm
+# target sequence database:        /lustre10/home/tuatchenjh9703/ph/08_orthofinder/00_inputs/Phoenei.longest.pep.fa
+# MSA of all hits saved to file:   /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST/SULT/SULT_proteome.sto
+# per-seq hits tabular output:     /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST/SULT/SULT_proteome.tblout
+# per-dom hits tabular output:     /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST/SULT/SULT_proteome.domtblout
+# sequence reporting threshold:    E-value <= 0.01
+# domain reporting threshold:      E-value <= 0.01
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SULT_inclusive_profile  [M=343]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   2.2e-157  523.3   1.9   2.4e-157  523.1   1.9    1.0  1  TRINITY_DN13428_c0_g2_i1.p1  TRINITY_DN13428_c0_g2~~TRINITY_D
+   7.2e-155  515.0   1.1     8e-155  514.9   1.1    1.0  1  TRINITY_DN260_c1_g1_i12.p1   TRINITY_DN260_c1_g1~~TRINITY_DN2
+     5e-146  485.9   0.3   5.6e-146  485.8   0.3    1.0  1  TRINITY_DN13428_c0_g1_i1.p1  TRINITY_DN13428_c0_g1~~TRINITY_D
+   3.8e-135  450.1   0.6   4.7e-135  449.9   0.6    1.0  1  TRINITY_DN1884_c0_g1_i17.p1  TRINITY_DN1884_c0_g1~~TRINITY_DN
+   7.5e-133  442.6   2.8   8.3e-133  442.5   2.8    1.0  1  TRINITY_DN1282_c1_g2_i1.p1   TRINITY_DN1282_c1_g2~~TRINITY_DN
+   2.8e-101  338.8   1.1   3.1e-101  338.6   1.1    1.0  1  TRINITY_DN18563_c0_g1_i1.p1  TRINITY_DN18563_c0_g1~~TRINITY_D
+    1.3e-68  231.4   0.0    1.5e-68  231.2   0.0    1.0  1  TRINITY_DN275_c0_g1_i16.p1   TRINITY_DN275_c0_g1~~TRINITY_DN2
+      1e-60  205.4   0.0    1.1e-60  205.3   0.0    1.0  1  TRINITY_DN5949_c0_g1_i3.p1   TRINITY_DN5949_c0_g1~~TRINITY_DN
+    5.8e-49  166.8   0.0    1.8e-48  165.2   0.0    1.5  1  TRINITY_DN5927_c0_g1_i23.p1  TRINITY_DN5927_c0_g1~~TRINITY_DN
+    4.6e-45  153.9   0.3    5.3e-45  153.7   0.3    1.1  1  TRINITY_DN659_c1_g1_i4.p1    TRINITY_DN659_c1_g1~~TRINITY_DN6
+    8.2e-44  149.8   0.2    1.1e-43  149.4   0.2    1.1  1  TRINITY_DN27959_c0_g1_i2.p1  TRINITY_DN27959_c0_g1~~TRINITY_D
+    4.3e-29  101.4   0.0    1.1e-28  100.1   0.0    1.5  1  TRINITY_DN8230_c0_g1_i5.p1   TRINITY_DN8230_c0_g1~~TRINITY_DN
+    8.5e-28   97.2   0.0    2.6e-27   95.6   0.0    1.6  1  TRINITY_DN22635_c0_g1_i1.p1  TRINITY_DN22635_c0_g1~~TRINITY_D
+    4.3e-27   94.9   0.0    1.2e-26   93.4   0.0    1.6  1  TRINITY_DN6100_c0_g3_i3.p1   TRINITY_DN6100_c0_g3~~TRINITY_DN
+    6.6e-27   94.2   0.0    2.3e-26   92.5   0.0    1.7  1  TRINITY_DN8098_c0_g3_i3.p1   TRINITY_DN8098_c0_g3~~TRINITY_DN
+    3.7e-26   91.8   0.0    8.8e-26   90.5   0.0    1.5  1  TRINITY_DN6848_c3_g1_i1.p1   TRINITY_DN6848_c3_g1~~TRINITY_DN
+    9.6e-26   90.4   0.0    2.6e-25   89.0   0.0    1.6  1  TRINITY_DN18406_c0_g3_i1.p1  TRINITY_DN18406_c0_g3~~TRINITY_D
+    1.5e-25   89.8   0.0    4.7e-25   88.1   0.0    1.6  1  TRINITY_DN18406_c0_g1_i1.p1  TRINITY_DN18406_c0_g1~~TRINITY_D
+    1.3e-23   83.4   0.0    3.7e-23   81.9   0.0    1.6  1  TRINITY_DN12897_c1_g1_i5.p1  TRINITY_DN12897_c1_g1~~TRINITY_D
+    7.7e-21   74.3   0.0    2.8e-20   72.4   0.0    1.7  1  TRINITY_DN12830_c0_g1_i4.p1  TRINITY_DN12830_c0_g1~~TRINITY_D
+    4.3e-20   71.8   0.0    6.2e-20   71.3   0.0    1.2  1  TRINITY_DN26494_c0_g1_i1.p1  TRINITY_DN26494_c0_g1~~TRINITY_D
+    3.7e-19   68.8   0.0    1.1e-18   67.2   0.0    1.7  1  TRINITY_DN26494_c0_g2_i1.p1  TRINITY_DN26494_c0_g2~~TRINITY_D
+    1.5e-17   63.5   0.0    4.1e-17   62.1   0.0    1.6  1  TRINITY_DN31601_c0_g1_i3.p1  TRINITY_DN31601_c0_g1~~TRINITY_D
+    1.1e-16   60.7   0.1    6.9e-16   58.0   0.1    1.8  1  TRINITY_DN25524_c2_g1_i1.p1  TRINITY_DN25524_c2_g1~~TRINITY_D
+    2.1e-15   56.4   3.4    2.8e-14   52.7   3.4    2.0  1  TRINITY_DN14195_c0_g1_i3.p1  TRINITY_DN14195_c0_g1~~TRINITY_D
+    1.8e-13   50.1   0.0    2.2e-13   49.8   0.0    1.1  1  TRINITY_DN61287_c0_g1_i1.p1  TRINITY_DN61287_c0_g1~~TRINITY_D
+    2.9e-13   49.4   0.0    1.7e-12   46.9   0.0    1.8  1  TRINITY_DN974_c0_g1_i6.p1    TRINITY_DN974_c0_g1~~TRINITY_DN9
+    1.7e-10   40.3   0.1    2.6e-10   39.7   0.1    1.3  1  TRINITY_DN29460_c1_g1_i1.p1  TRINITY_DN29460_c1_g1~~TRINITY_D
+    6.1e-09   35.2   0.1    1.3e-08   34.0   0.0    1.5  1  TRINITY_DN13606_c1_g2_i3.p1  TRINITY_DN13606_c1_g2~~TRINITY_D
+    6.1e-09   35.2   0.1    1.3e-08   34.0   0.0    1.5  1  TRINITY_DN13606_c1_g3_i1.p1  TRINITY_DN13606_c1_g3~~TRINITY_D
+    6.6e-09   35.1   0.2    4.5e-08   32.3   0.2    1.9  1  TRINITY_DN1894_c5_g1_i2.p1   TRINITY_DN1894_c5_g1~~TRINITY_DN
+      7e-05   21.8   0.5    0.00066   18.6   0.1    2.1  1  TRINITY_DN9381_c0_g2_i1.p1   TRINITY_DN9381_c0_g2~~TRINITY_DN
+    0.00054   18.9   1.0     0.0011   17.9   1.0    1.5  1  TRINITY_DN5256_c0_g1_i10.p1  TRINITY_DN5256_c0_g1~~TRINITY_DN
+
+
+Domain annotation for each sequence (and alignments):
+>> TRINITY_DN13428_c0_g2_i1.p1  TRINITY_DN13428_c0_g2~~TRINITY_DN13428_c0_g2_i1.p1  ORF type:complete (+),score=63.06 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  523.1   1.9  6.7e-160  2.4e-157       1     341 [.       1     343 [.       1     344 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 523.1 bits;  conditional E-value: 6.7e-160
+       SULT_inclusive_profile   1 MakrlefPyeikevepeekkvikkrykaystsfvrvgpkgyliaevykkeaeniwnkmelrpddiwvarfprSGttwtqelv 82 
+                                  M+++++fP ei++vep  +k + +++++++t fvrvgpk+y+++++yk+ea++i+n m+lrp+di+++++prSGttwtqelv
+  TRINITY_DN13428_c0_g2_i1.p1   1 MDSENQFPLEIEDVEPGLTKKLLEYFTGEMTGFVRVGPKKYFFPQKYKQEAAKIYN-MPLRPTDIFITSYPRSGTTWTQELV 81 
+                                  899*****************************************************.************************* PP
+
+       SULT_inclusive_profile  83 wLlandldyekaaevplverypfleittlgeeeesekfknskenaleekflelperattpdtellakapsprfikshlpmsl 164
+                                  w++andldyek++++pl+erypfle+++++++e+++kf   +en++++++l+l+e++ +p+te+la++psprfiksh+p+sl
+  TRINITY_DN13428_c0_g2_i1.p1  82 WMVANDLDYEKSNATPLTERYPFLEFSICVHPENRKKFI--EENSHSDEYLDLLEAVCQPGTEQLAAMPSPRFIKSHMPLSL 161
+                                  ***************************************..999************************************** PP
+
+       SULT_inclusive_profile 165 lppelletakvvyvardprdvvvSf..ltrlvrvtgf.gdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdl 243
+                                  lpp+ll+tak+vyvardprdvvvSf  l+rl+r++g+ gdfk++wn+f+++l++wtp+feh+keawekr+hpnmlflfyE+l
+  TRINITY_DN13428_c0_g2_i1.p1 162 LPPTLLDTAKMVYVARDPRDVVVSFyhLNRLMRTQGYtGDFKTYWNFFIKDLHHWTPFFEHLKEAWEKRHHPNMLFLFYEEL 243
+                                  ********************************************************************************** PP
+
+       SULT_inclusive_profile 244 kkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkel..lassnelfirkgkaggwrsyfdeemtkqae 323
+                                  +kdlp+s+rrva+f++k++t+eqi+rLc+hlsi+n+++nksvn++++k+l  ++++++ firkgkaggwr++fdeemt+qae
+  TRINITY_DN13428_c0_g2_i1.p1 244 SKDLPSSVRRVAKFFDKKYTDEQIDRLCDHLSIDNFKNNKSVNYDVMKVLgiMIPGEQAFIRKGKAGGWRDHFDEEMTEQAE 325
+                                  ********************************************************************************** PP
+
+       SULT_inclusive_profile 324 ewqeknlrdtdlrfptvk 341
+                                  +w+e+nlrdtdlrfp++k
+  TRINITY_DN13428_c0_g2_i1.p1 326 KWIEDNLRDTDLRFPHMK 343
+                                  ****************98 PP
+
+>> TRINITY_DN260_c1_g1_i12.p1  TRINITY_DN260_c1_g1~~TRINITY_DN260_c1_g1_i12.p1  ORF type:complete (-),score=71.80 len:35
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  514.9   1.1  2.2e-157    8e-155       3     342 ..       5     353 .]       1     353 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 514.9 bits;  conditional E-value: 2.2e-157
+      SULT_inclusive_profile   3 krlefPyeikevepeekkvikkrykaystsfvrvgpkgyliaevykkeaeniwnkmelrpddiwvarfprSGttwtqelvwLl 85 
+                                 k+l+fPye +e++pee+++ik+++ ++  s++r+gpkgyl+ ++ykk+a+ni+n m+lrp+d++va+++rSGttwtqelvwL+
+  TRINITY_DN260_c1_g1_i12.p1   5 KELPFPYEYEELKPEEEELIKTTLGSMPASYIRLGPKGYLVFKPYKKDAANIYN-MPLRPTDVFVASYQRSGTTWTQELVWLI 86 
+                                 7899**************************************************.**************************** PP
+
+      SULT_inclusive_profile  86 andldyekaaevplverypfleittlgeeeesekfkns....kenaleekflelperattpdtellakap..sprfikshlpm 162
+                                 andl+yekaae+pl+erypfle +++ +e++ e+++++    +en+++ekfl++++ +++p t lla+ap   +rfik+hlpm
+  TRINITY_DN260_c1_g1_i12.p1  87 ANDLNYEKAAEIPLTERYPFLECFMFYDEDTIEEYVDTiaktEENFDREKFLQWISFMAKPVTPLLAAAPlkAKRFIKTHLPM 169
+                                 ************************************99********************************************* PP
+
+      SULT_inclusive_profile 163 sllppelletakvvyvardprdvvvSf..ltrlvrvtgf.gdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEd 242
+                                 sllpp+lletak+vyvardprdv+vS+  +++l++++g+ g+f++fw+lfrr+l++++pyfehvkeawekr++pnmlflfyEd
+  TRINITY_DN260_c1_g1_i12.p1 170 SLLPPKLLETAKTVYVARDPRDVAVSCyhHAKLFKMSGCqGAFEDFWKLFRRDLFSLMPYFEHVKEAWEKRDDPNMLFLFYED 252
+                                 *********************************************************************************** PP
+
+      SULT_inclusive_profile 243 lkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkel.lassnelfirkgkaggwrsyfdeemtkqaee 324
+                                 l+kdlpasirrvadf++k+l+eeqi+rLc+hl ien+++nksvn+e++++l    ++e+firkgk+ggwrsyfdeemt++ae+
+  TRINITY_DN260_c1_g1_i12.p1 253 LSKDLPASIRRVADFFGKQLNEEQINRLCDHLGIENFKNNKSVNFEDVRDLgALAKEETFIRKGKTGGWRSYFDEEMTQEAER 335
+                                 ****************************************************666699************************* PP
+
+      SULT_inclusive_profile 325 wqeknlrdtdlrfptvks 342
+                                 w+e+nl dtdlrfp++k+
+  TRINITY_DN260_c1_g1_i12.p1 336 WIEDNLLDTDLRFPHMKH 353
+                                 ****************95 PP
+
+>> TRINITY_DN13428_c0_g1_i1.p1  TRINITY_DN13428_c0_g1~~TRINITY_DN13428_c0_g1_i1.p1  ORF type:complete (+),score=48.48 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  485.8   0.3  1.6e-148  5.6e-146       1     342 [.       1     343 []       1     343 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 485.8 bits;  conditional E-value: 1.6e-148
+       SULT_inclusive_profile   1 MakrlefPyeikevepeekkvikkrykaystsfvrvgpkgyliaevykkeaeniwnkmelrpddiwvarfprSGttwtqelv 82 
+                                  M++r++fP+ei++vepe +  ++k++k+++ts++rvgpkgy++++ +++ea+ni+n melr++d++va++prSG+twt+elv
+  TRINITY_DN13428_c0_g1_i1.p1   1 MGSRNNFPWEIRDVEPELAGELVKYFKNEHTSYIRVGPKGYFFPKTFTAEAANIYN-MELRSSDVFVASYPRSGSTWTRELV 81 
+                                  889*****************************************************.************************* PP
+
+       SULT_inclusive_profile  83 wLlandldyekaaevplverypfleittlgeeeesekfknskenaleekflelperattpdtellakapsprfikshlpmsl 164
+                                  w++and++++k+++vpl  r++fle+ tl+++ +++k+   +e+a+++k ++ +++ t p+t+ la+a+sprf+++hlp+sl
+  TRINITY_DN13428_c0_g1_i1.p1  82 WIVANDWNFAKSETVPLFGRFMFLEFPTLVNPFMRDKVL--SETADTAK-IKHLRTITLPGTQRLAQAESPRFVYTHLPISL 160
+                                  *************************************99..65566666.******************************** PP
+
+       SULT_inclusive_profile 165 lppelletakvvyvardprdvvvSf..ltrlvrvtgf.gdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdl 243
+                                  lpp+ll+takvvyvardprdvvvSf  ++rl+r+ g+ gdfk+fwn+f++s ++wtp+f+++keawe+r+hpnmlflfyEd+
+  TRINITY_DN13428_c0_g1_i1.p1 161 LPPSLLDTAKVVYVARDPRDVVVSFfhMNRLHRLLGYhGDFKTFWNFFISSSIYWTPFFDNIKEAWEQRHHPNMLFLFYEDM 242
+                                  ********************************************************************************** PP
+
+       SULT_inclusive_profile 244 kkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkel..lassnelfirkgkaggwrsyfdeemtkqae 323
+                                  +kdlp++irrva+fLnk++te+q++rL++hlsi+++++nksvn++ ++el  l++++e++irkgk+ggw+++fdeem +qae
+  TRINITY_DN13428_c0_g1_i1.p1 243 SKDLPSVIRRVATFLNKPYTEDQVTRLSQHLSIDSFRTNKSVNYDIMDELglLNHGEEPYIRKGKPGGWHDHFDEEMSQQAE 324
+                                  ********************************************************************************** PP
+
+       SULT_inclusive_profile 324 ewqeknlrdtdlrfptvks 342
+                                  +w+e+nlrdtdlrfp++k+
+  TRINITY_DN13428_c0_g1_i1.p1 325 NWIEDNLRDTDLRFPHTKH 343
+                                  ****************985 PP
+
+>> TRINITY_DN1884_c0_g1_i17.p1  TRINITY_DN1884_c0_g1~~TRINITY_DN1884_c0_g1_i17.p1  ORF type:complete (-),score=34.30 len
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  449.9   0.6  1.3e-137  4.7e-135       1     341 [.       1     335 [.       1     337 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 449.9 bits;  conditional E-value: 1.3e-137
+       SULT_inclusive_profile   1 MakrlefPyeikevepeekkvikkrykaystsfvrvgpkgyliaevykkeaeniwnkmelrpddiwvarfprSGttwtqelv 82 
+                                  Ma++le+Pye+k+v++ee+k+++k++++y+++fv++gp+gyl++  +kk+ae i+n me+rpdd+wv++fprSGttw+qe+v
+  TRINITY_DN1884_c0_g1_i17.p1   1 MAPWLELPYEMKQVTAEEEKITRKCLMGYTRPFVKCGPTGYLMPGSFKKHAEGIYN-MEVRPDDVWVITFPRSGTTWIQEMV 81 
+                                  999*****************************************************.************************* PP
+
+       SULT_inclusive_profile  83 wLlandldyekaaevplverypfleittlgeeeesekfknskenaleekflelperattpdtellakapsprfikshlpmsl 164
+                                  wL++ndldy +a+evpl++r+p+le+t+  +e   e +k   + ++ ++f+ l e++++p+++ +++apsprfik+hlp+s+
+  TRINITY_DN1884_c0_g1_i17.p1  82 WLAENDLDYITAKEVPLYKRFPMLETTCILPEVSFELIK--LNFFNLGNFQGLNEAVREPSWKAIERAPSPRFIKTHLPLSM 161
+                                  ***************************************..***************************************** PP
+
+       SULT_inclusive_profile 165 lppelletakvvyvardprdvvvSf..ltrlvrvtgf.gdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdl 243
+                                  lpp+ll+takv+yvardprdv+vS+  l+++++++ + +++++fw+ +rr+llpwtp+++h++ea++kr+hpn++f++yEd+
+  TRINITY_DN1884_c0_g1_i17.p1 162 LPPNLLSTAKVIYVARDPRDVTVSYyyLYKMTTKKLLrANVTHFWEALRRDLLPWTPIVAHANEAFTKRDHPNLHFVYYEDM 243
+                                  ********************************************************************************** PP
+
+       SULT_inclusive_profile 244 kkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkellassnelfirkgkaggwrsyfdeemtkqaeew 325
+                                  kkdl+++++ v++fLnk++++ qik+L+ehls+enl+knk+vnn+       ++n++firkg+aggwr +fde+m  qaee+
+  TRINITY_DN1884_c0_g1_i17.p1 244 KKDLAKEVKGVCQFLNKDFSDVQIKKLTEHLSFENLRKNKKVNNS------SDNNIQFIRKGEAGGWRAHFDEKMELQAEEF 319
+                                  ********************************************5......6689*************************** PP
+
+       SULT_inclusive_profile 326 qeknlrdtdlrfptvk 341
+                                   +++lr  dl++p+++
+  TRINITY_DN1884_c0_g1_i17.p1 320 LTERLRGIDLTYPSFP 335
+                                  *************987 PP
+
+>> TRINITY_DN1282_c1_g2_i1.p1  TRINITY_DN1282_c1_g2~~TRINITY_DN1282_c1_g2_i1.p1  ORF type:complete (-),score=41.70 len:3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  442.5   2.8  2.3e-135  8.3e-133       1     341 [.       1     326 [.       1     327 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 442.5 bits;  conditional E-value: 2.3e-135
+      SULT_inclusive_profile   1 MakrlefPyeikevepeekkvikkrykaystsfvrvgpkgyliaevykkeaeniwnkmelrpddiwvarfprSGttwtqelvw 83 
+                                 Ma +lefPyei++v+++e+k+ikk+yk+y+++f+rvgp+gy+ ++ y ++a++i+n +e+rpddiwv++f+rSGttw qelvw
+  TRINITY_DN1282_c1_g2_i1.p1   1 MA-SLEFPYEINNVTEDEDKIIKKYYKDYVRPFIRVGPNGYISNAGYGDHAAEIYN-LEVRPDDIWVTTFSRSGTTWLQELVW 81 
+                                 55.799**************************************************.************************** PP
+
+      SULT_inclusive_profile  84 Llandldyekaaevplverypfleittlgeeeesekfknskenaleekflelperattpdtellakapsprfikshlpmsllp 166
+                                 L+an+ld+++a++v+l++ry+++e+ tl++++++       e ++++      +rat++d+++l++++spr++kshlp+sllp
+  TRINITY_DN1282_c1_g2_i1.p1  82 LVANNLDFDTARNVSLTRRYAYIEYPTLKPNLRA-------EPTDPNA-----PRATYEDFRSLPSLSSPRYVKSHLPLSLLP 152
+                                 *********************************5.......7899999.....****************************** PP
+
+      SULT_inclusive_profile 167 pelletakvvyvardprdvvvSf..ltrlvrvtgf.gdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkd 246
+                                 p+lletak++y+ardprdvvvSf  +++l+r++++ +++kefwnlf+++l+ +tp+f+hv eaw+kr+hpnm+flfyEd+++d
+  TRINITY_DN1282_c1_g2_i1.p1 153 PKLLETAKIFYIARDPRDVVVSFhfAHKLFRYFNDsVQLKEFWNLFKEDLILHTPIFPHVAEAWQKRDHPNMMFLFYEDMQND 235
+                                 *********************************************************************************** PP
+
+      SULT_inclusive_profile 247 lpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkellassnelfirkgkaggwrsyfdeemtkqaeewqekn 329
+                                 l+++i+rv+ fLnke+++eq+++L e+l++en++k ++v   + ke    ++++f+rkgk+g+w++yfdeemtk+a e++ekn
+  TRINITY_DN1282_c1_g2_i1.p1 236 LRNVIDRVCLFLNKEYSSEQKHQLIEYLNFENMKKGPTVLPAVPKE----NEITFFRKGKSGNWVKYFDEEMTKEAAEYMEKN 314
+                                 *****************************************99988....79******************************* PP
+
+      SULT_inclusive_profile 330 lrdtdlrfptvk 341
+                                 l+ t++r+p+v+
+  TRINITY_DN1282_c1_g2_i1.p1 315 LKLTNMRYPDVS 326
+                                 *********986 PP
+
+>> TRINITY_DN18563_c0_g1_i1.p1  TRINITY_DN18563_c0_g1~~TRINITY_DN18563_c0_g1_i1.p1  ORF type:internal (+),score=26.91 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  338.6   1.1  8.6e-104  3.1e-101      68     290 ..       1     227 [.       1     228 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 338.6 bits;  conditional E-value: 8.6e-104
+       SULT_inclusive_profile  68 arfprSGttwtqelvwLlandldyekaaevplverypfleittlgeeeesekfkns..kenaleekflelperattpdtell 147
+                                  a+++rSGttwtqelvwLlandldy +aa vpl++ry+fle ++l ++e+  +++n+  ++n + +kfle++++++tp+t+ll
+  TRINITY_DN18563_c0_g1_i1.p1   1 ASYQRSGTTWTQELVWLLANDLDY-NAAVVPLTKRYSFLERFMLSDDEKGISYVNTatSKNDNVNKFLEIMRTWATPATQLL 81 
+                                  68**********************.*********************************99********************** PP
+
+       SULT_inclusive_profile 148 akapsprfikshlpmsllppelletakvvyvardprdvvvSf..ltrlvrvtgf.gdfkefwnlfrrsllpwtpyfehvkea 226
+                                  a+apsprf+k+hlpm+llpp++letakvvyvardprdvvvS+  ++rl++v ++ g+fkefwnlf++sl+++tpyfehvkea
+  TRINITY_DN18563_c0_g1_i1.p1  82 ASAPSPRFVKTHLPMTLLPPKILETAKVVYVARDPRDVVVSCyhHARLHTVISYcGTFKEFWNLFHKSLFTLTPYFEHVKEA 163
+                                  ********************************************************************************** PP
+
+       SULT_inclusive_profile 227 wekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneel 290
+                                  wekr+++nmlflfyE+l+kdlpa+irrv  fL+k+l+eeq++ Lc+hls+ n+++nksvnne++
+  TRINITY_DN18563_c0_g1_i1.p1 164 WEKRYDENMLFLFYEELSKDLPAAIRRVTGFLGKQLNEEQMAGLCDHLSFVNFRNNKSVNNEDM 227
+                                  **************************************************************98 PP
+
+>> TRINITY_DN275_c0_g1_i16.p1  TRINITY_DN275_c0_g1~~TRINITY_DN275_c0_g1_i16.p1  ORF type:complete (-),score=232.72 len:3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.2   0.0   4.1e-71   1.5e-68      35     341 ..       2     328 ..       1     329 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 231.2 bits;  conditional E-value: 4.1e-71
+      SULT_inclusive_profile  35 rvgpkgyliaevykkeaeniwnk..................melrp.ddiwvarfprSGttwtqelvwLlandldyekaaevp 98 
+                                  +g++ +++a+++ ++a  +w +                  +e+r+ + i+++ +prSGtt++++   +l++++d+++++e++
+  TRINITY_DN275_c0_g1_i16.p1   2 GRGAR-WRVAAALLAGALLVWLWrggarpagaqlrreldapVEGRElPLIFIGGVPRSGTTLMRA---MLDAHPDVRCGQETR 80 
+                                 67888.***********************************************************...9************** PP
+
+      SULT_inclusive_profile  99 lverypfleittlgeeeesekfkns......kenaleekflelperattpdtellakap.sprfikshlpmsllppelletak 174
+                                 +v+r+++++++++++++es +++++       +na+++++le+++r+ +++++l++k+p         l+m ++++el+++ak
+  TRINITY_DN275_c0_g1_i16.p1  81 VVPRILQMRQHWMRSQKESVRLEQAgvskavLDNAIAAFCLEVIVRHGDTAPRLCNKDPlV-------LKMGTYVLELFPNAK 156
+                                 ***********************99******9***************************55.......*************** PP
+
+      SULT_inclusive_profile 175 vvyvardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadf 257
+                                 +++++rd r++v+S++tr+v++tgf     +++++r++l++w++++e+++++++++  +++l+++yE+l+++++a++rrv+df
+  TRINITY_DN275_c0_g1_i16.p1 157 FLFMVRDGRATVHSIITRKVTITGF-----DLTSYRQCLTKWNHAVELMYQQCKSMGPEKCLVVRYEALVLRPHATMRRVLDF 234
+                                 *************************.....***************************************************** PP
+
+      SULT_inclusive_profile 258 Lnkelte.....eqikrLcehlsienlqkn.....ksvnneelkel..lassnelfirkg..kaggwrsyfdeemtkqaeewq 326
+                                 L+ ++++     e++++++++++++n++++     ++vn ++l+++  + +++   +r++  + ++++s++ +++++++++++
+  TRINITY_DN275_c0_g1_i16.p1 235 LALPWHDavlhhERYINQPNGVALSNVERSsdqvvRPVNLDALDKWvgQLPAD---VRADmaELAPMLSVLGYDPWANPPRYD 314
+                                 **********************************************9988877...9999999******************** PP
+
+      SULT_inclusive_profile 327 eknlrdtdlrfptvk 341
+                                 ++++++ + r+p+++
+  TRINITY_DN275_c0_g1_i16.p1 315 ATADAA-SERTPPHP 328
+                                 ****88.88888776 PP
+
+>> TRINITY_DN5949_c0_g1_i3.p1  TRINITY_DN5949_c0_g1~~TRINITY_DN5949_c0_g1_i3.p1  ORF type:3prime_partial (-),score=27.85
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.3   0.0     3e-63   1.1e-60       3     173 ..       5     178 .]       1     178 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 205.3 bits;  conditional E-value: 3e-63
+      SULT_inclusive_profile   3 krlefPyeikevepeekkvikkrykays.tsfvrvgpkgyliaevykkeaeniwnkmelrpddiwvarfprSGttwtqelvwL 84 
+                                 + l+fPye++e+++eek+vi+++y+a + t+++rvgpkgy++ ++y+keaeni+n m+lrp+d++va+++rSGttwtqelvwL
+  TRINITY_DN5949_c0_g1_i3.p1   5 NFLPFPYEFMEINDEEKAVIQRLYNAPNaTKICRVGPKGYILYKPYQKEAENIYN-MPLRPSDVFVASYQRSGTTWTQELVWL 86 
+                                 6789*********************99889*************************.*************************** PP
+
+      SULT_inclusive_profile  85 landldyekaaevplverypfleittlgeeeesekfkns....kenaleekflelperattpdtellakapsprfikshlpms 163
+                                 landldy +aa+vpl+ ryp+le++++ ++e++ ++++     k+ ++ +k le+   ++tp+t+lla+apsprf+k+hlpm+
+  TRINITY_DN5949_c0_g1_i3.p1  87 LANDLDY-TAAAVPLTARYPYLEVFMFIDDEDEISYVDIaiakKDDVDVSKLLETVTLWATPATQLLASAPSPRFVKTHLPMT 168
+                                 *******.*****************************999******************************************* PP
+
+      SULT_inclusive_profile 164 llppelleta 173
+                                 llpp++leta
+  TRINITY_DN5949_c0_g1_i3.p1 169 LLPPKILETA 178
+                                 ********97 PP
+
+>> TRINITY_DN5927_c0_g1_i23.p1  TRINITY_DN5927_c0_g1~~TRINITY_DN5927_c0_g1_i23.p1  ORF type:5prime_partial (-),score=-8.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  165.2   0.0   4.9e-51   1.8e-48      12     342 ..      95     413 ..      60     414 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 165.2 bits;  conditional E-value: 4.9e-51
+       SULT_inclusive_profile  12 kevepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk.....melrpddiwv.........arfpr. 72 
+                                  k +++ee++v++ ry+a+++s+      +r+g++  +++e++ ++++ +w +     m+++++++w+         ++fp+ 
+  TRINITY_DN5927_c0_g1_i23.p1  95 KSIAAEERLVVTLRYLATGESYrslafhFRLGRT--TVSEIISETCNILWITlkdeyMPIPTMEKWYeiadkyynkWNFPNc 174
+                                  5699******************************..********************************************** PP
+
+       SULT_inclusive_profile  73 ................SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekf 132
+                                                  SG+t+++     ++++++++d+d+          +++ ++i+++g+++++ +f+ns    +le++ 
+  TRINITY_DN5927_c0_g1_i23.p1 175 igaidgkhirvqcpcnSGSTYYNykqyfSILLQAVVDADC----------KIILVDIGAEGRQCDAGNFRNSsLFHMLETNG 246
+                                  ****************************************..........**********************9556****** PP
+
+       SULT_inclusive_profile 133 lelperattpdtellakap.....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefw 206
+                                  l++p+++++p+t+ + k+p     + ++++ ++ m+++ +++++++k++y   ++r++r+v+++f          g+++++w
+  TRINITY_DN5927_c0_g1_i23.p1 247 LNIPPEKEIPNTN-I-KIPfvlvgDGGYPLLNYLMRPFSLRNIDNTKTIYnyrLSRARRSVECCF----------GIMAAKW 316
+                                  *************.6.8999*********************************************..........******* PP
+
+       SULT_inclusive_profile 207 nlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnne 288
+                                  +++++ +                            ++k ++++si++++++L++++++e++++L+e+++ + ++  +s++++
+  TRINITY_DN5927_c0_g1_i23.p1 317 RILQKAI----------------------------ETKVNTAISITKAVCILHNFVMTEDRSMLQEDMVSTITSAPISTRTQ 370
+                                  ******9............................9*********************************************8 PP
+
+       SULT_inclusive_profile 289 elkellassn.elfirkgkaggwrsyfdeemtkqaeewqeknlrdtdlrfptvks 342
+                                       ++ sn +l++r+     +++yf+ +   ++++wq+++l+++ +++++++s
+  TRINITY_DN5927_c0_g1_i23.p1 371 -----YRFSNsALRTRDI----LLNYFNGI---GSVTWQNNSLPENVIQRHNRHS 413
+                                  .....78889899*****....********...9****************99875 PP
+
+>> TRINITY_DN659_c1_g1_i4.p1  TRINITY_DN659_c1_g1~~TRINITY_DN659_c1_g1_i4.p1  ORF type:5prime_partial (-),score=8.62 len
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.7   0.3   1.5e-47   5.3e-45     212     321 ..       1     133 [.       1     150 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 153.7 bits;  conditional E-value: 1.5e-47
+     SULT_inclusive_profile 212 sllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkel.l 294
+                                sl+++tpyfehvkeawekr++ nmlflfyE+l+kdlp +irrvadfL+k+l+eeq++ Lc+hls+en+++nksvn++e+ke+ l
+  TRINITY_DN659_c1_g1_i4.p1   1 SLFTLTPYFEHVKEAWEKRYDGNMLFLFYEELSKDLPVAIRRVADFLGKQLNEEQMAGLCHHLSFENFRNNKSVNYDEMKEYgL 84 
+                                699*******************************************************************************96 PP
+
+     SULT_inclusive_profile 295 assnelfirkg......................kaggwrsyfdeemtkq 321
+                                  +ne+firkg                      k+++++  f e+++k+
+  TRINITY_DN659_c1_g1_i4.p1  85 FAENETFIRKGlikknlnaprsvfkyillythtKSSALLVQFSEQCYKH 133
+                                66699********996666666666666666666666666666665554 PP
+
+>> TRINITY_DN27959_c0_g1_i2.p1  TRINITY_DN27959_c0_g1~~TRINITY_DN27959_c0_g1_i2.p1  ORF type:complete (-),score=109.90 l
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  149.4   0.2   3.1e-46   1.1e-43       3     341 ..       8     418 ..       1     421 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 149.4 bits;  conditional E-value: 3.1e-46
+       SULT_inclusive_profile   3 krlefPyeike...............vepeekkvi...kkrykaystsf......vrvgpkgyliaev..ykkeaeniwnk. 57 
+                                  +r+++P++++e                + + +  +   + r+++++t+f      v ++++++ +a++  yk+++++i+++ 
+  TRINITY_DN27959_c0_g1_i2.p1   8 RRISVPKRTSElvalvavsctlflflHTRDLSTKLrrmEGRLNDDVTAFnhltdrVPTDRTEHAFASAqeYKDALAAIRRHt 89 
+                                  6788888888888888888888888833444444333399***************************999************ PP
+
+       SULT_inclusive_profile  58 ..........melrpddiwvarfprSGttwtqelv....wLlandldyekaaevplverypfleittlgeeeesekfkns.. 123
+                                            +e++pdd+++ + ++    +  el+    w l+n +   ++ e+   +r+p+++++t++e +++ +fkn+  
+  TRINITY_DN27959_c0_g1_i2.p1  90 gaerskpqrtLEAEPDDSQQETEQE----YLDELLvpepWELNNTAR--AGTEILFFNRVPKVGSQTFMELLHRLAFKNQfg 165
+                                  *******************965555....344432111122222222..355555669************************ PP
+
+       SULT_inclusive_profile 124 ..kenaleekflelperattpdtellakapsprfikshlpmsllppelletakvvyvardprdvvvSf..ltrlvrvtgfgd 201
+                                    ++ +++ ++++l+++++t    l++++++p+++++h++++++++  +++  +v+v+rdp + v+S+  ++r++       
+  TRINITY_DN27959_c0_g1_i2.p1 166 fhRDPVQRVETIRLAPADQTALAALVSTYDPPASYIKHVCYTNFTRLGFPSPIYVNVVRDPVERVISWyyYVRAP------- 240
+                                  ********************************************************************9888998....... PP
+
+       SULT_inclusive_profile 202 fkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasi...rrvadfLnkelte......eqikrLceh. 273
+                                      w++++r                 kr++p+++++++++lkkd+++++   +r +++ + +++e      +q+ ++c h 
+  TRINITY_DN27959_c0_g1_i2.p1 241 ----WYYVER-----------------KRAFPDLPLPDPAWLKKDFETCVlsgDRECRYVEGQTHEgigdhrRQTLFFCGHe 301
+                                  ....******.................******************************************************* PP
+
+       SULT_inclusive_profile 274 ......lsienlqknksvnneelkel..lassn......elfirkgkaggwrsyfde......................... 316
+                                        +s+e+lq++k+v +e+++++  l+++n      e+++++++ g+++ y++e                         
+  TRINITY_DN27959_c0_g1_i2.p1 302 qqctpfNSVEALQRAKRVVEEQYAVVgvLEDMNstltalERYVPRFFRGALKLYWEEvntfarinrntykppvseevknivr 383
+                                  ********************************************************************************** PP
+
+       SULT_inclusive_profile 317 ..........emtkqaeewqeknlrdtdlrfptvk 341
+                                            e++kq+ ++q ++lrd+++++pt++
+  TRINITY_DN27959_c0_g1_i2.p1 384 anftreiefyEFCKQRLHMQLRALRDPTITLPTPR 418
+                                  ********************************987 PP
+
+>> TRINITY_DN8230_c0_g1_i5.p1  TRINITY_DN8230_c0_g1~~TRINITY_DN8230_c0_g1_i5.p1  ORF type:complete (-),score=1.11 len:39
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.1   0.0   3.1e-31   1.1e-28      13     275 ..      79     345 ..      41     351 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 100.1 bits;  conditional E-value: 3.1e-31
+      SULT_inclusive_profile  13 e.....vepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk.....melrpddiwv.........arf 70 
+                                 +     ++peek+v++ ry+a+++s+      +r+g +  +++ ++ + + +iw++     ++  +++ w          a++
+  TRINITY_DN8230_c0_g1_i5.p1  79 TpmracIKPEEKLVVTLRYLATGCSLmelshnYRIGHT--TVRDIIHEVCMAIWENmrqssFPELNEERWLeiakgfnenANY 159
+                                 05555589******************9***********..****************9998877778999999**9******** PP
+
+      SULT_inclusive_profile  71 pr.................SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenalee 130
+                                 p+                 SG+ +++     ++v+L+++d+dy          ++++++++++g+ ++s+ +k+s   + l +
+  TRINITY_DN8230_c0_g1_i5.p1 160 PNcvgaidgkhirvikpsdSGSLYYNykkyfSIVLLAVCDADY----------KFTYIDVGAFGKCSDSSIYKKSiLYQKLVN 232
+                                 *******************************************..........***********************8889999 PP
+
+      SULT_inclusive_profile 131 kflelperattpdtellakap.....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkef 205
+                                 k +++pe++ + +   +  +p     +++f + +  m+++  + l  +k+++   ++r++r+++++f          g+++++
+  TRINITY_DN8230_c0_g1_i5.p1 233 KDIQIPEKRPISNNG-V-PMPyvivgDEAFGLCENLMRPYGGRSLTAEKRIFnyrLSRARRYIECTF----------GILANK 303
+                                 99*******999988.5.78888********************************************..........****** PP
+
+      SULT_inclusive_profile 206 wnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehls 275
+                                 w++f+r+l                            d+ ++l+++i + +++L++ ++e+++ r++++l 
+  TRINITY_DN8230_c0_g1_i5.p1 304 WRIFHRPL----------------------------DVRQELAIAIVQTCCVLHNYVRERDGYRFQDTLY 345
+                                 ********............................9*****************************9986 PP
+
+>> TRINITY_DN22635_c0_g1_i1.p1  TRINITY_DN22635_c0_g1~~TRINITY_DN22635_c0_g1_i1.p1  ORF type:3prime_partial (-),score=-1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.6   0.0   7.2e-30   2.6e-27      23     326 ..       9     299 ..       4     302 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 95.6 bits;  conditional E-value: 7.2e-30
+       SULT_inclusive_profile  23 kkrykaystsf......vrvgpkgyliaevykkeaeniwnk.....melrpddiwv.........arfpr............ 72 
+                                  + ry++++++f      +r g +  +iae++++ +  iw       ++ ++++ w          a+fp+            
+  TRINITY_DN22635_c0_g1_i1.p1   9 NSRYLGSGCKFvdlhysYRFGIS--TIAEIIREVCHFIWVVlkdmcLPQPTKENWLkiakdfhlrANFPNcigavdgkhvri 88 
+                                  789********999999999999..***************99**9999999******************************* PP
+
+       SULT_inclusive_profile  73 .....SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflelperattpd 143
+                                       SG+  ++     + ++L+ +d+dy          ++++++++++g++++s  f+ns   + l ++ l++pe++ + +
+  TRINITY_DN22635_c0_g1_i1.p1  89 ikpynSGSLCYNykhffSVILLAICDSDY----------KFIYIDVGSYGKDCDSTIFTNStFYQKLMNNDLQIPEPKPISS 160
+                                  *******98888888**************..........***********************556788888*********** PP
+
+       SULT_inclusive_profile 144 tellakap.....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwt 217
+                                  t+ +  +p     +++f  +   m+++  ++l t+k ++   ++r++r++++Sf          g+++++w++f+r++    
+  TRINITY_DN22635_c0_g1_i1.p1 161 TNPI-PVPfvivgDEAFGQTDKIMRPFGGSNLTTKKKIFnyrLSRARRHIECSF----------GILANKWQIFHRPI---- 227
+                                  **99.8999*********************************************..........**************.... PP
+
+       SULT_inclusive_profile 218 pyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkellassn. 298
+                                                          ++++dl ++i + ++ L++ ++e+++ +++++lsi  ++  +              n 
+  TRINITY_DN22635_c0_g1_i1.p1 228 ------------------------NVNLDLVSCIIKTCCALHNYVRERDGYKFEDTLSIPGFEEVP--------------Ng 271
+                                  ........................999********************************9998874..............22 PP
+
+       SULT_inclusive_profile 299 .elfirkg..kaggwrsyfdeemtkqaeewq 326
+                                   ++ +r+g    + +++yf++e   +  +wq
+  TRINITY_DN22635_c0_g1_i1.p1 272 fQRATRRGasYRDVFADYFTTE---GQLSWQ 299
+                                  3555666622222233333333...566666 PP
+
+>> TRINITY_DN6100_c0_g3_i3.p1  TRINITY_DN6100_c0_g3~~TRINITY_DN6100_c0_g3_i3.p1  ORF type:5prime_partial (-),score=1.64 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4   0.0   3.4e-29   1.2e-26      13     276 ..      22     284 ..       8     332 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 3.4e-29
+      SULT_inclusive_profile  13 evepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk.....melrpddiwv.........arfpr... 72 
+                                  +++ee+++i+ ry+++++ +      +++g +  +i+ +++++++ i+       +  ++ + w+         a+fp+   
+  TRINITY_DN6100_c0_g3_i3.p1  22 SISAEERLLITLRYLGTGCTLsdlqysFKCGVS--TISYIVRDTCKHIYSIlkentITSKSVADWKniaqgfkinANFPNclg 102
+                                 589****************999***********..***************866655444455555577777778888888*** PP
+
+      SULT_inclusive_profile  73 ..............SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflel 135
+                                               SG+ +++     ++v+L+ +d++y          ++++++++++g+  +s+ fkns  ++a++e+ l+l
+  TRINITY_DN6100_c0_g3_i3.p1 103 aidgkhirvikpehSGSLYFNykkyfSIVLLAICDANY----------NFTYIDVGSFGKSADSQIFKNSsISKAITENRLQL 175
+                                 **************************************..........***********************668999999999 PP
+
+      SULT_inclusive_profile 136 perattpdtellakap...sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrs 212
+                                 p++    +     +++   +++f ++++  +++  ++l  ++++y   ++r++r+++++f          g++ ++w++f+r+
+  TRINITY_DN6100_c0_g3_i3.p1 176 PSPEPLCSDGPHLNYTfigDEAFALTNHMQRPYGGNNLTVKQRIYnyrLSRARRYIECTF----------GILSNKWRIFHRP 248
+                                 8877664444444566899*****************************************..........************* PP
+
+      SULT_inclusive_profile 213 llpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsi 276
+                                 l                            +++ +++++i r++++L+++++++++ + +++ls+
+  TRINITY_DN6100_c0_g3_i3.p1 249 L----------------------------NVSTEFAEEIIRACCVLHNFVRQRDGFNYNHTLSY 284
+                                 *............................89999********************9999999886 PP
+
+>> TRINITY_DN8098_c0_g3_i3.p1  TRINITY_DN8098_c0_g3~~TRINITY_DN8098_c0_g3_i3.p1  ORF type:complete (-),score=-7.05 len:2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.5   0.0   6.3e-29   2.3e-26      58     330 ..       1     252 []       1     252 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 92.5 bits;  conditional E-value: 6.3e-29
+      SULT_inclusive_profile  58 melrpddiwv.........arfpr.................SGttwtq.....elvwLlandldyekaaevplverypfleit 109
+                                 m+  ++diw+         a+fp+                 SG+ + +     ++v+L+ +d++y          ++++++i+
+  TRINITY_DN8098_c0_g3_i3.p1   1 MPEATEDIWKtiardferyANFPNcigaidgkhirvikpvdSGSLYHNykhyfSIVLLALCDANY----------CFTYVDIG 73 
+                                 788889999999999999999999*******************99999999**************..........******** PP
+
+      SULT_inclusive_profile 110 tlgeeeesekfkns.kenaleekflelperattpdtellakap.....sprfikshlpmsllppelletakvvy...vardpr 183
+                                 ++g+ ++s  fkns   ++l+ek+l++p ++ + +++l   +p     +++f + +  m+++  + l+ +k+++   ++r++r
+  TRINITY_DN8098_c0_g3_i3.p1  74 AYGKSSDSAIFKNSvFYKRLTEKSLNIPTPKPISNVDLT-PMPyvivgDEAFGLAENLMRPYSGKCLPYEKRIFnyrLSRARR 155
+                                 ***************6679******************77.999**************************************** PP
+
+      SULT_inclusive_profile 184 dvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeq 266
+                                  ++++f          g+++++w++f+r++                            +++ d+++ i ++ ++L++ +++++
+  TRINITY_DN8098_c0_g3_i3.p1 156 NIECTF----------GILANKWRIFHRPI----------------------------NVNIDFAEDIIKASCVLHNYVRTRD 200
+                                 ******..........**************............................899********************** PP
+
+      SULT_inclusive_profile 267 ikrLcehlsienlqknksvnneelkellassn.elfirkgkaggwrsyfdeemtkqaeewqeknl 330
+                                 + +++++l    + + ++ +        + +   l+ir++    ++ yf ++   +++ wq++++
+  TRINITY_DN8098_c0_g3_i3.p1 201 GLKFKDTLYNAPMTNLNTLHA------GRGTPsSLNIRDK----FAHYFVND---GRVPWQDTKI 252
+                                 *********999999977777......344445899****....99****99...9****99975 PP
+
+>> TRINITY_DN6848_c3_g1_i1.p1  TRINITY_DN6848_c3_g1~~TRINITY_DN6848_c3_g1_i1.p1  ORF type:5prime_partial (+),score=-10.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.5   0.0   2.4e-28   8.8e-26      42     329 ..       4     275 ..       1     276 [] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 90.5 bits;  conditional E-value: 2.4e-28
+      SULT_inclusive_profile  42 liaevykkeaeniwnk...........melrpddiwv.........arfpr.................SGttwtq.....elv 82 
+                                 +i+ ++++ +++iw++                    +         a+fp+                 SG+ +++     ++v
+  TRINITY_DN6848_c3_g1_i1.p1   4 TIRYMIRRVCRAIWKNllqdnipelttE------RLKniassfdlrANFPHcigaldgkhirmrnpanSGSLFFNykaffSIV 80 
+                                 888999*********9988886555431......222445566699999999******************************* PP
+
+      SULT_inclusive_profile  83 wLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflelperattpdtellakap.....sprfiksh 159
+                                 +L+++d++y          +++f++i+++g+e++s  f+ns   + l ++ l lp +    +++     p     +++f +s+
+  TRINITY_DN6848_c3_g1_i1.p1  81 LLAVVDSNY----------KFIFIDIGAYGKECDSTVFQNSkLYEKLINNDLPLPDPQPLCGSNRR--TPyvfvgDEAFGLSN 151
+                                 *********..........**********************9556777776777777777777755..5555*********** PP
+
+      SULT_inclusive_profile 160 lpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflf 239
+                                 + m+++  ++l  ++ +y   ++r++r+v+++f          g+++++w++f+r++                          
+  TRINITY_DN6848_c3_g1_i1.p1 152 HIMRPYGGNNLNVKQKIYnyrLSRARRYVECAF----------GIMANKWRIFHRPI-------------------------- 198
+                                 *********************************..........**************.......................... PP
+
+      SULT_inclusive_profile 240 yEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelkellassnelfirkgkaggwrsyfdeemtkqa 322
+                                   d++ ++++ i +++++L++++t++++ r++++l+i+  +   s + +  +e +  +n   ir++    ++syf ++  +++
+  TRINITY_DN6848_c3_g1_i1.p1 199 --DVSYNFATDIVKACCVLHNFVTDRDGFRQKDKLAITDDEFH-SLQPQ-DEE-MTAAN--VIRDE----FASYFMSN--RGS 268
+                                 ..*******************************9998765544.23332.223.33434..78999....99999998..589 PP
+
+      SULT_inclusive_profile 323 eewqekn 329
+                                  +wq ++
+  TRINITY_DN6848_c3_g1_i1.p1 269 LQWQLQK 275
+                                 9998776 PP
+
+>> TRINITY_DN18406_c0_g3_i1.p1  TRINITY_DN18406_c0_g3~~TRINITY_DN18406_c0_g3_i1.p1  ORF type:complete (-),score=-1.06 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.0   0.0   7.3e-28   2.6e-25      14     329 ..      87     390 ..      44     391 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 89.0 bits;  conditional E-value: 7.3e-28
+       SULT_inclusive_profile  14 vepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk.............melrpddiwv......... 67 
+                                  +ep e + ++ ry+a+++ f      + +g++  +i+ ++k  ++ +wn              m        +         
+  TRINITY_DN18406_c0_g3_i1.p1  87 IEPLEMLGLTVRYLATGNTFkdmhftYYRGKS--TITGIIKFVCRIVWNIlkrlelpkittelM--------Eqiaqeyekk 158
+                                  566677778999**********9988888888..***************999955554443332........2555667789 PP
+
+       SULT_inclusive_profile  68 arfpr.................SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.ken 126
+                                  ++fp+                 SG+ +++     ++v+L+ +d++y          ++++++i+++g+e++s  f+ns    
+  TRINITY_DN18406_c0_g3_i1.p1 159 TNFPNcigaldgkhirilspdhSGSLFFNyknynSIVLLALVDTNY----------KFIYVDIGAYGKECDSTVFQNSnLYD 230
+                                  ************************9999889999************..........**********************9778 PP
+
+       SULT_inclusive_profile 127 aleekflelperattpdtellakap.....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfg 200
+                                   l++ +l +p+++  p+++  +++p     +++ ++++  m+++  + l+ +k+v+   ++r++r+v+ +f          g
+  TRINITY_DN18406_c0_g3_i1.p1 231 LLKKGQLSIPPPKPLPGFQ--KEIPfvfvaDEGLPLTNNIMRPYSGKFLSIEKRVFnyrLSRARRYVESAF----------G 300
+                                  99999**************..789999****************************************9999..........* PP
+
+       SULT_inclusive_profile 201 dfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqkn 282
+                                  +++++w++f+r++                            +++ d+ + i +++++L++++ ++++++  e++ i+   + 
+  TRINITY_DN18406_c0_g3_i1.p1 301 ILANKWRIFHRPI----------------------------NVSYDFTIDIIKACCVLHNFVLNRDGAQTFEEMIIDDSLQI 354
+                                  *************............................8999*******************999887666666544333 PP
+
+       SULT_inclusive_profile 283 ksvnneelkellassnelfirkgkaggwrsyfdeemtkqaeewqekn 329
+                                      +e+  e    + +  ir++    + +yf++++  +  +wq ++
+  TRINITY_DN18406_c0_g3_i1.p1 355 ---LHETTHES--RTGANIIRNE----FCNYFNSNI--GGLSWQLTK 390
+                                  ...33333332..2345679999....999999987..888888776 PP
+
+>> TRINITY_DN18406_c0_g1_i1.p1  TRINITY_DN18406_c0_g1~~TRINITY_DN18406_c0_g1_i1.p1  ORF type:complete (+),score=-7.68 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.1   0.0   1.3e-27   4.7e-25      23     329 ..       5     299 ..       2     300 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 88.1 bits;  conditional E-value: 1.3e-27
+       SULT_inclusive_profile  23 kkrykaystsf......vrvgpkgyliaevykkeaeniwnk.............melrpddiwv.........arfpr.... 72 
+                                  + ry+a+++ f      + +g++  +i+ ++k  ++ +wn              m        +         ++fp+    
+  TRINITY_DN18406_c0_g1_i1.p1   5 TVRYLATGNTFkdmhftYYRGKS--TITGIIKFVCRIVWNIlkrlelpkittelM--------EqiaqeyekkTNFPNciga 76 
+                                  56899999999999988888888..***************999955554443332........2555667789********* PP
+
+       SULT_inclusive_profile  73 .............SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflel 135
+                                               SG+ +++     ++v+L+ +d++y          ++++++i+++g+e++s  f+ns     l++ +l +
+  TRINITY_DN18406_c0_g1_i1.p1  77 ldgkhirilspdhSGSLFFNyknynSIVLLALVDTNY----------KFIYVDIGAYGKECDSTVFQNSnLYDLLKKGQLSI 148
+                                  ***************9999889999************..........**********************977899999**** PP
+
+       SULT_inclusive_profile 136 perattpdtellakap.....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlf 209
+                                  p+++  p+++  +++p     +++ ++++  m+++  + l+ +k+v+   ++r++r+v+ +f          g+++++w++f
+  TRINITY_DN18406_c0_g1_i1.p1 149 PPPKPLPGFQ--KEIPfvfvaDEGLPLTNNIMRPYSGKFLSIEKRVFnyrLSRARRYVESAF----------GILANKWRIF 218
+                                  **********..789999****************************************9999..........********** PP
+
+       SULT_inclusive_profile 210 rrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnneelk 291
+                                  +r++                            +++ d+ + i +++++L++++ ++++++  e++ i+   +     +e+  
+  TRINITY_DN18406_c0_g1_i1.p1 219 HRPI----------------------------NVSYDFTIDIIKACCVLHNFVLNRDGAQTFEEMIIDDSLQI---LHETTH 269
+                                  ****............................8999*******************999887666666544333...333333 PP
+
+       SULT_inclusive_profile 292 ellassnelfirkgkaggwrsyfdeemtkqaeewqekn 329
+                                  e    + +  ir++    + +yf++++  +  +wq ++
+  TRINITY_DN18406_c0_g1_i1.p1 270 ES--RTGANIIRNE----FCNYFNSNI--GGLSWQLTK 299
+                                  32..2345689999....999999987..888888776 PP
+
+>> TRINITY_DN12897_c1_g1_i5.p1  TRINITY_DN12897_c1_g1~~TRINITY_DN12897_c1_g1_i5.p1  ORF type:complete (+),score=-2.82 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.9   0.0     1e-25   3.7e-23      33     287 ..       7     258 ..       1     273 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 81.9 bits;  conditional E-value: 1e-25
+       SULT_inclusive_profile  33 f......vrvgpkgyliaevykkeaeniwnk.....melrp.ddiwv.........arfpr.................SGtt 76 
+                                  +      +rvg +  +i+ ++k+ +++iwn+     m l++    w+         a+fp+                 SG+ 
+  TRINITY_DN12897_c1_g1_i5.p1   7 YkdlhyaYRVGVS--TISNIIKEVTNAIWNNlhgefMTLPNtISDWEyiangfntrANFPHcigavdgkhirikkpnnSGSM 86 
+                                  3334446999*99..*********************9999977788899*******99999********************* PP
+
+       SULT_inclusive_profile  77 wtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns..kenaleekflelperattpdtellakap 151
+                                  +++     ++v+L+++d+ y          +++++ ++++g+e++s  fk+    ++ ++++ l+lp +   ++ + l ++p
+  TRINITY_DN12897_c1_g1_i5.p1  87 FMNykdffSIVLLAVVDSYY----------KFTYICVGSYGKECDSTIFKECtfWKKLIDGD-LQLPAACPLTNDSDL-SIP 156
+                                  ********************..........********************889844677777.9*******9999999.9** PP
+
+       SULT_inclusive_profile 152 .....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpyfehvke 225
+                                       +++f ++++ m+++  ++l++ k++y   + r++r+v+++f          g+++++w++f+r+l            
+  TRINITY_DN12897_c1_g1_i5.p1 157 fvvigDEGFGLHQHLMRPYGGNHLDRNKRIYnyrLTRARRYVECAF----------GILANKWRIFHRPL------------ 216
+                                  **********************************************..........**************............ PP
+
+       SULT_inclusive_profile 226 awekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnn 287
+                                                  d+   +++si +v+++L++++ + ++     + +ie +++  sv n
+  TRINITY_DN12897_c1_g1_i5.p1 217 ----------------DVDTSTAISIVKVCTVLHNFIIDMEGV----QSNIETTSNESSVVN 258
+                                  ................999******************996633....256666666666665 PP
+
+>> TRINITY_DN12830_c0_g1_i4.p1  TRINITY_DN12830_c0_g1~~TRINITY_DN12830_c0_g1_i4.p1  ORF type:complete (+),score=-3.16 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.4   0.0   7.8e-23   2.8e-20      14     288 ..      86     359 ..      58     385 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 72.4 bits;  conditional E-value: 7.8e-23
+       SULT_inclusive_profile  14 vepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk.....melrpddiwv.........arfpr... 72 
+                                  + p e+++++ r++a+++ +      +r+g    +i++++ + ++  wn+     ++  ++d w          ++fp+   
+  TRINITY_DN12830_c0_g1_i4.p1  86 IPPIERLMVTLRFLATGRTYtdlqysFRMGIA--TISKIVDEVCKVTWNTlhnecIPSNTPDMWLniangflqkTNFPNcig 165
+                                  5666999*****************99999999..*********************99999********************** PP
+
+       SULT_inclusive_profile  73 ..............SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekfle 134
+                                                 G+ +++     ++v+L+ +d+dy          +++++ i+t+g+ ++s  f+ns    +le+++l+
+  TRINITY_DN12830_c0_g1_i4.p1 166 aidgkhirivnptgGGSIFYNyknfySIVLLAMCDADY----------CFTYVNIGTYGKSSDSTIFQNStLYRSLEQNTLN 237
+                                  ************87777777778899************..........***********************778******** PP
+
+       SULT_inclusive_profile 135 lperattpdtellakap...sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfr 210
+                                  +p+++  p+t++  ++    + +f +s+  ++++ ++++  +k ++   ++r +r+++ +f          g++ ++ ++f+
+  TRINITY_DN12830_c0_g1_i4.p1 238 IPRPKPLPGTNTPVEHVivgDGAFGISNKILKPYARSNMTHKKKIFnyrLSRSRRYIESTF----------GIMSNKFRVFH 309
+                                  **********97655558***********************999999**********9999..........*********** PP
+
+       SULT_inclusive_profile 211 rsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqknksvnne 288
+                                   ++                            +++ d  + i +++++L+++++ +++ r +++l ie +   + v ++
+  TRINITY_DN12830_c0_g1_i4.p1 310 TPI----------------------------NVSFDVTKNIVKACCVLHNFIRLRDGYRIEDTLTIEGMVDLPAVPTN 359
+                                  ***............................88999******************************999887777665 PP
+
+>> TRINITY_DN26494_c0_g1_i1.p1  TRINITY_DN26494_c0_g1~~TRINITY_DN26494_c0_g1_i1.p1  ORF type:internal (+),score=-7.72 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.3   0.0   1.7e-22   6.2e-20      34     217 ..       8     213 ..       2     236 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 71.3 bits;  conditional E-value: 1.7e-22
+       SULT_inclusive_profile  34 vrvgpkgyliaevykkeaeniwnk..............melrpddiwv..arfpr.................SGttwtq... 79 
+                                  +++g++  ++a+ + +++++iwnk              +  r +d +   ++fp+                 SG+++++   
+  TRINITY_DN26494_c0_g1_i1.p1   8 YSLGRS--TVAKTIYQTLKAIWNKfvnqhmspnltsedL-TRISDNFFlrWQFPNcigaidgkhfriqkpprSGSQYYNykh 86 
+                                  567888..999***************9999888877663.34456665688888899999999999999999********** PP
+
+       SULT_inclusive_profile  80 ..elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflelperattpdtellakap.....sp 153
+                                    +lv++++ d+dy          +++ +ei+  g++++   f  s  ++  +++  +lp+++t p+++ l  +p     ++
+  TRINITY_DN26494_c0_g1_i1.p1  87 ffSLVLQAVSDADY----------KFSVIEIGGRGRQSDGGTFHFSkLNELFTNNRFNLPPPKTLPGSNIL--CPhvlvgDE 156
+                                  **************..........********************99989999*****************99..6667***** PP
+
+       SULT_inclusive_profile 154 rfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwt 217
+                                  +++++ + m+++p ++l+  k+++   ++r++  +++++          g+++++w++f + + + t
+  TRINITY_DN26494_c0_g1_i1.p1 157 AYPLKPYLMRPFPSSNLDHSKRIFnkrLSRARVTIECAY----------GIMTNKWRIFLKAIETDT 213
+                                  ***************************************..........***********9985555 PP
+
+>> TRINITY_DN26494_c0_g2_i1.p1  TRINITY_DN26494_c0_g2~~TRINITY_DN26494_c0_g2_i1.p1  ORF type:5prime_partial (+),score=-6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.2   0.0   3.1e-21   1.1e-18      34     216 ..       8     212 ..       2     282 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 67.2 bits;  conditional E-value: 3.1e-21
+       SULT_inclusive_profile  34 vrvgpkgyliaevykkeaeniwnk............melrp.ddiwv..arfpr.................SGttwtq.... 79 
+                                  +++g++  ++a+ + +++++iw+k              lr+ +d +   ++fp+                 SG+++++    
+  TRINITY_DN26494_c0_g2_i1.p1   8 YSLGRS--TVAKTIYQTLKAIWKKlvnqhmspkltsEDLRKiSDMFFsrWQFPNcvgaidgkhfriqkpprSGSQYYNykki 87 
+                                  567888..9999999**************999988855677788888788888899999999999999************** PP
+
+       SULT_inclusive_profile  80 .elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflelperattpdtellakap.....spr 154
+                                   +lv++++ d+dy          +++ +ei+  g++++   f  s  ++ l+++  ++p+++t p+++ l  +p     +++
+  TRINITY_DN26494_c0_g2_i1.p1  88 fSLVLQAVSDADY----------KFSVIEIGGRGRQSDGGTFHFSkLNELLTNNRFNMPPPKTLPGSNIL--LPhvlvgDEA 157
+                                  *************..........********************999999*******************99..55569***** PP
+
+       SULT_inclusive_profile 155 fikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpw 216
+                                  ++++   m+++p ++l++  +++   ++r++  +++++          g+++++w++f + + + 
+  TRINITY_DN26494_c0_g2_i1.p1 158 YPLKTFLMRPFPSSNLDDSRRIFnkrLSRARVTIECAY----------GIMTNKWRVFLKAIETN 212
+                                  **************************************..........************98433 PP
+
+>> TRINITY_DN31601_c0_g1_i3.p1  TRINITY_DN31601_c0_g1~~TRINITY_DN31601_c0_g1_i3.p1  ORF type:complete (-),score=-2.80 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.1   0.0   1.1e-19   4.1e-17      14     328 ..      84     397 ..      43     399 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 62.1 bits;  conditional E-value: 1.1e-19
+       SULT_inclusive_profile  14 vepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk.....melrpddiwv.........arfpr... 72 
+                                  ++p e++ i+ ry++++  f      ++ g +  +i++++k+ ++ i +      m+l + + w+         a+fp+   
+  TRINITY_DN31601_c0_g1_i3.p1  84 ISPMERLAITLRYLTSGHTFvdlhlaYQAGIT--TIRKIVKEVCQIINERlkedcMPLFSRARWEeiadgfltqAHFPNcig 163
+                                  88999***************999988888888..**********66655599***99999999*9*********99999999 PP
+
+       SULT_inclusive_profile  73 ..............SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.........ken 126
+                                                SG+ +++     ++v+L+ ++++y           ++++ ++ +g+e++s  f++s            
+  TRINITY_DN31601_c0_g1_i3.p1 164 aidgkhiriirpphSGSLYYNykhyySIVLLAMCNANY----------EFTYINVGVQGKESDSAIFTQSrlfqqmndnLLD 235
+                                  99999999999999******9*****************..........***********************86655322222 PP
+
+       SULT_inclusive_profile 127 aleekflelperattpdtellakap.......sprfikshlpmsllppel.letakvvy...vardprdvvvSfltrlvrvt 197
+                                    ++k l ++  ++   t++ a++p       +++f +s + m+++ ++l l+ +k ++   + r++r+++ +f        
+  TRINITY_DN31601_c0_g1_i3.p1 236 IPPAKALPVLHNNKS--TNTAATVPipyvvvgDEAFGLSSYVMRPYARALnLDHKKKIFnyrLTRARRYIESTF-------- 307
+                                  223444444444444..4444444466*******************99754899998888**********9999........ PP
+
+       SULT_inclusive_profile 198 gfgdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienl 279
+                                    g+++++ ++++r+l                            +++k+ +++  ++ ++L+++++++q ++  ++++i+  
+  TRINITY_DN31601_c0_g1_i3.p1 308 --GIMANKFRILHRPL----------------------------NVSKENAICFVKAICILHNFIRSKQDDNNVDDVVITP- 358
+                                  ..**************............................8888888999999999999999999777666666654. PP
+
+       SULT_inclusive_profile 280 qknksvnneelkellassnelfirkgkaggwrsyfdeemtkqaeewqek 328
+                                  ++ + v +   +    + ++  ir++    +++yf ++   + ++wq++
+  TRINITY_DN31601_c0_g1_i3.p1 359 RHIRDVDYGFGN---TQRDAYTIRDK----FADYFVTD---GKVSWQDR 397
+                                  344445543222...23346667777....77777666...67777765 PP
+
+>> TRINITY_DN25524_c2_g1_i1.p1  TRINITY_DN25524_c2_g1~~TRINITY_DN25524_c2_g1_i1.p1  ORF type:5prime_partial (+),score=-1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.0   0.1   1.9e-18   6.9e-16      73     328 ..       5     213 ..       2     215 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 58.0 bits;  conditional E-value: 1.9e-18
+       SULT_inclusive_profile  73 SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflelperattpdtella 148
+                                  SG+  ++     +lv+++ +d+ y          +++ ++++++g+  +s  f+ns   +  +e++l++pe+a +  ++++ 
+  TRINITY_DN25524_c2_g1_i1.p1   5 SGSMSFNyksfhSLVLMAICDSSY----------KFVLIDVGAYGRFGDSAIFQNSsFYKKMQENCLNIPEPAPISESNSI- 75 
+                                  665444445566************..........**********************9445788999************999. PP
+
+       SULT_inclusive_profile 149 kap.....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpyfeh 222
+                                    p     +++f +s + m+++p++ l  + + +   + r++r+++++f          g+++++w++f+r++         
+  TRINITY_DN25524_c2_g1_i1.p1  76 CFPyvfvgDEAFALSTIMMRPYPRRDLNVTRRTFnyrLCRARRYIECTF----------GILANKWRIFHRPI--------- 138
+                                  78899********************99988777779*************..........**************......... PP
+
+       SULT_inclusive_profile 223 vkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqkn..ksvnneelkellassn..el 300
+                                                     +++  l + i + a++L+++++++++  ++++l+   +++   +sv         + +n  +l
+  TRINITY_DN25524_c2_g1_i1.p1 139 -------------------NVNTHLVNDIIKSACILHNFVRDRDGYSFEDSLNNPLTETIarDSV---------RRNNttAL 192
+                                  ...................666777799**************99777766654333333322333.........33452244 PP
+
+       SULT_inclusive_profile 301 firkgkaggwrsyfdeemtkqaeewqek 328
+                                  + r      +++yf +e   ++++wq++
+  TRINITY_DN25524_c2_g1_i1.p1 193 RYREL----FADYFMNE---GRVSWQDN 213
+                                  44444....88888877...88888875 PP
+
+>> TRINITY_DN14195_c0_g1_i3.p1  TRINITY_DN14195_c0_g1~~TRINITY_DN14195_c0_g1_i3.p1  ORF type:complete (-),score=36.10 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   3.4   7.9e-17   2.8e-14      40     239 ..       3     232 ..       1     308 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 7.9e-17
+       SULT_inclusive_profile  40 gyliaevykkeaeniwnk......melrpddiwv...............arfpr................SG......ttwt 78 
+                                  ++li++v k  +  iwn+          +d++w                 r+++                SG      ++w+
+  TRINITY_DN14195_c0_g1_i3.p1   3 EKLIESVKKFPC--IWNTssefykCNETKDAAWDqiiietnisdvktakSRWKQlrdnhrdalkrqnatrSGqarkqrKEWK 82 
+                                  579*********..****9999985556688888888998888888888677777788888888888888999999998898 PP
+
+       SULT_inclusive_profile  79 q..elvwLlandldyekaaevplverypfleittlgeeeesekfknskenaleekflelperattpdtellakapsprfiks 158
+                                  +  ++ +Ll ++++++ ++++ +++ +++++++  ++ +es++   +++n l++++++lp+ +  +d++ +  +ps   + +
+  TRINITY_DN14195_c0_g1_i3.p1  83 YqkAMSFLLPYMCNRDRSSNFAPLDDSVSETSNPPNTIDESSR---ESCNLLPSNSNNLPSVDVPNDSTASGPLPSTSKKRK 161
+                                  889*************************************999...58********************************** PP
+
+       SULT_inclusive_profile 159 hlpmsllppelletakvvyvardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflf 239
+                                  + ++ +l+++++++++ ++  r   +  +S           +d  + ++lf+ +l++  ++++ + +++ k+ + n +   
+  TRINITY_DN14195_c0_g1_i3.p1 162 NDEILDLLKKNQKRRELLEQERIEVKNMMSA----------SDKYDEIDLFFLNLAASAKKLPYYLQLQIKKTCFNAVISA 232
+                                  ******************8555555554444..........2334669****************************99764 PP
+
+>> TRINITY_DN61287_c0_g1_i1.p1  TRINITY_DN61287_c0_g1~~TRINITY_DN61287_c0_g1_i1.p1  ORF type:internal (+),score=-9.66 le
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.8   0.0     6e-16   2.2e-13      25     226 ..      28     257 ..      21     309 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 49.8 bits;  conditional E-value: 6e-16
+       SULT_inclusive_profile  25 rykaystsf......vrvgpkgyliaevykkeaeniwnk.....melrpddiwv.........arfpr.............. 72 
+                                  r++a++ +f      +r+ +   +++ ++ +++ +iw+k     ++ ++ + w+         ++f++              
+  TRINITY_DN61287_c0_g1_i1.p1  28 RFLATGDAFktiaynYRMSTP--TVSRIVHDTCIAIWKKlqpiyLKEPKRQDWEniaeafeniWHFKNclgaidgkhvaikc 107
+                                  777888888888855666666..9******************99888889999999*99999999999************** PP
+
+       SULT_inclusive_profile  73 ...SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekflelperattpdte 145
+                                     SG+++++     + v+L+++d+            r++ ++++++g+ ++   f +s   + + +++l+lp  +  + ++
+  TRINITY_DN61287_c0_g1_i1.p1 108 pphSGSQFYNykkyySVVLLAVVDAHK----------RFIIIDVGSMGRFSDGGIFNDSvFGKKIINNQLNLPDDRHLDESS 179
+                                  ********************9999998..........*********************9*555899999************* PP
+
+       SULT_inclusive_profile 146 llakap.....sprfikshlpmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpy 219
+                                  ++ ++p     +++f + +  ++++++ + ++ k+++   ++r++  v+ +f          g++ + w+l+rr+l    + 
+  TRINITY_DN61287_c0_g1_i1.p1 180 SV-RVPyvfigDKAFALRKNLLRPYTNVINDRPKRIFnyrLSRARNVVENAF----------GILSARWRLYRRPLECKLET 250
+                                  99.9999*****************************************9999..........**************999999 PP
+
+       SULT_inclusive_profile 220 fehvkea 226
+                                  ++h+ +a
+  TRINITY_DN61287_c0_g1_i1.p1 251 VDHIIKA 257
+                                  9999887 PP
+
+>> TRINITY_DN974_c0_g1_i6.p1  TRINITY_DN974_c0_g1~~TRINITY_DN974_c0_g1_i6.p1  ORF type:complete (+),score=9.44 len:409 T
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   0.0   4.6e-15   1.7e-12      13     328 ..      95     405 ..      79     408 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 4.6e-15
+     SULT_inclusive_profile  13 evepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk......melrpddiwv.........arfpr... 72 
+                                 ++  e++ i  ry+a++ s+      +rvg++   +a ++++ a +iw++       e++++ +w            fp+   
+  TRINITY_DN974_c0_g1_i6.p1  95 SISSAERLAIAIRYMATGDSYhtiaysYRVGKT--SVARIIEEVADAIWDClaplylEEIKDEHKWRniaenfktsCDFPHcvg 176
+                                47778999*************************..*******************998788889999999966666644444777 PP
+
+     SULT_inclusive_profile  73 ..............SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns..kenaleekflel 135
+                                               G+ +++     ++v+L+++d+            ++++++i++ g+ ++   +++s   ++  +++ l+l
+  TRINITY_DN974_c0_g1_i6.p1 177 aidgkhvtikappnCGSDYFNylkdhSIVLLAVTDSKK----------KFIMIDIGSKGKFSDGGILRESnfGQKLFAGN-LNL 249
+                                77777777777777*****************9988888..........********************999855677777.888 PP
+
+     SULT_inclusive_profile 136 perattpdtellakap.....sprfikshlpmsllppe.lletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfr 210
+                                p+  +      + ++p     +++f++  + m+++p+e ++ + k++y   + r++r v+ +f          g++   w++++
+  TRINITY_DN974_c0_g1_i6.p1 250 PPDEALVEGG-I-EVPyvfigDEAFPLLCHLMRPFPREnNITQNKRIYnyrLCRARRVVENAF----------GILSVRWRVYK 321
+                                8877665544.3.45566799***************97268899***************9999..........*********** PP
+
+     SULT_inclusive_profile 211 rsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqikrLcehlsienlqkn....ksvnneel 290
+                                r+                             + k d++++i ++ ++L++ l+e+        l ++++ +      +v+n+  
+  TRINITY_DN974_c0_g1_i6.p1 322 RPF----------------------------ECKVDTAIKIVKATCVLHNYLMEHS-------LTYNSVTNEdiaaTPVENQLF 370
+                                *99............................89*********************98.......888888888777667777655 PP
+
+     SULT_inclusive_profile 291 kel...lassn.elfirkgkaggwrsyfdeemtkqaeewqek 328
+                                +     ++ssn   fir +    + +yf+ +   +  +wq+ 
+  TRINITY_DN974_c0_g1_i6.p1 371 DLThsgFRSSNdSFFIREE----FCNYFNHT---HVLSWQNA 405
+                                5558899999978889999....9****998...78888875 PP
+
+>> TRINITY_DN29460_c1_g1_i1.p1  TRINITY_DN29460_c1_g1~~TRINITY_DN29460_c1_g1_i1.p1  ORF type:5prime_partial (+),score=1.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.7   0.1   7.2e-13   2.6e-10     218     246 ..       1      29 [.       1      45 [. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 39.7 bits;  conditional E-value: 7.2e-13
+       SULT_inclusive_profile 218 pyfehvkeawekrkhpnmlflfyEdlkkd 246
+                                  pyfehvkeawekr++ nmlf+fyE+l+k 
+  TRINITY_DN29460_c1_g1_i1.p1   1 PYFEHVKEAWEKRYDGNMLFVFYEELSKV 29 
+                                  89**********************99884 PP
+
+>> TRINITY_DN13606_c1_g2_i3.p1  TRINITY_DN13606_c1_g2~~TRINITY_DN13606_c1_g2_i3.p1  ORF type:complete (+),score=0.32 len
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.0   0.0   3.7e-11   1.3e-08      12     214 ..      92     322 ..      44     337 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 34.0 bits;  conditional E-value: 3.7e-11
+       SULT_inclusive_profile  12 kevepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk....melrp.ddiwv.........arfpr. 72 
+                                  k v+p e++ i+  y+++++sf      ++v p+  li++++ + + ++ ++    ++++  ++ w          ++ p+ 
+  TRINITY_DN13606_c1_g2_i3.p1  92 KAVSPVERLSITLKYLSSGNSFsslcdvFKVSPQ--LISSIIPEVCDALVEElsdyVKIPRsQEGWReiadeylkrWQIPNc 171
+                                  448889*********************99*****..**************9999994444447777788888886655566* PP
+
+       SULT_inclusive_profile  73 ................SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekf 132
+                                                  SG+ +++     ++v+++ +d+dy          ++++  ++++g+ ++   f ns  +  l ++ 
+  TRINITY_DN13606_c1_g2_i3.p1 172 lgsmdgkhiklqcppkSGSDYINykkyfSIVLFALVDADY----------NFLYANVGCQGRISDGGVFNNSaLCRLLNDNE 243
+                                  ****************************************..........***********************999****** PP
+
+       SULT_inclusive_profile 133 lelperattpdtellakap.....sprfikshlpmsllppel.letakvvy...vardprdvvvSfltrlvrvtgfgdfkef 205
+                                  l++p ++  p+ +l   +p     + +f+++ + ++ +  ++ + + k+v+   v r +r v+  f          g+++++
+  TRINITY_DN13606_c1_g2_i3.p1 244 LNIPHKTPLPGRNLP--VPyfflgDDAFPLQTHIIKAYDGNHtMGSSKRVFnyrVCRGRRVVENVF----------GQLTHK 313
+                                  ***********9965..6667***************99876526788888889*********7666..........****** PP
+
+       SULT_inclusive_profile 206 wnlfrrsll 214
+                                   ++f+r++ 
+  TRINITY_DN13606_c1_g2_i3.p1 314 FKIFHRPIQ 322
+                                  ******984 PP
+
+>> TRINITY_DN13606_c1_g3_i1.p1  TRINITY_DN13606_c1_g3~~TRINITY_DN13606_c1_g3_i1.p1  ORF type:complete (-),score=0.32 len
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.0   0.0   3.7e-11   1.3e-08      12     214 ..      92     322 ..      44     337 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 34.0 bits;  conditional E-value: 3.7e-11
+       SULT_inclusive_profile  12 kevepeekkvikkrykaystsf......vrvgpkgyliaevykkeaeniwnk....melrp.ddiwv.........arfpr. 72 
+                                  k v+p e++ i+  y+++++sf      ++v p+  li++++ + + ++ ++    ++++  ++ w          ++ p+ 
+  TRINITY_DN13606_c1_g3_i1.p1  92 KAVSPVERLSITLKYLSSGNSFsslcdvFKVSPQ--LISSIIPEVCDALVEElsdyVKIPRsQEGWReiadeylkrWQIPNc 171
+                                  448889*********************99*****..**************9999994444447777788888886655566* PP
+
+       SULT_inclusive_profile  73 ................SGttwtq.....elvwLlandldyekaaevplverypfleittlgeeeesekfkns.kenaleekf 132
+                                                  SG+ +++     ++v+++ +d+dy          ++++  ++++g+ ++   f ns  +  l ++ 
+  TRINITY_DN13606_c1_g3_i1.p1 172 lgsmdgkhiklqcppkSGSDYINykkyfSIVLFALVDADY----------NFLYANVGCQGRISDGGVFNNSaLCRLLNDNE 243
+                                  ****************************************..........***********************999****** PP
+
+       SULT_inclusive_profile 133 lelperattpdtellakap.....sprfikshlpmsllppel.letakvvy...vardprdvvvSfltrlvrvtgfgdfkef 205
+                                  l++p ++  p+ +l   +p     + +f+++ + ++ +  ++ + + k+v+   v r +r v+  f          g+++++
+  TRINITY_DN13606_c1_g3_i1.p1 244 LNIPHKTPLPGRNLP--VPyfflgDDAFPLQTHIIKAYDGNHtMGSSKRVFnyrVCRGRRVVENVF----------GQLTHK 313
+                                  ***********9965..6667***************99876526788888889*********7666..........****** PP
+
+       SULT_inclusive_profile 206 wnlfrrsll 214
+                                   ++f+r++ 
+  TRINITY_DN13606_c1_g3_i1.p1 314 FKIFHRPIQ 322
+                                  ******984 PP
+
+>> TRINITY_DN1894_c5_g1_i2.p1  TRINITY_DN1894_c5_g1~~TRINITY_DN1894_c5_g1_i2.p1  ORF type:complete (+),score=4.80 len:12
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3   0.2   1.2e-10   4.5e-08     161     274 ..       5      83 ..       1     125 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 32.3 bits;  conditional E-value: 1.2e-10
+      SULT_inclusive_profile 161 pmsllppelletakvvy...vardprdvvvSfltrlvrvtgfgdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfy 240
+                                  m+++  + l+ +k v+   ++r++r +++Sf          g+++++w+ f+r++                           
+  TRINITY_DN1894_c5_g1_i2.p1   5 VMRPYAGRQLSVEKKVFnyrLSRARRFIECSF----------GILANKWRNFHRPI--------------------------- 50 
+                                 5899999999988888889*************..........**************........................... PP
+
+      SULT_inclusive_profile 241 EdlkkdlpasirrvadfLnkelteeqikrLcehl 274
+                                  d k +++++i +++++L+++++e+++ +++++l
+  TRINITY_DN1894_c5_g1_i2.p1  51 -DHKPNFAKEIIKACCVLHNFVRERDGYNFEDSL 83 
+                                 .7788899*********************99987 PP
+
+>> TRINITY_DN9381_c0_g2_i1.p1  TRINITY_DN9381_c0_g2~~TRINITY_DN9381_c0_g2_i1.p1  ORF type:complete (-),score=43.30 len:3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.1   1.8e-06   0.00066     205     268 ..     191     251 ..     154     291 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 1.8e-06
+      SULT_inclusive_profile 205 fwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasirrvadfLnkelteeqik 268
+                                 +w  + +       + e + e+w  r    ++ +fyE l++d++ + + ++dfLn ++te +++
+  TRINITY_DN9381_c0_g2_i1.p1 191 DWATYVSTQ---LTAWETLHELWLTRFPGPLHIVFYEVLVRDTRHALQGILDFLNYNVTEADMN 251
+                                 555555433...34557889****************************************9875 PP
+
+>> TRINITY_DN5256_c0_g1_i10.p1  TRINITY_DN5256_c0_g1~~TRINITY_DN5256_c0_g1_i10.p1  ORF type:5prime_partial (-),score=12.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   1.0     3e-06    0.0011     172     302 ..     246     377 ..     210     403 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 3e-06
+       SULT_inclusive_profile 172 takvvyvardprdvvvSf.ltrlvrvtgfgdfkefwnlfrrsllpwtpyfehvkeawekrkhpnmlflfyEdlkkdlpasir 252
+                                  + kv+ ++rdpr+v+ S  ++   + + +      w+ ++ +     +y++      ++++ + +++l+ E+l +++ ++ r
+  TRINITY_DN5256_c0_g1_i10.p1 246 NVKVLLLVRDPRAVIQSRqHVDWCKSSLD-----CWEPLFLCGDMISDYVAAG--RIQQQYPDRLMVLRFEELALKPNITTR 320
+                                  33566699999999888865555544444.....6888887776666666433..366788888999*************** PP
+
+       SULT_inclusive_profile 253 rvadfLnkelte......eqikrLcehlsienlqknksvnneelkel.lassnelfi 302
+                                  r+++fL    t+      +   +L++  +++ ++ +++v ++  + l +++ +e+++
+  TRINITY_DN5256_c0_g1_i10.p1 321 RILKFLRLSATQsidqflQSHMNLQDNSVFSTFKVSRNVPFKWKQALnFRHVDEIQM 377
+                                  ************887776666777777999999999999998777777777776554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (343 nodes)
+Target sequences:                      11856  (4987153 residues searched)
+Passed MSV filter:                       606  (0.0511134); expected 237.1 (0.02)
+Passed bias filter:                      253  (0.0213394); expected 237.1 (0.02)
+Passed Vit filter:                        51  (0.00430162); expected 11.9 (0.001)
+Passed Fwd filter:                        34  (0.00286775); expected 0.1 (1e-05)
+Initial search space (Z):              11856  [actual number of targets]
+Domain search space  (domZ):              33  [number of targets reported over threshold]
+# CPU time: 0.19u 0.03s 00:00:00.22 Elapsed: 00:00:00.06
+# Mc/sec: 28193.12
+//
+# Alignment of 33 hits satisfying inclusion thresholds saved to: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/profile_hmm_expansion_20260819T234500JST/SULT/SULT_proteome.sto
+[ok]

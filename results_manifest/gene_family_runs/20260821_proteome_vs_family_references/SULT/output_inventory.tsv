@@ -1,0 +1,11 @@
+blastp.stderr.log	0
+blastp.stdout.log	0
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	522
+output_inventory.tsv	0
+run_summary.tsv	117
+SULT_hit_genes_e1e3.txt	3228
+SULT_hit_genes_e1e5_cov40.txt	1913
+SULT_insect_references.fa	10514
+SULT_proteome_vs_references.raw.tsv	705683
+SULT_proteome_vs_references.with_coverage.tsv	817014

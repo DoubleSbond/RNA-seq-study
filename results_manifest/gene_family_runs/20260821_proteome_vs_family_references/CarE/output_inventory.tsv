@@ -1,0 +1,11 @@
+CarE_hit_genes_e1e3.txt	2403
+CarE_hit_genes_e1e5_cov40.txt	1127
+CarE_insect_references.fa	30758
+CarE_proteome_vs_references.raw.tsv	1053757
+CarE_proteome_vs_references.with_coverage.tsv	1216734
+blastp.stderr.log	0
+blastp.stdout.log	0
+makeblastdb.stderr.log	0
+makeblastdb.stdout.log	523
+output_inventory.tsv	0
+run_summary.tsv	118

@@ -1,0 +1,309 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 19 Aug 2026 17:36:18
+# Commandline: patmatmotifs
+#    -sequence /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/emboss_properties_20260819T223000JST/UGT/UGT_all_isoforms.stop_stripped.pep.fa
+#    -outfile /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/UGT/UGT.prosite_full_patterns
+#    -noprune
+#    -full
+#    -auto
+# Report_format: dbmotif
+# Report_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_motifs_v2_20260820T100000JST/UGT/UGT.prosite_full_patterns
+########################################
+
+#=======================================
+#
+# Sequence: TRINITY_DN11717_c0_g2_i1.p1     from: 1   to: 220
+# HitCount: 9
+#
+# Full: Yes
+# Prune: No
+# Data_file: /lustre10/home/tuatchenjh9703/ph/07_family_analysis/_automation_runs/prosite_data_20260820T093500JST/emboss_data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 122 of sequence
+End = position 125 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+VKALFNSTETFDLV
+     |  |
+   122  125
+
+Length = 4
+Start = position 81 of sequence
+End = position 84 of sequence
+
+Motif = ASN_GLYCOSYLATION
+
+PEIVNNLTMKHDSI
+     |  |
+    81  84
+
+Length = 3
+Start = position 88 of sequence
+End = position 90 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+TMKHDSIKPDFIR
+     | |
+    88 90
+
+Length = 3
+Start = position 83 of sequence
+End = position 85 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+IVNNLTMKHDSIK
+     | |
+    83 85
+
+Length = 4
+Start = position 188 of sequence
+End = position 191 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+YGQRMSLWERFANT
+     |  |
+   188  191
+
+Length = 4
+Start = position 74 of sequence
+End = position 77 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+ISLAGTRPEIVNNL
+     |  |
+    74  77
+
+Length = 6
+Start = position 184 of sequence
+End = position 189 of sequence
+
+Motif = MYRISTYL
+
+YMVGYGQRMSLWERFA
+     |    |
+   184    189
+
+Length = 6
+Start = position 168 of sequence
+End = position 173 of sequence
+
+Motif = MYRISTYL
+
+VNDQLGNPDATAYVPS
+     |    |
+   168    173
+
+Length = 4
+Start = position 143 of sequence
+End = position 146 of sequence
+
+Motif = AMIDATION
+
+DCFLPLGKKYGAPV
+     |  |
+   143  146
+
+
+#---------------------------------------
+#
+# Motif: ASN_GLYCOSYLATION
+# Count: 2
+# 
+# ************************
+# * N-glycosylation site *
+# ************************
+# 
+# It has been known for a long time [1] that potential N-glycosylation sites are
+# specific to the consensus sequence Asn-Xaa-Ser/Thr.  It must be noted that the
+# presence of the consensus  tripeptide  is  not sufficient  to conclude that an
+# asparagine residue is glycosylated, due to  the fact that the  folding of  the
+# protein plays an important  role in the  regulation of N-glycosylation [2]. It
+# has been shown [3] that  the  presence of proline between Asn and Ser/Thr will
+# inhibit N-glycosylation;  this has been confirmed by a statistical analysis of
+# glycosylation sites  [4],  which  also  shows that about 50% of the sites that
+# have a proline C-terminal to Ser/Thr are not glycosylated.
+# 
+# It must also  be noted that there  are  a few  reported cases of glycosylation
+# sites with the pattern Asn-Xaa-Cys; an  experimentally demonstrated occurrence
+# of such a non-standard site is found in the plasma protein C [5].
+# 
+# -Consensus pattern: N-{P}-[ST]-{P}
+#                     [N is the glycosylation site]
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Marshall R.D.
+#      "Glycoproteins."
+#      Annu. Rev. Biochem. 41:673-702(1972).
+#      PubMed=4563441; DOI=10.1146/annurev.bi.41.070172.003325
+# [ 2] Pless D.D., Lennarz W.J.
+#      "Enzymatic conversion of proteins to glycoproteins."
+#      Proc. Natl. Acad. Sci. U.S.A. 74:134-138(1977).
+#      PubMed=264667
+# [ 3] Bause E.
+#      "Structural requirements of N-glycosylation of proteins. Studies with
+#      proline peptides as conformational probes."
+#      Biochem. J. 209:331-336(1983).
+#      PubMed=6847620
+# [ 4] Gavel Y., von Heijne G.
+#      "Sequence differences between glycosylated and non-glycosylated
+#      Asn-X-Thr/Ser acceptor sites: implications for protein engineering."
+#      Protein Eng. 3:433-442(1990).
+#      PubMed=2349213
+# [ 5] Miletich J.P., Broze G.J. Jr.
+#      "Beta protein C is not glycosylated at asparagine 329. The rate of
+#      translation may influence the frequency of usage at
+#      asparagine-X-cysteine sites."
+#      J. Biol. Chem. 265:11397-11404(1990).
+#      PubMed=1694179
+# 
+# ***************
+# 
+# Motif: PKC_PHOSPHO_SITE
+# Count: 2
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: CK2_PHOSPHO_SITE
+# Count: 2
+# 
+# *****************************************
+# * Casein kinase II phosphorylation site *
+# *****************************************
+# 
+# Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+# independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+# different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+# summarized as follows:
+# 
+#  (1) Under comparable conditions Ser is favored over Thr.
+#  (2) An acidic residue (either Asp or Glu) must be present three residues from
+#      the C-terminal of the phosphate acceptor site.
+#  (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+#      phosphorylation rate.  Most  physiological  substrates  have at least one
+#      acidic residue in these positions.
+#  (4) Asp is preferred to Glu as the provider of acidic determinants.
+#  (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+#      phosphorylation rate, while an acidic one will increase it.
+# 
+# -Consensus pattern: [ST]-x(2)-[DE]
+#                     [S or T is the phosphorylation site]
+# 
+# -Note: This pattern is found in most of the known physiological substrates.
+# 
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Pinna L.A.
+#      "Casein kinase 2: an 'eminence grise' in cellular regulation?"
+#      Biochim. Biophys. Acta 1054:267-284(1990).
+#      PubMed=2207178
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 2
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+# Motif: AMIDATION
+# Count: 1
+# 
+# ******************
+# * Amidation site *
+# ******************
+# 
+# The precursor of  hormones  and other active  peptides  which are C-terminally
+# amidated is always directly followed [1,2] by a glycine residue which provides
+# the amide group, and  most often by at  least two  consecutive  basic residues
+# (Arg or Lys) which generally function as an active peptide  precursor cleavage
+# site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+# such as Val or Phe are good substrates, while  charged residues such as Asp or
+# Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+# occur in unicellular organisms or in plants.
+# 
+# -Consensus pattern: x-G-[RK]-[RK]
+#                     [x is the amidation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Kreil G.
+#      "Occurrence, detection, and biosynthesis of carboxy-terminal amides."
+#      Methods Enzymol. 106:218-223(1984).
+#      PubMed=6548541
+# [ 2] Bradbury A.F., Smyth D.G.
+#      "Biosynthesis of the C-terminal amide in peptide hormones."
+#      Biosci. Rep. 7:907-916(1987).
+#      PubMed=3331120
+# 
+# ***************
+# 
+#
+#---------------------------------------
