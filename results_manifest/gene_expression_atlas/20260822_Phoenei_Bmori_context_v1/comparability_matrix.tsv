@@ -1,0 +1,7 @@
+Dimension	P_hoenei	B_mori	Comparability
+Tissue	Current experimental sample context; not matched here as isolated midgut	Midgut	limited
+Diet	Dan and Mul conditions	Mulberry leaf only	partial
+Replication	3 + 3	3 female + 3 male	descriptive
+Reference	de novo Trinity	RefSeq genome-guided transcripts	limited
+Expression unit	gene-level for detox; Trinity transcript for functional panel	RefSeq transcript; CYP summed by gene	mixed
+Valid inference	within-dataset expression layer	within-midgut expression layer	rank_and_layer_only
